@@ -7,7 +7,7 @@ designations:
   - CXOGSG J153253.8+302057
 ra: "15:32:53.80"
 dec: "+30:20:57.0"
-z: 0.345
+z: 0.362
 programs: [clash, venus]
 
 models:

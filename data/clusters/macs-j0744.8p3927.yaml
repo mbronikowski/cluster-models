@@ -7,7 +7,7 @@ designations:
   - MACS J0744.9+3927
 ra: "07:44:52.47"
 dec: "+39:27:27.3"
-z: 0.675
+z: 0.698
 programs: [clash]
 
 models:

@@ -6,8 +6,8 @@ designations:
   - SCL 110 NED01
   - RBS 1052
   - PLCKESZ G180.62+76.65
-ra: "11:57:22.50"
-dec: "+33:39:18.00"
+ra: "11:57:17.26"
+dec: "+33:36:37.4"
 z: 0.213
 programs: [clash]
 

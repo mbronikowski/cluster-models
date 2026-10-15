@@ -6,5 +6,5 @@ status: confirmed
 cluster: sdss-j1004p4112
 refs: [2003Natur.426..810I, 2022ApJ...937...35F, 2023ApJ...959..134N, 2024A&A...682A.187M]
 notes: |-
-  Quadruply-imaged quasar with a 14.6 arcsec image separation ([Inada et al.
-  2003](ref:2003Natur.426..810I)); used for time-delay H0 measurements.
+  Quadruply-imaged quasar with a 14.6 arcsec image separation
+  ([Inada et al. 2003](ref:2003Natur.426..810I)); used for time-delay H0 measurements.

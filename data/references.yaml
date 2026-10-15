@@ -144,7 +144,7 @@
   doi: 10.1088/0004-637X/813/1/37
 2015ApJ...814...21S:
   label: Sharon et al. (2015)
-  title: A multi-wavelength mass analysis of RCS2 J232727.6-020437, a ~3x10^15^ M_{sun}_ galaxy cluster at z = 0.7
+  title: A multi-wavelength mass analysis of RCS2 J232727.6-020437, a ~3x10^15 M_sun galaxy cluster at z = 0.7
   doi: 10.1088/0004-637X/814/1/21
 2015ApJ...814...26N:
   title: 'Luminous and dark matter profiles from galaxies to clusters: bridging the gap with group-scale lenses'
@@ -247,7 +247,7 @@
   doi: 10.3847/1538-4357/aad239
 2018ApJ...864...98B:
   label: Bonamigo et al. (2018)
-  title: Dissection of the collisional and collisionless mass components in a mini sample of CLASH and HFF massive galaxy clusters at z {\simeq} 0.4
+  title: Dissection of the collisional and collisionless mass components in a mini sample of CLASH and HFF massive galaxy clusters at z ~0.4
   doi: 10.3847/1538-4357/aad4a7
 2018MNRAS.473..663M:
   label: Mahler et al. (2018)
@@ -343,7 +343,7 @@
   doi: 10.1051/0004-6361/202141586
 2021ApJ...911...99F:
   label: Fujimoto et al. (2021)
-  title: 'ALMA Lensing Cluster Survey: bright [C II] 158 mum lines from a multiply imaged sub-L^*^ galaxy at z = 6.0719'
+  title: 'ALMA Lensing Cluster Survey: bright [C II] 158 mum lines from a multiply imaged sub-L^* galaxy at z = 6.0719'
   doi: 10.3847/1538-4357/abd7ec
 2021ApJ...916...50F:
   label: Florian et al. (2021)
@@ -420,7 +420,8 @@
   label: Willott et al. (2022)
   title: The near-infrared imager and slitless spectrograph for the James Webb Space Telescope. II. Wide field slitless spectroscopy
   doi: 10.1088/1538-3873/ac5158
-2022TNSAN.169....1K: {}
+2022TNSAN.169....1K:
+  label: TNS AstroNote 2022-169
 2023A&A...670A..60B:
   label: Bergamini et al. (2023)
   title: New high-precision strong lensing modeling of Abell 2744 Preparing for JWST observations
@@ -586,7 +587,7 @@
   title: 'The z=1.03 Merging Cluster SPT-CL J0356-5337: New Strong Lensing Analysis with HST and MUSE'
 2025arXiv250708949A:
   label: Allingham et al. (2025)
-  title: 'SLICE: SPT-CL J0546-5345 -- A prominent strong-lensing cluster at $z=1.07$'
+  title: 'SLICE: SPT-CL J0546-5345 -- A prominent strong-lensing cluster at z=1.07'
   doi: 10.3847/2041-8213/adfa85
   published: ApJL 990, 1 (2025)
 2025arXiv250912301P:
@@ -597,7 +598,7 @@
   title: Using gravitational lensing to probe for bright quintessential galaxies in the Epoch of Reionization
 2025arXiv251114483N:
   label: Nakane et al. (2025)
-  title: 'VENUS: A Strongly Lensed Clumpy Galaxy at $z\sim11-12$ behind the Galaxy Cluster MACS J0257.1-2325'
+  title: 'VENUS: A Strongly Lensed Clumpy Galaxy at z~11-12 behind the Galaxy Cluster MACS J0257.1-2325'
 2025arXiv251203150C:
   label: Cho et al. (2025)
   title: Joint JWST-DECam Lensing Reveals That the Bullet Cluster Is a Minor Merger

@@ -39,12 +39,17 @@ USER_AGENT = "cluster-models name check (https://github.com/mbronikowski/cluster
 def query(name: str, delay: float, cache: dict) -> dict:
     if name in cache:
         return cache[name]
-    time.sleep(delay)
-    req = urllib.request.Request(SESAME + urllib.parse.quote(name), headers={"User-Agent": USER_AGENT})
-    try:
-        xml = urllib.request.urlopen(req, timeout=60).read()
-    except Exception as exc:  # noqa: BLE001
-        return {"error": str(exc)}
+    xml = None
+    for attempt in range(3):          # the service sometimes resets connections; back off
+        time.sleep(delay * (1 + 4 * attempt))
+        req = urllib.request.Request(SESAME + urllib.parse.quote(name), headers={"User-Agent": USER_AGENT})
+        try:
+            xml = urllib.request.urlopen(req, timeout=60).read()
+            break
+        except Exception as exc:  # noqa: BLE001
+            err = str(exc)
+    if xml is None:
+        return {"error": err}
     out = {"resolved": False}
     root = ET.fromstring(xml)
     for res in root.iter("Resolver"):

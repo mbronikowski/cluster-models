@@ -8,7 +8,7 @@ designations:
   - RM J212925.2-074130.3
 ra: "21:29:26.21"
 dec: "-07:41:26.22"
-z: 0.57
+z: 0.589
 programs: [clash, clash-vlt, slice, venus]
 
 models:

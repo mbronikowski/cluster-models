@@ -8,7 +8,7 @@ designations:
   - MCXC J0037.0+0909
 ra: "00:37:06.84"
 dec: "+09:09:24.30"
-z: 0.268
+z: 0.255
 programs: [slice, venus]
 
 models:

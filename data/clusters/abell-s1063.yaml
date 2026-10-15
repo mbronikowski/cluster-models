@@ -9,7 +9,7 @@ designations:
   - PSZ1 G349.46-59.92
 ra: "22:48:45.76"
 dec: "-44:31:36.8"
-z: 0.37
+z: 0.348
 programs: [clash, hff, buffalo, venus, muse-lensing]
 
 models:

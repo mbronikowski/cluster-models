@@ -68,7 +68,8 @@ def _fits_flow(items, indent: int, key: str) -> bool:
     return indent + len(key) + 2 + len(rendered) <= WRAP
 
 
-_TOKEN = re.compile(r"\[[^\]]*\]\([^)\s]*\)\S*|\S+")
+# a Markdown link, with any punctuation glued to it, is one token and never split
+_TOKEN = re.compile(r"\S*\[[^\]]*\]\([^)\s]*\)\S*|\S+")
 
 
 def _wrap(line: str, width: int) -> list[str]:

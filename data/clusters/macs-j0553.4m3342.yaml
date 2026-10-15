@@ -6,7 +6,7 @@ designations:
   - RXC J0553.4-3342
 ra: "05:53:26.70"
 dec: "-33:42:37.0"
-z: 0.43
+z: 0.427
 programs: [relics, slice, venus]
 
 models:

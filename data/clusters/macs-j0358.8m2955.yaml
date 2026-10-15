@@ -1,10 +1,12 @@
 # One file per cluster. Field reference: docs/data-format.md
 
 name: MACS J0358.8-2955
+designations:
+  - RXC J0358.8-2955
 ra: "03:58:54.61"
 dec: "-29:55:37.3"
 z: 0.425
-programs: [slice, venus]
+programs: [relics, slice, venus]
 
 models:
   - title: 'SLICE: Cerny et al. (2025)'
@@ -15,7 +17,19 @@ models:
     note: |-
       The model will be released on the
       [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/abell3192/models/
   - title: Hsu et al. (2013)
     refs: [2013MNRAS.429..833H]
     availability: unknown
     note: The cluster was modeled by [Hsu et al. (2013)](ref:2013MNRAS.429..833H).
+
+notes: |-
+  RELICS and VENUS list this field under the name Abell 3192.
+  [Abell 3192](cluster:abell-3192) (z = 0.168), 2.5' away, is a foreground cluster
+  ([Hsu et al. 2013](ref:2013MNRAS.429..833H)).

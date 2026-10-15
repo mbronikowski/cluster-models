@@ -311,7 +311,8 @@ h2.minor { font-size: 1.0625rem; margin: 26px 0 8px; }
 .cat-items { list-style: none; padding: 0; margin: 0; columns: 3 15rem; column-gap: 28px; font-size: 0.9375rem; }
 .cat-items li { break-inside: avoid; padding: 1px 0; }
 .cat-items .muted { font-size: 0.8125rem; }
-.program-facts { max-width: 760px; margin-top: 16px; }
+.program-facts, .transient-facts { max-width: 760px; margin-top: 16px; }
+.transient-facts + .prose { margin-top: 16px; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }

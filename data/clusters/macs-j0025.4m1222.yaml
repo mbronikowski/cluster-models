@@ -1,6 +1,7 @@
 # One file per cluster. Field reference: docs/data-format.md
 
 name: MACS J0025.4-1222
+common_names: [Baby Bullet]
 designations:
   - CDGS 37
   - ACT-CL J0025.4-1222

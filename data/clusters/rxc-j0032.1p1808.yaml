@@ -4,9 +4,9 @@ name: RXC J0032.1+1808
 designations:
   - PSZ1 G116.48-44.47
   - PSZ1 0427
-ra: "00:32:04.81"
-dec: "+18:09:03.5"
-z: 0.374
+ra: "00:32:11.0"
+dec: "+18:07:49.0"
+z: 0.396
 programs: [relics, venus]
 
 models:

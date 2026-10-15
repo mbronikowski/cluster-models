@@ -51,6 +51,7 @@ ADDED_COMMON_NAMES = {
     "Abell 2744": ["Pandora's Cluster"],
     "1RXS J060313.4+421231": ["Toothbrush Cluster"],
     "ACT-CL J0603.9-3557": ["Carousel Lens"],
+    "MACS J0025.4-1222": ["Baby Bullet"],
 }
 DROP_DESIGNATIONS = {
     "RCS2 032727-132623": "duplicate of RCS2 J032727-132623 (missing 'J')",
@@ -61,10 +62,33 @@ DROP_DESIGNATIONS = {
 DROP_FROM_CLUSTER = {
     ("MACS J0717.5+3745", "PLCKESZ G056.80+36.30"):
         "encodes l=56.80, b=+36.30, i.e. RA 17:02:47 Dec +34:04 (the position of Abell 2244), "
-        "116 deg from MACS J0717.5+3745; NED attaches it to MACS J0717 by mistake",
+        "102 deg from MACS J0717.5+3745; NED attaches it to MACS J0717 by mistake",
     ("Abell 267", "ZwCl 0151.5+0052"):
         "NED places ZwCl 0151.5+0052 at 01:54:04 +01:06:43, 18' from Abell 267, as a separate "
         "object; SIMBAD does not cross-identify it with Abell 267",
+    ("Abell 267", "SDSS CE J028.239771+01.055582"):
+        "Cut & Enhance detection centred at 01:52:57.5 +01:03:20, 4.9' from the BCG; SIMBAD "
+        "does not cross-identify it with Abell 267",
+}
+# Designations added (with the reason).
+ADD_DESIGNATIONS = {
+    "Abell 1758a": [("MCXC J1332.7+5032",
+                     "X-ray catalogue entry of Abell 1758N, the source of the corrected position; "
+                     "SIMBAD resolves 'Abell 1758a' to it")],
+}
+# Designations that belong to another entry: (entry, designation) -> (new entry, reason).
+MOVE_DESIGNATIONS = {
+    ("Abell 3192", "RXC J0358.8-2955"): ("MACS J0358.8-2955",
+        "the X-ray cluster RXC J0358.8-2955 is MACS J0358.8-2955 at z = 0.425 (MCXC J0358.9-2955); "
+        "SIMBAD merges it with Abell 3192 (z = 0.168) in the foreground"),
+}
+# Model sections that belong to another entry:
+# (entry, title) -> (new entry, position in its model list, reason).
+MOVE_MODELS = {
+    ("Abell 3192", "RELICS"): ("MACS J0358.8-2955", 1,
+        "RELICS observed this field as Abell 3192, but its HST pointing and lens model are centred "
+        "on MACS J0358.8-2955 (z = 0.428), with Abell 3192 (z = 0.168) in the foreground "
+        "(Coe et al. 2019, Table 1)"),
 }
 # Designations corrected in place.
 DESIGNATION_FIXES = {
@@ -74,6 +98,9 @@ DESIGNATION_FIXES = {
         "truncated latitude; SIMBAD lists PSZ2 G325.99-59.48 for this cluster"),
     ("ZwCl 0847.2+3617", "PLANCK 0631"): ("PSZ1 0631",
         "'PLANCK 0631' resolves nowhere; NED resolves PSZ1 0631 to ZwCl 0847.2+3617"),
+    ("Abell 963", "WHL J101713.9+390131"): ("WHL J101703.6+390249",
+        "the WHL 2009 entry is centred on a galaxy 2.4' from the BCG; replaced by the WHL 2012 "
+        "entry for the same cluster, which is centred on the BCG"),
 }
 # Values where the Home table and the cluster page disagreed. Default: page value.
 VALUE_CHOICES = {
@@ -81,20 +108,92 @@ VALUE_CHOICES = {
         "Dec sign missing on both Home and page; designations ACT-CL J0327.4-1326 and "
         "RCS2 J032727-132623 (and SIMBAD/NED) put the cluster at -13:26"),
     ("ACT-CL J0327.4-1326", "z"): ("0.564",
-        "Home 0.560 (ACT photometric estimate) vs page 0.564 (spectroscopic, SIMBAD)"),
+        "Home 0.560 vs page 0.564; SLICE (Cerny et al. 2025) lists 0.564, SIMBAD 0.56 (ACT DR5)"),
     ("MACS J0451.9+0006", "z"): ("0.430", "Home 0.434 vs page 0.430 (SIMBAD: 0.430)"),
     ("SDSS J1723+3411", "ra"): ("17:23:36.50", "Home RA truncated to whole seconds"),
     ("SDSS J1723+3411", "dec"): ("+34:11:55.90",
         "Home +34:11:59.37 vs page +34:11:55.90; NED gives +34:11:54.6 (page closer)"),
     ("Abell 1489", "ra"): ("12:12:18.48",
-        "lens = RM J121218.5+273255.1 (Zitrin et al. 2020, ApJ 903, 137); BCG and strong-lensing "
-        "centre from Sohn et al. 2022 (arXiv:2201.00993); the old position was 4.9' away"),
+        "the lens modelled by Zitrin et al. (2020, ApJ 903, 137) is RM J121218.5+273255.1, also "
+        "known as Abell 1489; moved to that redMaPPer centre (the BCG), which SIMBAD's Abell 1489 "
+        "position matches within 20''; the old position was 4.7' away"),
     ("Abell 1489", "dec"): ("+27:32:55.1", "see RA"),
     ("Abell 1489", "z"): ("0.351",
-        "z = 0.35 (Zitrin et al. 2020) and 0.351 spectroscopic (Sohn et al. 2022); was 0.280"),
+        "was 0.280; Zitrin et al. (2020) give z = 0.35 and SIMBAD 0.3506"),
+    ("Abell 68", "z"): ("0.255",
+        "was 0.268; SLICE (Cerny et al. 2025, table of lens models) gives 0.2546 and SIMBAD 0.249"),
+    ("MACS J2211.7-0349", "z"): ("0.397",
+        "was 0.426; SLICE (Cerny et al. 2025) gives 0.397 for RXC J2211.7-0349 and SIMBAD 0.396"),
     ("Abell 267", "z"): ("0.230",
         "was 0.0596; Abell 267 is the z = 0.23 LoCuSS cluster (Smith et al. 2005, the model "
         "listed on this page; SIMBAD 0.2297)"),
+    # --- redshifts that differed from SIMBAD by more than 0.01, checked in the papers ---
+    ("Abell S1063", "z"): ("0.348",
+        "was 0.37; 0.348 in the CLASH overview (Postman et al. 2012) and in the models on this "
+        "page (e.g. Caminha et al. 2016); SIMBAD 0.351"),
+    ("MACS J0553.4-3342", "z"): ("0.427",
+        "was 0.43; spectroscopic z = 0.4270 in Ebeling, Qi & Richard (2017), a model on this page "
+        "(RELICS lists 0.430, SLICE 0.412); SIMBAD's 0.407 is photometric"),
+    ("MACS J0744.8+3927", "z"): ("0.698",
+        "was 0.675; 0.698 in Zitrin et al. (2011), a model on this page; SIMBAD 0.697 "
+        "(spectroscopic); the CLASH overview lists 0.686"),
+    ("MACS J0940.9+0744", "z"): ("0.335",
+        "was 0.348; 0.335 in the MUSE atlas (Richard et al. 2021), the model on this page; "
+        "SIMBAD 0.3372 (spectroscopic)"),
+    ("MACS J1532.8+3021", "z"): ("0.362",
+        "was 0.345, the value in the CLASH overview (Postman et al. 2012); the BCG's SDSS spectrum "
+        "gives 0.362 (SIMBAD: LEDA 1900245, z = 0.36205) and SIMBAD lists 0.3615 for the cluster"),
+    ("MACS J2129.4-0741", "z"): ("0.589",
+        "was 0.57, the value in the CLASH overview; 0.589 in Zitrin et al. (2011), Jauzac et al. "
+        "(2021) and SLICE (Cerny et al. 2025), models on this page; SIMBAD 0.587-0.588 "
+        "(spectroscopic)"),
+    ("PLCK G004.5-19.5", "z"): ("0.516",
+        "was 0.519, close to the BCG's 0.5199; Sifón et al. (2014) adopt z = 0.516 +/- 0.002 from "
+        "six members; SIMBAD and RELICS list 0.54, the X-ray (Fe line) estimate"),
+    ("SMACS J2332.4-5358", "z"): ("0.402",
+        "was 0.415; spectroscopic 0.402 from SPT follow-up (Ruel et al. 2014; Bleem et al. 2015), "
+        "as in SIMBAD"),
+    ("RXC J0032.1+1808", "z"): ("0.396",
+        "was 0.374; Acebron et al. (2020), the model on this page, give z = 0.3956 (RELICS: 0.396)"),
+    # --- positions 2-4' from the strong-lensing centre (mostly old catalogue positions) ---
+    ("Abell 267", "ra"): ("01:52:42.0",
+        "was 01:52:52.20 +01:02:46.00 (NED's position for SDSS CE J028.239771+01.055582 and "
+        "SCL 034 NED03), 3.5' from the BCG; moved to the BCG (redMaPPer RM J015242.0+010025.5; "
+        "WHL J015242.0+010026 agrees; SIMBAD's Abell 267 is 0.5' from it)"),
+    ("Abell 267", "dec"): ("+01:00:25.5", "see RA"),
+    ("Abell 963", "ra"): ("10:17:03.6",
+        "was 10:17:13.90 +39:01:31.00, the position of WHL J101713.9+390131 (WHL 2009, centred "
+        "on another galaxy) and of ZwCl 1013.7+3915 in NED, 2.4' from the BCG; moved to the BCG "
+        "(redMaPPer RM J101703.6+390249.4; WHL J101703.6+390249 and SIMBAD agree within 10'')"),
+    ("Abell 963", "dec"): ("+39:02:49.4", "see RA"),
+    ("Abell 1423", "ra"): ("11:57:17.26",
+        "was 11:57:22.50 +33:39:18.00 (ZwCl 1154.9+3400 in NED), 2.9' from the BCG; moved to the "
+        "BCG position in the CLASH overview (Postman et al. 2012, Table 1); redMaPPer, WHL and "
+        "SIMBAD agree within 3''"),
+    ("Abell 1423", "dec"): ("+33:36:37.4", "see RA"),
+    ("MACS J2135.2-0102", "ra"): ("21:35:12.2",
+        "was 21:35:00.00 -01:02:17.00, the Planck SZ position (PLCK G053.4-36.3 in NED), 3.1' "
+        "from the BCG; Zitrin & Broadhurst (2016), the model on this page, find the multiple "
+        "images around the BCG; BCG position from redMaPPer (RM J213512.2-010255.8; "
+        "WHL J213512.1-010258 agrees)"),
+    ("MACS J2135.2-0102", "dec"): ("-01:02:55.8", "see RA"),
+    ("Abell 2163", "ra"): ("16:15:48.95",
+        "was 16:15:34.13 -06:07:26.3, 3.9' west of the main BCG and outside both RELICS "
+        "pointings; moved to the BCG of the A2163-A1 core, the centre of the strong-lensing "
+        "model of Rescigno et al. (2020) on this page (RA 243.9539405, Dec -6.1448406)"),
+    ("Abell 2163", "dec"): ("-06:08:41.4", "see RA"),
+    ("Abell 1758a", "ra"): ("13:32:44.80",
+        "was 13:32:32.10 +50:30:37.0, the catalogue position of the whole Abell 1758 complex "
+        "(SIMBAD's ACO 1758, NED's ZwCl 1330.4+5047), 3.3' and 3.5' from the two BCGs of the "
+        "northern component observed by RELICS (Coe et al. 2019: NW 13:32:39.0 +50:33:41.8, "
+        "SE 13:32:53.4 +50:31:31.0); moved to the X-ray centre of Abell 1758N between them "
+        "(MCXC J1332.7+5032)"),
+    ("Abell 1758a", "dec"): ("+50:32:24.0", "see RA"),
+    ("RXC J0032.1+1808", "ra"): ("00:32:11.0",
+        "was 00:32:04.81 +18:09:03.5, 1.9' west of the strong-lensing region; moved to the "
+        "cluster centre used by RELICS (Coe et al. 2019) and by Acebron et al. (2020), the model "
+        "on this page"),
+    ("RXC J0032.1+1808", "dec"): ("+18:07:49.0", "see RA"),
 }
 TEXT_FIXES = [
     (None, "Lagatutta et al.", "Lagattuta et al.", "author name typo (Lagattuta)"),
@@ -112,12 +211,25 @@ IGNORE_POSITION_CHECK = {
     # two strong-lensing cores 2.5' apart in one entry; these name the southern core
     "SDSS J1226+2152": ["SDSS J1226+2149", "WHL J122651.1+214952"],
 }
-NOTE_OVERRIDES = {
+NOTE_OVERRIDES = {   # entry -> (notes, reason)
     "SDSS J1226+2152": (
         "This field includes two separate cluster cores about 2.5' apart, both of which act "
         "as strong lenses (see e.g. [Oguri et al. 2012](ref:2012MNRAS.420.3213O)): the "
         "northern core (SDSS J1226+2152, this entry's position) and the southern core "
-        "(SDSS J1226+2149)."),
+        "(SDSS J1226+2149).",
+        "cluster notes rewritten (merged Home + page notes)"),
+    "Abell 3192": (
+        "Abell 3192 (z = 0.168) lies in front of the more massive "
+        "[MACS J0358.8-2955](cluster:macs-j0358.8m2955) (z = 0.425), 2.5' away. RELICS and VENUS "
+        "list the field under the name Abell 3192, but the strong lensing, and the RELICS lens "
+        "model, belong to MACS J0358.8-2955 ([Coe et al. 2019](ref:2019ApJ...884...85C); "
+        "[Hsu et al. 2013](ref:2013MNRAS.429..833H)), so the models are listed on its page.",
+        "explains the line-of-sight pair; the RELICS model moved to MACS J0358.8-2955"),
+    "MACS J0358.8-2955": (
+        "RELICS and VENUS list this field under the name Abell 3192. "
+        "[Abell 3192](cluster:abell-3192) (z = 0.168), 2.5' away, is a foreground cluster "
+        "([Hsu et al. 2013](ref:2013MNRAS.429..833H)).",
+        "explains the line-of-sight pair with Abell 3192"),
 }
 
 # =============================================================================
@@ -864,6 +976,9 @@ def build(wiki: Path):
                 aka.append(n2)
             else:
                 desig.append(n2)
+        for extra, why in ADD_DESIGNATIONS.get(name, []):
+            desig.append(extra)
+            log(name, "designation-added", why, None, extra)
 
         final_titles = final_section_titles(name, page["sections"], references)
         anchors = {re.sub("-+", "-", anchor_id(clean_lookalikes(s["title"])[0])): final_titles[s["title"]]
@@ -878,9 +993,9 @@ def build(wiki: Path):
 
         notes = conv.text(name, page["additional"], {}, "notes")
         if name in NOTE_OVERRIDES:
-            log(name, "notes", "cluster notes rewritten (merged Home + page notes)", notes,
-                NOTE_OVERRIDES[name])
-            notes = NOTE_OVERRIDES[name]
+            new_notes, why = NOTE_OVERRIDES[name]
+            log(name, "notes", why, notes or None, new_notes)
+            notes = new_notes
         elif name in NOTES_ABSORBED:
             log(name, "notes", "note moved to a lensed-transient entry", notes, None)
             notes = ""
@@ -913,6 +1028,30 @@ def build(wiki: Path):
     return clusters, references
 
 
+def apply_moves(clusters):
+    """Move designations and model sections that the wiki put on the wrong entry."""
+    by_name = {c["name"]: c for c in clusters}
+    for (src, d), (dst, why) in MOVE_DESIGNATIONS.items():
+        for key in ("designations", "aka"):
+            if d in by_name[src][key]:
+                by_name[src][key].remove(d)
+                by_name[dst]["designations"].append(d)
+                log(src, "designation-moved", why, d, dst)
+                break
+        else:
+            raise SystemExit(f"designation {d} not found on {src}")
+    for (src, title), (dst, index, why) in MOVE_MODELS.items():
+        models = by_name[src]["models"]
+        model = next(m for m in models if m["title"] == title)
+        models.remove(model)
+        by_name[dst]["models"].insert(index, model)
+        prog = model.get("program")
+        if prog and prog not in by_name[dst]["programs"]:
+            by_name[dst]["programs"].append(prog)
+            log(dst, "program-added", f"{prog} model moved here from {src}", None, prog)
+        log(src, "model-moved", why, title, dst)
+
+
 def add_official_members(clusters):
     by_name = {c["name"]: c for c in clusters}
     for prog, (names, reason) in OFFICIAL_MEMBERS.items():
@@ -940,6 +1079,11 @@ def clean_title(t):
     t = re.sub(r"\{\\em\s*([^}]*)\}", r"\1", t)
     t = t.replace("{theta}", "theta").replace("{mu}", "mu").replace("{approx}", "~")
     t = t.replace("{\\geq}", ">=").replace("{~}", "~").replace("{\\em", "")
+    # LaTeX and SIMBAD markup: $z\sim11$, {\simeq}, 10^15^, M_{sun}_
+    t = re.sub(r"\$([^$]*)\$", r"\1", t)
+    t = re.sub(r"\{?\\(?:simeq|sim|approx)\}?\s*", "~", t)
+    t = re.sub(r"\^([^^\s]+)\^", r"^\1", t)
+    t = re.sub(r"_\{([^}]*)\}_?", r"_\1", t)
     t = re.sub(r"\s+", " ", t).strip().rstrip(".")
     return t
 
@@ -980,6 +1124,7 @@ def build_references(references):
         "2022PASP..134b5002W": "Willott et al. (2022)", "2023AJ....165...13W": "Windhorst et al. (2023)",
         "2020ApJS..247...64S": "Steinhardt et al. (2020)", "2024ApJS..275...36F": "Fujimoto et al. (2024)",
         "arXiv:2509.12319": "Suyu et al. (2025)",
+        "2022TNSAN.169....1K": "TNS AstroNote 2022-169",
     }
     for ref, lab in defaults.items():
         if ref in out and "label" not in out[ref]:
@@ -1031,6 +1176,7 @@ def write_all(clusters, refs_out):
 if __name__ == "__main__":
     wiki_dir = Path(sys.argv[1])
     clusters, references = build(wiki_dir)
+    apply_moves(clusters)
     add_official_members(clusters)
     refs_out = build_references(references)
     write_all(clusters, refs_out)

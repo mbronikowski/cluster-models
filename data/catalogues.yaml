@@ -298,7 +298,7 @@
   ref: Planck Collaboration (2011), VIII
   tolerance: 6
   patterns:
-    - {regex: '^PLCKESZ G(?P<l>\d{3}\.\d{2})(?P<b>[+-]\d{2}\.\d{2})$', frame: galactic, example: PLCKESZ G056.80+36.30}
+    - {regex: '^PLCKESZ G(?P<l>\d{3}\.\d{2})(?P<b>[+-]\d{2}\.\d{2})$', frame: galactic, example: PLCKESZ G166.13+43.39}
 
 - id: psz1
   label: PSZ1

@@ -1,0 +1,13 @@
+{
+  "title": "cluster-models: a curated database of galaxy-cluster strong-lensing models",
+  "upload_type": "dataset",
+  "description": "A curated database of published strong-lensing models of galaxy clusters, with model availability and download links, the observing programs that covered each cluster, catalogue cross-identifications and lensed transients. Website: https://mbronikowski.github.io/cluster-models/",
+  "creators": [
+    {"name": "Bronikowski, Mateusz"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["gravitational lensing", "strong lensing", "galaxy clusters", "lens models", "lensed supernovae"],
+  "related_identifiers": [
+    {"identifier": "https://mbronikowski.github.io/cluster-models/", "relation": "isDocumentedBy", "resource_type": "other"}
+  ]
+}

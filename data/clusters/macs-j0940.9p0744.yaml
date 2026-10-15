@@ -8,7 +8,7 @@ designations:
   - RM J094053.7+074425.4
 ra: "09:40:53.70"
 dec: "+07:44:25.4"
-z: 0.348
+z: 0.335
 programs: [venus, muse-lensing]
 
 models:

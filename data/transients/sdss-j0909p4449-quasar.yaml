@@ -6,5 +6,5 @@ status: confirmed
 cluster: sdss-j0909p4449
 refs: [2018MNRAS.481L.136S]
 notes: |-
-  Large-separation, triply-imaged quasar at z ~ 2.8 ([Shu et al.
-  2018](ref:2018MNRAS.481L.136S)).
+  Large-separation, triply-imaged quasar at z ~ 2.8
+  ([Shu et al. 2018](ref:2018MNRAS.481L.136S)).

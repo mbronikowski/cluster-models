@@ -22,8 +22,8 @@ models:
         url: https://doi.org/10.5281/zenodo.18646525
     note: |-
       Parametric model accompanying the discovery of the lensed supernova
-      [SN Eos](transient:sn-eos) at z = 5.13 ([Coulter et al.
-      2026](ref:2026arXiv260104156C)).
+      [SN Eos](transient:sn-eos) at z = 5.13
+      ([Coulter et al. 2026](ref:2026arXiv260104156C)).
   - title: Caminha et al. (2019)
     program: clash-vlt
     refs: [2019A&A...632A..36C]

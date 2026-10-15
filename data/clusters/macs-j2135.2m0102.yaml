@@ -4,8 +4,8 @@ name: MACS J2135.2-0102
 designations:
   - PLCKESZ G053.44-36.26
   - PLCK G053.4-36.3
-ra: "21:35:00.00"
-dec: "-01:02:17.00"
+ra: "21:35:12.2"
+dec: "-01:02:55.8"
 z: 0.33
 
 models:

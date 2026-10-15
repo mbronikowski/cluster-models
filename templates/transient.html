@@ -7,7 +7,7 @@
   <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}transients/index.html">Lensed transients</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ t.name }}</span></nav>
   <h1 class="entry-title">{{ t.name }}</h1>
   {% if t.aliases %}<p class="entry-aka">also {{ t.aliases | join(', ') }}</p>{% endif %}
-  <dl class="fact-list">
+  <dl class="fact-list transient-facts">
     <div><dt>Type</dt><dd>{{ t.class_label }}{% if t.subclass %}, {{ t.subclass }}{% endif %}</dd></div>
     <div><dt>Status</dt><dd>{{ 'Confirmed' if t.status == 'confirmed' else 'Candidate' }}</dd></div>
     {% if t.cluster_obj %}<div><dt>Lensing cluster</dt><dd><a href="{{ root }}clusters/{{ t.cluster_obj.slug }}.html">{{ t.cluster_obj.name }}</a> <span class="muted">(z = {{ t.cluster_obj.z }})</span></dd></div>{% endif %}
