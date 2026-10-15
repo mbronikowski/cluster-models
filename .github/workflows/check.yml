@@ -26,4 +26,14 @@ jobs:
       - name: Check links added in this pull request
         if: github.event_name == 'pull_request'
         continue-on-error: true
-        run: python tools/check_links.py --changed-since origin/${{ github.base_ref }}
+        env:
+          ACTION: ${{ github.event.action }}
+          BEFORE: ${{ github.event.before }}
+          BASE: origin/${{ github.base_ref }}
+        run: |
+          # later pushes to the pull request only check links added since the previous push
+          since="$BASE"
+          if [ "$ACTION" = synchronize ] && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            since="$BEFORE"
+          fi
+          python tools/check_links.py --changed-since "$since"

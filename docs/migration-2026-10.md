@@ -238,6 +238,13 @@ to switch to the journal bibcodes:
 
 - **Availability.** 118 models are `unknown`, because the wiki only says "the cluster was
   modelled by ...". Filling these in is the most useful clean-up.
+- **Links.** The first full link check (October 2026) found one dead model link: the
+  Zitrin et al. (2020) model of Abell 1489 at `stsci.edu/~koekemoer/zitrin/RMJ1212`
+  returns 404, as does the rest of that directory. The GLASS-JWST website's TLS
+  certificate has expired, and the glafic page at SLAC fails certificate checks in
+  scripts. The LAM Strong Lensing Cluster Atlas and the Lenstool wiki refuse automated
+  requests, so the checker cannot confirm them. The two FTP links (Abell 1722,
+  MACS J2135.2-0102) are not checked, and the wiki already called them defunct.
 - **Transients.** Add the DDT and follow-up programs, and TNS names, to the transient
   entries.
 - **Observations.** Each cluster can list instruments, filters and programs

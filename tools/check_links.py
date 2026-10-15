@@ -5,15 +5,17 @@
     python tools/check_links.py --all                           # every link (manual runs only)
 
 One request at a time, at most one request per host every --delay seconds
-(default 3), HEAD first and a small GET only if HEAD is refused. ADS/arXiv/DOI
-links generated from references are not checked. FTP links are listed, not
-fetched. Exit status is 0 unless --strict is given and a link is broken.
+(default 3); hosts take turns, so a run takes about as long as the busiest host
+needs. HEAD first, and a small GET only if HEAD fails. ADS/arXiv/DOI links
+generated from references are not checked. FTP links are listed, not fetched.
+Exit status is 0 unless --strict is given and a link is broken.
 """
 
 from __future__ import annotations
 
 import argparse
 import re
+import ssl
 import subprocess
 import sys
 import time
@@ -21,6 +23,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from collections import defaultdict
+from itertools import zip_longest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,7 +31,9 @@ sys.path.insert(0, str(ROOT))
 
 from cmdb.data import load_database  # noqa: E402
 
-URL_RE = re.compile(r"(?:https?|ftp)://[^\s)\"'<>\]]+")
+# URLs may contain balanced parentheses (Wikimedia file names); an unbalanced ")"
+# ends the URL, as in a Markdown link
+URL_RE = re.compile(r"(?:https?|ftp)://(?:[^\s()<>\"'\]]|\([^\s()<>\"']*\))+")
 SKIP_HOSTS = {"ui.adsabs.harvard.edu", "arxiv.org", "doi.org", "scixplorer.org"}
 USER_AGENT = ("cluster-models link check (+https://github.com/mbronikowski/cluster-models; "
               "one request per host every few seconds)")
@@ -79,13 +84,16 @@ def check(url: str, timeout: float) -> tuple[str, str]:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return "ok", f"HTTP {resp.status}"
         except urllib.error.HTTPError as exc:
-            if method == "HEAD" and exc.code in (400, 403, 405, 406, 501):
-                continue
-            if exc.code in (401, 403, 429):
-                return "blocked", f"HTTP {exc.code} (refused or rate-limited; may still work in a browser)"
+            if method == "HEAD" and exc.code != 429:
+                continue                  # some servers mishandle HEAD; try a small GET
+            if exc.code in (401, 403, 418, 429):
+                return "blocked", f"HTTP {exc.code} (refuses automated requests; may work in a browser)"
             return "broken", f"HTTP {exc.code}"
         except Exception as exc:  # noqa: BLE001
-            return "unreachable", str(getattr(exc, "reason", exc))
+            reason = getattr(exc, "reason", exc)
+            if isinstance(reason, ssl.SSLError):
+                return "unreachable", f"TLS certificate problem: {getattr(reason, 'verify_message', reason)}"
+            return "unreachable", str(reason)
     return "broken", "no usable response"
 
 
@@ -102,8 +110,12 @@ def main(argv=None) -> int:
     where = all_urls()
     targets = sorted(where) if args.all else sorted(changed_urls(args.changed_since) & set(where))
     targets = [u for u in targets if urllib.parse.urlparse(u).hostname not in SKIP_HOSTS]
-    print(f"Checking {len(targets)} link(s) on "
-          f"{len({urllib.parse.urlparse(u).hostname for u in targets})} host(s)")
+    by_host = defaultdict(list)
+    for u in targets:
+        by_host[urllib.parse.urlparse(u).hostname].append(u)
+    # hosts take turns, so the per-host delay overlaps instead of adding up
+    targets = [u for turn in zip_longest(*by_host.values()) for u in turn if u]
+    print(f"Checking {len(targets)} link(s) on {len(by_host)} host(s)")
     last = {}
     results = defaultdict(list)
     for u in targets:
