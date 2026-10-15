@@ -4,9 +4,9 @@ name: Abell 1489
 designations:
   - NSCS J121229+273051
   - RM J121218.5+273255.1
-ra: "12:12:32.04"
-dec: "+27:29:19.1"
-z: 0.28
+ra: "12:12:18.48"
+dec: "+27:32:55.1"
+z: 0.351
 
 models:
   - title: Zitrin et al. (2020)

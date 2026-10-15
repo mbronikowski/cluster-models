@@ -54,6 +54,26 @@ ADDED_COMMON_NAMES = {
 }
 DROP_DESIGNATIONS = {
     "RCS2 032727-132623": "duplicate of RCS2 J032727-132623 (missing 'J')",
+    "GHO132029+3155": "malformed duplicate of GHO 1320+3155 (does not resolve in SIMBAD or NED)",
+    "ACO 1423": "same designation as the entry name: ACO and Abell share one numbering",
+}
+# Designations dropped from one specific cluster (they belong elsewhere).
+DROP_FROM_CLUSTER = {
+    ("MACS J0717.5+3745", "PLCKESZ G056.80+36.30"):
+        "encodes l=56.80, b=+36.30, i.e. RA 17:02:47 Dec +34:04 (the position of Abell 2244), "
+        "116 deg from MACS J0717.5+3745; NED attaches it to MACS J0717 by mistake",
+    ("Abell 267", "ZwCl 0151.5+0052"):
+        "NED places ZwCl 0151.5+0052 at 01:54:04 +01:06:43, 18' from Abell 267, as a separate "
+        "object; SIMBAD does not cross-identify it with Abell 267",
+}
+# Designations corrected in place.
+DESIGNATION_FIXES = {
+    ("Abell 773", "PLCKESZ G166.13+43.39e"): ("PLCKESZ G166.13+43.39",
+        "stray trailing 'e'; SIMBAD lists PLCKESZ G166.13+43.39 for Abell 773"),
+    ("SMACS J2332.4-5358", "PSZ2 G325.99-59.4"): ("PSZ2 G325.99-59.48",
+        "truncated latitude; SIMBAD lists PSZ2 G325.99-59.48 for this cluster"),
+    ("ZwCl 0847.2+3617", "PLANCK 0631"): ("PSZ1 0631",
+        "'PLANCK 0631' resolves nowhere; NED resolves PSZ1 0631 to ZwCl 0847.2+3617"),
 }
 # Values where the Home table and the cluster page disagreed. Default: page value.
 VALUE_CHOICES = {
@@ -66,6 +86,15 @@ VALUE_CHOICES = {
     ("SDSS J1723+3411", "ra"): ("17:23:36.50", "Home RA truncated to whole seconds"),
     ("SDSS J1723+3411", "dec"): ("+34:11:55.90",
         "Home +34:11:59.37 vs page +34:11:55.90; NED gives +34:11:54.6 (page closer)"),
+    ("Abell 1489", "ra"): ("12:12:18.48",
+        "lens = RM J121218.5+273255.1 (Zitrin et al. 2020, ApJ 903, 137); BCG and strong-lensing "
+        "centre from Sohn et al. 2022 (arXiv:2201.00993); the old position was 4.9' away"),
+    ("Abell 1489", "dec"): ("+27:32:55.1", "see RA"),
+    ("Abell 1489", "z"): ("0.351",
+        "z = 0.35 (Zitrin et al. 2020) and 0.351 spectroscopic (Sohn et al. 2022); was 0.280"),
+    ("Abell 267", "z"): ("0.230",
+        "was 0.0596; Abell 267 is the z = 0.23 LoCuSS cluster (Smith et al. 2005, the model "
+        "listed on this page; SIMBAD 0.2297)"),
 }
 TEXT_FIXES = [
     (None, "Lagatutta et al.", "Lagattuta et al.", "author name typo (Lagattuta)"),
@@ -80,7 +109,8 @@ TITLE_FIXES = {
     "Bonamago et al. (2018)": "Bonamigo et al. (2018)",
 }
 IGNORE_POSITION_CHECK = {
-    "SDSS J1226+2152": ["SDSS J1226+2149"],
+    # two strong-lensing cores 2.5' apart in one entry; these name the southern core
+    "SDSS J1226+2152": ["SDSS J1226+2149", "WHL J122651.1+214952"],
 }
 NOTE_OVERRIDES = {
     "SDSS J1226+2152": (
@@ -266,6 +296,7 @@ MANUAL_SECTIONS = {
         title="ALCS: Fujimoto et al. (2021)", program="alcs", refs=["2021ApJ...911...99F"],
         availability="unknown", tags=["multiple-models"],
         note="Several lens models of the cluster, built as part of the ALMA Lensing Cluster Survey."),
+    ("MACS J0717.5+3745", "Williams, Sebesta & Liesenborgs (2018)"): dict(availability="unknown"),
     ("SPT-CL J0546-5345", "Allingham et al. (2025)"): dict(
         title="SLICE: Allingham et al. (2025)", program="slice", data=["JWST"]),
     ("Abell 370", "Niemiec et al. (2023)"): dict(
@@ -817,8 +848,14 @@ def build(wiki: Path):
             n2 = NAME_FIXES.get(n, n)
             if n2 != n:
                 log(name, "name", "designation spacing normalised", n, n2)
+            fix = DESIGNATION_FIXES.get((name, n2))
+            if fix:
+                log(name, "designation-fixed", fix[1], n2, fix[0])
+                n2 = fix[0]
             if n2 in DROP_DESIGNATIONS:
                 log(name, "designation-dropped", DROP_DESIGNATIONS[n2], n2, None)
+            elif (name, n2) in DROP_FROM_CLUSTER:
+                log(name, "designation-dropped", DROP_FROM_CLUSTER[(name, n2)], n2, None)
             elif n2 == name:
                 continue
             elif n2 in COMMON_NAMES:
@@ -853,7 +890,14 @@ def build(wiki: Path):
 
         image = None
         if page["image"]:
-            image = {"url": page["image"]["url"],
+            url = page["image"]["url"]
+            m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/commons/thumb/.+/)(\d+)px-([^/]+)$", url)
+            if m and m.group(2) != "960":
+                new = f"{m.group(1)}960px-{m.group(3)}"
+                log(name, "image-fixed", "Wikimedia now rejects non-standard thumbnail widths "
+                    f"(HTTP 400 for {m.group(2)}px); switched to the standard 960px width", url, new)
+                url = new
+            image = {"url": url,
                      "credit": conv.text(name, page["image"]["credit"], {}, "image credit")}
 
         programs = []
@@ -878,7 +922,7 @@ def add_official_members(clusters):
                 log(n, "program-added", reason, None, prog)
     venus = json.load(open(HERE / "venus_targets.json"))
     for num, target, cname, sep in venus:
-        assert sep < 2.0, (target, cname, sep)
+        assert sep < 3.0, (target, cname, sep)  # pointing centres can be offset from the cluster
         names = [cname]
         if target == "A3192":   # pointing centred on MACS J0358.8-2955, 2.5' from A3192
             names = ["Abell 3192", "MACS J0358.8-2955"]

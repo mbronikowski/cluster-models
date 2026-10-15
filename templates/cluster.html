@@ -89,11 +89,11 @@
           {% if m.refs %}<span>Paper{{ 's' if m.refs | length > 1 }}: {{ ref_links(m.refs) }}</span>{% endif %}
           {% if m.program_obj %}<span>Program: <a href="{{ root }}programs/{{ m.program_obj.id }}.html">{{ m.program_obj.short }}</a></span>{% endif %}
           {% if m.software %}<span>Software: {{ m.software }}</span>{% endif %}
-          {% if m.tags %}<span>{% for t in m.tags %}<span class="kw" title="{{ m.tag_desc[t] }}">{{ t | replace('-', ' ') }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}
+          {% if m.tags %}<span>Tags: {% for t in m.tags %}<span class="kw" title="{{ m.tag_desc[t] }}">{{ t | replace('-', ' ') }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}
         </p>
         {% endif %}
         {% if m.links %}
-        <p class="model-links">{% for l in m.links %}<a class="button" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+        <p class="model-links">{% for l in m.links %}<a class="button-quiet" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
         {% endif %}
         {% if m.note %}<div class="model-note">{{ m.note | md(root) | safe }}</div>{% endif %}
         {% if m.superseded_by_model %}<p class="muted">Superseded by <a href="#{{ m.superseded_by_model.anchor }}">{{ m.superseded_by_model.title }}</a>.</p>{% endif %}

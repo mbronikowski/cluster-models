@@ -146,8 +146,8 @@ def sky_map_geometry():
             continue
         grid += _polyline_segments([mollweide(ra, d / 2) for d in range(-180, 181)])
     outline = []
-    for edge in (MAP_CENTER_RA + 180 - 1e-6, MAP_CENTER_RA - 180 + 1e-6):
-        outline.append([mollweide(edge, d / 2) for d in range(-180, 181)])
+    for side in (MAP_CENTER_RA + 180 - 1e-6, MAP_CENTER_RA - 180 + 1e-6):
+        outline.append([mollweide(side, d / 2) for d in range(-180, 181)])
     outline_path = "M" + " L".join(f"{x},{y}" for x, y in outline[0]) + " L" + " L".join(
         f"{x},{y}" for x, y in reversed(outline[1])) + " Z"
     gal = [mollweide(*galactic_to_icrs(l / 2, 0.0)) for l in range(0, 721)]
@@ -162,7 +162,7 @@ def sky_map_geometry():
     for dec in (-60, -30, 0, 30, 60):
         x, y = mollweide(MAP_CENTER_RA + 180 - 0.001, dec)
         dec_labels.append({"x": x, "y": y, "text": f"{dec:+d}°" if dec else "0°"})
-    lx, ly = mollweide(*galactic_to_icrs(30.0, 0.0))
+    lx, ly = mollweide(*galactic_to_icrs(128.0, 0.0))
     return {"grid": grid, "outline": outline_path, "galactic": galactic, "ra_labels": ra_labels,
             "dec_labels": dec_labels, "galactic_label": {"x": lx, "y": ly}}
 

@@ -30,6 +30,7 @@ class Pattern:
     example: str
     type: str
     tolerance: float
+    dec3: str = "tenths-of-degree"
 
 
 @dataclass
@@ -66,6 +67,7 @@ def load_registry(path=None) -> list[Catalogue]:
             cat.patterns.append(Pattern(
                 regex=re.compile(p["regex"]), frame=p["frame"], example=p["example"],
                 type=p.get("type", cat.type), tolerance=float(p.get("tolerance", cat.tolerance)),
+                dec3=p.get("dec3", "tenths-of-degree"),
             ))
         cats.append(cat)
     return cats
@@ -119,7 +121,7 @@ def _decode_ra_digits(text: str) -> tuple[float, float]:
     raise ValueError(f"cannot decode RA digits {text!r}")
 
 
-def _decode_dec_digits(text: str) -> tuple[float, float]:
+def _decode_dec_digits(text: str, dec3: str = "tenths-of-degree") -> tuple[float, float]:
     whole, frac = _split(text)
     sign = -1.0 if whole.startswith("-") else 1.0
     digits = whole.lstrip("+-")
@@ -128,6 +130,8 @@ def _decode_dec_digits(text: str) -> tuple[float, float]:
     n = len(digits)
     if n == 2:      # DD(.d)
         return sign * (int(digits) + fr), fstep
+    if n == 3 and dec3 == "tens-of-arcmin":   # DDm, m = tens of arcmin (Arp & Madore)
+        return sign * (int(digits[:2]) + int(digits[2]) / 6), 1 / 6
     if n == 3:      # DDd
         return sign * (int(digits[:2]) + int(digits[2]) / 10), 0.1
     if n == 4:      # DDMM(.m)
@@ -154,7 +158,7 @@ def encoded_position(ident: Identified):
         return None
     if frame in ("icrs", "fk4"):
         ra, ura = _decode_ra_digits(gd["ra"])
-        dec, udec = _decode_dec_digits(gd["dec"])
+        dec, udec = _decode_dec_digits(gd["dec"], ident.pattern.dec3)
         return frame, ra, dec, ura, udec
     if frame == "icrs-deg":
         ra, ura = _decimal(gd["ra"])

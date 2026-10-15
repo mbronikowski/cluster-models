@@ -41,4 +41,4 @@ notes: |-
   This field includes two separate cluster cores about 2.5' apart, both of which act as
   strong lenses (see e.g. [Oguri et al. 2012](ref:2012MNRAS.420.3213O)): the northern core
   (SDSS J1226+2152, this entry's position) and the southern core (SDSS J1226+2149).
-ignore_position_check: [SDSS J1226+2149]
+ignore_position_check: [SDSS J1226+2149, WHL J122651.1+214952]

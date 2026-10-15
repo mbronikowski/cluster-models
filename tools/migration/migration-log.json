@@ -77,6 +77,20 @@
   "after": null
  },
  {
+  "cluster": "Abell 267",
+  "kind": "value-choice",
+  "detail": "was 0.0596; Abell 267 is the z = 0.23 LoCuSS cluster (Smith et al. 2005, the model listed on this page; SIMBAD 0.2297)",
+  "before": "Home 0.0596 / page 0.0596",
+  "after": "0.230"
+ },
+ {
+  "cluster": "Abell 267",
+  "kind": "designation-dropped",
+  "detail": "NED places ZwCl 0151.5+0052 at 01:54:04 +01:06:43, 18' from Abell 267, as a separate object; SIMBAD does not cross-identify it with Abell 267",
+  "before": "ZwCl 0151.5+0052",
+  "after": null
+ },
+ {
   "cluster": "Abell 370",
   "kind": "title",
   "detail": "section title",
@@ -187,6 +201,13 @@
   "detail": "note moved to a lensed-transient entry",
   "before": "An archival multiply-imaged supernova in _Hubble Space Telescope_ images lensed by Abell 370 was described by [Chen et al. (2022)](ref:2022Natur.611..256C).",
   "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "image-fixed",
+  "detail": "Wikimedia now rejects non-standard thumbnail widths (HTTP 400 for 727px); switched to the standard 960px width",
+  "before": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg/727px-Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg",
+  "after": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg/960px-Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg"
  },
  {
   "cluster": "Abell 383",
@@ -358,6 +379,13 @@
  },
  {
   "cluster": "Abell 773",
+  "kind": "designation-fixed",
+  "detail": "stray trailing 'e'; SIMBAD lists PLCKESZ G166.13+43.39 for Abell 773",
+  "before": "PLCKESZ G166.13+43.39e",
+  "after": "PLCKESZ G166.13+43.39"
+ },
+ {
+  "cluster": "Abell 773",
   "kind": "boilerplate-dropped",
   "detail": "locuss section 'LoCuSS'",
   "before": "The cluster was studied by the Local Cluster Substructure Survey (LoCuSS).",
@@ -386,6 +414,13 @@
  },
  {
   "cluster": "Abell 1423",
+  "kind": "designation-dropped",
+  "detail": "same designation as the entry name: ACO and Abell share one numbering",
+  "before": "ACO 1423",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1423",
   "kind": "boilerplate-dropped",
   "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
   "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
@@ -397,6 +432,27 @@
   "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
   "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/a1423/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
   "after": null
+ },
+ {
+  "cluster": "Abell 1489",
+  "kind": "value-choice",
+  "detail": "lens = RM J121218.5+273255.1 (Zitrin et al. 2020, ApJ 903, 137); BCG and strong-lensing centre from Sohn et al. 2022 (arXiv:2201.00993); the old position was 4.9' away",
+  "before": "Home 12:12:32.04 / page 12:12:32.04",
+  "after": "12:12:18.48"
+ },
+ {
+  "cluster": "Abell 1489",
+  "kind": "value-choice",
+  "detail": "see RA",
+  "before": "Home +27:29:19.1 / page +27:29:19.1",
+  "after": "+27:32:55.1"
+ },
+ {
+  "cluster": "Abell 1489",
+  "kind": "value-choice",
+  "detail": "z = 0.35 (Zitrin et al. 2020) and 0.351 spectroscopic (Sohn et al. 2022); was 0.280",
+  "before": "Home 0.280 / page 0.280",
+  "after": "0.351"
  },
  {
   "cluster": "Abell 1689",
@@ -831,6 +887,13 @@
   "detail": "hff section 'Hubble Frontier Fields'",
   "before": "Program data products available [here](https://archive.stsci.edu/prepds/frontier/); models available [here](https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/); acknowledgement information [here](https://archive.stsci.edu/prepds/frontier/lensmodels/).",
   "after": null
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "image-fixed",
+  "detail": "Wikimedia now rejects non-standard thumbnail widths (HTTP 400 for 626px); switched to the standard 960px width",
+  "before": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Swimming_in_Sculptor.jpg/626px-Swimming_in_Sculptor.jpg",
+  "after": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Swimming_in_Sculptor.jpg/960px-Swimming_in_Sculptor.jpg"
  },
  {
   "cluster": "Abell 2813",
@@ -1477,6 +1540,13 @@
   "after": null
  },
  {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "image-fixed",
+  "detail": "Wikimedia now rejects non-standard thumbnail widths (HTTP 400 for 624px); switched to the standard 960px width",
+  "before": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg/624px-Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg",
+  "after": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg/960px-Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg"
+ },
+ {
   "cluster": "MACS J0417.5-1154",
   "kind": "title",
   "detail": "section title",
@@ -1650,6 +1720,20 @@
   "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
   "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs0647/models/); model description by [Coe et al. (2013)](ref:2013ApJ...762...32C), [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
   "after": null
+ },
+ {
+  "cluster": "MACS J0717.5+3745",
+  "kind": "designation-dropped",
+  "detail": "encodes l=56.80, b=+36.30, i.e. RA 17:02:47 Dec +34:04 (the position of Abell 2244), 116 deg from MACS J0717.5+3745; NED attaches it to MACS J0717 by mistake",
+  "before": "PLCKESZ G056.80+36.30",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0717.5+3745",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "Williams, Sebesta & Liesenborgs (2018)",
+  "after": "Williams, Sebesta & Liesenborgs (2018)"
  },
  {
   "cluster": "MACS J0717.5+3745",
@@ -1901,6 +1985,13 @@
   "kind": "boilerplate-dropped",
   "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
   "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs1311/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1322.8+3138",
+  "kind": "designation-dropped",
+  "detail": "malformed duplicate of GHO 1320+3155 (does not resolve in SIMBAD or NED)",
+  "before": "GHO132029+3155",
   "after": null
  },
  {
@@ -2205,6 +2296,13 @@
   "after": null
  },
  {
+  "cluster": "SMACS J0723.3-7327",
+  "kind": "image-fixed",
+  "detail": "Wikimedia now rejects non-standard thumbnail widths (HTTP 400 for 587px); switched to the standard 960px width",
+  "before": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/587px-Webb%27s_First_Deep_Field.jpg",
+  "after": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/960px-Webb%27s_First_Deep_Field.jpg"
+ },
+ {
   "cluster": "SMACS J2031.8-4036",
   "kind": "title",
   "detail": "section title",
@@ -2238,6 +2336,13 @@
   "detail": "muse-lensing section 'Richard et al. (2021)'",
   "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/SMACS2131/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
   "after": null
+ },
+ {
+  "cluster": "SMACS J2332.4-5358",
+  "kind": "designation-fixed",
+  "detail": "truncated latitude; SIMBAD lists PSZ2 G325.99-59.48 for this cluster",
+  "before": "PSZ2 G325.99-59.4",
+  "after": "PSZ2 G325.99-59.48"
  },
  {
   "cluster": "SMACS J2332.4-5358",
@@ -3731,6 +3836,13 @@
   "after": "Finner et al. (2025)"
  },
  {
+  "cluster": "ZwCl 0847.2+3617",
+  "kind": "designation-fixed",
+  "detail": "'PLANCK 0631' resolves nowhere; NED resolves PSZ1 0631 to ZwCl 0847.2+3617",
+  "before": "PLANCK 0631",
+  "after": "PSZ1 0631"
+ },
+ {
   "cluster": "Abell 2744",
   "kind": "program-added",
   "detail": "BUFFALO targets the six HFF clusters",
@@ -3764,6 +3876,34 @@
   "detail": "BUFFALO targets the six HFF clusters",
   "before": null,
   "after": "buffalo"
+ },
+ {
+  "cluster": "RXC J0018.5+1626",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXCJ0018+1626 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0025.4-1222",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0025-1222 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "RXC J0032.1+1808",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXCJ0032+1808 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0035.4-2015",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0035-2015 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
  },
  {
   "cluster": "Abell 68",

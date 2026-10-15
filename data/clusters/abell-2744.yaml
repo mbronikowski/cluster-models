@@ -13,7 +13,7 @@ z: 0.306
 programs: [hff, buffalo, glass-jwst, uncover, muse-lensing]
 
 image:
-  url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Swimming_in_Sculptor.jpg/626px-Swimming_in_Sculptor.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Swimming_in_Sculptor.jpg/960px-Swimming_in_Sculptor.jpg
   credit: |-
     Image sourced from
     [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Swimming_in_Sculptor.jpg).

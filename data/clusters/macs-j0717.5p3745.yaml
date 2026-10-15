@@ -4,7 +4,6 @@ name: MACS J0717.5+3745
 designations:
   - CDGS 34
   - MCXC J0717.5+3745
-  - PLCKESZ G056.80+36.30
 ra: "07:17:30.93"
 dec: "+37:45:29.7"
 z: 0.545
@@ -14,7 +13,7 @@ models:
   - title: Williams, Sebesta & Liesenborgs (2018)
     refs: [2018MNRAS.480.3140W]
     data: [HST]
-    availability: public
+    availability: unknown
     note: |-
       [Williams, Sebesta & Liesenborgs (2018)](ref:2018MNRAS.480.3140W) modeled the
       gravitational lensing properties of the cluster and compared their findings to the

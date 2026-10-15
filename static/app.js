@@ -295,5 +295,9 @@
   });
 
   loadState();
+  const filters = $("filters");
+  const anyFilter = ["zmin", "zmax", "program", "cat", "pub", "jw", "tr"].some((k) =>
+    fields[k].type === "checkbox" ? fields[k].checked : fields[k].value !== "");
+  if (anyFilter || window.matchMedia("(min-width: 720px)").matches) filters.open = true;
   apply();
 })();

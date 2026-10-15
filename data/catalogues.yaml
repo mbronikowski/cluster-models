@@ -17,6 +17,9 @@
 #               (or `l`/`b`) carry the encoded position.
 #               frame: icrs (J2000 sexagesimal digits), fk4 (B1950 digits),
 #               icrs-deg (decimal degrees), galactic, none (no position).
+#               dec3: how a 3-digit declination is read: tenths-of-degree
+#               (default, e.g. MAXI J1615-058 = -5.8 deg) or tens-of-arcmin
+#               (Arp & Madore: AM 0011-303 = -30 deg 30').
 #
 # Notes on equivalences
 #   * Abell and ACO are the same numbering: Abell (1958) clusters 1-2712 keep
@@ -27,6 +30,14 @@
 #     as "MCS").  RXC and MCXC are different catalogues whose designations
 #     often coincide.  PSZ1, PSZ2, PLCKESZ, PSZRX and the generic "PLCK G"
 #     names are different Planck-based catalogues/conventions.
+
+- id: asca-axg
+  label: 1AXG
+  name: ASCA Medium Sensitivity Survey (GIS) source designation
+  type: source
+  tolerance: 3
+  patterns:
+    - {regex: '^1AXG J(?P<ra>\d{6})(?P<dec>[+-]\d{4})$', frame: icrs, example: 1AXG J044311+0210}
 
 - id: abell
   label: Abell
@@ -61,7 +72,7 @@
   ref: Arp & Madore (1987)
   tolerance: 3
   patterns:
-    - {regex: '^AM (?P<ra>\d{4})(?P<dec>[+-]\d{3})$', frame: fk4, example: AM 0011-303}
+    - {regex: '^AM (?P<ra>\d{4})(?P<dec>[+-]\d{3})$', frame: fk4, dec3: tens-of-arcmin, example: AM 0011-303}
 
 - id: apmcc
   label: APMCC
@@ -103,6 +114,15 @@
   patterns:
     - {regex: '^(?:CL|Cl) J(?P<ra>\d{4}(?:\.\d)?)(?P<dec>[+-]\d{4})$', frame: icrs, example: CL J1226.9+3332}
     - {regex: '^(?:CL|Cl|ClG) (?P<ra>\d{4}(?:\.\d)?)(?P<dec>[+-]\d{2}(?:\d{2})?)$', frame: fk4, example: CL 0024+1654}
+
+- id: ciza
+  label: CIZA
+  name: Clusters In the Zone of Avoidance (ROSAT)
+  type: xray
+  ref: Ebeling, Mullis & Tully (2002)
+  tolerance: 3
+  patterns:
+    - {regex: '^CIZA J(?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: CIZA J0142.9+4438}
 
 - id: codex
   label: CODEX
@@ -317,6 +337,15 @@
   patterns:
     - {regex: '^PSZSPT J(?P<ra>\d{4})(?P<dec>[+-]\d{4})$', frame: icrs, example: PSZSPT J0356-5337}
 
+- id: rosat-400d
+  label: 400d
+  name: 400 square degree ROSAT PSPC galaxy cluster survey
+  type: xray
+  ref: Burenin et al. (2007)
+  tolerance: 3
+  patterns:
+    - {regex: '^400d J(?P<ra>\d{4})(?P<dec>[+-]\d{4})$', frame: icrs, example: 400d J1226+3332}
+
 - id: rbs
   label: RBS
   name: ROSAT Bright Survey
@@ -357,7 +386,7 @@
   label: RX
   name: Generic ROSAT designation (RX J)
   type: xray
-  tolerance: 3
+  tolerance: 5
   patterns:
     - {regex: '^RX J(?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: RX J1347.5-1145}
 
@@ -513,7 +542,7 @@
   name: Zwicky clusters (CGCG; B1950 positional ZwCl names and running numbers)
   type: optical
   ref: Zwicky et al. (1961-1968)
-  tolerance: 5
+  tolerance: 10
   patterns:
     - {regex: '^ZwCl (?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: fk4, example: ZwCl 0847.2+3617}
     - {regex: '^Zwicky [1-9]\d{0,3}$', frame: none, example: Zwicky 1953}

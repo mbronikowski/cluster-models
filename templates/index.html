@@ -6,7 +6,7 @@
 {% block main %}
 <section class="intro wrap">
   <h1>{{ cfg.tagline }}</h1>
-  <p class="lede">A curated index of published lens models for {{ stats.clusters }} galaxy clusters, with the programs that observed them and the lensed transients found behind them. Find a cluster by any of its names, or search around a position.</p>
+  <p class="lede">Published lens models for {{ stats.clusters }} clusters, the programs that observed them, and the transients lensed behind them.</p>
 </section>
 
 <section class="finder wrap" aria-label="Search and filters">
@@ -22,42 +22,47 @@
         <input id="r" name="r" type="number" inputmode="decimal" min="0.1" step="any" value="10">
       </div>
     </div>
-    <p class="search-hint" id="q-hint">Coordinates (J2000, sexagesimal or decimal degrees) start a cone search with this radius.</p>
-    <div class="filter-row">
-      <div class="field field-z">
-        <span class="field-label" id="z-label">Redshift</span>
-        <span class="zrange" role="group" aria-labelledby="z-label">
-          <input id="zmin" name="zmin" type="number" inputmode="decimal" min="0" step="any" placeholder="min" aria-label="Minimum redshift">
-          <span aria-hidden="true">to</span>
-          <input id="zmax" name="zmax" type="number" inputmode="decimal" min="0" step="any" placeholder="max" aria-label="Maximum redshift">
-        </span>
-      </div>
-      <div class="field">
-        <label for="program">Program</label>
-        <select id="program" name="program">
-          <option value="">Any program</option>
-          {% for p in programs_sorted if p.kind == 'survey' and p.members %}
-          <option value="{{ p.id }}">{{ p.short }} ({{ p.members | length }})</option>
-          {% endfor %}
-        </select>
-      </div>
-      <div class="field">
-        <label for="cat">Designation in</label>
-        <select id="cat" name="cat">
-          <option value="">Any catalogue</option>
-          {% for cat in catalogues | sort(attribute='label') if cat.type in ('sz', 'xray', 'optical', 'lens') %}
-          <option value="{{ cat.id }}">{{ cat.label }}</option>
-          {% endfor %}
-        </select>
-      </div>
-      <fieldset class="checks">
-        <legend class="visually-hidden">Model and source filters</legend>
-        <label><input type="checkbox" id="pub" name="pub"> Public model</label>
-        <label><input type="checkbox" id="jw" name="jw"> JWST-based model</label>
-        <label><input type="checkbox" id="tr" name="tr"> Lensed transient</label>
-      </fieldset>
-      <button type="reset" id="reset" class="button-quiet">Clear</button>
+    <div class="hint-row">
+      <p class="search-hint" id="q-hint">Coordinates (J2000, sexagesimal or decimal degrees) start a cone search with this radius.</p>
+      <button type="reset" id="reset" class="button-quiet">Clear all</button>
     </div>
+    <details class="filters" id="filters">
+      <summary>Filters</summary>
+      <div class="filter-row">
+        <div class="field field-z">
+          <span class="field-label" id="z-label">Redshift</span>
+          <span class="zrange" role="group" aria-labelledby="z-label">
+            <input id="zmin" name="zmin" type="number" inputmode="decimal" min="0" step="any" placeholder="min" aria-label="Minimum redshift">
+            <span aria-hidden="true">to</span>
+            <input id="zmax" name="zmax" type="number" inputmode="decimal" min="0" step="any" placeholder="max" aria-label="Maximum redshift">
+          </span>
+        </div>
+        <div class="field">
+          <label for="program">Program</label>
+          <select id="program" name="program">
+            <option value="">Any program</option>
+            {% for p in programs_sorted if p.kind == 'survey' and p.members %}
+            <option value="{{ p.id }}">{{ p.short }} ({{ p.members | length }})</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="field">
+          <label for="cat">Designation in</label>
+          <select id="cat" name="cat">
+            <option value="">Any catalogue</option>
+            {% for cat in catalogues | sort(attribute='label') if cat.type in ('sz', 'xray', 'optical', 'lens') %}
+            <option value="{{ cat.id }}">{{ cat.label }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <fieldset class="checks">
+          <legend class="visually-hidden">Model and source filters</legend>
+          <label><input type="checkbox" id="pub" name="pub"> Public model</label>
+          <label><input type="checkbox" id="jw" name="jw"> JWST-based model</label>
+          <label><input type="checkbox" id="tr" name="tr"> Lensed transient</label>
+        </fieldset>
+      </div>
+    </details>
   </form>
 </section>
 
@@ -68,7 +73,7 @@
         <path class="sky-bg" d="{{ map.outline }}"/>
         {% for d in map.grid %}<path class="sky-grid" d="{{ d }}"/>{% endfor %}
         {% for d in map.galactic %}<path class="sky-gal" d="{{ d }}"/>{% endfor %}
-        <text class="sky-gal-label" x="{{ map.galactic_label.x }}" y="{{ map.galactic_label.y - 8 }}">Galactic plane</text>
+        <text class="sky-gal-label" x="{{ map.galactic_label.x + 14 }}" y="{{ map.galactic_label.y }}">Galactic plane</text>
         {% for l in map.ra_labels %}<text class="sky-label" x="{{ l.x }}" y="{{ l.y + 15 }}" text-anchor="middle">{{ l.text }}</text>{% endfor %}
         {% for l in map.dec_labels %}<text class="sky-label" x="{{ l.x - 6 }}" y="{{ l.y + 4 }}" text-anchor="end">{{ l.text }}</text>{% endfor %}
         <g id="sky-cone"></g>

@@ -11,7 +11,7 @@ z: 0.4
 programs: [clash, hff, buffalo, canucs, venus, muse-lensing]
 
 image:
-  url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg/624px-Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg/960px-Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg
   credit: |-
     Image sourced from
     [Wikimedia](https://commons.wikimedia.org/wiki/File:Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg),

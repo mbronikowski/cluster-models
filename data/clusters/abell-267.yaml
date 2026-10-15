@@ -2,13 +2,12 @@
 
 name: Abell 267
 designations:
-  - ZwCl 0151.5+0052
   - SDSS CE J028.239771+01.055582
   - SCL 034 NED03
   - RX J0152.7+0100
 ra: "01:52:52.20"
 dec: "+01:02:46.00"
-z: 0.0596
+z: 0.23
 
 models:
   - title: Smith et al. (2005)

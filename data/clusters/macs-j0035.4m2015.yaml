@@ -9,7 +9,7 @@ designations:
 ra: "00:35:26.16"
 dec: "-20:15:44.3"
 z: 0.352
-programs: [relics]
+programs: [relics, venus]
 
 models:
   - title: Somma et al. (2025)
