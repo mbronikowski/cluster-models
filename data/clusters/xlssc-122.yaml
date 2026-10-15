@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: XLSSC 122
+designations:
+  - ACT-CL J0217.7-0345
+  - 3XLSS J021744.0-034531
+  - XLSSU J021744.1-034536
+ra: "02:17:44.10"
+dec: "-03:46:11.00"
+z: 1.98
+
+models:
+  - title: Finner et al. (2025)
+    refs: [2025ApJ...994L..35F]
+    data: [JWST]
+    availability: unknown
+    note: The cluster was modeled by [Finner et al. (2025)](ref:2025ApJ...994L..35F).

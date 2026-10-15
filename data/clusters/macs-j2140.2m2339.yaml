@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J2140.2-2339
+aka: [MS 2137-2353, MS 2137.3-2353]
+designations:
+  - ACT-CL J2140.2-2339
+  - MCXC J2140.2-2339
+ra: "21:40:15.10"
+dec: "-23:39:40.00"
+z: 0.313
+programs: [clash, venus]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/ms2137/models/

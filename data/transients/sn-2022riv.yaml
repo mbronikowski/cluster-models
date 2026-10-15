@@ -1,0 +1,8 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN 2022riv
+class: supernova
+status: confirmed
+cluster: macs-j2129.4m0741
+refs: [2022TNSAN.169....1K]
+notes: Multiply-imaged supernova reported in a TNS AstroNote.

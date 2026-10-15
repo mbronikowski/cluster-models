@@ -1,0 +1,25 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0025.4-1222
+designations:
+  - CDGS 37
+  - ACT-CL J0025.4-1222
+  - MCXC J0025.4-1222
+ra: "00:25:29.38"
+dec: "-12:22:37.1"
+z: 0.584
+programs: [relics]
+
+models:
+  - title: 'RELICS: Cibirka et al. (2018)'
+    program: relics
+    refs: [2018ApJ...863..145C]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/macs0025m12/models/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

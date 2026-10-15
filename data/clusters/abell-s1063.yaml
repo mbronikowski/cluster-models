@@ -1,0 +1,88 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell S1063
+aka: [RXC J2248.7-4431]
+designations:
+  - SPT-CL J2248-4431
+  - MCXC J2248.7-4431
+  - RBS 1898
+  - PSZ1 G349.46-59.92
+ra: "22:48:45.76"
+dec: "-44:31:36.8"
+z: 0.37
+programs: [clash, hff, buffalo, venus, muse-lensing]
+
+models:
+  - title: Beauchesne et al. (2026)
+    refs: [2026MNRAS.550ag829B]
+    availability: unknown
+    tags: [multiple-models]
+    note: |-
+      [Beauchesne et al. (2026)](ref:2026MNRAS.550ag829B) present multiple lens models for
+      the cluster.
+  - title: Beauchesne et al. (2024)
+    refs: [2024MNRAS.527.3246B]
+    data: [MUSE]
+    availability: public
+    note: |-
+      Model by [Beauchesne et al. (2024)](ref:2024MNRAS.527.3246B). Model available for
+      download on Github [here](https://github.com/njzifjoiez/AS1063-model-Beauchesne-2023).
+      The authors also publish a new analysis of the MUSE data cube on
+      [Johan Richard's page](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).
+  - title: Limousin et al. (2022)
+    refs: [2022A&A...664A..90L]
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      [Limousin et al. (2022)](ref:2022A&A...664A..90L) developed a parametric model, which
+      revisits the [Bergamini et al. (2019)](#bergamini-et-al-2019) model.
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/AS1063/
+    note: Pre-_JWST_ model.
+  - title: Bergamini et al. (2019)
+    refs: [2019A&A...631A.130B]
+    data: [HST, MUSE]
+    availability: public
+    note: |-
+      Model by [Bergamini et al. (2019)](ref:2019A&A...631A.130B), using _HST_ and VLT/MUSE
+      data. Model available for download
+      [here](https://www.fe.infn.it/astro/lensing/RXJ2248_Bergamini19/); see also model list
+      and information [here](https://www.fe.infn.it/astro/lensing/).
+  - title: Bonamigo et al. (2018)
+    refs: [2018ApJ...864...98B]
+    availability: public
+    note: |-
+      Model by [Bonamigo et al. (2018)](ref:2018ApJ...864...98B). Model available for
+      download [here](https://www.fe.infn.it/astro/lensing/RXJ2248_Bonamigo18/); see also
+      model list and information [here](https://www.fe.infn.it/astro/lensing/).
+  - title: Caminha et al. (2016)
+    refs: [2016A&A...587A..80C]
+    availability: public
+    note: |-
+      Model by [Caminha et al. (2016)](ref:2016A&A...587A..80C). Model available for
+      download [here](https://www.fe.infn.it/astro/lensing/A1063_Caminha/); see also model
+      list and information [here](https://www.fe.infn.it/astro/lensing/).
+  - title: Hubble Frontier Fields
+    program: hff
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models from all HFF teams (MAST)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abells1063/models/
+    note: |-
+      Models from several independent teams; see the [HFF program page](program:hff) for
+      credits and acknowledgement requirements.
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/rxj2248/models/

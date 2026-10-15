@@ -1,0 +1,15 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: WH J040011.7-270711
+ra: "04:00:11.73"
+dec: "-27:07:10.52"
+z: 0.6495
+
+models:
+  - title: Bazzanini et al. (2025)
+    refs: [2025A&A...698A..29B]
+    availability: unknown
+    tags: [preliminary]
+    note: |-
+      [Bazzanini et al. (2025)](ref:2025A&A...698A..29B) constructed a preliminary model of
+      the cluster, as part of their investigation of the candidate multiply-imaged AGN.

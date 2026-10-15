@@ -1,0 +1,25 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: RXC J0018.5+1626
+aka: [MACS J0018.5+1626]
+designations:
+  - WHL J001833.6+162616
+  - ACT-CL J0018.5+1626
+  - MCXC J0018.5+1626
+ra: "00:18:33.84"
+dec: "+16:26:16.6"
+z: 0.547
+programs: [relics]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/rxc0018p16/models/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

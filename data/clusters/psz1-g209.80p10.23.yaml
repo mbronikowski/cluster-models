@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: PSZ1 G209.80+10.23
+designations:
+  - PLCK G209.79+10.23
+  - PSZ1 0690
+ra: "07:22:25.80"
+dec: "+07:23:44.1"
+z: 0.678
+programs: [relics]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/plckg209p10/models/

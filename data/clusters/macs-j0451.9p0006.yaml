@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0451.9+0006
+designations:
+  - WHL J045154.0+000618
+  - ACT-CL J0451.9+0006
+  - RX J0451.9+0006
+ra: "04:51:54.03"
+dec: "+00:06:18.1"
+z: 0.43
+programs: [venus, muse-lensing]
+
+models:
+  - title: Thai et al. (2023)
+    program: muse-lensing
+    refs: [2023A&A...678A.139T]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0451/

@@ -1,0 +1,26 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: PSZ1 G311.65-18.48
+common_names: [PSZ1-G311]
+designations:
+  - PSZ1 1092
+ra: "15:50:13.27"
+dec: "-78:12:02.052"
+z: 0.443
+
+models:
+  - title: Sharon et al. (2022)
+    refs: [2022ApJ...941..203S]
+    availability: unknown
+    note: |-
+      [Sharon et al. (2022)](ref:2022ApJ...941..203S) presented a strong lensing model of
+      the galaxy cluster.
+  - title: Pignatoro et al. (2021)
+    refs: [2021A&A...655A..81P]
+    availability: unknown
+    note: |-
+      [Pignatoro et al. (2021)](ref:2021A&A...655A..81P) presented a strong lensing model of
+      the galaxy cluster.
+
+notes: |-
+  The galaxy cluster lenses the [Sunburst Arc](https://esahubble.org/images/heic1920a/).

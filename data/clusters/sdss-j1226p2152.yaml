@@ -1,0 +1,44 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1226+2152
+aka: [SDSS J1226+2149]
+designations:
+  - WHL J122651.1+214952
+  - PSZ2 G254.92+82.31
+  - PSZ2 1173
+ra: "12:26:51.74"
+dec: "+21:52:25.57"
+z: 0.43
+programs: [templates]
+
+models:
+  - title: Sharon et al. (2022)
+    program: templates
+    refs: [2022arXiv220705709S]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens model (MAST TEMPLATES page)
+        url: https://archive.stsci.edu/hlsp/templates
+    note: |-
+      Model of the northern core, prepared for the [TEMPLATES](program:templates) program.
+  - title: Tejos et al. (2021)
+    program: templates
+    refs: [2021MNRAS.507..663T]
+    availability: public
+    links:
+      - label: Lens model (MAST TEMPLATES page)
+        url: https://archive.stsci.edu/hlsp/templates
+    note: Model of the northern core.
+  - title: Oguri et al. (2012)
+    refs: [2012MNRAS.420.3213O]
+    availability: unknown
+    note: |-
+      The cluster's southern field lensing properties were studied by
+      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).
+
+notes: |-
+  This field includes two separate cluster cores about 2.5' apart, both of which act as
+  strong lenses (see e.g. [Oguri et al. 2012](ref:2012MNRAS.420.3213O)): the northern core
+  (SDSS J1226+2152, this entry's position) and the southern core (SDSS J1226+2149).
+ignore_position_check: [SDSS J1226+2149]

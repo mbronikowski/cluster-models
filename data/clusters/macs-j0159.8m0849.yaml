@@ -1,0 +1,22 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0159.8-0849
+designations:
+  - CDGS 21
+  - WHL J015949.3-084959
+  - MCXC J0159.8-0850
+  - PSZRX G167.59-65.58
+ra: "01:59:49.33"
+dec: "-08:49:58.9"
+z: 0.405
+programs: [relics, venus]
+
+models:
+  - title: 'RELICS: Cibirka et al. (2018)'
+    program: relics
+    refs: [2018ApJ...863..145C]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/macs0159m08/models/

@@ -1,0 +1,73 @@
+# Controlled vocabularies. Values used in data files must be listed here; add a
+# new entry (with a one-line description) when you need one.
+
+availability:
+  public: Model files can be downloaded.
+  on-request: The authors share the model on request.
+  upcoming: Release announced but not yet available.
+  defunct: Was published, but the download link no longer works.
+  unavailable: Explicitly not released.
+  unknown: Availability not stated.
+
+status:
+  current: Default.
+  superseded: Replaced by a newer model (optionally give `superseded_by`).
+
+data:
+  JWST: James Webb Space Telescope imaging and/or spectroscopy
+  HST: Hubble Space Telescope imaging
+  MUSE: VLT/MUSE integral-field spectroscopy
+  Euclid: Euclid imaging
+  ALMA: Atacama Large Millimeter/submillimeter Array
+  Gemini: Gemini imaging or spectroscopy
+  Keck: Keck spectroscopy
+  ground: Other ground-based data
+
+software:
+  GRALE: Free-form genetic-algorithm lens inversion
+  Lenstool: Parametric (Bayesian) lens modelling
+  glafic: Parametric lens modelling
+  LTM: Light-traces-mass modelling (Zitrin et al.)
+  WSLAP+: Hybrid free-form modelling (Diego et al.)
+  GLEE: Parametric lens modelling
+  MARS: Free-form lens modelling
+  lenstronomy: Lens modelling package
+  other: Other or custom code (say which in the note)
+
+tags:
+  free-form: Free-form (non-parametric) reconstruction.
+  parametric: Parametric model.
+  hybrid: Hybrid parametric/free-form model.
+  weak-lensing: Includes weak-lensing constraints.
+  time-delay-cosmography: Used for time-delay cosmography (H0).
+  preliminary: Preliminary, tentative or poorly constrained model.
+  method-test: The cluster is a test case for a new method.
+  multiple-models: Several alternative models are presented.
+
+transient_class:
+  supernova: Supernova
+  quasar: Quasar or AGN
+  star: Highly magnified individual star (caustic transit)
+  other: Other transient or variable source
+
+transient_status:
+  confirmed: Confirmed multiply-imaged/lensed source
+  candidate: Candidate
+
+program_kind:
+  survey: Observing program or survey
+  database: Model archive or database
+  other: Other resource
+
+facility:
+  JWST: James Webb Space Telescope
+  HST: Hubble Space Telescope
+  VLT: ESO Very Large Telescope
+  ALMA: Atacama Large Millimeter/submillimeter Array
+  Euclid: Euclid
+  Chandra: Chandra X-ray Observatory
+  XMM: XMM-Newton
+  Keck: W. M. Keck Observatory
+  Gemini: Gemini Observatory
+  Subaru: Subaru Telescope
+  other: Other facility

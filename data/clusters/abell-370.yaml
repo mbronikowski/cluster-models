@@ -1,0 +1,93 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 370
+designations:
+  - NSCS J023955-013321
+  - ZwCl 0237.2-0146
+  - WHL J023953.1-013456
+  - ACT-CL J0239-0134
+ra: "02:39:53.12"
+dec: "-01:34:56.0"
+z: 0.375
+programs: [hff, buffalo, canucs, venus, muse-lensing]
+
+image:
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg/727px-Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg
+  credit: |-
+    Image from
+    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gravitational_lensing_in_the_galaxy_cluster_Abell_370_(captured_by_the_Hubble_Space_Telescope).jpg),
+    which sourced from
+    [spacetelescope.org](http://www.spacetelescope.org/images/heic0910b/); Credit to NASA,
+    ESA, the Hubble SM4 ERO Team and ST-ECF.
+
+models:
+  - title: Diego et al. (2025)
+    refs: [2025arXiv250611207D]
+    data: [JWST]
+    availability: unknown
+    note: |-
+      [Diego et al. (2025)](ref:2025arXiv250611207D) present a strong lensing mass model of
+      the galaxy cluster.
+  - title: 'CANUCS: Gledhill et al. (2024)'
+    program: canucs
+    refs: [2024ApJ...973...77G]
+    data: [JWST]
+    availability: public
+    links:
+      - label: CANUCS DR1 lens models
+        url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
+  - title: Niemiec et al. (2023)
+    program: buffalo
+    refs: [2023MNRAS.524.2883N]
+    data: [HST]
+    availability: public
+    tags: [weak-lensing]
+    links:
+      - label: Download script for all model types (MAST)
+        url: https://archive.stsci.edu/hlsps/buffalo/download_scripts/hlsp_buffalo_hst_multi_abell370_multi_v1.0_catalogs-download.sh
+    note: |-
+      Strong+weak-lensing model based on [BUFFALO](program:buffalo) observations. Scripts
+      for individual model types are also available on the BUFFALO MAST page.
+  - title: Ghosh et al. (2021)
+    refs: [2021MNRAS.506.6144G]
+    software: GRALE
+    availability: on-request
+    tags: [free-form]
+    note: |-
+      [Ghosh et al. (2021)](ref:2021MNRAS.506.6144G) constructed a free-form lens model
+      using GRALE. The data products associated with this article will be shared on
+      reasonable request to the corresponding authors.
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A370/
+    note: Pre-_JWST_ model.
+  - title: Lagattuta et al. (2017)
+    refs: [2017MNRAS.469.3946L]
+    data: [HST, MUSE]
+    availability: unknown
+    note: |-
+      The cluster was modeled using MUSE and HST data by
+      [Lagattuta et al. (2017)](ref:2017MNRAS.469.3946L).
+  - title: Hubble Frontier Fields
+    program: hff
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models from all HFF teams (MAST)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell370/models/
+    note: |-
+      Models from several independent teams; see the [HFF program page](program:hff) for
+      credits and acknowledgement requirements.
+  - title: Richard et al. (2010)
+    refs: [2010MNRAS.402L..44R]
+    software: Lenstool
+    availability: public
+    note: |-
+      The cluster was studied by [Richard et al. (2010)](ref:2010MNRAS.402L..44R). The lens
+      model is available for download on the
+      [Lenstool website](https://projets.lam.fr/projects/lenstool/wiki).

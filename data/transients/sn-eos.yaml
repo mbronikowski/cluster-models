@@ -1,0 +1,13 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Eos
+class: supernova
+subclass: II
+status: confirmed
+cluster: macs-j1931.8m2635
+z: 5.13
+refs: [2026arXiv260104156C, 2026ApJ..1005..215A]
+notes: |-
+  Spectroscopically confirmed, multiply-imaged supernova at z = 5.13 ([Coulter et al.
+  2026](ref:2026arXiv260104156C)); the VENUS lens model of
+  [Allingham et al. (2026)](ref:2026ApJ..1005..215A) accompanies the discovery.

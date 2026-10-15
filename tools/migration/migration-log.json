@@ -1,0 +1,4174 @@
+[
+ {
+  "cluster": "1E 0657-56",
+  "kind": "data-added",
+  "detail": "JWST (arXiv title: Joint JWST-DECam Lensing ...)",
+  "before": null,
+  "after": "Cho et al. (2025)"
+ },
+ {
+  "cluster": "1E 0657-56",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "1E 0657-56",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/BULLET/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "1RXS J060313.4+421231",
+  "kind": "common-name-added",
+  "detail": "well-established nickname added",
+  "before": null,
+  "after": "Toothbrush Cluster"
+ },
+ {
+  "cluster": "1RXS J060313.4+421231",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "1RXS J060313.4+421231",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "1RXS J060313.4+421231",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "1RXS J060313.4+421231",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The lens model is in two parts: [north](https://archive.stsci.edu/hlsps/relics/rxs0603p42-n/models/), [south](https://archive.stsci.edu/hlsps/relics/rxs0603p42-s/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 68",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "Abell 209",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 209",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/a209/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "title",
+  "detail": "section title",
+  "before": "CAnadian NIRISS Unbiased Cluster Survey (CANUCS)",
+  "after": "CANUCS: Gledhill et al. (2024)"
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Lagatutta et al. (2017)",
+  "after": "Lagattuta et al. (2017)"
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "data-added",
+  "detail": "JWST (arXiv title: JWST lens model for A370)",
+  "before": null,
+  "after": "Diego et al. (2025)"
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "The cluster was studied as part of the CAnadian NIRISS Unbiased Cluster Survey (CANUCS) program.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program overview & webpage [here](https://niriss.github.io/index.html).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Data Release 1 [here](https://niriss.github.io/data_release1.html); lens models [here](https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program MAST webpage [here](https://archive.stsci.edu/hlsp/canucs).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Model overview for Abell 370 by [Gledhill et al. (2024)](ref:2024ApJ...973...77G).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "Niemiec et al. (2023)",
+  "after": "Niemiec et al. (2023)"
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This pre-_JWST_ model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": "Pre-_JWST_ model."
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A370/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "text-fix",
+  "detail": "author name typo (Lagattuta)",
+  "before": "Lagatutta et al.",
+  "after": "Lagattuta et al."
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "The cluster was observed as part of the [Hubble Frontier Fields](https://outerspace.stsci.edu/display/HPR/HST+Frontier+Fields) program.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "Program data products available [here](https://archive.stsci.edu/prepds/frontier/); models available [here](https://archive.stsci.edu/pub/hlsp/frontier/abell370/models/); acknowledgement information [here](https://archive.stsci.edu/prepds/frontier/lensmodels/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "text-fix",
+  "detail": "first author is Wenlei Chen; 'Wenlei' is the given name",
+  "before": "[Wenlei et al. (2022)]",
+  "after": "[Chen et al. (2022)]"
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "An archival multiply-imaged supernova in _Hubble Space Telescope_ images lensed by Abell 370 was described by [Chen et al. (2022)](ref:2022Natur.611..256C).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 383",
+  "kind": "title",
+  "detail": "section title",
+  "before": "VENUS",
+  "after": "VENUS: Golubchik et al. (2026)"
+ },
+ {
+  "cluster": "Abell 383",
+  "kind": "title",
+  "detail": "section title",
+  "before": "LoCuSS",
+  "after": "LoCuSS: Richard et al. (2010)"
+ },
+ {
+  "cluster": "Abell 383",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "VENUS",
+  "after": "VENUS: Golubchik et al. (2026)"
+ },
+ {
+  "cluster": "Abell 383",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 383",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/a383/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 383",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 383",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model description by [Richard et al. (2010)](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 383",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 521",
+  "kind": "title",
+  "detail": "section title",
+  "before": "MUSE/VLT",
+  "after": "MUSE data release"
+ },
+ {
+  "cluster": "Abell 521",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'MUSE/VLT'",
+  "before": "The cluster was modeled using MUSE/VLT data and published on [Johan Richard's page](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/) (mass model [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/RXCJ0454/)), but has not been described in a paper (as of August 2026).",
+  "after": "Not described in a paper as of August 2026."
+ },
+ {
+  "cluster": "Abell 521",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey (LoCuSS).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 521",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Model description](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 521",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 521",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model download available on the [Lenstool](https://projets.lam.fr/projects/lenstool/wiki) webpage.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 611",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 611",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/a611/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 611",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 611",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Model description](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 611",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 697",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Cibirka et al. (2018)"
+ },
+ {
+  "cluster": "Abell 697",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 697",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 697",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/abell697/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 697",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Cibirka et al. (2018)](ref:2018ApJ...863..145C).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 773",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey (LoCuSS).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 773",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Model description](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 773",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 773",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model download available on the [Lenstool](https://projets.lam.fr/projects/lenstool/wiki) webpage.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1423",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1423",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/a1423/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1689",
+  "kind": "title",
+  "detail": "section title",
+  "before": "LoCuSS",
+  "after": "LoCuSS: Richard et al. (2010)"
+ },
+ {
+  "cluster": "Abell 1689",
+  "kind": "text-fix",
+  "detail": "cluster number typo",
+  "before": "solution for Abell 1869",
+  "after": "solution for Abell 1689"
+ },
+ {
+  "cluster": "Abell 1689",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1689",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model description by [Richard et al. (2010)](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1689",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1722",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Zitrin 2017",
+  "after": "Zitrin (2017)"
+ },
+ {
+  "cluster": "Abell 1758a",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "Abell 1758a",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1758a",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1758a",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/abell1758/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1763",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "Abell 1763",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1763",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1763",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/abell1763/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1835",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey (LoCuSS).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1835",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Model description](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1835",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 1835",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model download available on the [Lenstool](https://projets.lam.fr/projects/lenstool/wiki) webpage.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2163",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Cerny et al. (2018)"
+ },
+ {
+  "cluster": "Abell 2163",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2163",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2163",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/abell2163/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2163",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Cerny et al. (2018)](ref:2018ApJ...859..159C).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2204",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey (LoCuSS).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2204",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Model description](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2204",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2204",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model download available on the [Lenstool](https://projets.lam.fr/projects/lenstool/wiki) webpage.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2218",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey (LoCuSS).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2218",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Model description](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2218",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2218",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model download available on the [Lenstool](https://projets.lam.fr/projects/lenstool/wiki) webpage.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2219",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey (LoCuSS).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2219",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Model description](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2219",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2219",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model download available on the [Lenstool](https://projets.lam.fr/projects/lenstool/wiki) webpage.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2261",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2261",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/a2261/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2390",
+  "kind": "title",
+  "detail": "section title",
+  "before": "MUSE/VLT",
+  "after": "MUSE: Thai et al. (2023)"
+ },
+ {
+  "cluster": "Abell 2390",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'MUSE/VLT'",
+  "before": "The cluster was modeled using MUSE/VLT data and published on [Johan Richard's page](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/) (mass model [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2390/))",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2390",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'MUSE/VLT'",
+  "before": "Model reference: [Thai et al. (2023)](ref:2023A&A...678A.139T).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2390",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "The cluster was studied by the Local Cluster Substructure Survey (LoCuSS).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2390",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Model description](ref:2010MNRAS.404..325R).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2390",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "[Program website](https://www.sr.bham.ac.uk/locuss/home.php).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2390",
+  "kind": "boilerplate-dropped",
+  "detail": "locuss section 'LoCuSS'",
+  "before": "Model download available on the [Lenstool](https://projets.lam.fr/projects/lenstool/wiki) webpage.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2537",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Cerny et al. (2018)"
+ },
+ {
+  "cluster": "Abell 2537",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2537",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2537",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/abell2537/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2537",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Cerny et al. (2018)](ref:2018ApJ...859..159C).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2667",
+  "kind": "title",
+  "detail": "section title",
+  "before": "MUSE/VLT",
+  "after": "MUSE: Thai et al. (2023)"
+ },
+ {
+  "cluster": "Abell 2667",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'MUSE/VLT'",
+  "before": "The cluster was modeled using MUSE/VLT data and published on [Johan Richard's page](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/) (mass model [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2667/)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2667",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'MUSE/VLT'",
+  "before": "Model reference: [Thai et al. (2023)](ref:2023A&A...678A.139T).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "common-name-added",
+  "detail": "well-established nickname added",
+  "before": null,
+  "after": "Pandora's Cluster"
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "title",
+  "detail": "section title",
+  "before": "GLASS-JWST Program",
+  "after": "GLASS-JWST: Bergamini et al. (2023)"
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "title",
+  "detail": "section title",
+  "before": "JWST UNCOVER Program",
+  "after": "UNCOVER: Furtak et al. (2023)"
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "GLASS-JWST Program",
+  "after": "GLASS-JWST: Bergamini et al. (2023)"
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "JWST UNCOVER Program",
+  "after": "UNCOVER: Furtak et al. (2023)"
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "Bergamini et al. (2023)",
+  "after": "Bergamini et al. (2023)"
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This pre-_JWST_ model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": "Pre-_JWST_ model."
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2744/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "The cluster was observed as part of the [Hubble Frontier Fields](https://outerspace.stsci.edu/display/HPR/HST+Frontier+Fields) program.",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "Program data products available [here](https://archive.stsci.edu/prepds/frontier/); models available [here](https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/); acknowledgement information [here](https://archive.stsci.edu/prepds/frontier/lensmodels/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2813",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "Abell 2813",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2813",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 2813",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/abell2813/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 3192",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "Abell 3192",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 3192",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "Abell 3192",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/abell3192/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell S295",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Cibirka et al. (2018)"
+ },
+ {
+  "cluster": "Abell S295",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "Abell S295",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "Abell S295",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/abells295/models/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell S295",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Cibirka et al. (2018)](ref:2018ApJ...863..145C).",
+  "after": null
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "characters",
+  "detail": "Home other names: U+2212->'-' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "characters",
+  "detail": "page alternate names: U+2212->'-' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Bonamago et al. (2018)",
+  "after": "Bonamigo et al. (2018)"
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This pre-_JWST_ model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": "Pre-_JWST_ model."
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/AS1063/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "text-fix",
+  "detail": "author name typo (Bonamigo)",
+  "before": "Bonamago et al.",
+  "after": "Bonamigo et al."
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "The cluster was observed as part of the [Hubble Frontier Fields](https://outerspace.stsci.edu/display/HPR/HST+Frontier+Fields) program.",
+  "after": null
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "Program data products available [here](https://archive.stsci.edu/prepds/frontier/); models available [here](https://archive.stsci.edu/pub/hlsp/frontier/abells1063/models/); acknowledgement information [here](https://archive.stsci.edu/prepds/frontier/lensmodels/).",
+  "after": null
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/rxj2248/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "ACT-CL J0102-4915",
+  "kind": "title",
+  "detail": "section title",
+  "before": "JWST's PEARLS",
+  "after": "PEARLS: Diego et al. (2023)"
+ },
+ {
+  "cluster": "ACT-CL J0102-4915",
+  "kind": "title",
+  "detail": "section title",
+  "before": "RELICS",
+  "after": "RELICS: Diego et al. (2020)"
+ },
+ {
+  "cluster": "ACT-CL J0102-4915",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "JWST's PEARLS",
+  "after": "PEARLS: Diego et al. (2023)"
+ },
+ {
+  "cluster": "ACT-CL J0102-4915",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'RELICS'",
+  "before": "Models created as part of the Reionization Lensing Cluster Survey (RELICS) program ([program page](https://relics.stsci.edu/); [program MAST page](https://archive.stsci.edu/hlsp/relics)).",
+  "after": null
+ },
+ {
+  "cluster": "ACT-CL J0102-4915",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'RELICS'",
+  "before": "Models available for download [here](https://archive.stsci.edu/hlsps/relics/act0102m49/models/).",
+  "after": null
+ },
+ {
+  "cluster": "ACT-CL J0102-4915",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'RELICS'",
+  "before": "Publication: [Diego et al. (2020)](ref:2020ApJ...904..106D).",
+  "after": null
+ },
+ {
+  "cluster": "ACT-CL J0327.4-1326",
+  "kind": "value-choice",
+  "detail": "Dec sign missing on both Home and page; designations ACT-CL J0327.4-1326 and RCS2 J032727-132623 (and SIMBAD/NED) put the cluster at -13:26",
+  "before": "Home 13:26:23.65 / page 13:26:23.65",
+  "after": "-13:26:23.65"
+ },
+ {
+  "cluster": "ACT-CL J0327.4-1326",
+  "kind": "value-choice",
+  "detail": "Home 0.560 (ACT photometric estimate) vs page 0.564 (spectroscopic, SIMBAD)",
+  "before": "Home 0.560 / page 0.564",
+  "after": "0.564"
+ },
+ {
+  "cluster": "ACT-CL J0327.4-1326",
+  "kind": "designation-dropped",
+  "detail": "duplicate of RCS2 J032727-132623 (missing 'J')",
+  "before": "RCS2 032727-132623",
+  "after": null
+ },
+ {
+  "cluster": "ACT-CL J0327.4-1326",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "ACT‐CL J0603.9‐3557",
+  "kind": "characters",
+  "detail": "Home name: U+2010->'-' x2",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "ACT-CL J0603.9-3557",
+  "kind": "common-name-added",
+  "detail": "well-established nickname added",
+  "before": null,
+  "after": "Carousel Lens"
+ },
+ {
+  "cluster": "CL J1226.9+3332",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "CL J1226.9+3332",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/clj1226/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z).",
+  "after": null
+ },
+ {
+  "cluster": "COOL J0335-1927",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster is one of the few currently known clusters with multiple images of a background quasar (see [Napier et al. 2023](ref:2023ApJ...954L..38N)).",
+  "after": null
+ },
+ {
+  "cluster": "COOL J0542-2125",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster is one of the few currently known clusters with multiple images of a background quasar (see [Martinez et al. 2023](ref:2023ApJ...946...63M)).",
+  "after": null
+ },
+ {
+  "cluster": "eMACS J1341.9-2442",
+  "kind": "name",
+  "detail": "designation spacing normalised",
+  "before": "eMACSJ1341.9-2442",
+  "after": "eMACS J1341.9-2442"
+ },
+ {
+  "cluster": "MACS J0025.4-1222",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Cibirka et al. (2018)"
+ },
+ {
+  "cluster": "MACS J0025.4-1222",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0025.4-1222",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0025.4-1222",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/macs0025m12/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0025.4-1222",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Cibirka et al. (2018)](ref:2018ApJ...863..145C).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0027.8+2616",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "MACS J0035.4‐2015",
+  "kind": "characters",
+  "detail": "Home name: U+2010->'-' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "MACS J0035.4-2015",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "MACS J0035.4-2015",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0035.4-2015",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0035.4-2015",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/macs0035m20/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0035.4-2015",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "[Furtak et al. (2023)](ref:2023MNRAS.522.5142F) report a discovery of a triply-imaged AGN lensed by this cluster.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0138.0-2155",
+  "kind": "data-added",
+  "detail": "JWST (SN Encore time delays from JWST imaging)",
+  "before": null,
+  "after": "Suyu et al. (2025)"
+ },
+ {
+  "cluster": "MACS J0138.0-2155",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "Two multiply-imaged supernovae were found lensed by this cluster, likely both Type Ia SNe in the same galaxy MRG-M0138: \"SN Requiem\" [(Rodney et al., 2021)](ref:2021NatAs...5.1118R) and \"SN Encore\" [(Pierel et al. (2024)](ref:2024ApJ...967L..37P).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0159.8‐0849",
+  "kind": "characters",
+  "detail": "Home name: U+2010->'-' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "MACS J0159.8-0849",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Cibirka et al. (2018)"
+ },
+ {
+  "cluster": "MACS J0159.8-0849",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0159.8-0849",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0159.8-0849",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/macs0159m08/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0159.8-0849",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Cibirka et al. (2018)](ref:2018ApJ...863..145C).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0257.1-2325",
+  "kind": "title",
+  "detail": "section title",
+  "before": "VENUS",
+  "after": "VENUS: Nakane et al. (2025)"
+ },
+ {
+  "cluster": "MACS J0257.1-2325",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "MACS J0257.1-2325",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "VENUS",
+  "after": "VENUS: Nakane et al. (2025)"
+ },
+ {
+  "cluster": "MACS J0257.1-2325",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0257.1-2325",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0257.1-2325",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/macs0257m23/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0257.6-2209",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0257.6-2209",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0257/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0308.9+2645",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Acebron et al. (2018)"
+ },
+ {
+  "cluster": "MACS J0308.9+2645",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0308.9+2645",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0308.9+2645",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/macs0308p26/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0308.9+2645",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Acebron et al. (2018)](ref:2018ApJ...858...42A).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0329.6-0211",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0329.6-0211",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0329/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0329.6-0211",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0329.6-0211",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs0329/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0358.8-2955",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "title",
+  "detail": "section title",
+  "before": "CAnadian NIRISS Unbiased Cluster Survey (CANUCS)",
+  "after": "CANUCS: Rihtaršič et al. (2025)"
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "characters",
+  "detail": "model 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)': U+2010->'-' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "The cluster was studied as part of the CAnadian NIRISS Unbiased Cluster Survey (CANUCS) program.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program overview & webpage [here](https://niriss.github.io/index.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Data Release 1 [here](https://niriss.github.io/data_release1.html); lens models [here](https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program MAST webpage [here](https://archive.stsci.edu/hlsp/canucs).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Model overview for MACS J0416.1-2403 by [Rihtaršič et al. (2025)](ref:2025A&A...696A..15R).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This pre-_JWST_ model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": "Pre-_JWST_ model."
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0416/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "The cluster was observed as part of the Hubble Frontier Fields (HFF) program.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "Program website [here](https://outerspace.stsci.edu/display/HPR/HST+Frontier+Fields), MAST webpage [here](https://archive.stsci.edu/prepds/frontier/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "Models available [here](https://archive.stsci.edu/pub/hlsp/frontier/macs0416/models/), acknowledgement information [here](https://archive.stsci.edu/prepds/frontier/lensmodels/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs0416/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "title",
+  "detail": "section title",
+  "before": "CAnadian NIRISS Unbiased Cluster Survey (CANUCS)",
+  "after": "CANUCS"
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Mahler et al. (2019)"
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "The cluster was studied as part of the CAnadian NIRISS Unbiased Cluster Survey (CANUCS) program.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program overview & webpage [here](https://niriss.github.io/index.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Data Release 1 [here](https://niriss.github.io/data_release1.html); lens models [here](https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program MAST webpage [here](https://archive.stsci.edu/hlsp/canucs).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/macs0417m11/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Mahler et al. (2019)](ref:2019ApJ...873...96M).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0429.6‐0253",
+  "kind": "characters",
+  "detail": "Home name: U+2010->'-' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "MACS J0429.6-0253",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0429.6-0253",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs0429/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0451.9+0006",
+  "kind": "value-choice",
+  "detail": "Home 0.434 vs page 0.430 (SIMBAD: 0.430)",
+  "before": "Home 0.434 / page 0.430",
+  "after": "0.430"
+ },
+ {
+  "cluster": "MACS J0451.9+0006",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Thai et al. (2023)'",
+  "before": "This model by [Thai et al. (2023)](ref:2023A&A...678A.139T) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0451.9+0006",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Thai et al. (2023)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0451/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0520.7-1328",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Thai et al. (2023)'",
+  "before": "This model by [Thai et al. (2023)](ref:2023A&A...678A.139T) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0520.7-1328",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Thai et al. (2023)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0520/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0553.4-3342",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "MACS J0553.4-3342",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "MACS J0553.4-3342",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0553.4-3342",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0553.4-3342",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/macs0553m33/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0647.7+7015",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0647.7+7015",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs0647/models/); model description by [Coe et al. (2013)](ref:2013ApJ...762...32C), [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0717.5+3745",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "The cluster was observed as part of the [Hubble Frontier Fields](https://outerspace.stsci.edu/display/HPR/HST+Frontier+Fields) program.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0717.5+3745",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "Program data products available [here](https://archive.stsci.edu/prepds/frontier/); models available [here](https://archive.stsci.edu/pub/hlsp/frontier/macs0717/models/); acknowledgement information [here](https://archive.stsci.edu/prepds/frontier/lensmodels/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0717.5+3745",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0717.5+3745",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs0717/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0744.8+3927",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0744.8+3927",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs0744/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0911+1746",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "MACS J0911+1746",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0911+1746",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0911+1746",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/rxc0911p17/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0940.9+0744",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0940.9+0744",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0940/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0949.8+1708",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "MACS J0949.8+1708",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0949.8+1708",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J0949.8+1708",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/rxc0949p17/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1115.9+0129",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1115.9+0129",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs1115/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "title",
+  "detail": "section title",
+  "before": "CAnadian NIRISS Unbiased Cluster Survey (CANUCS)",
+  "after": "CANUCS"
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "The cluster was studied as part of the CAnadian NIRISS Unbiased Cluster Survey (CANUCS) program.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program overview & webpage [here](https://niriss.github.io/index.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Data Release 1 [here](https://niriss.github.io/data_release1.html); lens models [here](https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program MAST webpage [here](https://archive.stsci.edu/hlsp/canucs).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "The cluster was observed as part of the [Hubble Frontier Fields](https://outerspace.stsci.edu/display/HPR/HST+Frontier+Fields) program.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "boilerplate-dropped",
+  "detail": "hff section 'Hubble Frontier Fields'",
+  "before": "Program data products available [here](https://archive.stsci.edu/prepds/frontier/); models available [here](https://archive.stsci.edu/pub/hlsp/frontier/macs1149/models/); acknowledgement information [here](https://archive.stsci.edu/prepds/frontier/lensmodels/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs1149/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster hosted the multiply-imaged supernova Refsdal [(Kelly et al., 2015)](ref:2015Sci...347.1123K).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1206.2-0847",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Cluster Lensing And Supernova survey with Hubble (CLASH)",
+  "after": "CLASH"
+ },
+ {
+  "cluster": "MACS J1206.2-0847",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Lens model by [Richard et al. (2021)](ref:2021A&A...646A..83R).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1206.2-0847",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS1206/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1206.2-0847",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'Cluster Lensing And Supernova survey with Hubble (CLASH)'",
+  "before": "The cluster was observed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) program.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1206.2-0847",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'Cluster Lensing And Supernova survey with Hubble (CLASH)'",
+  "before": "Program page [here](https://www.stsci.edu/~postman/CLASH/Home.html), MAST webpage and data [here](https://archive.stsci.edu/prepds/clash/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1206.2-0847",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'Cluster Lensing And Supernova survey with Hubble (CLASH)'",
+  "before": "Models available [here](https://archive.stsci.edu/missions/hlsp/clash/macs1206/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1311.0-0311",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1311.0-0311",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs1311/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1347.5-1144",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1347.5-1144",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/RXJ1347/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1347.5-1144",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1347.5-1144",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/rxj1347/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1354.6+7715",
+  "kind": "name-mismatch",
+  "detail": "page title differs from Home table (Home used)",
+  "before": "PSZ2 G118.46+39.32",
+  "after": "MACS J1354.6+7715"
+ },
+ {
+  "cluster": "MACS J1423.8+2404",
+  "kind": "title",
+  "detail": "section title",
+  "before": "CAnadian NIRISS Unbiased Cluster Survey (CANUCS)",
+  "after": "CANUCS"
+ },
+ {
+  "cluster": "MACS J1423.8+2404",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "The cluster was studied as part of the CAnadian NIRISS Unbiased Cluster Survey (CANUCS) program.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1423.8+2404",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program overview & webpage [here](https://niriss.github.io/index.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1423.8+2404",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Data Release 1 [here](https://niriss.github.io/data_release1.html); lens models [here](https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1423.8+2404",
+  "kind": "boilerplate-dropped",
+  "detail": "canucs section 'CAnadian NIRISS Unbiased Cluster Survey (CANUCS)'",
+  "before": "Program MAST webpage [here](https://archive.stsci.edu/hlsp/canucs).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1423.8+2404",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1423.8+2404",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs1423/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1532.8+3021",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1532.8+3021",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/rxj1532/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1621.4+3810",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "MACS J1720.2+3536",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1720.2+3536",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs1720/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1931.8-2635",
+  "kind": "title",
+  "detail": "section title",
+  "before": "VENUS",
+  "after": "VENUS: Allingham et al. (2026)"
+ },
+ {
+  "cluster": "MACS J1931.8-2635",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "VENUS",
+  "after": "VENUS: Allingham et al. (2026)"
+ },
+ {
+  "cluster": "MACS J1931.8-2635",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1931.8-2635",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs1931/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J1931.8-2635",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster had a gravitationally lensed supernova, SN Eos, at z=5.13 ([Coulter et al. 2026](ref:2026arXiv260104156C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2129.4‐0741",
+  "kind": "characters",
+  "detail": "Home name: U+2010->'-' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "MACS J2129.4-0741",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "MACS J2129.4-0741",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2129.4-0741",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/macs2129/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2129.4-0741",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "Hosted the multiply-imaged [SN 2022riv](ref:2022TNSAN.169....1K).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2140.2‐2339",
+  "kind": "characters",
+  "detail": "Home name: U+2010->'-' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "MACS J2140.2-2339",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2140.2-2339",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/ms2137/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2211.7-0349",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "MACS J2211.7-0349",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Cerny et al. (2018)"
+ },
+ {
+  "cluster": "MACS J2211.7-0349",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2211.7-0349",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2211.7-0349",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/rxc2211m03/models/).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2211.7-0349",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Cerny et al. (2018)](ref:2018ApJ...859..159C).",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2214.9-1359",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "MACS J2214.9-1359",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS2214/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "SMACS J0723.3-7327",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Sharon et al. (2023)"
+ },
+ {
+  "cluster": "SMACS J0723.3-7327",
+  "kind": "data-added",
+  "detail": "JWST (title: Precision Modeling of JWST's First Cluster Lens)",
+  "before": null,
+  "after": "Mahler et al. (2023)"
+ },
+ {
+  "cluster": "SMACS J0723.3-7327",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "SMACS J0723.3-7327",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "SMACS J0723.3-7327",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/smacs0723m73/models/).",
+  "after": null
+ },
+ {
+  "cluster": "SMACS J2031.8-4036",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "SMACS J2031.8-4036",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "SMACS J2031.8-4036",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/SMACS2031/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "SMACS J2131.1-4019",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "This model by [Richard et al. (2021)](ref:2021A&A...646A..83R) is based on MUSE observations of the cluster.",
+  "after": null
+ },
+ {
+  "cluster": "SMACS J2131.1-4019",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'Richard et al. (2021)'",
+  "before": "Model available [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/SMACS2131/); project page [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/).",
+  "after": null
+ },
+ {
+  "cluster": "SMACS J2332.4-5358",
+  "kind": "title",
+  "detail": "section title",
+  "before": "MUSE/VLT",
+  "after": "MUSE data release"
+ },
+ {
+  "cluster": "SMACS J2332.4-5358",
+  "kind": "boilerplate-dropped",
+  "detail": "muse-lensing section 'MUSE/VLT'",
+  "before": "The cluster was modeled using MUSE/VLT data and published on [Johan Richard's page](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/) (mass model [here](https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/SMACS2332/)), but has not been described in a paper (as of September 2024).",
+  "after": "Not described in a paper as of September 2024."
+ },
+ {
+  "cluster": "MS 1008.1-1224",
+  "kind": "name",
+  "detail": "designation spacing normalised",
+  "before": "MS1008.1-1224",
+  "after": "MS 1008.1-1224"
+ },
+ {
+  "cluster": "MS 1008.1-1224",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "MS 1008.1-1224",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "MS 1008.1-1224",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "MS 1008.1-1224",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/ms1008m12/models/).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G004.5-19.5",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "PLCK G004.5-19.5",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G004.5-19.5",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G004.5-19.5",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens model available [here](https://archive.stsci.edu/hlsps/relics/plckg004m19/models/).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G165.7+67.0",
+  "kind": "data-added",
+  "detail": "JWST (title: The JWST Discovery of ... SN H0pe)",
+  "before": null,
+  "after": "Frye et al. (2024)"
+ },
+ {
+  "cluster": "PLCK G165.7+67.0",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The multiply-imaged supernova \"SN H0pe\" [(Frye et al., 2024)](ref:2024ApJ...961..171F) was discovered lensed by this cluster.",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G171.9-40.7",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Acebron et al. (2018)"
+ },
+ {
+  "cluster": "PLCK G171.9-40.7",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G171.9-40.7",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G171.9-40.7",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/plckg171m40/models/).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G171.9-40.7",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Acebron et al. (2018)](ref:2018ApJ...858...42A).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G287.0+32.9",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Zitrin et al. (2017)"
+ },
+ {
+  "cluster": "PLCK G287.0+32.9",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G287.0+32.9",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G287.0+32.9",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/plckg287p32/models/).",
+  "after": null
+ },
+ {
+  "cluster": "PLCK G287.0+32.9",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Zitrin et al. (2017)](ref:2017ApJ...839L..11Z).",
+  "after": null
+ },
+ {
+  "cluster": "PSZ1 G091.82+26.11",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "PSZ1 G209.80+10.23",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "PSZ1 G209.80+10.23",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "PSZ1 G209.80+10.23",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "PSZ1 G209.80+10.23",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/plckg209p10/models/).",
+  "after": null
+ },
+ {
+  "cluster": "PSZ1 G311.65-18.48",
+  "kind": "notes",
+  "detail": "Home-table note dropped (same content as page note)",
+  "before": "The galaxy cluster lenses the [Sunburst Arc](https://esahubble.org/images/heic1920a/).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0018.5+1626",
+  "kind": "names-merged",
+  "detail": "Home and page alternate names differ (union kept)",
+  "before": "WHL J001833.6+162616; ACT-CL J0018.5+1626; MCXC J0018.5+1626; MACS J0018.5+1626",
+  "after": "WHL J001833.6+162616; ACT-CL J0018.5+1626; MCXC J0018.5+1626"
+ },
+ {
+  "cluster": "RXC J0018.5+1626",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "RXC J0018.5+1626",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0018.5+1626",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0018.5+1626",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/rxc0018p16/models/).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0032.1+1808",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Acebron et al. (2020)"
+ },
+ {
+  "cluster": "RXC J0032.1+1808",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0032.1+1808",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0032.1+1808",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/rxc0032p18/models/).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0032.1+1808",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Acebron et al. (2020)](ref:2020ApJ...898....6A).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0142.9+4438",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Cerny et al. (2018)"
+ },
+ {
+  "cluster": "RXC J0142.9+4438",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0142.9+4438",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0142.9+4438",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/rxc0142p44/models/).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0142.9+4438",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Cerny et al. (2018)](ref:2018ApJ...859..159C).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0232.2-4420",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "RXC J0232.2-4420",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "RXC J0232.2-4420",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0232.2-4420",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0232.2-4420",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/rxc0232m44/models/).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0600.1-2007",
+  "kind": "title",
+  "detail": "section title",
+  "before": "ALMA Lensing Cluster Survey",
+  "after": "ALCS: Fujimoto et al. (2021)"
+ },
+ {
+  "cluster": "RXC J0600.1-2007",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "RXC J0600.1-2007",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "ALMA Lensing Cluster Survey",
+  "after": "ALCS: Fujimoto et al. (2021)"
+ },
+ {
+  "cluster": "RXC J0600.1-2007",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0600.1-2007",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "RXC J0600.1-2007",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/rxc0600m20/models/).",
+  "after": null
+ },
+ {
+  "cluster": "RX J0152.7-1357",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "RX J0152.7-1357",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Acebron et al. (2019)"
+ },
+ {
+  "cluster": "RX J0152.7-1357",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "RX J0152.7-1357",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "RX J0152.7-1357",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens models available [here](https://archive.stsci.edu/hlsps/relics/cl0152m13/models/).",
+  "after": null
+ },
+ {
+  "cluster": "RX J0152.7-1357",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model description: [Acebron et al. (2019)](ref:2019ApJ...874..132A).",
+  "after": null
+ },
+ {
+  "cluster": "RX J2129.7+0005",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "The cluster was analysed as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) cluster sample.",
+  "after": null
+ },
+ {
+  "cluster": "RX J2129.7+0005",
+  "kind": "boilerplate-dropped",
+  "detail": "clash section 'CLASH: Zitrin et al. (2015)'",
+  "before": "Model download [here](https://archive.stsci.edu/missions/hlsp/clash/rxj2129/models/); model description by [Zitrin et al. (2015)](ref:2015ApJ...801...44Z); CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0004-0103",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0004-0103",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0004-0103",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0108+0624",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0108+0624",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0108+0624",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0146-0929",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0146-0929",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0146-0929",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0150+2725",
+  "kind": "value-choice",
+  "detail": "z: Home and page differ; page value kept (more precise)",
+  "before": "Home 0.3061",
+  "after": "0.30619"
+ },
+ {
+  "cluster": "SDSS J0150+2725",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0150+2725",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0150+2725",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0333-0651",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0333-0651",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0333-0651",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0851+3331",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0851+3331",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0851+3331",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0909+4449",
+  "kind": "characters",
+  "detail": "model 'Shu et al. (2018)': U+2009->' ' x1",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0909+4449",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster has a background multiply-imaged quasar discovered by [Shu et al. (2018)](ref:2018MNRAS.481L.136S) .",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0915+3826",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0915+3826",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0915+3826",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0928+2031",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0928+2031",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0928+2031",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0952+3434",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0952+3434",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0952+3434",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0957+0509",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J0957+0509",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J0957+0509",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1002+2031",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1002+2031",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1002+2031",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas); this cluster's model is not available as it is poorly constrained.",
+  "after": "This cluster's model was not released because it is poorly constrained."
+ },
+ {
+  "cluster": "SDSS J1004+4112",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster is one of the few currently known clusters with multiple images of a background quasar ([Inada et al. 2003](ref:2003Natur.426..810I)).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1029+2623",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster is one of the few currently known clusters with multiple images of a background quasar with a measured time delay (see e.g.[Acebron et al. (2022)](ref:2022ApJ...926...86A)).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1038+4849",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1038+4849",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1038+4849",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1050+0017",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1050+0017",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1050+0017",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1055+5547",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1055+5547",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1055+5547",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1110+6459",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1110+6459",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1110+6459",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1115+1645",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1115+1645",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1115+1645",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1138+2754",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1138+2754",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1138+2754",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1152+0930",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1152+0930",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1152+0930",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1152+3313",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1152+3313",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1152+3313",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1156+1911",
+  "kind": "value-choice",
+  "detail": "z: Home and page differ; page value kept (more precise)",
+  "before": "Home 0.5454",
+  "after": "0.54547"
+ },
+ {
+  "cluster": "SDSS J1156+1911",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1156+1911",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1156+1911",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1207+5254",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1207+5254",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1207+5254",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1209+2640",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1209+2640",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1209+2640",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1226+2152",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "Sharon et al. (2022)",
+  "after": "Sharon et al. (2022)"
+ },
+ {
+  "cluster": "SDSS J1226+2152",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "Tejos et al. (2021)",
+  "after": "Tejos et al. (2021)"
+ },
+ {
+  "cluster": "SDSS J1226+2152",
+  "kind": "notes",
+  "detail": "cluster notes rewritten (merged Home + page notes)",
+  "before": "This field includes two separate cluster cores, both of which act as strong lenses (see e.g. [Oguri et al., 2012](ref:2012MNRAS.420.3213O)).",
+  "after": "This field includes two separate cluster cores about 2.5' apart, both of which act as strong lenses (see e.g. [Oguri et al. 2012](ref:2012MNRAS.420.3213O)): the northern core (SDSS J1226+2152, this entry's position) and the southern core (SDSS J1226+2149)."
+ },
+ {
+  "cluster": "SDSS J1326+4806",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster is one of the few currently known clusters with multiple images of a background quasar (see [Shu et al. 2019](ref:2019MNRAS.489.4741S)).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1329+2243",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1329+2243",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1329+2243",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1336-0331",
+  "kind": "value-choice",
+  "detail": "z: Home and page differ; page value kept (more precise)",
+  "before": "Home 0.1763",
+  "after": "0.17637"
+ },
+ {
+  "cluster": "SDSS J1336-0331",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1336-0331",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1336-0331",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1343+4155",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1343+4155",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1343+4155",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1420+3955",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1420+3955",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1420+3955",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1439+1208",
+  "kind": "value-choice",
+  "detail": "z: Home and page differ; page value kept (more precise)",
+  "before": "Home 0.4273",
+  "after": "0.42734"
+ },
+ {
+  "cluster": "SDSS J1439+1208",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1439+1208",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1439+1208",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1456+5702",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1456+5702",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1456+5702",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1522+2535",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1522+2535",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1522+2535",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1527+0652",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1527+0652",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1527+0652",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas); this cluster's model is not available as it is poorly constrained.",
+  "after": "This cluster's model was not released because it is poorly constrained."
+ },
+ {
+  "cluster": "SDSS J1531+3414",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1531+3414",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1531+3414",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1604+2244",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1604+2244",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1604+2244",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1621+0607",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1621+0607",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1621+0607",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1632+3500",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1632+3500",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1632+3500",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1723+3411",
+  "kind": "value-choice",
+  "detail": "Home RA truncated to whole seconds",
+  "before": "Home 17:23:36 / page 17:23:36.50",
+  "after": "17:23:36.50"
+ },
+ {
+  "cluster": "SDSS J1723+3411",
+  "kind": "value-choice",
+  "detail": "Home +34:11:59.37 vs page +34:11:55.90; NED gives +34:11:54.6 (page closer)",
+  "before": "Home +34:11:59.37 / page +34:11:55.90",
+  "after": "+34:11:55.90"
+ },
+ {
+  "cluster": "SDSS J1723+3411",
+  "kind": "value-choice",
+  "detail": "z: Home and page differ; page value kept (more precise)",
+  "before": "Home 0.4422",
+  "after": "0.4423"
+ },
+ {
+  "cluster": "SDSS J1723+3411",
+  "kind": "title",
+  "detail": "section title",
+  "before": "TEMPLATES",
+  "after": "TEMPLATES: Florian et al. (2021)"
+ },
+ {
+  "cluster": "SDSS J1723+3411",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J1723+3411",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "TEMPLATES",
+  "after": "TEMPLATES: Florian et al. (2021)"
+ },
+ {
+  "cluster": "SDSS J1723+3411",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J1723+3411",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J2111-0114",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J2111-0114",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J2111-0114",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J2222+2745",
+  "kind": "names-merged",
+  "detail": "Home and page alternate names differ (union kept)",
+  "before": "",
+  "after": "WHL J222208.6+274536"
+ },
+ {
+  "cluster": "SDSS J2222+2745",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "The cluster is one of the few currently known clusters with multiple images of a background quasar (see e.g. [Acebron et al. 2022](ref:2022A&A...668A.142A)).",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J2243-0935",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Sloan Digital Sky Survey Giant Arcs Survey",
+  "after": "SGAS: Sharon et al. (2020)"
+ },
+ {
+  "cluster": "SDSS J2243-0935",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The cluster was modeled by [Sharon et al. (2020)](ref:2020ApJS..247...12S) as part of the Sloan Digital Sky Survey Giant Arcs Survey (SGAS) program.",
+  "after": null
+ },
+ {
+  "cluster": "SDSS J2243-0935",
+  "kind": "boilerplate-dropped",
+  "detail": "sgas section 'Sloan Digital Sky Survey Giant Arcs Survey'",
+  "before": "The resulting lens models are available on the [program webpage](https://archive.stsci.edu/hlsp/sgas).",
+  "after": null
+ },
+ {
+  "cluster": "SPT-CL J0049-2440",
+  "kind": "characters",
+  "detail": "model 'Mahler et al. (2025)': U+2011->'-' x3",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "SPT‐CL J0216‐2609",
+  "kind": "characters",
+  "detail": "Home name: U+2010->'-' x2",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "SPT‐CL J0304‐5404",
+  "kind": "characters",
+  "detail": "Home name: U+2010->'-' x2",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "SPT-CL J0516-5755",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "SPT-CL J0516-5755",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "[Cerny et al. (2025)](ref:2025arXiv250317498C) report a candidate multiply-imaged supernova lensed by this cluster.",
+  "after": null
+ },
+ {
+  "cluster": "SPT-CL J0546-5345",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Allingham et al. (2025)",
+  "after": "SLICE: Allingham et al. (2025)"
+ },
+ {
+  "cluster": "SPT-CL J0546-5345",
+  "kind": "manual-section",
+  "detail": "section rewritten by hand",
+  "before": "Allingham et al. (2025)",
+  "after": "SLICE: Allingham et al. (2025)"
+ },
+ {
+  "cluster": "SPT-CL J0615-5746",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS: Paterno-Mahler et al. (2018)"
+ },
+ {
+  "cluster": "SPT-CL J0615-5746",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "SPT-CL J0615-5746",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "SPT-CL J0615-5746",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens model available [here](https://archive.stsci.edu/hlsps/relics/spt0615m57/models/).",
+  "after": null
+ },
+ {
+  "cluster": "SPT-CL J0615-5746",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Model reference: [Paterno-Mahler et al. (2018)](ref:2018ApJ...863..154P).",
+  "after": null
+ },
+ {
+  "cluster": "SPT-CL J2011-5228",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Strong LensIng and Cluster Evolution (SLICE)",
+  "after": "SLICE: Cerny et al. (2025)"
+ },
+ {
+  "cluster": "SPT-CL J2325-4111",
+  "kind": "characters",
+  "detail": "model 'Mahler et al. (2025)': U+2011->'-' x2, U+2010->'-' x2",
+  "before": null,
+  "after": null
+ },
+ {
+  "cluster": "WHL J013719.8-082841",
+  "kind": "title",
+  "detail": "section title",
+  "before": "Reionization Lensing Cluster Survey (RELICS)",
+  "after": "RELICS"
+ },
+ {
+  "cluster": "WHL J013719.8-082841",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "The cluster was observed as part of the Reionization Lensing Cluster Survey (RELICS) program ([Coe et al. 2019](ref:2019ApJ...884...85C)).",
+  "after": null
+ },
+ {
+  "cluster": "WHL J013719.8-082841",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Program page [here](https://relics.stsci.edu/), MAST webpage [here](https://archive.stsci.edu/hlsp/relics).",
+  "after": null
+ },
+ {
+  "cluster": "WHL J013719.8-082841",
+  "kind": "boilerplate-dropped",
+  "detail": "relics section 'Reionization Lensing Cluster Survey (RELICS)'",
+  "before": "Lens model available [here](https://archive.stsci.edu/hlsps/relics/whl0137m08/models/).",
+  "after": null
+ },
+ {
+  "cluster": "WH J040011.7-270711",
+  "kind": "notes",
+  "detail": "note moved to a lensed-transient entry",
+  "before": "[Bazzanini et al. (2025)](ref:2025A&A...698A..29B) report a candidate multiply-imaged AGN lensed by this cluster.",
+  "after": null
+ },
+ {
+  "cluster": "XLSSC 122",
+  "kind": "data-added",
+  "detail": "JWST (title: JWST Discovery of Strong Lensing ...)",
+  "before": null,
+  "after": "Finner et al. (2025)"
+ },
+ {
+  "cluster": "Abell 2744",
+  "kind": "program-added",
+  "detail": "BUFFALO targets the six HFF clusters",
+  "before": null,
+  "after": "buffalo"
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "program-added",
+  "detail": "BUFFALO targets the six HFF clusters",
+  "before": null,
+  "after": "buffalo"
+ },
+ {
+  "cluster": "MACS J0717.5+3745",
+  "kind": "program-added",
+  "detail": "BUFFALO targets the six HFF clusters",
+  "before": null,
+  "after": "buffalo"
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "program-added",
+  "detail": "BUFFALO targets the six HFF clusters",
+  "before": null,
+  "after": "buffalo"
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "program-added",
+  "detail": "BUFFALO targets the six HFF clusters",
+  "before": null,
+  "after": "buffalo"
+ },
+ {
+  "cluster": "Abell 68",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A68 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell 2813",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A2813 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell 209",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A209 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "RX J0152.7-1357",
+  "kind": "program-added",
+  "detail": "VENUS fixed target CLJ0152-1357 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0159.8-0849",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0159-0849 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "RXC J0232.2-4420",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXCJ0232-4420 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell S295",
+  "kind": "program-added",
+  "detail": "VENUS fixed target AS295 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0257.6-2209",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0257-2209 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0308.9+2645",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0308+2645 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "PLCK G171.9-40.7",
+  "kind": "program-added",
+  "detail": "VENUS fixed target PLCKG171-40.7 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0329.6-0211",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0329-0211 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell 3192",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A3192 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0358.8-2955",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A3192 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0451.9+0006",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0451+0006 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0429.6-0253",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0429-0253 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell 521",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A521 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0454.1-0300",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MS0451-0305 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0553.4-3342",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0553-3342 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "RXC J0600.1-2007",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXCJ0600-2007 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "1E 0657-56",
+  "kind": "program-added",
+  "detail": "VENUS fixed target BULLET (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0911+1746",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXCJ0911+1746 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0940.9+0744",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0940+0744 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0949.8+1708",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXCJ0949+1707 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J1115.9+0129",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ1115+0129 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "PLCK G287.0+32.9",
+  "kind": "program-added",
+  "detail": "VENUS fixed target PLCKG287+32.9 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J1206.2-0847",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ1206-0847 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J1311.0-0311",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ1311-0310 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell 1689",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A1689 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J1347.5-1144",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXJ1347-1145 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell 1835",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A1835 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J1423.8+2404",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ1423+2404 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J1532.8+3021",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXJ1532+3021 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "PLCK G004.5-19.5",
+  "kind": "program-added",
+  "detail": "VENUS fixed target PLCKG004-19.5 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "SMACS J2031.8-4036",
+  "kind": "program-added",
+  "detail": "VENUS fixed target SMACSJ2031-4036 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J2129.4-0741",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ2129-0741 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "SMACS J2131.1-4019",
+  "kind": "program-added",
+  "detail": "VENUS fixed target SMACSJ2131-4019 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "RX J2129.7+0005",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXJ2129+0005 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J2140.2-2339",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MS2137-2353 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J2211.7-0349",
+  "kind": "program-added",
+  "detail": "VENUS fixed target RXCJ2211-0350 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J2214.9-1359",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ2214-1359 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell 2537",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A2537 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "ACT-CL J0102-4915",
+  "kind": "program-added",
+  "detail": "VENUS fixed target El-Gordo (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "WHL J013719.8-082841",
+  "kind": "program-added",
+  "detail": "VENUS fixed target WJ013719-08284 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell 370",
+  "kind": "program-added",
+  "detail": "VENUS fixed target A370 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0416.1-2403",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MJ0416.1-2403 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0417.5-1154",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MJ0417.5-1154 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "SPT-CL J0615-5746",
+  "kind": "program-added",
+  "detail": "VENUS fixed target SJ0615-5746 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "SMACS J0723.3-7327",
+  "kind": "program-added",
+  "detail": "VENUS fixed target SJ0723.3-7327 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J1149.5+2223",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MJ1149.5+2223 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "Abell S1063",
+  "kind": "program-added",
+  "detail": "VENUS fixed target AS1063 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "PLCK G165.7+67.0",
+  "kind": "program-added",
+  "detail": "VENUS fixed target PLCKG165+67.0 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "SPT-CL J2325-4111",
+  "kind": "program-added",
+  "detail": "VENUS fixed target SPTJ2325-41 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": "MACS J0717.5+3745",
+  "kind": "program-added",
+  "detail": "VENUS fixed target MACSJ0717+3745 (JWST GO 6882)",
+  "before": null,
+  "after": "venus"
+ },
+ {
+  "cluster": null,
+  "kind": "preprint-published",
+  "detail": "2025arXiv250317498C has been published",
+  "before": null,
+  "after": "The Astrophysical Journal, 2026, Volume 1001, Number 1, Page 60"
+ },
+ {
+  "cluster": null,
+  "kind": "preprint-published",
+  "detail": "2025arXiv250611207D has been published",
+  "before": null,
+  "after": "A&A 703, A207 (2025)"
+ },
+ {
+  "cluster": null,
+  "kind": "preprint-published",
+  "detail": "2025arXiv250616034L has been published",
+  "before": null,
+  "after": "A&A 703, A10 (2025)"
+ },
+ {
+  "cluster": null,
+  "kind": "preprint-published",
+  "detail": "2025arXiv250708949A has been published",
+  "before": null,
+  "after": "ApJL 990, 1 (2025)"
+ },
+ {
+  "cluster": null,
+  "kind": "preprint-published",
+  "detail": "arXiv:2509.12319 has been published",
+  "before": null,
+  "after": "A&A 708, A291 (2026)"
+ }
+]

@@ -1,0 +1,26 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2163
+designations:
+  - PLCKESZ G006.78+30.46
+  - MAXI J1615-058
+  - XSS J16159-0604
+  - PLCK G006.8+30.5
+ra: "16:15:34.13"
+dec: "-06:07:26.3"
+z: 0.203
+programs: [relics]
+
+models:
+  - title: Rescigno et al. (2020)
+    refs: [2020A&A...635A..98R]
+    availability: unknown
+    note: The cluster was modeled by [Rescigno et al. (2020)](ref:2020A&A...635A..98R).
+  - title: 'RELICS: Cerny et al. (2018)'
+    program: relics
+    refs: [2018ApJ...859..159C]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/abell2163/models/

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Page not found | {{ cfg.title }}{% endblock %}
+{% block head %}<base href="{{ cfg.url }}">{% endblock %}
+{% block main %}
+<div class="wrap narrow-top">
+  <h1>Page not found</h1>
+  <p class="lede">There is no page at this address. Cluster pages are named after the cluster, with <code>p</code> for + and <code>m</code> for a minus sign, for example <a href="{{ cfg.url }}clusters/macs-j0416.1m2403.html">clusters/macs-j0416.1m2403.html</a>.</p>
+  <p><a href="{{ cfg.url }}">Search the catalogue</a></p>
+</div>
+{% endblock %}

@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+{% from "_macros.html" import avail, program_badge, ref_links %}
+{% set nav = 'clusters' %}
+{% block title %}{{ c.name }}: lens models | {{ cfg.title }}{% endblock %}
+{% block description %}Strong-lensing models of the galaxy cluster {{ c.name }}{% if c.common_names %} ({{ c.common_names | join(', ') }}){% endif %}, z = {{ c.z }}: {{ c.n_models }} model entries with availability and download links.{% endblock %}
+{% block bodyclass %}page-cluster{% endblock %}
+{% block main %}
+<div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}index.html">Clusters</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ c.name }}</span></nav>
+  <header class="entry-head">
+    <h1 class="entry-title">{{ c.name }}</h1>
+    {% if c.common_names or c.aka %}
+    <p class="entry-aka">
+      {% if c.common_names %}<span class="common">{{ c.common_names | join(', ') }}</span>{% endif %}
+      {% if c.aka %}{% if c.common_names %} <span class="sep" aria-hidden="true">/</span> {% endif %}also {{ c.aka | join(', ') }}{% endif %}
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="entry-grid">
+    <section class="facts" aria-label="Key facts">
+      <dl class="fact-list">
+        <div><dt>Right ascension</dt><dd><span class="coord">{{ c.ra }}</span> <span class="muted">({{ '%.5f' | format(c.ra_deg) }}&deg;)</span></dd></div>
+        <div><dt>Declination</dt><dd><span class="coord">{{ c.dec }}</span> <span class="muted">({{ '%.5f' | format(c.dec_deg) }}&deg;)</span></dd></div>
+        <div><dt>Redshift</dt><dd class="num">{{ c.z }}</dd></div>
+        <div><dt>Position</dt><dd>
+          <button type="button" class="button-quiet copy" data-copy="{{ c.ra }} {{ c.dec }}">Copy coordinates</button>
+        </dd></div>
+        {% if c.programs %}<div><dt>Programs</dt><dd class="badges">{% for p in c.programs %}{{ program_badge(p, root) }}{% endfor %}</dd></div>{% endif %}
+        {% if c.transients %}<div><dt>Lensed transients</dt><dd>
+          <ul class="plain">{% for t in c.transients %}<li><a href="{{ root }}transients/{{ t.slug }}.html">{{ t.name }}</a> <span class="muted">{{ t.class_label | lower }}{% if t.status == 'candidate' %}, candidate{% endif %}</span></li>{% endfor %}</ul>
+        </dd></div>{% endif %}
+        <div><dt>Search this position</dt><dd class="inline-links">{% for label, url in c.coord_links %}<a href="{{ url }}">{{ label }}</a>{% endfor %}</dd></div>
+      </dl>
+
+      <h2 class="minor">Designations</h2>
+      <dl class="desig-list">
+        {% for g in c.desig_groups %}
+        <div><dt>{{ g.label }}</dt><dd>{% for item in g['items'] %}<a href="{{ root }}catalogues.html#cat-{{ item.cat.id }}" title="{{ item.cat.name }}">{{ item.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>
+        {% endfor %}
+      </dl>
+
+      <h2 class="minor">Nearby clusters in this catalogue</h2>
+      {% if c.neighbours %}
+      <ul class="plain neighbours">
+        {% for n in c.neighbours[:8] %}<li><a href="{{ root }}clusters/{{ n.cluster.slug }}.html">{{ n.cluster.name }}</a> <span class="muted num">{{ '%.1f' | format(n.sep_arcmin) }}&prime;</span></li>{% endfor %}
+      </ul>
+      {% else %}
+      <p class="muted">None within 2&deg;. The nearest is <a href="{{ root }}clusters/{{ c.nearest.cluster.slug }}.html">{{ c.nearest.cluster.name }}</a>, {{ '%.1f' | format(c.nearest.sep_arcmin / 60) }}&deg; away.</p>
+      {% endif %}
+      <p><a href="{{ root }}index.html?q={{ c.ra | urlencode }}+{{ c.dec | urlencode }}&amp;r=120">Show clusters within 2&deg; on the sky map</a></p>
+    </section>
+
+    <aside class="visual" aria-label="Images">
+      {% if c.image %}
+      <figure class="entry-image">
+        <img src="{{ c.image.url }}" alt="Colour image of {{ c.name }}" loading="lazy" decoding="async">
+        <figcaption>{{ c.image.credit | md(root) | safe }}</figcaption>
+      </figure>
+      {% endif %}
+      <figure class="aladin" data-aladin data-ra="{{ c.ra_deg }}" data-dec="{{ c.dec_deg }}" data-name="{{ c.name }}" data-src="{{ aladin_js }}">
+        <div class="aladin-target" id="aladin-view">
+          <div class="aladin-placeholder">
+            <p>Interactive sky view (Aladin Lite, CDS): Pan-STARRS, Legacy Surveys or DSS2 imagery around the cluster.</p>
+            <button type="button" class="button" data-aladin-load>Show sky view</button>
+          </div>
+        </div>
+        <figcaption class="muted">Field of view about 6&prime;. Use the layer menu to change the survey.</figcaption>
+      </figure>
+    </aside>
+  </div>
+
+  <section class="models" aria-labelledby="models-h">
+    <h2 id="models-h">Lens models <span class="count-inline">{{ c.n_models }}</span></h2>
+    {% if c.models %}
+    <ul class="model-list">
+      {% for m in c.models %}
+      <li class="model{% if m.status == 'superseded' %} is-superseded{% endif %}" id="{{ m.anchor }}">
+        <div class="model-head">
+          <h3><a class="anchor" href="#{{ m.anchor }}">{{ m.title }}</a></h3>
+          <div class="model-meta">
+            {{ avail(m.availability) }}
+            {% for d in m.data %}<span class="tag{% if d == 'JWST' %} tag-jwst{% endif %}">{{ d }}</span>{% endfor %}
+            {% if m.status == 'superseded' %}<span class="tag tag-superseded">Superseded</span>{% endif %}
+          </div>
+        </div>
+        {% if m.refs or m.program_obj or m.software or m.tags %}
+        <p class="model-facts">
+          {% if m.refs %}<span>Paper{{ 's' if m.refs | length > 1 }}: {{ ref_links(m.refs) }}</span>{% endif %}
+          {% if m.program_obj %}<span>Program: <a href="{{ root }}programs/{{ m.program_obj.id }}.html">{{ m.program_obj.short }}</a></span>{% endif %}
+          {% if m.software %}<span>Software: {{ m.software }}</span>{% endif %}
+          {% if m.tags %}<span>{% for t in m.tags %}<span class="kw" title="{{ m.tag_desc[t] }}">{{ t | replace('-', ' ') }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}
+        </p>
+        {% endif %}
+        {% if m.links %}
+        <p class="model-links">{% for l in m.links %}<a class="button" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+        {% endif %}
+        {% if m.note %}<div class="model-note">{{ m.note | md(root) | safe }}</div>{% endif %}
+        {% if m.superseded_by_model %}<p class="muted">Superseded by <a href="#{{ m.superseded_by_model.anchor }}">{{ m.superseded_by_model.title }}</a>.</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="muted">No lens models listed yet. If you know of one, <a href="{{ cfg.repo }}/edit/{{ cfg.branch }}/{{ c.file }}">add it to this entry</a>.</p>
+    {% endif %}
+  </section>
+
+  {% if c.observations %}
+  <section class="observations" aria-labelledby="obs-h">
+    <h2 id="obs-h">Observations</h2>
+    <table class="plain-table">
+      <thead><tr><th scope="col">Facility</th><th scope="col">Instrument</th><th scope="col">Mode</th><th scope="col">Filters</th><th scope="col">Program</th></tr></thead>
+      <tbody>
+      {% for o in c.observations %}
+        <tr><td>{{ o.facility }}</td><td>{{ o.instrument or '' }}</td><td>{{ o.mode or '' }}</td><td>{{ (o.filters or []) | join(', ') }}</td><td>{{ o.proposal or o.program or '' }}{% if o.note %}<br><span class="muted">{{ o.note }}</span>{% endif %}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endif %}
+
+  {% if c.notes or c.links %}
+  <section class="notes" aria-labelledby="notes-h">
+    <h2 id="notes-h">Notes</h2>
+    {% if c.notes %}<div class="prose">{{ c.notes | md(root) | safe }}</div>{% endif %}
+    {% if c.links %}<ul class="plain">{% for l in c.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}</ul>{% endif %}
+  </section>
+  {% endif %}
+
+  <section class="entry-foot" aria-label="This entry">
+    <p><a href="{{ cfg.repo }}/edit/{{ cfg.branch }}/{{ c.file }}">Edit this entry on GitHub</a>
+    <a href="{{ cfg.repo }}/issues/new?title={{ ('Correction: ' ~ c.name) | urlencode }}">Report a problem</a>
+    <a href="{{ root }}data/clusters/{{ c.slug }}.yaml">YAML</a>
+    <a href="{{ root }}data/clusters/{{ c.slug }}.json">JSON</a></p>
+  </section>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/cluster.js" defer></script>{% endblock %}

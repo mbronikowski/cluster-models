@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% set nav = 'catalogues' %}
+{% block title %}Catalogue designations | {{ cfg.title }}{% endblock %}
+{% block main %}
+<div class="wrap narrow-top">
+  <h1>Catalogue designations</h1>
+  <p class="lede">All {{ n_designations }} names in the catalogue, grouped by the survey or catalogue they come from. Use it to find a cluster by an ACT, SPT, Planck, MACS, RXC or Abell designation, or to see which catalogues cover which clusters.</p>
+  <p class="muted">Abell and ACO share one numbering (ACO 1423 is Abell 1423), but the supplementary southern list is separate: Abell S1063 is not Abell 1063. MACS, SMACS and eMACS are three different surveys.</p>
+  <nav class="toc" aria-label="Catalogue groups">
+    <ul class="inline-list">{% for g in index %}<li><a href="#type-{{ g.type }}">{{ g.label }}</a></li>{% endfor %}</ul>
+  </nav>
+  {% for g in index %}
+  <section class="cat-group" id="type-{{ g.type }}" aria-labelledby="type-{{ g.type }}-h">
+    <h2 id="type-{{ g.type }}-h">{{ g.label }}</h2>
+    {% for e in g.catalogues %}
+    <div class="cat-block" id="cat-{{ e.cat.id }}">
+      <h3>{{ e.cat.label }} <span class="count-inline">{{ e['items'] | length }}</span></h3>
+      <p class="muted cat-desc">{{ e.cat.name }}{% if e.cat.ref %}. {{ e.cat.ref }}{% endif %}</p>
+      <ul class="cat-items">
+        {% for i in e['items'] %}<li><a href="{{ root }}clusters/{{ i.cluster.slug }}.html">{{ i.name }}</a>{% if i.name != i.cluster.name %} <span class="muted">{{ i.cluster.name }}</span>{% endif %}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: COOL J0335-1927
+ra: "03:35:04.0"
+dec: "-19:27:51.0"
+z: 0.418
+
+models:
+  - title: Napier et al. (2023)
+    refs: [2023ApJ...954L..38N]
+    availability: unknown
+    note: |-
+      [Napier et al. (2023)](ref:2023ApJ...954L..38N) reported the discovery of the
+      gravitationally lensed quasar behind cluster and constructed a strong lensing model of
+      the cluster.

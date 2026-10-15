@@ -1,0 +1,519 @@
+# Catalogue registry: every designation used in data/clusters/*.yaml must match
+# exactly one pattern here. The registry drives three things:
+#   1. the per-catalogue index on the website,
+#   2. the position check: designations that encode coordinates (J2000, B1950,
+#      Galactic or decimal degrees) must agree with the cluster position to
+#      within the catalogue's rounding plus `tolerance` (arcmin),
+#   3. name search (all designations are searchable).
+#
+# Fields
+#   id          short identifier (lowercase)
+#   label       short display name of the designation family
+#   name        what the catalogue is
+#   type        sz | xray | optical | lens | galaxy | source | other
+#   ref         optional plain-text reference
+#   tolerance   arcmin; allowed offset beyond the rounding of the designation
+#   patterns    list of {regex, frame, example}. Named groups `ra`/`dec`
+#               (or `l`/`b`) carry the encoded position.
+#               frame: icrs (J2000 sexagesimal digits), fk4 (B1950 digits),
+#               icrs-deg (decimal degrees), galactic, none (no position).
+#
+# Notes on equivalences
+#   * Abell and ACO are the same numbering: Abell (1958) clusters 1-2712 keep
+#     their numbers in Abell, Corwin & Olowin (1989), which adds southern
+#     clusters 2713-4076 and the supplementary list S1-S1174 ("Abell S").
+#     So "ACO 1423" = "Abell 1423", but "Abell S1063" != "Abell 1063".
+#   * MACS, SMACS and eMACS are three different surveys (SIMBAD writes MACS
+#     as "MCS").  RXC and MCXC are different catalogues whose designations
+#     often coincide.  PSZ1, PSZ2, PLCKESZ, PSZRX and the generic "PLCK G"
+#     names are different Planck-based catalogues/conventions.
+
+- id: abell
+  label: Abell
+  name: Abell / ACO catalogue of rich clusters (incl. supplementary S list)
+  type: optical
+  ref: Abell (1958); Abell, Corwin & Olowin (1989)
+  tolerance: 5
+  patterns:
+    - {regex: '^(?:Abell|ACO) S?[1-9]\d{0,3}[a-z]?$', frame: none, example: Abell S1063}
+
+- id: ac
+  label: AC
+  name: Couch et al. southern cluster list (AC)
+  type: optical
+  tolerance: 5
+  patterns:
+    - {regex: '^AC [1-9]\d{0,2}$', frame: none, example: AC 114}
+
+- id: act
+  label: ACT-CL
+  name: Atacama Cosmology Telescope SZ clusters
+  type: sz
+  ref: Hilton et al. (2021) for DR5 names (ACT-CL Jhhmm.m+ddmm)
+  tolerance: 2
+  patterns:
+    - {regex: '^ACT-CL J(?P<ra>\d{4}(?:\.\d)?)(?P<dec>[+-]\d{4})$', frame: icrs, example: ACT-CL J0102-4915}
+
+- id: am
+  label: AM
+  name: Arp & Madore catalogue of southern peculiar galaxies and associations
+  type: optical
+  ref: Arp & Madore (1987)
+  tolerance: 3
+  patterns:
+    - {regex: '^AM (?P<ra>\d{4})(?P<dec>[+-]\d{3})$', frame: fk4, example: AM 0011-303}
+
+- id: apmcc
+  label: APMCC
+  name: APM galaxy cluster catalogue
+  type: optical
+  tolerance: 5
+  patterns:
+    - {regex: '^APMCC [1-9]\d*$', frame: none, example: APMCC 743}
+
+- id: bmw-hri
+  label: BMW-HRI
+  name: Brera Multiscale Wavelet ROSAT HRI source catalogue
+  type: source
+  tolerance: 1
+  patterns:
+    - {regex: '^BMW-HRI J(?P<ra>\d{6}\.\d)(?P<dec>[+-]\d{6})$', frame: icrs, example: BMW-HRI J122657.3+333253}
+
+- id: cdgs
+  label: CDGS
+  name: CDGS cluster list (designation as listed in SIMBAD)
+  type: xray
+  tolerance: 5
+  patterns:
+    - {regex: '^CDGS [1-9]\d*$', frame: none, example: CDGS 37}
+
+- id: cgpg
+  label: CGPG
+  name: Zwicky's Catalogue of Selected Compact Galaxies and of Post-Eruptive Galaxies (galaxy designation)
+  type: galaxy
+  tolerance: 2
+  patterns:
+    - {regex: '^CGPG (?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: fk4, example: CGPG 1638.9+4648}
+
+- id: cl
+  label: Cl
+  name: Generic cluster designation (Cl / CL / ClG), B1950 unless prefixed with J
+  type: other
+  tolerance: 3
+  patterns:
+    - {regex: '^(?:CL|Cl) J(?P<ra>\d{4}(?:\.\d)?)(?P<dec>[+-]\d{4})$', frame: icrs, example: CL J1226.9+3332}
+    - {regex: '^(?:CL|Cl|ClG) (?P<ra>\d{4}(?:\.\d)?)(?P<dec>[+-]\d{2}(?:\d{2})?)$', frame: fk4, example: CL 0024+1654}
+
+- id: codex
+  label: CODEX
+  name: CODEX cluster catalogue (CODEX WL designation as listed in NED)
+  type: xray
+  tolerance: 5
+  patterns:
+    - {regex: '^CODEX WL [1-9]\d*$', frame: none, example: CODEX WL 213362}
+
+- id: cool
+  label: COOL
+  name: COOL-LAMPS lens designation
+  type: lens
+  tolerance: 2
+  patterns:
+    - {regex: '^COOL J(?P<ra>\d{4})(?P<dec>[+-]\d{4})$', frame: icrs, example: COOL J0335-1927}
+
+- id: cswa
+  label: CSWA
+  name: Cambridge Sloan Wide Arcs lens list
+  type: lens
+  tolerance: 3
+  patterns:
+    - {regex: '^CSWA [1-9]\d*$', frame: none, example: CSWA 161}
+
+- id: cxogsg
+  label: CXOGSG
+  name: Chandra X-ray source designation (CXOGSG)
+  type: source
+  tolerance: 1
+  patterns:
+    - {regex: '^CXOGSG J(?P<ra>\d{6}\.\d)(?P<dec>[+-]\d{6})$', frame: icrs, example: CXOGSG J102911.9+262338}
+
+- id: des
+  label: DES
+  name: Dark Energy Survey object designation
+  type: galaxy
+  tolerance: 0.5
+  patterns:
+    - {regex: '^DES J(?P<ra>\d{6}\.\d{2})(?P<dec>[+-]\d{6}\.\d)$', frame: icrs, example: DES J060356.50-355805.7}
+
+- id: desi
+  label: DESI
+  name: DESI Legacy Imaging Surveys strong-lens candidate designation
+  type: lens
+  tolerance: 1
+  patterns:
+    - {regex: '^DESI-(?P<ra>\d{3}\.\d{4})(?P<dec>[+-]\d{2}\.\d{4})$', frame: icrs-deg, example: DESI-090.9854-35.9683}
+
+- id: emacs
+  label: eMACS
+  name: extended MAssive Cluster Survey (z > 0.5)
+  type: xray
+  ref: Ebeling et al. (2013)
+  tolerance: 3
+  patterns:
+    - {regex: '^eMACS J(?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: eMACS J0252.4-2100}
+
+- id: einstein
+  label: 1E
+  name: Einstein Observatory X-ray source designation
+  type: source
+  tolerance: 5
+  patterns:
+    - {regex: '^1E (?P<ra>\d{4}(?:\.\d)?)(?P<dec>[+-]\d{2,4})$', frame: fk4, example: 1E 0657-56}
+
+- id: gho
+  label: GHO
+  name: Gunn, Hoessel & Oke distant cluster catalogue
+  type: optical
+  ref: Gunn, Hoessel & Oke (1986)
+  tolerance: 3
+  patterns:
+    - {regex: '^GHO (?P<ra>\d{4})(?P<dec>[+-]\d{4})$', frame: fk4, example: GHO 1320+3155}
+
+- id: gmbcg
+  label: GMBCG
+  name: GMBCG SDSS cluster catalogue (BCG position)
+  type: optical
+  ref: Hao et al. (2010)
+  tolerance: 1
+  patterns:
+    - {regex: '^GMBCG J(?P<ra>\d{3}\.\d{5})(?P<dec>[+-]\d{2}\.\d{5})$', frame: icrs-deg, example: GMBCG J145.22376+07.74037}
+
+- id: izw
+  label: I Zw
+  name: Zwicky list I of compact galaxies (galaxy designation)
+  type: galaxy
+  tolerance: 2
+  patterns:
+    - {regex: '^I Zw [1-9]\d*$', frame: none, example: I Zw 163}
+
+- id: lcdcs
+  label: LCDCS
+  name: Las Campanas Distant Cluster Survey
+  type: optical
+  ref: Gonzalez et al. (2001)
+  tolerance: 3
+  patterns:
+    - {regex: '^LCDCS \d{4}$', frame: none, example: LCDCS 0829}
+
+- id: lcs-cl
+  label: LCS-CL
+  name: LCS-CL optical cluster designation
+  type: optical
+  tolerance: 3
+  patterns:
+    - {regex: '^LCS-CL J(?P<ra>\d{6})(?P<dec>[+-]\d{4}\.\d)$', frame: icrs, example: LCS-CL J233227-5358.4}
+
+- id: macs
+  label: MACS
+  name: MAssive Cluster Survey (written "MCS" in SIMBAD)
+  type: xray
+  ref: Ebeling, Edge & Henry (2001)
+  tolerance: 3
+  patterns:
+    - {regex: '^MACS J(?P<ra>\d{4}(?:\.\d)?)(?P<dec>[+-]\d{4})$', frame: icrs, example: MACS J0416.1-2403}
+
+- id: maxi
+  label: MAXI
+  name: MAXI X-ray source designation
+  type: source
+  tolerance: 30
+  patterns:
+    - {regex: '^MAXI J(?P<ra>\d{4})(?P<dec>[+-]\d{3})$', frame: icrs, example: MAXI J1615-058}
+
+- id: mcxc
+  label: MCXC
+  name: Meta-Catalogue of X-ray detected Clusters
+  type: xray
+  ref: Piffaretti et al. (2011)
+  tolerance: 3
+  patterns:
+    - {regex: '^MCXC J(?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: MCXC J2248.7-4431}
+
+- id: ms
+  label: MS (EMSS)
+  name: Einstein Medium Sensitivity Survey (B1950)
+  type: xray
+  ref: Gioia et al. (1990); Stocke et al. (1991)
+  tolerance: 3
+  patterns:
+    - {regex: '^MS (?P<ra>\d{4}(?:\.\d)?)(?P<dec>[+-]\d{2}(?:\d{2})?)$', frame: fk4, example: MS 2137.3-2353}
+
+- id: nsc
+  label: NSC
+  name: Northern Sky Optical Cluster Survey (NSC designation)
+  type: optical
+  tolerance: 3
+  patterns:
+    - {regex: '^NSC J(?P<ra>\d{6})(?P<dec>[+-]\d{6})$', frame: icrs, example: NSC J131127-012045}
+
+- id: nscs
+  label: NSCS
+  name: Northern Sky Optical Cluster Survey (NSCS designation)
+  type: optical
+  tolerance: 3
+  patterns:
+    - {regex: '^NSCS J(?P<ra>\d{6})(?P<dec>[+-]\d{6})$', frame: icrs, example: NSCS J003706+090916}
+
+- id: plck
+  label: PLCK
+  name: Planck cluster, generic Galactic-coordinate name used in follow-up papers
+  type: sz
+  tolerance: 6
+  patterns:
+    - {regex: '^PLCK G(?P<l>\d{3}\.\d{1,2})(?P<b>[+-]\d{2}\.\d{1,2})$', frame: galactic, example: PLCK G287.0+32.9}
+
+- id: plckesz
+  label: PLCKESZ
+  name: Planck Early SZ cluster catalogue
+  type: sz
+  ref: Planck Collaboration (2011), VIII
+  tolerance: 6
+  patterns:
+    - {regex: '^PLCKESZ G(?P<l>\d{3}\.\d{2})(?P<b>[+-]\d{2}\.\d{2})$', frame: galactic, example: PLCKESZ G056.80+36.30}
+
+- id: psz1
+  label: PSZ1
+  name: Planck 2013 SZ catalogue (PSZ1)
+  type: sz
+  ref: Planck Collaboration (2014), XXIX
+  tolerance: 6
+  patterns:
+    - {regex: '^PSZ1 G(?P<l>\d{3}\.\d{2})(?P<b>[+-]\d{2}\.\d{2})$', frame: galactic, example: PSZ1 G091.82+26.11}
+    - {regex: '^PSZ1 \d{3,4}$', frame: none, example: PSZ1 0604}
+
+- id: psz2
+  label: PSZ2
+  name: Planck 2015 SZ catalogue (PSZ2)
+  type: sz
+  ref: Planck Collaboration (2016), XXVII
+  tolerance: 6
+  patterns:
+    - {regex: '^PSZ2 G(?P<l>\d{3}\.\d{2})(?P<b>[+-]\d{2}\.\d{2})$', frame: galactic, example: PSZ2 G118.46+39.32}
+    - {regex: '^PSZ2 \d{3,4}$', frame: none, example: PSZ2 0993}
+
+- id: pszrx
+  label: PSZRX
+  name: Joint Planck SZ + ROSAT cluster catalogue
+  type: sz
+  ref: Tarrio et al. (2019)
+  tolerance: 6
+  patterns:
+    - {regex: '^PSZRX G(?P<l>\d{3}\.\d{2})(?P<b>[+-]\d{2}\.\d{2})$', frame: galactic, example: PSZRX G073.95-27.82}
+
+- id: pszspt
+  label: PSZSPT
+  name: Joint Planck + SPT SZ cluster catalogue
+  type: sz
+  tolerance: 3
+  patterns:
+    - {regex: '^PSZSPT J(?P<ra>\d{4})(?P<dec>[+-]\d{4})$', frame: icrs, example: PSZSPT J0356-5337}
+
+- id: rbs
+  label: RBS
+  name: ROSAT Bright Survey
+  type: source
+  ref: Schwope et al. (2000)
+  tolerance: 3
+  patterns:
+    - {regex: '^RBS \d{4}$', frame: none, example: RBS 0357}
+
+- id: rcs2
+  label: RCS2
+  name: Second Red-sequence Cluster Survey
+  type: optical
+  ref: Gilbank et al. (2011)
+  tolerance: 2
+  patterns:
+    - {regex: '^RCS2 J(?P<ra>\d{4}(?:\d{2}(?:\.\d)?)?)(?P<dec>[+-]\d{4}(?:\d{2})?)$', frame: icrs, example: RCS2 J232727.6-020437}
+
+- id: rm
+  label: RM
+  name: redMaPPer SDSS cluster catalogue (BCG position)
+  type: optical
+  ref: Rykoff et al. (2014)
+  tolerance: 2
+  patterns:
+    - {regex: '^RM J(?P<ra>\d{6}\.\d)(?P<dec>[+-]\d{6}\.\d)$', frame: icrs, example: RM J121218.5+273255.1}
+
+- id: rosat-rass
+  label: 1RXS
+  name: ROSAT All-Sky Survey source catalogue
+  type: source
+  ref: Voges et al. (1999)
+  tolerance: 2
+  patterns:
+    - {regex: '^1RXS J(?P<ra>\d{6}\.\d)(?P<dec>[+-]\d{6})$', frame: icrs, example: 1RXS J060313.4+421231}
+
+- id: rx
+  label: RX
+  name: Generic ROSAT designation (RX J)
+  type: xray
+  tolerance: 3
+  patterns:
+    - {regex: '^RX J(?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: RX J1347.5-1145}
+
+- id: rxc
+  label: RXC
+  name: ROSAT-ESO Flux-Limited X-ray (REFLEX) / NORAS cluster catalogues
+  type: xray
+  ref: Boehringer et al. (2000, 2004)
+  tolerance: 3
+  patterns:
+    - {regex: '^RXC J(?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: RXC J2248.7-4431}
+
+- id: rxgcc
+  label: RXGCC
+  name: RASS X-ray galaxy cluster candidates
+  type: xray
+  ref: Xu et al. (2022)
+  tolerance: 5
+  patterns:
+    - {regex: '^RXGCC [1-9]\d*$', frame: none, example: RXGCC 131}
+
+- id: rxs
+  label: RXS
+  name: Short ROSAT survey designation (as used by RELICS)
+  type: source
+  tolerance: 3
+  patterns:
+    - {regex: '^RXS J(?P<ra>\d{6}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: RXS J060313.4+4212}
+
+- id: scl
+  label: SCL (NED)
+  name: NED supercluster-member designation
+  type: other
+  tolerance: 5
+  patterns:
+    - {regex: '^SCL \d{3} NED\d{2}$', frame: none, example: SCL 034 NED03}
+
+- id: sdss
+  label: SDSS
+  name: SDSS designation (lens-system names Jhhmm+ddmm; full-precision galaxy names)
+  type: lens
+  tolerance: 2
+  patterns:
+    - {regex: '^SDSS J(?P<ra>\d{4})(?P<dec>[+-]\d{4})$', frame: icrs, example: SDSS J1004+4112}
+    - {regex: '^SDSS J(?P<ra>\d{6}\.\d{2})(?P<dec>[+-]\d{6}\.\d)$', frame: icrs, type: galaxy, tolerance: 0.5, example: SDSS J212939.95+000521.1}
+
+- id: sdss-ce
+  label: SDSS CE
+  name: SDSS Cut & Enhance cluster catalogue
+  type: optical
+  ref: Goto et al. (2002)
+  tolerance: 2
+  patterns:
+    - {regex: '^SDSS CE J(?P<ra>\d{3}\.\d{6})(?P<dec>[+-]\d{2}\.\d{6})$', frame: icrs-deg, example: SDSS CE J028.239771+01.055582}
+
+- id: sdss-radecz
+  label: SDSS (RA+Dec+z)
+  name: SDSS cluster designation of the form SDSS +RA+Dec+z (degrees)
+  type: optical
+  tolerance: 6
+  patterns:
+    - {regex: '^SDSS \+(?P<ra>\d{3}\.\d)(?P<dec>[+-]\d{2}\.\d)\+\d\.\d{2}$', frame: icrs-deg, example: SDSS +139.5+51.7+0.24}
+
+- id: smacs
+  label: SMACS
+  name: Southern MAssive Cluster Survey
+  type: xray
+  ref: Repp & Ebeling (2018)
+  tolerance: 3
+  patterns:
+    - {regex: '^SMACS J(?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: SMACS J0723.3-7327}
+
+- id: spiders
+  label: SPIDERS
+  name: SPIDERS X-ray cluster catalogue (SDSS-IV)
+  type: xray
+  tolerance: 5
+  patterns:
+    - {regex: '^SPIDERS \d_\d{5}$', frame: none, example: SPIDERS 1_17014}
+
+- id: spt
+  label: SPT-CL
+  name: South Pole Telescope SZ clusters
+  type: sz
+  ref: Bleem et al. (2015) and later SPT catalogues
+  tolerance: 2
+  patterns:
+    - {regex: '^SPT-CL J(?P<ra>\d{4})(?P<dec>[+-]\d{4})$', frame: icrs, example: SPT-CL J0615-5746}
+
+- id: twomass
+  label: 2MASS/2MASX
+  name: 2MASS point/extended source designation (galaxy)
+  type: galaxy
+  tolerance: 0.5
+  patterns:
+    - {regex: '^2MAS[SX] J(?P<ra>\d{8})(?P<dec>[+-]\d{7})$', frame: icrs, example: 2MASX J21293995+0005207}
+
+- id: warps
+  label: WARPS
+  name: Wide Angle ROSAT Pointed Survey
+  type: xray
+  ref: Perlman et al. (2002)
+  tolerance: 3
+  patterns:
+    - {regex: '^WARPS? J(?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: icrs, example: WARP J1415.1+3612}
+
+- id: wh
+  label: WH
+  name: Wen & Han cluster catalogues (WH designation)
+  type: optical
+  tolerance: 2
+  patterns:
+    - {regex: '^WH J(?P<ra>\d{6}\.\d)(?P<dec>[+-]\d{6})$', frame: icrs, example: WH J040011.7-270711}
+
+- id: whl
+  label: WHL
+  name: Wen, Han & Liu SDSS cluster catalogue
+  type: optical
+  ref: Wen, Han & Liu (2012)
+  tolerance: 2
+  patterns:
+    - {regex: '^WHL J(?P<ra>\d{6}\.\d)(?P<dec>[+-]\d{6})$', frame: icrs, example: WHL J013719.8-082841}
+    - {regex: '^WHL J(?P<ra>\d{1,3}\.\d{3,4})(?P<dec>[+-]\d{1,2}\.\d{3,4})$', frame: icrs-deg, example: WHL J24.3324-8.477}
+
+- id: wise
+  label: WISE
+  name: WISE / AllWISE source designation (galaxy)
+  type: galaxy
+  tolerance: 0.5
+  patterns:
+    - {regex: '^WISEA? J(?P<ra>\d{6}\.\d{2})(?P<dec>[+-]\d{6}\.\d)$', frame: icrs, example: WISEA J212939.97+000521.8}
+
+- id: xlss
+  label: XXL / XMM-LSS
+  name: XMM-LSS / XXL survey (XLSSC clusters, 3XLSS and XLSSU sources)
+  type: xray
+  ref: Pacaud et al. (2016) for XLSSC
+  tolerance: 1
+  patterns:
+    - {regex: '^XLSSC [1-9]\d*$', frame: none, example: XLSSC 122}
+    - {regex: '^(?:3XLSS|XLSSU) J(?P<ra>\d{6}\.\d)(?P<dec>[+-]\d{6})$', frame: icrs, type: source, example: 3XLSS J021744.0-034531}
+
+- id: xss
+  label: XSS
+  name: RXTE slew survey source designation
+  type: source
+  tolerance: 30
+  patterns:
+    - {regex: '^XSS J(?P<ra>\d{5})(?P<dec>[+-]\d{4})$', frame: icrs, example: XSS J16159-0604}
+
+- id: zwicky
+  label: ZwCl
+  name: Zwicky clusters (CGCG; B1950 positional ZwCl names and running numbers)
+  type: optical
+  ref: Zwicky et al. (1961-1968)
+  tolerance: 5
+  patterns:
+    - {regex: '^ZwCl (?P<ra>\d{4}\.\d)(?P<dec>[+-]\d{4})$', frame: fk4, example: ZwCl 0847.2+3617}
+    - {regex: '^Zwicky [1-9]\d{0,3}$', frame: none, example: Zwicky 1953}

@@ -1,0 +1,10 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SDSS J1326+4806 quasar
+class: quasar
+status: confirmed
+cluster: sdss-j1326p4806
+refs: [2019MNRAS.489.4741S]
+notes: |-
+  Multiply-imaged quasar; [Shu et al. (2019)](ref:2019MNRAS.489.4741S) built a simple lens
+  model to test the lensing interpretation.

@@ -1,0 +1,26 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: ACT-CL J0327.4-1326
+designations:
+  - RCS2 J032727-132623
+  - WHL J032727.5-132630
+ra: "03:27:27.31"
+dec: "-13:26:23.65"
+z: 0.564
+programs: [slice]
+
+models:
+  - title: 'SLICE: Cerny et al. (2025)'
+    program: slice
+    refs: [2025arXiv250317498C]
+    data: [JWST]
+    availability: upcoming
+    note: |-
+      The model will be released on the
+      [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: Sharon et al. (2012)
+    refs: [2012ApJ...746..161S]
+    availability: unknown
+    note: |-
+      [Sharon et al. (2012)](ref:2012ApJ...746..161S) constructed a strong lensing mass
+      model of the cluster.

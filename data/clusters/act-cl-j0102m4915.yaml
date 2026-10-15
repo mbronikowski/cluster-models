@@ -1,0 +1,41 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: ACT-CL J0102-4915
+common_names: [El Gordo]
+designations:
+  - SPT-CL J0102-4915
+ra: "01:02:52.50"
+dec: "-49:14:58.0"
+z: 0.87
+programs: [relics, pearls, venus]
+
+image:
+  url: https://stsci-opo.org/STScI-01GZY227TJADC5CHE24EZ5M2DS.png
+  credit: |-
+    Image source:
+    [webbtelescope.org](https://webbtelescope.org/contents/media/images/2023/119/01GZY21YPY2WNDTAKQHQ80F78H)
+
+models:
+  - title: 'PEARLS: Diego et al. (2023)'
+    program: pearls
+    refs: [2023A&A...672A...3D]
+    data: [JWST]
+    availability: public
+    links:
+      - label: Model download (via the PEARLS website)
+        url: https://arizonastateuniversity10.app.box.com/s/3uaxcs83lv996n1sbuy3brzr2nv85ns9
+  - title: Caminha et al. (2023)
+    refs: [2023A&A...678A...3C]
+    data: [MUSE]
+    availability: public
+    note: |-
+      Model based on MUSE observations by [Caminha et al. (2023)](ref:2023A&A...678A...3C).
+      Model available for download [here](https://cdsarc.cds.unistra.fr/ftp/J/A+A/678/A3/).
+  - title: 'RELICS: Diego et al. (2020)'
+    program: relics
+    refs: [2020ApJ...904..106D]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/act0102m49/models/

@@ -1,0 +1,23 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: CL J1226.9+3332
+designations:
+  - WARP J1226.9+3332
+  - 400d J1226+3332
+  - BMW-HRI J122657.3+333253
+  - MCXC J1226.9+3332
+ra: "12:26:58.00"
+dec: "+33:32:54.1"
+z: 0.891
+programs: [clash]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/clj1226/models/
+    note: CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).

@@ -1,0 +1,107 @@
+{
+ "2025arXiv251203150C": {
+  "title": "Joint JWST-DECam Lensing Reveals That the Bullet Cluster Is a Minor Merger",
+  "first_author": "Boseong Young Cho",
+  "journal_ref": null,
+  "doi": null,
+  "arxiv": "2512.03150"
+ },
+ "2025arXiv250317498C": {
+  "title": "Strong LensIng and Cluster Evolution (SLICE) with JWST: Early Results, Lens Models, and High-Redshift Detections",
+  "first_author": "Catherine Cerny",
+  "journal_ref": "The Astrophysical Journal, 2026, Volume 1001, Number 1, Page 60",
+  "doi": "10.3847/1538-4357/ae41b0",
+  "arxiv": "2503.17498"
+ },
+ "2025arXiv250611207D": {
+  "title": "JWST lens model for A370: A very low dark matter fraction for a brightest cluster galaxy and lensing properties for the Dragon arc",
+  "first_author": "Jose M. Diego",
+  "journal_ref": "A&A 703, A207 (2025)",
+  "doi": "10.1051/0004-6361/202556062",
+  "arxiv": "2506.11207"
+ },
+ "2024arXiv240807026M": {
+  "title": "A new non-parametric method to infer galaxy cluster masses from weak lensing",
+  "first_author": "Tobias Mistele",
+  "journal_ref": null,
+  "doi": "10.33232/001c.127612",
+  "arxiv": "2408.07026"
+ },
+ "2024arXiv240803920P": {
+  "title": "The UNCOVER Survey: First Release of Ultradeep JWST/NIRSpec PRISM spectra for ~700 galaxies from z~0.3-13 in Abell 2744",
+  "first_author": "Sedona H. Price",
+  "journal_ref": null,
+  "doi": null,
+  "arxiv": "2408.03920"
+ },
+ "arXiv:2509.12319": {
+  "title": "Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Lens model comparison and H0 measurement",
+  "first_author": "S. H. Suyu",
+  "journal_ref": "A&A 708, A291 (2026)",
+  "doi": "10.1051/0004-6361/202557235",
+  "arxiv": "2509.12319"
+ },
+ "2025arXiv250912301P": {
+  "title": "Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Time delays & Hubble constant measurement",
+  "first_author": "J. D. R. Pierel",
+  "journal_ref": null,
+  "doi": null,
+  "arxiv": "2509.12301"
+ },
+ "2025arXiv251114483N": {
+  "title": "VENUS: A Strongly Lensed Clumpy Galaxy at $z\\sim11-12$ behind the Galaxy Cluster MACS J0257.1-2325",
+  "first_author": "Minami Nakane",
+  "journal_ref": null,
+  "doi": null,
+  "arxiv": "2511.14483"
+ },
+ "2025arXiv250616034L": {
+  "title": "Testing Light Unaffiliated Mass Clumps in MACS 0416 on galaxy and galaxy cluster scales using JWST",
+  "first_author": "Marceau Limousin",
+  "journal_ref": "A&A 703, A10 (2025)",
+  "doi": "10.1051/0004-6361/202556007",
+  "arxiv": "2506.16034"
+ },
+ "2026arXiv260104156C": {
+  "title": "A spectroscopically confirmed, strongly lensed, metal-poor Type II supernova at z = 5.13",
+  "first_author": "David A. Coulter",
+  "journal_ref": null,
+  "doi": null,
+  "arxiv": "2601.04156"
+ },
+ "2022arXiv220705709S": {
+  "title": "HST-Based Lens Model of SDSS J1226+2152, in Preparation for JWST-ERS TEMPLATES",
+  "first_author": "Keren Sharon",
+  "journal_ref": null,
+  "doi": null,
+  "arxiv": "2207.05709"
+ },
+ "2025arXiv251012097R": {
+  "title": "Using gravitational lensing to probe for bright quintessential galaxies in the Epoch of Reionization",
+  "first_author": "Joshua Roberson",
+  "journal_ref": null,
+  "doi": null,
+  "arxiv": "2510.12097"
+ },
+ "2025arXiv250707404S": {
+  "title": "The z=1.03 Merging Cluster SPT-CL J0356-5337: New Strong Lensing Analysis with HST and MUSE",
+  "first_author": "Grace Smith",
+  "journal_ref": null,
+  "doi": null,
+  "arxiv": "2507.07404"
+ },
+ "2025arXiv250708949A": {
+  "title": "SLICE: SPT-CL J0546-5345 -- A prominent strong-lensing cluster at $z=1.07$",
+  "first_author": "Joseph F. V. Allingham",
+  "journal_ref": "ApJL 990, 1 (2025)",
+  "doi": "10.3847/2041-8213/adfa85",
+  "arxiv": "2507.08949"
+ },
+ "2025arXiv250912319S": {
+  "title": "Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Lens model comparison and H0 measurement",
+  "first_author": "S. H. Suyu",
+  "journal_ref": "A&A 708, A291 (2026)",
+  "doi": "10.1051/0004-6361/202557235",
+  "arxiv": "2509.12319"
+ }
+}

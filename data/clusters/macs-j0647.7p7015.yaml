@@ -1,0 +1,32 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0647.7+7015
+designations:
+  - MACS J0647.8+7015
+  - MCXC J0647.8+7014
+  - PSZ2 G144.83+25.11
+ra: "06:47:50.47"
+dec: "+70:14:54.95"
+z: 0.591
+programs: [clash]
+
+models:
+  - title: Nishida et al. (2025)
+    refs: [2025OJAp....8E.123N]
+    availability: unknown
+    tags: [method-test]
+    note: |-
+      The cluster was modeled by [Nishida et al. (2025)](ref:2025OJAp....8E.123N) along with
+      a proposed method of validating cluster lens models.
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2013ApJ...762...32C, 2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs0647/models/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

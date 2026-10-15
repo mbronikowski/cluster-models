@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J2340+2947
+designations:
+  - WHL J234028.5+294747
+  - CSWA 161
+ra: "23:40:29"
+dec: "+29:47:47"
+z: 0.485
+
+models:
+  - title: Florian et al. (2021)
+    refs: [2021ApJ...916...50F]
+    availability: unknown
+    note: |-
+      [Florian et al. (2021)](ref:2021ApJ...916...50F) constructed a lens model of the
+      galaxy cluster.

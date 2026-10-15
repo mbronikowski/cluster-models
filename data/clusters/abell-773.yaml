@@ -1,0 +1,29 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 773
+designations:
+  - ZwCl 0914.5+5156
+  - SDSS +139.5+51.7+0.24
+  - RBS 0763
+  - PLCKESZ G166.13+43.39e
+ra: "09:17:59.40"
+dec: "+51:42:23.00"
+z: 0.217
+programs: [locuss]
+
+models:
+  - title: LoCuSS
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (Lenstool website)
+        url: https://projets.lam.fr/projects/lenstool/wiki
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.

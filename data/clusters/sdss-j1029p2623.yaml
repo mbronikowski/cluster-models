@@ -1,0 +1,37 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1029+2623
+designations:
+  - CXOGSG J102911.9+262338
+  - 1RXS J102912.0+262338
+ra: "10:29:11.90"
+dec: "+26:23:38.00"
+z: 0.588
+
+models:
+  - title: Napier et al. (2023)
+    refs: [2023ApJ...959..134N]
+    availability: unknown
+    tags: [time-delay-cosmography]
+    note: |-
+      The cluster was modeled by [Napier et al. (2023)](ref:2023ApJ...959..134N), along with
+      SDSS J1004+4112 and SDSS J2222+2745, to obtain a Hubble constant measurement from time
+      delays.
+  - title: Acebron et al. (2022)
+    refs: [2022ApJ...926...86A]
+    availability: unknown
+    note: |-
+      The cluster was modeled by [Acebron et al. (2022)](ref:2022ApJ...926...86A). The paper
+      also describes the multiply-imaged quasar lensed by the cluster.
+  - title: Oguri et al. (2013)
+    refs: [2013MNRAS.429..482O]
+    availability: unknown
+    note: |-
+      The cluster was modeled gravitationally by
+      [Oguri et al. (2013)](ref:2013MNRAS.429..482O).
+  - title: Oguri et al. (2012)
+    refs: [2012MNRAS.420.3213O]
+    availability: unknown
+    note: |-
+      The cluster's lensing properties were studied by
+      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).

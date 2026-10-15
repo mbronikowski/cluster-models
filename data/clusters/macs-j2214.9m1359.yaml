@@ -1,0 +1,25 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J2214.9-1359
+designations:
+  - ACT-CL J2214.9-1359
+  - MCXC J2214.9-1400
+  - CXOGSG J221457.5-140011
+ra: "22:14:57.50"
+dec: "-14:00:11.0"
+z: 0.503
+programs: [venus, muse-lensing]
+
+models:
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS2214/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

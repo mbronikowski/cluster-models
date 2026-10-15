@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 963
+designations:
+  - ZwCl 1013.7+3915
+  - WHL J101713.9+390131
+  - RBS 0849
+  - PLCKESZ G182.63+55.82
+ra: "10:17:13.90"
+dec: "+39:01:31.00"
+z: 0.205
+
+models:
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.

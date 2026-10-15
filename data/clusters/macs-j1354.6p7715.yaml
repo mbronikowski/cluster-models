@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J1354.6+7715
+aka: [PSZ2 G118.46+39.32]
+designations:
+  - PSZ1 G118.46+39.31
+  - PLCKESZ G118.40+39.30
+  - PLCKESZ G118.44+39.33
+ra: "13:54:37.80"
+dec: "+77:15:34.60"
+z: 0.397
+
+models:
+  - title: Smith et al. (2025)
+    refs: [2025RNAAS...9..300S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2025)](ref:2025RNAAS...9..300S) presented the first strong lensing
+      model of the galaxy cluster.

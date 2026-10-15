@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: RXC J0032.1+1808
+designations:
+  - PSZ1 G116.48-44.47
+  - PSZ1 0427
+ra: "00:32:04.81"
+dec: "+18:09:03.5"
+z: 0.374
+programs: [relics]
+
+models:
+  - title: 'RELICS: Acebron et al. (2020)'
+    program: relics
+    refs: [2020ApJ...898....6A]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/rxc0032p18/models/

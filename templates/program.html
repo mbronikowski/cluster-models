@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% set nav = 'programs' %}
+{% block title %}{{ p.short }}: {{ p.name }} | {{ cfg.title }}{% endblock %}
+{% block description %}{{ p.name }} ({{ p.short }}): links and the clusters it covers in the cluster-models catalogue.{% endblock %}
+{% block main %}
+<div class="wrap narrow-top">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}programs/index.html">Programs</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ p.short }}</span></nav>
+  <h1 class="entry-title">{{ p.short }}</h1>
+  <p class="entry-aka">{{ p.name }}</p>
+  <dl class="fact-list program-facts">
+    {% if p.url %}<div><dt>Website</dt><dd><a href="{{ p.url }}">{{ p.url | replace('https://', '') | replace('http://', '') }}</a></dd></div>{% endif %}
+    {% if p.archive %}<div><dt>Data archive</dt><dd><a href="{{ p.archive }}">{{ p.archive | replace('https://', '') }}</a></dd></div>{% endif %}
+    {% if p.overview %}{% set r = p.overview %}<div><dt>Overview paper</dt><dd><a href="{{ r | ref_url }}">{{ (p.overview_ref.label if p.overview_ref else r) }}</a>{% if p.overview_ref and p.overview_ref.title %}<br><span class="muted">{{ p.overview_ref.title }}</span>{% endif %}</dd></div>{% endif %}
+    {% if p.proposal %}<div><dt>Proposal</dt><dd>{{ p.proposal }}</dd></div>{% endif %}
+    {% if p.facilities %}<div><dt>Facilities</dt><dd>{{ p.facilities | join(', ') }}</dd></div>{% endif %}
+    {% for l in p.links or [] %}<div><dt>{{ 'Other links' if loop.first else '' }}</dt><dd><a href="{{ l.url }}">{{ l.label }}</a></dd></div>{% endfor %}
+  </dl>
+  {% if p.note %}<div class="prose">{{ p.note | md(root) | safe }}</div>{% endif %}
+
+  {% if p.members %}
+  <h2>Clusters in this catalogue <span class="count-inline">{{ p.members | length }}</span></h2>
+  <table class="plain-table">
+    <thead><tr><th scope="col">Cluster</th><th scope="col">RA</th><th scope="col">Dec</th><th scope="col" class="num">z</th><th scope="col">Models from this program</th></tr></thead>
+    <tbody>
+    {% for c in p.members %}
+      <tr><th scope="row"><a href="{{ root }}clusters/{{ c.slug }}.html">{{ c.name }}</a></th><td class="coord">{{ c.ra }}</td><td class="coord">{{ c.dec }}</td><td class="num">{{ c.z }}</td>
+      <td>{% for m in c.models if m.program == p.id %}<a href="{{ root }}clusters/{{ c.slug }}.html#{{ m.anchor }}">{{ m.title }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% elif p.kind == 'database' %}
+  <p class="muted">Cluster pages link to this archive from individual model entries.</p>
+  {% endif %}
+</div>
+{% endblock %}

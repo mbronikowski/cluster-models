@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SPT-CL J2325-4111
+designations:
+  - Abell S1121
+  - ACT-CL J2325.2-4111
+  - PSZ1 G348.92-67.38
+  - PSZ2 G348.90-67.37
+ra: "23:25:11.20"
+dec: "-41:11:47.76"
+z: 0.358
+programs: [venus]
+
+models:
+  - title: Mahler et al. (2025)
+    refs: [2025ApJ...980...48M]
+    availability: unknown
+    note: |-
+      [Mahler et al. (2025)](ref:2025ApJ...980...48M) constructed strong lensing models of
+      SPT-CL J2325-4111 and [SPT-CL J0049-2440](cluster:spt-cl-j0049m2440).

@@ -1,0 +1,44 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0138.0-2155
+ra: "01:38:00.0"
+dec: "-21:55:00"
+z: 0.338
+
+models:
+  - title: Suyu et al. (2025)
+    refs: [arXiv:2509.12319]
+    data: [JWST]
+    availability: unknown
+    tags: [time-delay-cosmography, multiple-models]
+    note: |-
+      [Suyu et al. (2025)](ref:arXiv:2509.12319) presented strong lensing analysis of the
+      cluster with seven modeling approaches using six different software. They present a
+      time-delay cosmography measurement of H0 with supernova Encore along with
+      [Pierel et al. (2025)](ref:2025arXiv250912301P), as well as forecasts for the
+      reappearances of SN Requiem and SN Encore.
+  - title: Acebron et al. (2025)
+    refs: [2025A&A...699A.101A]
+    data: [JWST, MUSE]
+    availability: unknown
+    note: |-
+      [Acebron et al. (2025)](ref:2025A&A...699A.101A) presented a lensing analysis of the
+      cluster which incorporates JWST and VLT/MUSE data.
+  - title: Rodney et al. (2021)
+    refs: [2021NatAs...5.1118R]
+    software: Lenstool
+    availability: public
+    note: |-
+      [Rodney et al. (2021)](ref:2021NatAs...5.1118R) performed lens modelling as part of
+      the analysis of the multiply-imaged supernova "SN Requiem". The authors provide
+      locations for components of the LENSTOOL mass model of MACS J0138
+      [on the article page, under "Source Data"](https://www.nature.com/articles/s41550-021-01450-9#Sec14).
+  - title: Newman et al. (2018)
+    refs: [2018ApJ...862..126N]
+    software: Lenstool
+    availability: unknown
+    tags: [multiple-models]
+    note: |-
+      [Newman et al. (2018)](ref:2018ApJ...862..126N) created a series of models using both
+      [custom code](ref:2015ApJ...814...26N), as well as Lenstool, as part of their
+      analysis.

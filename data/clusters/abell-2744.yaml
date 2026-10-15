@@ -1,0 +1,95 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2744
+common_names: [Pandora's Cluster]
+designations:
+  - AM 0011-303
+  - MACS J0014.3-3022
+  - AC 118
+  - MCXC J0014.3-3023
+ra: "00:14:21.16"
+dec: "-30:23:52.4"
+z: 0.306
+programs: [hff, buffalo, glass-jwst, uncover, muse-lensing]
+
+image:
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Swimming_in_Sculptor.jpg/626px-Swimming_in_Sculptor.jpg
+  credit: |-
+    Image sourced from
+    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Swimming_in_Sculptor.jpg).
+
+models:
+  - title: 'GLASS-JWST: Bergamini et al. (2023)'
+    program: glass-jwst
+    refs: [2023ApJ...952...84B]
+    data: [JWST]
+    availability: public
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/A2744_Bergamini23/
+  - title: 'UNCOVER: Furtak et al. (2023)'
+    program: uncover
+    refs: [2023MNRAS.523.4568F, 2024arXiv240803920P]
+    data: [JWST]
+    availability: public
+    links:
+      - label: Lens model v2.0 (UNCOVER DR4)
+        url: https://jwst-uncover.github.io/DR4.html#LensingMaps
+      - label: Older model versions
+        url: https://drive.google.com/drive/folders/1Lc7uveJr_ZNIcvAQYVfAeRF8Qr68D_5p
+    note: |-
+      Please cite [Furtak et al. (2023)](ref:2023MNRAS.523.4568F) and
+      [Price et al. (2024)](ref:2024arXiv240803920P) when using this model.
+  - title: Bergamini et al. (2023)
+    refs: [2023A&A...670A..60B]
+    availability: public
+    status: superseded
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/A2744_Bergamini22/
+    note: |-
+      Pre-_JWST_ model, now considered obsolete (see
+      [P. Bergamini's page](https://www.fe.infn.it/astro/lensing/)).
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2744/
+    note: Pre-_JWST_ model.
+  - title: Sebesta et al. (2019)
+    refs: [2019MNRAS.488.3251S]
+    software: GRALE
+    availability: unknown
+    tags: [free-form]
+    note: |-
+      [Sebesta et al. (2019)](ref:2019MNRAS.488.3251S) constructed a free-form lens model
+      using GRALE.
+  - title: Mahler et al. (2018)
+    refs: [2018MNRAS.473..663M]
+    data: [HST, MUSE]
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      [Mahler et al. (2018)](ref:2018MNRAS.473..663M) constructed a parametric lens model
+      using MUSE and [HFF](#hubble-frontier-fields) observations.
+  - title: Hubble Frontier Fields
+    program: hff
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models from all HFF teams (MAST)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/
+    note: |-
+      Models from several independent teams; see the [HFF program page](program:hff) for
+      credits and acknowledgement requirements.
+  - title: Mistele & Durakovic (2024)
+    refs: [2024arXiv240807026M]
+    availability: unknown
+    tags: [weak-lensing, method-test]
+    note: |-
+      [Mistele & Durakovic (2024)](ref:2024arXiv240807026M) created a model of Abell 1835
+      and Abell 2744 as part of their tests of their new non-parametric method to infer
+      galaxy cluster masses from weak lensing, which is the main focus of the paper.

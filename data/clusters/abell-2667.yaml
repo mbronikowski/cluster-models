@@ -1,0 +1,25 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2667
+designations:
+  - ACT-CL J2351.6-2604
+  - MCXC J2351.6-2605
+  - RBS 2054
+  - PSZ2 G033.97-76.61
+ra: "23:51:40.70"
+dec: "-26:05:01.0"
+z: 0.232
+programs: [muse-lensing]
+
+models:
+  - title: 'MUSE: Thai et al. (2023)'
+    program: muse-lensing
+    refs: [2023A&A...678A.139T]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2667/
+    note: |-
+      Also listed in the
+      [SL Cluster Atlas Database](https://data.lam.fr/sl-cluster-atlas/home).

@@ -1,0 +1,44 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0717.5+3745
+designations:
+  - CDGS 34
+  - MCXC J0717.5+3745
+  - PLCKESZ G056.80+36.30
+ra: "07:17:30.93"
+dec: "+37:45:29.7"
+z: 0.545
+programs: [clash, hff, buffalo, venus]
+
+models:
+  - title: Williams, Sebesta & Liesenborgs (2018)
+    refs: [2018MNRAS.480.3140W]
+    data: [HST]
+    availability: public
+    note: |-
+      [Williams, Sebesta & Liesenborgs (2018)](ref:2018MNRAS.480.3140W) modeled the
+      gravitational lensing properties of the cluster and compared their findings to the
+      [Kawamata et al. (2016)](ref:2016ApJ...819..114K) model available on the
+      [Hubble Frontier Fields](#hubble-frontier-fields) website.
+  - title: Hubble Frontier Fields
+    program: hff
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models from all HFF teams (MAST)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0717/models/
+    note: |-
+      Models from several independent teams; see the [HFF program page](program:hff) for
+      credits and acknowledgement requirements.
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs0717/models/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

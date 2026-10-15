@@ -1,0 +1,18 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J1322.8+3138
+aka: [GHO132029+3155]
+designations:
+  - SPIDERS 1_08583
+  - GHO 1320+3155
+ra: "13:22:48.77"
+dec: "+31:39:17.8"
+z: 0.308
+
+models:
+  - title: Oguri et al. (2012)
+    refs: [2012MNRAS.420.3213O]
+    availability: unknown
+    note: |-
+      The cluster's lensing properties were studied by
+      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).

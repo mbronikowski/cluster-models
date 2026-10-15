@@ -1,0 +1,10 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Refsdal
+class: supernova
+status: confirmed
+cluster: macs-j1149.5p2223
+refs: [2015Sci...347.1123K, 2016ApJ...822...78G, 2021ApJ...919...54Z]
+notes: |-
+  Multiply-imaged supernova behind MACS J1149.5+2223, the first one discovered ([Kelly et
+  al. 2015](ref:2015Sci...347.1123K)).

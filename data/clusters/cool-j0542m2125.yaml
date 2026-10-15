@@ -1,0 +1,15 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: COOL J0542-2125
+ra: "05:42:57.23"
+dec: "-21:25:34.14"
+z: 0.61
+
+models:
+  - title: Martinez et al. (2023)
+    refs: [2023ApJ...946...63M]
+    availability: unknown
+    note: |-
+      The cluster was modeled by [Martinez et al. (2023)](ref:2023ApJ...946...63M). In the
+      paper, they describe the discovery of the multiply-imaged quasar lensed by this
+      cluster.

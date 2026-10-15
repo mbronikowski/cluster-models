@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1420+3955
+ra: "14:20:39"
+dec: "+39:55:04.96"
+z: 0.607
+programs: [sgas]
+
+models:
+  - title: 'SGAS: Sharon et al. (2020)'
+    program: sgas
+    refs: [2020ApJS..247...12S]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST SGAS page)
+        url: https://archive.stsci.edu/hlsp/sgas
+    note: |-
+      The cluster's lensing properties were previously studied by
+      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).

@@ -1,0 +1,50 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 383
+designations:
+  - MCXC J0248.0-0332
+  - RBS 0357
+  - PSZ1 0604
+  - PSZ1 G177.64-53.52
+ra: "02:48:03.39"
+dec: "-03:31:45.23"
+z: 0.191
+programs: [clash, locuss, venus]
+
+models:
+  - title: 'VENUS: Golubchik et al. (2026)'
+    program: venus
+    refs: [2026A&A...710A.226G]
+    data: [JWST]
+    availability: unknown
+    note: |-
+      Updated version of the [CLASH model](#clash-zitrin-et-al-2015); the lens model is not
+      the main focus of the paper.
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/a383/models/
+    note: |-
+      Previously, the cluster was studied by [Zitrin et al. (2011)](ref:2011ApJ...742..117Z)
+      as part of the CLASH program.
+  - title: Newman et al. (2011)
+    refs: [2011ApJ...728L..39N]
+    availability: unknown
+    note: |-
+      The cluster was modeled gravitationally by
+      [Newman et al. (2011)](ref:2011ApJ...728L..39N).
+  - title: 'LoCuSS: Richard et al. (2010)'
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    availability: unknown
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.

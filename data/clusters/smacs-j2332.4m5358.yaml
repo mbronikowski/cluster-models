@@ -1,0 +1,23 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SMACS J2332.4-5358
+designations:
+  - LCS-CL J233227-5358.4
+  - PSZ2 G325.99-59.4
+ra: "23:32:27.48"
+dec: "-53:58:28.2"
+z: 0.415
+programs: [muse-lensing]
+
+models:
+  - title: MUSE data release
+    program: muse-lensing
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/SMACS2332/
+    note: |-
+      Not described in a paper as of September 2024. See also
+      [Richard et al. (2021)](ref:2021A&A...646A..83R) and
+      [Thai et al. (2023)](ref:2023A&A...678A.139T).

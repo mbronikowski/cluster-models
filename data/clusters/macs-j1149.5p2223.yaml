@@ -1,0 +1,76 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J1149.5+2223
+designations:
+  - WHL J114936.9+222347
+  - MCXC J1149.5+2224
+  - RM J114935.7+222354.6
+ra: "11:49:35.09"
+dec: "+22:24:10.9"
+z: 0.536
+programs: [clash, hff, buffalo, canucs, venus]
+
+image:
+  url: https://cdn.esahubble.org/archives/images/thumb700x/heic1505b.jpg
+  credit: |-
+    Image sourced from: [esahubble.org](https://esahubble.org/images/heic1505b/), credit:
+    [NASA](http://www.nasa.gov/), [ESA](http://www.spacetelescope.org/), S. Rodney and the
+    FrontierSN team; T. Treu, P. Kelly and the GLASS team; J. Lotz and the Frontier Fields
+    team; M. Postman and the CLASH team; and Z. Levay.
+
+models:
+  - title: CANUCS
+    program: canucs
+    data: [JWST]
+    availability: public
+    tags: [preliminary]
+    links:
+      - label: CANUCS DR1 lens models
+        url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
+    note: The DR1 model is preliminary.
+  - title: Schuldt et al. (2024)
+    refs: [2024A&A...689A..42S]
+    data: [MUSE]
+    availability: public
+    note: |-
+      Model by [Schuldt et al. (2024)](ref:2024A&A...689A..42S) using VLT/MUSE observations.
+      Model available [here](https://www.fe.infn.it/astro/lensing/M1149_Schuldt2024/). See
+      also model list on [this page](https://www.fe.infn.it/astro/lensing/).
+  - title: Zitrin (2021)
+    refs: [2021ApJ...919...54Z]
+    availability: public
+    tags: [multiple-models]
+    note: |-
+      [Zitrin (2021)](ref:2021ApJ...919...54Z) constructed two grid-based lens models of the
+      cluster. The dPIEeNFW model is available for download
+      [here](https://www.dropbox.com/sh/xkzysm4nhyq28e3/AABJVCWVzbkGdnvyD67CODyha?dl=0).
+  - title: Grillo et al. (2016)
+    refs: [2016ApJ...822...78G]
+    data: [MUSE]
+    availability: public
+    note: |-
+      Model by [Grillo et al. (2016)](ref:2016ApJ...822...78G) using VLT/MUSE observations.
+      Model available [here](https://www.fe.infn.it/astro/lensing/M1149_Grillo2016/). See
+      also model list on [this page](https://www.fe.infn.it/astro/lensing/).
+  - title: Hubble Frontier Fields
+    program: hff
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models from all HFF teams (MAST)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs1149/models/
+    note: |-
+      Models from several independent teams; see the [HFF program page](program:hff) for
+      credits and acknowledgement requirements.
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs1149/models/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

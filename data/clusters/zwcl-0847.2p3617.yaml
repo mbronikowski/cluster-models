@@ -1,0 +1,23 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: ZwCl 0847.2+3617
+aka: [Zwicky 1953]
+designations:
+  - WHL J085007.2+360421
+  - SPIDERS 2_07063
+  - PSZ2 G186.99+38.65
+  - GMBCG J132.53297+36.07048
+  - MCXC J0850.2+3603
+  - PLANCK 0631
+ra: "08:50:11.98"
+dec: "+36:03:41.00"
+z: 0.377
+
+models:
+  - title: Wong et al. (2017)
+    refs: [2017ApJ...844..127W]
+    availability: unknown
+    tags: [weak-lensing]
+    note: |-
+      [Wong et al. (2017)](ref:2017ApJ...844..127W) presented a combined strong and weak
+      lensing analysis of the cluster.

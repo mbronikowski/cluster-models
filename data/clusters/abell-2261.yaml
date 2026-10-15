@@ -1,0 +1,22 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2261
+designations:
+  - MCXC J1722.4+3208
+  - RBS 1641
+  - PSZ2 G055.59+31.85
+  - PLCKESZ G055.60+31.86
+ra: "17:22:27.10"
+dec: "+32:08:01.68"
+z: 0.225
+programs: [clash]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/a2261/models/

@@ -1,0 +1,23 @@
+{% macro avail(state) -%}
+{%- set label, desc = availability[state] -%}
+<span class="avail avail-{{ state }}" title="{{ desc }}"><svg viewBox="0 0 16 16" aria-hidden="true" class="avail-glyph">
+{%- if state == 'public' %}<circle cx="8" cy="8" r="5.5"/>
+{%- elif state == 'on-request' %}<circle cx="8" cy="8" r="5" class="ring"/><path d="M8 3 A5 5 0 0 1 8 13 Z"/>
+{%- elif state == 'upcoming' %}<circle cx="8" cy="8" r="5" class="ring"/><circle cx="8" cy="8" r="1.8"/>
+{%- elif state == 'defunct' %}<circle cx="8" cy="8" r="5" class="ring"/><path d="M4.4 11.6 L11.6 4.4" class="stroke"/>
+{%- elif state == 'unavailable' %}<path d="M4.5 4.5 L11.5 11.5 M11.5 4.5 L4.5 11.5" class="stroke"/>
+{%- else %}<circle cx="8" cy="8" r="4" class="ring thin"/>
+{%- endif %}</svg>{{ label }}</span>
+{%- endmacro %}
+
+{% macro program_badge(p, root) -%}
+<a class="badge badge-program" href="{{ root }}programs/{{ p.id }}.html" title="{{ p.name }}">{{ p.short }}</a>
+{%- endmacro %}
+
+{% macro ref_links(refs) -%}
+{%- for r in refs %}<a href="{{ r.url }}"{% if r.title %} title="{{ r.title }}"{% endif %}>{{ r.label }}</a>{% if not loop.last %}, {% endif %}{% endfor -%}
+{%- endmacro %}
+
+{% macro coords(c) -%}
+<span class="coord">{{ c.ra }}</span> <span class="coord">{{ c.dec }}</span>
+{%- endmacro %}

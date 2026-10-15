@@ -1,0 +1,70 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1004+4112
+ra: "10:04:33.83"
+dec: "+41:12:34.73"
+z: 0.68
+
+models:
+  - title: Martínez-Arrizabalaga et al. (2024)
+    refs: [2024A&A...682A.187M]
+    availability: unknown
+    tags: [free-form, time-delay-cosmography]
+    note: |-
+      [Martínez-Arrizabalaga et al. (2024)](ref:2024A&A...682A.187M) created a free-form
+      lens model for the galaxy cluster for the purpose of measuring the Hubble constant.
+  - title: Perera et al. (2024)
+    refs: [2024MNRAS.527.2639P]
+    availability: on-request
+    tags: [free-form, hybrid, multiple-models]
+    note: |-
+      [Perera et al. (2024)](ref:2024MNRAS.527.2639P) created an array of free-form and
+      hybrid lens models for SDSS J1004+4112. Data generated from the article will be shared
+      upon reasonable request to the corresponding author.
+  - title: Liu et al. (2023)
+    refs: [2023PhRvD.108h3532L]
+    availability: unknown
+    tags: [time-delay-cosmography]
+    note: |-
+      The cluster was modeled by [Liu et al. (2023)](ref:2023PhRvD.108h3532L) for the
+      purpose of measuring the Hubble constant.
+  - title: Napier et al. (2023)
+    refs: [2023ApJ...959..134N]
+    availability: unknown
+    tags: [time-delay-cosmography]
+    note: |-
+      The cluster was modeled by [Napier et al. (2023)](ref:2023ApJ...959..134N), along with
+      SDSS J1029+2623 and SDSS J2222+2745, to obtain a Hubble constant measurement from time
+      delays.
+  - title: Forés-Toribio et al. (2022)
+    refs: [2022ApJ...937...35F]
+    availability: unknown
+    note: |-
+      [Forés-Toribio et al. (2022)](ref:2022ApJ...937...35F) created a gravitational lensing
+      model of the galaxy cluster.
+  - title: Mohammed et al. (2015)
+    refs: [2015PASJ...67...21M]
+    availability: unknown
+    note: |-
+      [Mohammed et al. (2015)](ref:2015PASJ...67...21M) created a gravitational lensing
+      model of the galaxy cluster.
+  - title: Oguri et al. (2012)
+    refs: [2012MNRAS.420.3213O]
+    availability: unknown
+    note: |-
+      The cluster's lensing properties were studied by
+      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).
+  - title: Oguri (2010)
+    refs: [2010PASJ...62.1017O]
+    software: glafic
+    availability: public
+    note: |-
+      [Oguri (2010)](ref:2010PASJ...62.1017O) presented a strong lens analysis of the
+      cluster. The model can be downloaded from the GLAFIC v1 web page
+      [here](https://www.slac.stanford.edu/~oguri/glafic/index_v1.html).
+  - title: Sharon et al. (2005)
+    refs: [2005ApJ...629L..73S]
+    availability: unknown
+    note: |-
+      [Sharon et al. (2005)](ref:2005ApJ...629L..73S) constructed a gravitational lensing
+      model of the galaxy cluster.

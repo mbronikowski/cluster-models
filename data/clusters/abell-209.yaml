@@ -1,0 +1,28 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 209
+designations:
+  - ACT-CL J0131.8-1336
+  - MCXC J0131.8-1336
+  - RBS 0211
+  - PSZ2 G159.91-73.50
+ra: "01:31:53.00"
+dec: "-13:36:34.00"
+z: 0.209
+programs: [clash, venus]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/a209/models/
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.

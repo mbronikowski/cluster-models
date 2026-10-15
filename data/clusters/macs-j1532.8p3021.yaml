@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J1532.8+3021
+aka: [RX J1532.9+3021]
+designations:
+  - MCXC J1532.9+3021
+  - CXOGSG J153253.8+302057
+ra: "15:32:53.80"
+dec: "+30:20:57.0"
+z: 0.345
+programs: [clash, venus]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/rxj1532/models/

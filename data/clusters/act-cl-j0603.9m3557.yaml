@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: ACT-CL J0603.9-3557
+common_names: [Carousel Lens]
+aka: [DESI-090.9854-35.9683]
+designations:
+  - DES J060356.50-355805.7
+  - PSZRX G242.36-24.59
+ra: "06:03:57.16"
+dec: "-35:57:59.50"
+z: 0.494
+
+models:
+  - title: Sheu et al. (2024)
+    refs: [2024ApJ...973....3S]
+    availability: unknown
+    note: |-
+      [Sheu et al. (2024)](ref:2024ApJ...973....3S) constructed a lens model of the galaxy
+      cluster.

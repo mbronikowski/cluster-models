@@ -1,0 +1,24 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0911+1746
+aka: [RXC J0911.1+1746]
+designations:
+  - ACT-CL J0911.1+1746
+  - PSZ1 G211.23+38.63
+ra: "09:11:11.28"
+dec: "+17:46:31.9"
+z: 0.506
+programs: [relics, venus]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/rxc0911p17/models/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

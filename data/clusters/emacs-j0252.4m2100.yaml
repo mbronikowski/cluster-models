@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J0252.4-2100
+designations:
+  - ACT-CL J0252.4-2100
+  - SPT-CL J0252-2100
+ra: "02:52:27.41"
+dec: "-21:00:50.68"
+z: 0.703
+
+models:
+  - title: Ebeling et al. (2021)
+    refs: [2021MNRAS.508.3663E]
+    availability: unknown
+    note: |-
+      [Ebeling et al. (2021)](ref:2021MNRAS.508.3663E) created a gravitational lensing model
+      of the cluster.

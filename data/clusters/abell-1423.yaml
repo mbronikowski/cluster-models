@@ -1,0 +1,23 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 1423
+designations:
+  - ZwCl 1154.9+3400
+  - SCL 110 NED01
+  - RBS 1052
+  - PLCKESZ G180.62+76.65
+  - ACO 1423
+ra: "11:57:22.50"
+dec: "+33:39:18.00"
+z: 0.213
+programs: [clash]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/a1423/models/

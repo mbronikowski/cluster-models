@@ -1,0 +1,172 @@
+# Programs and resources referenced by cluster and model entries.
+# Field reference: docs/data-format.md
+
+- id: clash
+  name: Cluster Lensing And Supernova survey with Hubble
+  short: CLASH
+  kind: survey
+  facilities: [HST]
+  url: https://www.stsci.edu/~postman/CLASH/Home.html
+  archive: https://archive.stsci.edu/prepds/clash/
+  overview: 2012ApJS..199...25P
+  links:
+    - label: Information for astronomers
+      url: https://www.stsci.edu/~postman/CLASH/for_astronomers.html
+
+- id: clash-vlt
+  name: CLASH-VLT
+  short: CLASH-VLT
+  kind: survey
+  facilities: [VLT]
+  url: https://sites.google.com/site/vltclashpublic/home
+  links:
+    - label: Lens models (INFN Ferrara lensing group)
+      url: https://www.fe.infn.it/astro/lensing/
+
+- id: hff
+  name: Hubble Frontier Fields
+  short: HFF
+  kind: survey
+  facilities: [HST]
+  url: https://outerspace.stsci.edu/display/HPR/HST+Frontier+Fields
+  archive: https://archive.stsci.edu/prepds/frontier/
+  overview: 2017ApJ...837...97L
+  links:
+    - label: Lens models and acknowledgement information
+      url: https://archive.stsci.edu/prepds/frontier/lensmodels/
+
+- id: buffalo
+  name: Beyond Ultra-deep Frontier Fields And Legacy Observations
+  short: BUFFALO
+  kind: survey
+  facilities: [HST]
+  url: https://buffalo.ipac.caltech.edu/
+  archive: https://archive.stsci.edu/hlsp/buffalo
+  overview: 2020ApJS..247...64S
+  note: Targets the six Hubble Frontier Fields clusters.
+
+- id: relics
+  name: Reionization Lensing Cluster Survey
+  short: RELICS
+  kind: survey
+  facilities: [HST]
+  url: https://relics.stsci.edu/
+  archive: https://archive.stsci.edu/hlsp/relics
+  overview: 2019ApJ...884...85C
+
+- id: sgas
+  name: Sloan Digital Sky Survey Giant Arcs Survey
+  short: SGAS
+  kind: survey
+  facilities: [HST]
+  url: https://archive.stsci.edu/hlsp/sgas
+  archive: https://archive.stsci.edu/hlsp/sgas
+  overview: 2020ApJS..247...12S
+  note: |-
+    Overview reference: the HST lens models of 37 SGAS clusters.
+
+- id: locuss
+  name: Local Cluster Substructure Survey
+  short: LoCuSS
+  kind: survey
+  facilities: [HST]
+  url: https://www.sr.bham.ac.uk/locuss/home.php
+  overview: 2010MNRAS.404..325R
+  note: |-
+    Overview reference: strong-lensing analysis of 20 LoCuSS clusters.
+
+- id: glass-jwst
+  name: GLASS-JWST Early Release Science program
+  short: GLASS-JWST
+  kind: survey
+  facilities: [JWST]
+  url: https://glass.astro.ucla.edu/ers/
+  archive: https://archive.stsci.edu/hlsp/glass-jwst
+  overview: 2022ApJ...935..110T
+
+- id: uncover
+  name: UNCOVER JWST Treasury survey
+  short: UNCOVER
+  kind: survey
+  facilities: [JWST]
+  url: https://jwst-uncover.github.io/
+  overview: 2024ApJ...974...92B
+
+- id: canucs
+  name: CAnadian NIRISS Unbiased Cluster Survey
+  short: CANUCS
+  kind: survey
+  facilities: [JWST]
+  url: https://niriss.github.io/
+  archive: https://archive.stsci.edu/hlsp/canucs
+  overview: 2022PASP..134b5002W
+  links:
+    - label: Data Release 1
+      url: https://niriss.github.io/data_release1.html
+    - label: DR1 lens models
+      url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
+
+- id: pearls
+  name: Prime Extragalactic Areas for Reionization and Lensing Science
+  short: PEARLS
+  kind: survey
+  facilities: [JWST]
+  url: https://sites.google.com/view/jwstpearls
+  overview: 2023AJ....165...13W
+
+- id: slice
+  name: Strong LensIng and Cluster Evolution
+  short: SLICE
+  kind: survey
+  facilities: [JWST]
+  overview: 2025arXiv250317498C
+  note: |-
+    JWST snapshot survey of strong-lensing clusters; models are being released on the
+    [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+
+- id: venus
+  name: Vast Exploration for Nascent, Unexplored Sources
+  short: VENUS
+  kind: survey
+  facilities: [JWST]
+  proposal: JWST GO 6882
+  url: https://www.stsci.edu/jwst-program-info/download/jwst/pdf/6882/
+  note: Membership from the program's fixed-target list (JWST GO 6882).
+
+- id: templates
+  name: Targeting Extremely Magnified Panchromatic Lensed Arcs and their Extended Star formation
+  short: TEMPLATES
+  kind: survey
+  facilities: [JWST]
+  url: https://archive.stsci.edu/hlsp/templates
+
+- id: alcs
+  name: ALMA Lensing Cluster Survey
+  short: ALCS
+  kind: survey
+  facilities: [ALMA]
+  url: https://www.ioa.s.u-tokyo.ac.jp/ALCS/
+  overview: 2024ApJS..275...36F
+
+- id: muse-lensing
+  name: MUSE lensing-cluster data release
+  short: MUSE DR
+  kind: survey
+  facilities: [VLT]
+  url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/
+  overview: 2021A&A...646A..83R
+  note: |-
+    MUSE/VLT observations of lensing clusters, with mass models, published on Johan
+    Richard's data-release page.
+
+- id: lam-atlas
+  name: LAM Strong Lensing Cluster Atlas
+  short: SL Atlas
+  kind: database
+  url: https://data.lam.fr/sl-cluster-atlas/home
+
+- id: lenstool
+  name: Lenstool website (archived models)
+  short: Lenstool
+  kind: database
+  url: https://projets.lam.fr/projects/lenstool/wiki

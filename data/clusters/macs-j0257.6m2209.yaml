@@ -1,0 +1,22 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0257.6-2209
+aka: [Abell 402]
+designations:
+  - ACT-CL J0257.7-2209
+  - MCXC J0257.6-2209
+  - PSZ1 G210.08-60.96
+ra: "02:57:41.33"
+dec: "-22:09:14.40"
+z: 0.323
+programs: [venus, muse-lensing]
+
+models:
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0257/

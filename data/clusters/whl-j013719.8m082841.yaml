@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: WHL J013719.8-082841
+aka: [WHL J24.3324-8.477]
+ra: "01:37:19.78"
+dec: "-08:28:40.7"
+z: 0.569
+programs: [relics, venus]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/whl0137m08/models/

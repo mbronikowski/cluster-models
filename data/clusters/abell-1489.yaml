@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 1489
+designations:
+  - NSCS J121229+273051
+  - RM J121218.5+273255.1
+ra: "12:12:32.04"
+dec: "+27:29:19.1"
+z: 0.28
+
+models:
+  - title: Zitrin et al. (2020)
+    refs: [2020ApJ...903..137Z]
+    data: [HST, Gemini]
+    availability: public
+    note: |-
+      The cluster was modeled by [Zitrin et al. (2020)](ref:2020ApJ...903..137Z) based on
+      _HST_ and Gemini North data. Data download link in article
+      [here](https://www.stsci.edu/~koekemoer/zitrin/RMJ1212).

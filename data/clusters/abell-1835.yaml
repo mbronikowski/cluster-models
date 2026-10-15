@@ -1,0 +1,39 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 1835
+designations:
+  - ACT-CL J1401.0+0252
+  - MCXC J1401.0+0252
+ra: "14:01:02.28"
+dec: "+02:53:48.4"
+z: 0.252
+programs: [locuss, venus]
+
+models:
+  - title: Mistele & Durakovic (2024)
+    refs: [2024arXiv240807026M]
+    availability: unknown
+    tags: [weak-lensing, method-test]
+    note: |-
+      [Mistele & Durakovic (2024)](ref:2024arXiv240807026M) created a model of Abell 1835
+      and Abell 2744 as part of their tests of their new non-parametric method to infer
+      galaxy cluster masses from weak lensing, which is the main focus of the paper.
+  - title: Morandi et al. (2012)
+    refs: [2012MNRAS.425.2069M]
+    availability: unknown
+    note: The cluster was modeled by [Morandi et al. (2012)](ref:2012MNRAS.425.2069M).
+  - title: LoCuSS
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (Lenstool website)
+        url: https://projets.lam.fr/projects/lenstool/wiki
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.
