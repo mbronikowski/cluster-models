@@ -1,6 +1,6 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
-name: SDSS J2222+2745 quasar
+name: SDSS J2222+2745 AGN
 class: agn
 status: confirmed
 cluster: sdss-j2222p2745

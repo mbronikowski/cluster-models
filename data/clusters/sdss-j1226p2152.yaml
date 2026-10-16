@@ -15,7 +15,7 @@ z: 0.43
 programs: [templates]
 
 models:
-  - title: Sharon et al. (2022)
+  - title: Sharon et al. (2022b)
     program: templates
     refs: [2022arXiv220705709S]
     data: [HST]

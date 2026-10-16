@@ -1,6 +1,6 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
-name: COOL J0542-2125 quasar
+name: COOL J0542-2125 AGN
 class: agn
 status: confirmed
 cluster: cool-j0542m2125

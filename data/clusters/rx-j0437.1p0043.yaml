@@ -13,7 +13,7 @@ dec: "+00:43:52.1"
 z: 0.285
 
 models:
-  - title: Cerny et al. (2026)
+  - title: Cerny et al. (2026b)
     refs: [arXiv:2609.17852]
     data: [JWST, HST, MUSE]
     software: Lenstool

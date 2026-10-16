@@ -48,12 +48,12 @@ models:
     links:
       - label: CANUCS DR1 lens models
         url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
-  - title: Bergamini et al. (2023)
+  - title: Bergamini et al. (2023b)
     refs: [2023A&A...674A..79B]
     data: [MUSE]
     availability: public
     note: |-
-      Lens model by [Bergamini et al. (2023)](ref:2023A&A...674A..79B), model available for
+      Lens model by [Bergamini et al. (2023b)](ref:2023A&A...674A..79B), model available for
       download [here](https://www.fe.infn.it/astro/lensing/M0416_Bergamini22/). Incorporates
       MUSE/VLT data.
   - title: Limousin et al. (2022)
@@ -73,7 +73,7 @@ models:
     note: |-
       Lens model by [Bergamini et al. (2021)](ref:2021A&A...645A.140B), model available for
       download [here](https://www.fe.infn.it/astro/lensing/M0416_Bergamini20/). Superseded
-      by [Bergamini et al. (2023)](#bergamini-et-al-2023).
+      by [Bergamini et al. (2023b)](#bergamini-et-al-2023b).
   - title: Richard et al. (2021)
     program: muse-lensing
     refs: [2021A&A...646A..83R]
@@ -97,11 +97,11 @@ models:
     note: |-
       Lens model by [Bonamigo et al. (2018)](ref:2018ApJ...864...98B), model available for
       download [here](https://www.fe.infn.it/astro/lensing/M0416_Bonamigo18/).
-  - title: Caminha et al. (2017)
+  - title: Caminha et al. (2017a)
     refs: [2017A&A...600A..90C]
     availability: public
     note: |-
-      Lens model by [Caminha et al. (2017)](ref:2017A&A...600A..90C), model available for
+      Lens model by [Caminha et al. (2017a)](ref:2017A&A...600A..90C), model available for
       download [here](https://www.fe.infn.it/astro/lensing/M0416_Caminha16/).
   - title: Hubble Frontier Fields
     program: hff

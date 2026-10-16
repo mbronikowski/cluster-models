@@ -9,11 +9,11 @@ dec: "-78:12:02.052"
 z: 0.443
 
 models:
-  - title: Sharon et al. (2022)
+  - title: Sharon et al. (2022a)
     refs: [2022ApJ...941..203S]
     availability: unknown
     note: |-
-      [Sharon et al. (2022)](ref:2022ApJ...941..203S) presented a strong lensing model of
+      [Sharon et al. (2022a)](ref:2022ApJ...941..203S) presented a strong lensing model of
       the galaxy cluster.
   - title: Pignatoro et al. (2021)
     refs: [2021A&A...655A..81P]

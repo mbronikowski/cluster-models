@@ -24,6 +24,16 @@ models:
       - label: CANUCS DR1 lens models
         url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
     note: The DR1 model is preliminary.
+  - title: Cerny et al. (2025)
+    refs: [2025MNRAS.541.2341C]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: on-request
+    tags: [parametric]
+    note: |-
+      Strong-lensing model built around the cluster's radial arc(s), combined with the
+      stellar velocity dispersion profile of the BCG to measure the inner slope of the
+      dark-matter profile. The models are shared by the authors on request.
   - title: 'RELICS: Mahler et al. (2019)'
     program: relics
     refs: [2019ApJ...873...96M]
@@ -32,3 +42,11 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/macs0417m11/models/
+  - title: Jauzac et al. (2019)
+    refs: [2019MNRAS.483.3082J]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    note: |-
+      Lenstool model of the merging core with three MUSE-confirmed systems, including the
+      radial image of the "Doughnut" ring galaxy at z = 0.8718, compared with Chandra data.

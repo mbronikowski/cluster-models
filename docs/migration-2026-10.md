@@ -282,6 +282,11 @@ now Limousin et al. (2026, A&A 711, A143). Pierel et al. (2025) is now its journ
 Pierel et al. (2026, `2026ApJ...998..219P`). ALCS membership now covers all 33 clusters in
 Table 1 of Fujimoto et al. (2024), not only RXC J0600.1-2007.
 
+**Labels (16 October 2026).** Where two references shared a label they now carry a/b/c
+suffixes (e.g. `Zitrin et al. (2011a)`), and model titles and anchors changed with them.
+The lensed-AGN entries were renamed from "... quasar" to "... AGN", so their pages moved
+(e.g. `transients/sdss-j1004p4112-agn.html`).
+
 ## Open items
 
 - **Availability.** 118 models are `unknown`, because the wiki only says "the cluster was

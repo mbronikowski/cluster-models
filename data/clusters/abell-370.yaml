@@ -86,11 +86,11 @@ models:
     note: |-
       Models from several independent teams; see the [HFF program page](program:hff) for
       credits and acknowledgement requirements.
-  - title: Richard et al. (2010)
+  - title: Richard et al. (2010a)
     refs: [2010MNRAS.402L..44R]
     software: Lenstool
     availability: public
     note: |-
-      The cluster was studied by [Richard et al. (2010)](ref:2010MNRAS.402L..44R). The lens
+      The cluster was studied by [Richard et al. (2010a)](ref:2010MNRAS.402L..44R). The lens
       model is available for download on the
       [Lenstool website](https://projets.lam.fr/projects/lenstool/wiki).

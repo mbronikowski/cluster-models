@@ -23,3 +23,32 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/rxc0949p17/models/
+  - title: Cerny et al. (2025)
+    refs: [2025MNRAS.541.2341C]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: on-request
+    tags: [parametric]
+    note: |-
+      Strong-lensing model built around the cluster's radial arc(s), combined with the
+      stellar velocity dispersion profile of the BCG to measure the inner slope of the
+      dark-matter profile. The models are shared by the authors on request.
+  - title: Allingham et al. (2024)
+    refs: [2024MNRAS.528.1711A]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: on-request
+    tags: [method-test]
+    note: |-
+      Lens models re-optimised together with an analytic model of the intra-cluster medium,
+      compared with XMM-Newton and ACT data. The lens models are available on reasonable
+      request.
+  - title: Allingham et al. (2023)
+    refs: [2023MNRAS.522.1118A]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: on-request
+    note: |-
+      Lenstool model with two MUSE-confirmed and four HST-only multiple-image systems,
+      combined with XMM-Newton data; it shows a relaxing post-merger cluster. The lens models
+      are available on reasonable request.

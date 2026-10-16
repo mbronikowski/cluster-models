@@ -40,7 +40,7 @@ models:
     note: |-
       [Mohammed et al. (2014)](ref:2014MNRAS.439.2651M) constructed lens models of Abell
       1689, [Abell 2218](cluster:abell-2218) and [Abell 3827](cluster:abell-3827).
-  - title: 'LoCuSS: Richard et al. (2010)'
+  - title: 'LoCuSS: Richard et al. (2010b)'
     program: locuss
     refs: [2010MNRAS.404..325R]
     data: [HST]

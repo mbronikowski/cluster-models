@@ -9,19 +9,19 @@ dec: "+26:23:38.00"
 z: 0.588
 
 models:
-  - title: Napier et al. (2023)
+  - title: Napier et al. (2023b)
     refs: [2023ApJ...959..134N]
     availability: unknown
     tags: [time-delay-cosmography]
     note: |-
-      The cluster was modeled by [Napier et al. (2023)](ref:2023ApJ...959..134N), along with
+      The cluster was modeled by [Napier et al. (2023b)](ref:2023ApJ...959..134N), along with
       SDSS J1004+4112 and SDSS J2222+2745, to obtain a Hubble constant measurement from time
       delays.
-  - title: Acebron et al. (2022)
+  - title: Acebron et al. (2022b)
     refs: [2022ApJ...926...86A]
     availability: unknown
     note: |-
-      The cluster was modeled by [Acebron et al. (2022)](ref:2022ApJ...926...86A). The paper
+      The cluster was modeled by [Acebron et al. (2022b)](ref:2022ApJ...926...86A). The paper
       also describes the multiply-imaged quasar lensed by the cluster.
   - title: Oguri et al. (2013)
     refs: [2013MNRAS.429..482O]

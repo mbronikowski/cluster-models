@@ -57,11 +57,11 @@ models:
       Lens model by [Bonamigo et al. (2018)](ref:2018ApJ...864...98B). Model available
       [here](https://www.fe.infn.it/astro/lensing/M1206_Bonamigo18/). See also the model
       list [here](https://www.fe.infn.it/astro/lensing/).
-  - title: Caminha et al. (2017)
+  - title: Caminha et al. (2017b)
     refs: [2017A&A...607A..93C]
     availability: public
     note: |-
-      Lens model by [Caminha et al. (2017)](ref:2017A&A...607A..93C). Model available
+      Lens model by [Caminha et al. (2017b)](ref:2017A&A...607A..93C). Model available
       [here](https://www.fe.infn.it/astro/lensing/M1206_Caminha17/). See also the model list
       [here](https://www.fe.infn.it/astro/lensing/).
   - title: CLASH

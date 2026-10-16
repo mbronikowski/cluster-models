@@ -26,7 +26,7 @@ image:
     [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Swimming_in_Sculptor.jpg).
 
 models:
-  - title: 'GLASS-JWST: Bergamini et al. (2023)'
+  - title: 'GLASS-JWST: Bergamini et al. (2023c)'
     program: glass-jwst
     refs: [2023ApJ...952...84B]
     data: [JWST]
@@ -34,7 +34,7 @@ models:
     links:
       - label: Model download
         url: https://www.fe.infn.it/astro/lensing/A2744_Bergamini23/
-  - title: 'UNCOVER: Furtak et al. (2023)'
+  - title: 'UNCOVER: Furtak et al. (2023b)'
     program: uncover
     refs: [2023MNRAS.523.4568F, 2025ApJ...982...51P]
     data: [JWST]
@@ -45,9 +45,9 @@ models:
       - label: Older model versions
         url: https://drive.google.com/drive/folders/1Lc7uveJr_ZNIcvAQYVfAeRF8Qr68D_5p
     note: |-
-      Please cite [Furtak et al. (2023)](ref:2023MNRAS.523.4568F) and
+      Please cite [Furtak et al. (2023b)](ref:2023MNRAS.523.4568F) and
       [Price et al. (2025)](ref:2025ApJ...982...51P) when using this model.
-  - title: Bergamini et al. (2023)
+  - title: Bergamini et al. (2023a)
     refs: [2023A&A...670A..60B]
     availability: public
     status: superseded
