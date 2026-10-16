@@ -310,8 +310,9 @@ WHL 0137 models cite Welch et al. (2022), where they are described.
   MACS J2135.2-0102) are not checked, and the wiki already called them defunct.
 - **Transients.** The lensed supernovae and AGN list their DD programs and the papers
   centred on them, and singly-imaged, cluster-magnified supernovae are included with
-  `images: single` (October 2026). Not yet included: caustic-crossing stars, the z = 2.22
-  SN Ia behind MOO J1014+0038 (cluster not in the catalogue), and galaxy-scale lenses.
+  `images: single` (October 2026). Not yet included: caustic-crossing stars and the
+  z = 2.22 SN Ia behind MOO J1014+0038 (cluster not in the catalogue). Transients lensed
+  by single galaxies are out of scope.
 - **Observations.** Each cluster can list instruments, filters and programs
   (`observations:`), but the wiki had none.
 - **Missing clusters.** Some well-studied strong lenses are not listed yet, for example
