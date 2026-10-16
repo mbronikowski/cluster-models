@@ -4,6 +4,12 @@ name: Abell S295
 designations:
   - SPT-CL J0245-5302
   - ACT-CL J0245.5-5302
+  - ACT-CL J0245-5302
+  - ACT-CL J0245-5301
+  - RXC J0245.4-5302
+  - PLCKESZ G271.50-56.55
+  - PSZ1 G271.48-56.57
+  - PSZ2 G271.53-56.57
 ra: "02:45:29.09"
 dec: "-53:01:25.3"
 z: 0.3

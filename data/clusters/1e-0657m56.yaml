@@ -5,6 +5,14 @@ common_names: [Bullet Cluster]
 designations:
   - SPT-CL J0658-5556
   - ACT-CL J0658.5-5557
+  - ACT-CL J0658-5557
+  - ACT-CL J0658-5556
+  - RXC J0658.5-5556
+  - RXC J0658.4-5557
+  - MCXC J0658.5-5556
+  - PLCKESZ G266.03-21.25
+  - PSZ1 G266.02-21.23
+  - PSZ2 G266.04-21.25
 ra: "06:58:31.61"
 dec: "-55:56:47.4"
 z: 0.297

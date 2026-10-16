@@ -4,6 +4,8 @@ name: MACS J0329.6-0211
 designations:
   - CDGS 26
   - ACT-CL J0329.6-0211
+  - RXC J0329.6-0211
+  - MCXC J0329.6-0211
 ra: "03:29:40.8"
 dec: "-02:11:54.0"
 z: 0.459

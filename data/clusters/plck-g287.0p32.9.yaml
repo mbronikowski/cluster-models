@@ -3,6 +3,9 @@
 name: PLCK G287.0+32.9
 designations:
   - PSZ2 G286.98+32.90
+  - SPT-CL J1150-2805
+  - PLCKESZ G286.99+32.91
+  - PSZ1 G287.00+32.90
 ra: "11:50:51.02"
 dec: "-28:04:09.4"
 z: 0.39

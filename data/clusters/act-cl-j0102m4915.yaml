@@ -4,6 +4,8 @@ name: ACT-CL J0102-4915
 common_names: [El Gordo]
 designations:
   - SPT-CL J0102-4915
+  - PSZ1 G297.94-67.76
+  - PSZ2 G297.97-67.74
 ra: "01:02:52.50"
 dec: "-49:14:58.0"
 z: 0.87
