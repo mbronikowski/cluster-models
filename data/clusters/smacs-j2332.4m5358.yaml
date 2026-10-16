@@ -4,6 +4,8 @@ name: SMACS J2332.4-5358
 designations:
   - LCS-CL J233227-5358.4
   - PSZ2 G325.99-59.48
+  - ACT-CL J2332.4-5358
+  - SPT-CL J2332-5358
 ra: "23:32:27.48"
 dec: "-53:58:28.2"
 z: 0.402
