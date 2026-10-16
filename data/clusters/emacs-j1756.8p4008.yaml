@@ -1,0 +1,25 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J1756.8+4008
+designations:
+  - PSZ1 G066.41+27.03
+  - PSZ2 G066.41+27.03
+ra: "17:56:52.6"
+dec: "+40:08:07"
+z: 0.5743
+
+models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 7 multiple images, 7 of them in systems with
+      spectroscopic redshifts; Einstein radius > 19'' for a source at z = 2. The model
+      leaves out a second mass component that the lensing data do not yet constrain, so the
+      radius is a lower limit.
+
+notes: |-
+  Position: BCG, from [Zalesky & Ebeling (2020)](ref:2020MNRAS.498.1121Z).

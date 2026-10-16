@@ -34,10 +34,18 @@
   label: Smith et al. (2005)
   title: A Hubble Space Telescope lensing survey of X-ray luminous galaxy clusters - IV. Mass, structure and thermodynamics of cluster cores at z= 0.2
   doi: 10.1111/j.1365-2966.2005.08911.x
+2007A&A...471..743R:
+  label: Rzepecki et al. (2007)
+  title: Strong lensing analysis of the cluster RCS 0224-0002 at z = 0.77
+  doi: 10.1051/0004-6361:20077594
 2007ApJ...662..781R:
   label: Richard et al. (2007)
   title: A statistical study of multiply imaged systems in the lensing cluster Abell 68
   doi: 10.1086/517875
+2007ApJ...664..702V:
+  label: Verdugo et al. (2007)
+  title: 'MS 2053.7-0449: confirmation of a bimodal mass distribution from strong gravitational lensing'
+  doi: 10.1086/519153
 2007ApJ...668..643L:
   label: Limousin et al. (2007)
   title: Combining strong and weak gravitational lensing in Abell 1689
@@ -157,6 +165,10 @@
   label: Massey et al. (2015)
   title: The behaviour of dark matter associated with four bright cluster galaxies in the 10 kpc core of Abell 3827
   doi: 10.1093/mnras/stv467
+2015MNRAS.450.4248B:
+  label: Buddendiek et al. (2015)
+  title: Optical and Sunyaev-Zel'dovich observations of a new sample of distant rich galaxy clusters in the ROSAT All Sky
+  doi: 10.1093/mnras/stv783
 2015PASJ...67...21M:
   label: Mohammed et al. (2015)
   title: 'Lensing time delays as a substructure constraint: a case study with the cluster SDSS J1004+4112'
@@ -209,6 +221,10 @@
   label: Wong et al. (2017)
   title: Joint strong and weak lensing analysis of the massive cluster field J0850+3604
   doi: 10.3847/1538-4357/aa7c19
+2017MNRAS.467.3306S:
+  label: Smit et al. (2017)
+  title: A gravitationally boosted MUSE survey for emission-line galaxies at z >= 5 behind the massive cluster RCS 0224
+  doi: 10.1093/mnras/stx245
 2017MNRAS.469.3946L:
   label: Lagattuta et al. (2017)
   title: 'Lens modelling Abell 370: crowning the final frontier field with MUSE'
@@ -329,6 +345,10 @@
   label: Steinhardt et al. (2020)
   title: The BUFFALO HST survey
   doi: 10.3847/1538-4365/ab75ed
+2020MNRAS.498.1121Z:
+  label: Zalesky & Ebeling (2020)
+  title: 'AStroLens: automatic strong-lens modelling of X-ray selected galaxy clusters'
+  doi: 10.1093/mnras/staa2180
 2021A&A...645A.140B:
   label: Bergamini et al. (2021)
   title: A new high-precision strong lensing model of the galaxy cluster MACS J0416.1-2403. Robust characterization of the cluster mass distribution from VLT/MUSE deep observations
@@ -500,6 +520,10 @@
   label: Frye et al. (2024)
   title: The JWST Discovery of the Triply Imaged Type Ia "Supernova H0pe" and Observations of the Galaxy Cluster PLCK G165.7+67.0
   doi: 10.3847/1538-4357/ad1034
+2024ApJ...963...44K:
+  label: Khullar et al. (2024)
+  title: COOL-LAMPS. VI. Lens Model and New Constraints on the Properties of COOL J1241+2219, a Bright z = 5 Lyman Break Galaxy and its z = 1 Cluster Lens
+  doi: 10.3847/1538-4357/ad22de
 2024ApJ...967L..37P:
   label: Pierel et al. (2024)
   title: 'Lensed Type Ia Supernova "Encore" at z = 2: The First Instance of Two Multiply Imaged Supernovae in the Same Host Galaxy'
@@ -582,6 +606,14 @@
   label: Perera et al. (2025)
   title: 'BUFFALO wild wings: a high-precision free-form lens model of MACSJ0416 with constraints on dark matter from substructure and highly magnified arcs'
   doi: 10.1093/mnras/stae2753
+2025MNRAS.537.2662E:
+  label: Ebeling et al. (2025)
+  title: 'Beyond MACS: physical properties of extremely X-ray luminous clusters at z > 0.5'
+  doi: 10.1093/mnras/staf063
+2025MNRAS.541.2341C:
+  label: Cerny et al. (2025)
+  title: 'The Kaleidoscope survey: strong gravitational lensing in galaxy clusters with radial arcs'
+  doi: 10.1093/mnras/staf1076
 2025OJAp....8E.123N:
   label: Nishida et al. (2025)
 2025RNAAS...9..300S:

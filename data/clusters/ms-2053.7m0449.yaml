@@ -1,0 +1,24 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MS 2053.7-0449
+aka: [MS 2053-04]
+designations:
+  - MCXC J2056.3-0437
+ra: "20:56:21.4"
+dec: "-04:37:50"
+z: 0.583
+
+models:
+  - title: Verdugo et al. (2007)
+    refs: [2007ApJ...664..702V]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Bimodal parametric model constrained by a double arc, confirming that the cluster
+      consists of two gravitationally bound structures.
+
+notes: |-
+  Position: the brightest cluster galaxy (galaxy a in
+  [Verdugo et al. 2007](ref:2007ApJ...664..702V)).

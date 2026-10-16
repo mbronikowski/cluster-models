@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J1852.0+4900
+ra: "18:52:02.7"
+dec: "+49:01:18"
+z: 0.6035
+
+models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 5 multiple images, 5 of them in systems with
+      spectroscopic redshifts; Einstein radius 15 +/- 2'' for a source at z = 2.
+
+notes: |-
+  Position: BCG, from [Zalesky & Ebeling (2020)](ref:2020MNRAS.498.1121Z).

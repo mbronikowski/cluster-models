@@ -1,0 +1,23 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J1353.7+4329
+designations:
+  - PSZ2 G089.39+69.36
+ra: "13:53:45.0"
+dec: "+43:29:05.1"
+z: 0.7364
+
+models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 13 multiple images, 4 of them in systems with
+      spectroscopic redshifts; Einstein radius 38 +/- 5'' for a source at z = 2.
+
+notes: |-
+  Position: optical cluster centre from [Buddendiek et al. (2015)](ref:2015MNRAS.450.4248B);
+  no published BCG position.

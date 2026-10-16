@@ -1,0 +1,25 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J0934.6+0540
+designations:
+  - ACT-CL J0934.6+0541
+  - PSZ2 G228.38+38.58
+  - RM J093439.0+054144.8
+ra: "09:34:39.0"
+dec: "+05:41:47"
+z: 0.5627
+
+models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 10 multiple images, 7 of them in systems with
+      spectroscopic redshifts; Einstein radius 16 +/- 2'' for a source at z = 2.
+
+notes: |-
+  Position: BCG, from [Zalesky & Ebeling (2020)](ref:2020MNRAS.498.1121Z); the cluster has
+  two BCGs.

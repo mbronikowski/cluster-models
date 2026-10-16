@@ -1,12 +1,23 @@
 # One file per cluster. Field reference: docs/data-format.md
 
 name: SDSS J1209+2640
+designations:
+  - eMACS J1209.4+2640
 ra: "12:09:24"
 dec: "+26:40:46.50"
 z: 0.5606
 programs: [sgas]
 
 models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 19 multiple images, 7 of them in systems with
+      spectroscopic redshifts; Einstein radius 22 +/- 2'' for a source at z = 2.
   - title: 'SGAS: Sharon et al. (2020)'
     program: sgas
     refs: [2020ApJS..247...12S]

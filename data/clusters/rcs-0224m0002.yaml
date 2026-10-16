@@ -1,0 +1,23 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: RCS 0224-0002
+designations:
+  - RCS J022434-0002.5
+ra: "02:24:34.22"
+dec: "-00:02:31.6"
+z: 0.773
+
+models:
+  - title: Rzepecki et al. (2007)
+    refs: [2007A&A...471..743R]
+    data: [HST]
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Parametric model from HST/WFPC2 imaging, constrained by two multiple-image systems
+      including the z = 4.87 arc.
+
+notes: |-
+  Position: the two central BCGs, as used by
+  [Rzepecki et al. (2007)](ref:2007A&A...471..743R). The cluster lenses a bright galaxy at z
+  = 4.88, studied with MUSE by [Smit et al. (2017)](ref:2017MNRAS.467.3306S).

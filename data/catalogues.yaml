@@ -355,6 +355,16 @@
   patterns:
     - {regex: '^RBS \d{4}$', frame: none, example: RBS 0357}
 
+- id: rcs
+  label: RCS
+  name: Red-sequence Cluster Survey
+  type: optical
+  ref: Gladders & Yee (2005)
+  tolerance: 2
+  patterns:
+    - {regex: '^RCS (?P<ra>\d{4})(?P<dec>[+-]\d{4})$', frame: icrs, example: RCS 0224-0002}
+    - {regex: '^RCS J(?P<ra>\d{6}(?:\.\d)?)(?P<dec>[+-]\d{4}(?:\.\d)?)$', frame: icrs, example: RCS J022434-0002.5}
+
 - id: rcs2
   label: RCS2
   name: Second Red-sequence Cluster Survey

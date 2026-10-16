@@ -1,14 +1,27 @@
 # One file per cluster. Field reference: docs/data-format.md
 
 name: eMACS J1341.9-2442
-ra: "13:41:54.0"
-dec: "-24:42:00"
+ra: "13:42:00.2"
+dec: "-24:42:01"
 z: 0.835
 
 models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 5 multiple images, 5 of them in systems with
+      spectroscopic redshifts; Einstein radius 16 +/- 2'' for a source at z = 2.
   - title: Ebeling et al. (2018)
     refs: [2018ApJ...852L...7E]
     availability: unknown
     note: |-
       [Ebeling et al. (2018)](ref:2018ApJ...852L...7E) created a gravitational lensing model
       of the galaxy cluster.
+
+notes: |-
+  Position: BCG, from [Zalesky & Ebeling (2020)](ref:2020MNRAS.498.1121Z) (before October
+  2026 this entry used the position encoded in the eMACS name, 1.4' away).

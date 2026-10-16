@@ -1,0 +1,25 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0326.8-0043
+designations:
+  - MCXC J0326.8-0043
+ra: "03:26:49.95"
+dec: "-00:43:51.7"
+z: 0.447
+
+models:
+  - title: Cerny et al. (2025)
+    refs: [2025MNRAS.541.2341C]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: on-request
+    tags: [parametric]
+    note: |-
+      First strong-lensing model of the cluster. Strong-lensing model built around the
+      cluster's radial arc(s), combined with the stellar velocity dispersion profile of the
+      BCG to measure the inner slope of the dark-matter profile. The models are shared by
+      the authors on request.
+
+notes: |-
+  Position and redshift from [Cerny et al. (2025)](ref:2025MNRAS.541.2341C). SIMBAD lists z
+  = 0.25 for this cluster; the paper's 0.447 is used here.
