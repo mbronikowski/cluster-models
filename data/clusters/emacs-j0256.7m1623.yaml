@@ -1,0 +1,22 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J0256.7-1623
+designations:
+  - ACT-CL J0256.7-1623
+ra: "02:56:46.07"
+dec: "-16:23:09.5"
+z: 0.8621
+
+models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 12 multiple images, 12 of them in systems with
+      spectroscopic redshifts; Einstein radius 11 +/- 1'' for a source at z = 2.
+
+notes: |-
+  Position: SZ centre of ACT-CL J0256.7-1623; no published BCG position.

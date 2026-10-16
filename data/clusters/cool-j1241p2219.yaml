@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: COOL J1241+2219
+ra: "12:41:30.06"
+dec: "+22:19:46.0"
+z: 1.001
+
+models:
+  - title: Khullar et al. (2024)
+    refs: [2024ApJ...963...44K]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      HST-based model of the cluster lensing COOL J1241+2219, the brightest known lensed
+      galaxy at z = 5.
+
+notes: |-
+  Position: the BCG, as given by [Khullar et al. (2024)](ref:2024ApJ...963...44K).

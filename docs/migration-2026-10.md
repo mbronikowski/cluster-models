@@ -253,9 +253,11 @@ the BCG-based catalogues (redMaPPer, WHL) that SIMBAD cross-identifies.
 | MACS J1931.8-2635 | 19:31:48.00 -26:35:00.00 | 19:31:49.66 -26:34:34.0 | 0.6' | CLASH centre; SIMBAD agrees |
 | RXC J0600.1-2007 | 06:00:16.97 -20:06:16.1 | 06:00:08.17 -20:08:08.85 | 2.8' | the southern core studied by RELICS and ALCS, at the "South BCG" of Furtak et al. (2024); the old position was in the north-eastern structure they found (explained on the page) |
 
+eMACS J1341.9-2442 moved 1.4' to its BCG (13:42:00.2 -24:42:01, Zalesky & Ebeling 2020),
+found while adding the eMACS clusters; its old position came from its catalogue name.
+
 Left alone: 1E 0657-56, RX J0152.7-1357 and the Frontier Fields clusters, whose positions
-lie between sub-clusters or at the centre used by the lens models, and eMACS J1341.9-2442,
-whose position comes from its catalogue name but for which no published centre was found.
+lie between sub-clusters or at the centre used by the lens models.
 
 **References.** Nine preprints were replaced by their journal versions: the six above, and
 Price et al. (2025, `2025ApJ...982...51P`), Smith et al. (2025, `2025ApJ...991..142S`) and

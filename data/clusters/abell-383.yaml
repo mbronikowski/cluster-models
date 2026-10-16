@@ -22,6 +22,16 @@ models:
     note: |-
       Updated version of the [CLASH model](#clash-zitrin-et-al-2015); the lens model is not
       the main focus of the paper.
+  - title: Cerny et al. (2025)
+    refs: [2025MNRAS.541.2341C]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: on-request
+    tags: [parametric]
+    note: |-
+      Strong-lensing model built around the cluster's radial arc(s), combined with the
+      stellar velocity dispersion profile of the BCG to measure the inner slope of the
+      dark-matter profile. The models are shared by the authors on request.
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]

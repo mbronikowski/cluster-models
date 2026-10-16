@@ -9,6 +9,15 @@ dec: "-21:00:50.68"
 z: 0.703
 
 models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 12 multiple images, 12 of them in systems with
+      spectroscopic redshifts; Einstein radius 15 +/- 2'' for a source at z = 2.
   - title: Ebeling et al. (2021)
     refs: [2021MNRAS.508.3663E]
     availability: unknown

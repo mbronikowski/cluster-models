@@ -4,6 +4,7 @@ name: PSZ1 G091.82+26.11
 designations:
   - 1RXS J183108.6+621414
   - PSZ2 G091.83+26.11
+  - eMACS J1831.1+6214
 ra: "18:31:08.0"
 dec: "+62:14:53.1"
 z: 0.822
@@ -18,3 +19,14 @@ models:
     note: |-
       The model will be released on the
       [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 5 multiple images, 5 of them in systems with
+      spectroscopic redshifts; Einstein radius > 18'' for a source at z = 2. The model
+      leaves out a second mass component that the lensing data do not yet constrain, so the
+      radius is a lower limit.

@@ -1,0 +1,23 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J0030.5+2618
+designations:
+  - MCXC J0030.5+2618
+  - RM J003034.0+261809.1
+ra: "00:30:34.0"
+dec: "+26:18:09.1"
+z: 0.497
+
+models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 4 multiple images, 4 of them in systems with
+      spectroscopic redshifts; Einstein radius 16'' for a source at z = 2.
+
+notes: |-
+  Position: BCG, from redMaPPer (RM J003034.0+261809.1).

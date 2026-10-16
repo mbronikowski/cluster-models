@@ -1,0 +1,22 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J2229.9-0808
+ra: "22:29:54.0"
+dec: "-08:08:00"
+z: 0.6214
+
+models:
+  - title: Ebeling et al. (2025)
+    refs: [2025MNRAS.537.2662E]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      Lenstool model constrained by 9 multiple images, 6 of them in systems with
+      spectroscopic redshifts; Einstein radius > 11'' for a source at z = 2. The model
+      leaves out a second mass component that the lensing data do not yet constrain, so the
+      radius is a lower limit.
+
+notes: |-
+  Position: from the eMACS catalogue name only, accurate to about 1'.
