@@ -1,0 +1,41 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: RX J0437.1+0043
+common_names: [Cosmic Mantis]
+designations:
+  - RXC J0437.1+0043
+  - MCXC J0437.1+0043
+  - ACT-CL J0437.1+0043
+  - PSZ2 G195.39-29.08
+  - WHL J043709.5+004352
+ra: "04:37:09.52"
+dec: "+00:43:52.1"
+z: 0.285
+
+models:
+  - title: Cerny et al. (2026)
+    refs: [arXiv:2609.17852]
+    data: [JWST, HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    note: |-
+      Lenstool model built on JWST/NIRCam imaging (GO 6207) together with HST and MUSE data,
+      with 275 constraints from 26 multiply-imaged sources, including three hyperbolic-umbilic
+      lensing configurations. The paper gives no release statement.
+  - title: Lagattuta et al. (2026)
+    refs: [doi:10.1093/mnras/stag1146]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    tags: [preliminary]
+    note: |-
+      Lenstool models that add candidate dark subhaloes near one of the hyperbolic-umbilic
+      images; the authors call the subhalo detection tentative.
+  - title: Lagattuta et al. (2023)
+    refs: [2023MNRAS.522.1091L]
+    data: [HST, MUSE, Keck]
+    software: Lenstool
+    availability: unknown
+    note: |-
+      Lenstool model from HST SNAPshot imaging, MUSE and Keck/MOSFIRE spectroscopy, with
+      13 multiply-imaged galaxies.

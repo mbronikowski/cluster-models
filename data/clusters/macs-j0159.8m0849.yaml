@@ -13,7 +13,7 @@ designations:
 ra: "01:59:49.33"
 dec: "-08:49:58.9"
 z: 0.405
-programs: [relics, venus]
+programs: [relics, venus, alcs]
 
 models:
   - title: 'RELICS: Cibirka et al. (2018)'

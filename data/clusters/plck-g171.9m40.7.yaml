@@ -6,7 +6,7 @@ designations:
 ra: "03:12:55.37"
 dec: "+08:22:49.8"
 z: 0.27
-programs: [relics, venus]
+programs: [relics, venus, alcs]
 
 models:
   - title: 'RELICS: Acebron et al. (2018)'

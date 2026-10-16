@@ -12,7 +12,7 @@ designations:
 ra: "03:58:47.56"
 dec: "-29:53:42.35"
 z: 0.168
-programs: [relics, venus]
+programs: [relics, venus, alcs]
 
 notes: |-
   Abell 3192 (z = 0.168) lies in front of the more massive

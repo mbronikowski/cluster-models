@@ -16,9 +16,21 @@ designations:
 ra: "21:29:39.97"
 dec: "+00:05:21.83"
 z: 0.234
-programs: [clash, clash-vlt, venus]
+programs: [clash, clash-vlt, venus, alcs]
 
 models:
+  - title: Dhanasingham et al. (2026)
+    refs: [arXiv:2604.11882]
+    data: [JWST, HST]
+    availability: public
+    tags: [multiple-models]
+    links:
+      - label: Lens models (Zenodo)
+        url: https://zenodo.org/records/21460864
+    note: |-
+      Six independent models made for the lensed Type Ia supernova
+      [SN 2022riv](transient:sn-2022riv): glafic, HoliGRALE, WSLAP+, Zitrin-Analytic,
+      Lenstool and the model of Chen et al. (2020). All six are on Zenodo (4.3 GB, CC BY 4.0).
   - title: Jauzac et al. (2021)
     refs: [2021MNRAS.508.1206J]
     data: [HST, MUSE]

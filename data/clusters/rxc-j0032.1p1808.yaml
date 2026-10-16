@@ -8,7 +8,7 @@ designations:
 ra: "00:32:11.0"
 dec: "+18:07:49.0"
 z: 0.396
-programs: [relics, venus]
+programs: [relics, venus, alcs]
 
 models:
   - title: 'RELICS: Acebron et al. (2020)'

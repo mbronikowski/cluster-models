@@ -17,7 +17,7 @@ designations:
 ra: "00:14:21.16"
 dec: "-30:23:52.4"
 z: 0.306
-programs: [hff, buffalo, glass-jwst, uncover, muse-lensing]
+programs: [hff, buffalo, glass-jwst, uncover, muse-lensing, alcs]
 
 image:
   url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Swimming_in_Sculptor.jpg/960px-Swimming_in_Sculptor.jpg

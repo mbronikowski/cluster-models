@@ -11,7 +11,7 @@ designations:
 ra: "22:11:45.90"
 dec: "-03:49:42.0"
 z: 0.397
-programs: [relics, slice, venus]
+programs: [relics, slice, venus, alcs]
 
 models:
   - title: 'SLICE: Cerny et al. (2026)'

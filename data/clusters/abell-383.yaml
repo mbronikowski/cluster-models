@@ -11,7 +11,7 @@ designations:
 ra: "02:48:03.39"
 dec: "-03:31:45.23"
 z: 0.191
-programs: [clash, locuss, venus]
+programs: [clash, locuss, venus, alcs]
 
 models:
   - title: 'VENUS: Golubchik et al. (2026)'

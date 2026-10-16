@@ -8,6 +8,7 @@
   "license": "cc-by-4.0",
   "keywords": ["gravitational lensing", "strong lensing", "galaxy clusters", "lens models", "lensed supernovae"],
   "related_identifiers": [
-    {"identifier": "https://mbronikowski.github.io/cluster-models/", "relation": "isDocumentedBy", "resource_type": "other"}
+    {"identifier": "https://mbronikowski.github.io/cluster-models/", "relation": "isDocumentedBy", "resource_type": "other"},
+    {"identifier": "10.1051/0004-6361/202451457", "relation": "isSupplementTo", "resource_type": "publication-article", "scheme": "doi"}
   ]
 }

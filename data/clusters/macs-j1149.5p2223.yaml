@@ -13,7 +13,7 @@ designations:
 ra: "11:49:35.09"
 dec: "+22:24:10.9"
 z: 0.536
-programs: [clash, hff, buffalo, canucs, venus]
+programs: [clash, hff, buffalo, canucs, venus, alcs]
 
 image:
   url: https://cdn.esahubble.org/archives/images/thumb700x/heic1505b.jpg
@@ -33,6 +33,16 @@ models:
       - label: CANUCS DR1 lens models
         url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
     note: The DR1 model is preliminary.
+  - title: Schuldt et al. (2026)
+    refs: [2026A&A...707A.370S]
+    data: [HST, MUSE]
+    software: GLEE
+    availability: unknown
+    tags: [multiple-models]
+    note: |-
+      Fits about 77,000 HST pixels of the extended image of the
+      [SN Refsdal](transient:sn-refsdal) host galaxy together with 106 point-like multiple
+      images. Four models weight the two kinds of constraint differently.
   - title: Schuldt et al. (2024)
     refs: [2024A&A...689A..42S]
     data: [MUSE]

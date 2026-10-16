@@ -12,7 +12,7 @@ designations:
 ra: "01:31:53.00"
 dec: "-13:36:34.00"
 z: 0.209
-programs: [clash, venus]
+programs: [clash, venus, alcs]
 
 models:
   - title: 'CLASH: Zitrin et al. (2015)'

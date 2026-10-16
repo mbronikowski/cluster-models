@@ -11,7 +11,7 @@ designations:
 ra: "02:57:09.15"
 dec: "-23:26:05.8"
 z: 0.505
-programs: [relics, venus]
+programs: [relics, venus, alcs]
 
 models:
   - title: 'VENUS: Nakane et al. (2025)'

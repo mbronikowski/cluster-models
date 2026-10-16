@@ -12,7 +12,7 @@ designations:
 ra: "04:16:08.80"
 dec: "-24:04:14.0"
 z: 0.4
-programs: [clash, hff, buffalo, canucs, venus, muse-lensing]
+programs: [clash, hff, buffalo, canucs, venus, muse-lensing, alcs]
 
 image:
   url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg/960px-Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg

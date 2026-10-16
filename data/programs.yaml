@@ -147,6 +147,9 @@
   facilities: [ALMA]
   url: https://www.ioa.s.u-tokyo.ac.jp/ALCS/
   overview: 2024ApJS..275...36F
+  note: |-
+    ALMA Band 6 (1.2 mm) mosaics of 33 lensing clusters drawn from the Hubble Frontier
+    Fields, CLASH and RELICS (Fujimoto et al. 2024, Table 1).
 
 - id: muse-lensing
   name: MUSE lensing-cluster data release

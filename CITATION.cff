@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: >-
-  If you use this catalogue, please cite it as below, and cite the original
-  papers for any lens model you use.
+  The catalogue was developed as part of Bronikowski et al. (2025). If you use
+  it, please cite that paper (below) and the original papers for any lens model
+  you use.
 title: "cluster-models: a curated database of galaxy-cluster strong-lensing models"
 type: dataset
 authors:
@@ -16,3 +17,28 @@ keywords:
   - galaxy clusters
   - lens models
   - lensed supernovae
+preferred-citation:
+  type: article
+  title: "Cluster-lensed supernova yields from the Vera C. Rubin Observatory and Nancy Grace Roman Space Telescope"
+  authors:
+    - family-names: Bronikowski
+      given-names: M.
+    - family-names: Petrushevska
+      given-names: T.
+    - family-names: Pierel
+      given-names: J. D. R.
+    - family-names: Acebron
+      given-names: A.
+    - family-names: Donevski
+      given-names: D.
+    - family-names: Apostolova
+      given-names: B.
+    - family-names: Blagorodnova
+      given-names: N.
+    - family-names: Jankovič
+      given-names: T.
+  journal: "Astronomy & Astrophysics"
+  volume: 697
+  start: A146
+  year: 2025
+  doi: "10.1051/0004-6361/202451457"

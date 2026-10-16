@@ -2,7 +2,14 @@
 
 name: SN 2022riv
 class: supernova
+subclass: Ia
 status: confirmed
-cluster: macs-j2129.4m0741
-refs: [2022TNSAN.169....1K]
-notes: Multiply-imaged supernova reported in a TNS AstroNote.
+cluster: rx-j2129.7p0005
+z: 1.522
+refs: [arXiv:2604.11882, 2022TNSAN.169....1K]
+notes: |-
+  Type Ia supernova in a galaxy at z = 1.522 that RX J2129.7+0005 lenses into multiple
+  images; it was seen in the last-arriving image. JWST/NIRSpec spectroscopy confirmed the
+  type, and the magnification of that image (about 5) was measured from the light curve
+  and compared with six lens models (Dhanasingham et al. 2026). First reported in a TNS
+  AstroNote.
