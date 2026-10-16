@@ -8,7 +8,7 @@ designations:
 ra: "14:23:47.66"
 dec: "+24:04:40.1"
 z: 0.545
-programs: [clash, canucs, venus]
+programs: [clash, canucs, venus, alcs]
 
 models:
   - title: CANUCS

@@ -11,7 +11,7 @@ designations:
 ra: "21:29:26.21"
 dec: "-07:41:26.22"
 z: 0.589
-programs: [clash, clash-vlt, slice, venus]
+programs: [clash, clash-vlt, slice, venus, alcs]
 
 models:
   - title: 'SLICE: Cerny et al. (2026)'

@@ -9,7 +9,7 @@ designations:
 ra: "03:29:40.8"
 dec: "-02:11:54.0"
 z: 0.459
-programs: [clash, clash-vlt, venus, muse-lensing]
+programs: [clash, clash-vlt, venus, muse-lensing, alcs]
 
 models:
   - title: Richard et al. (2021)

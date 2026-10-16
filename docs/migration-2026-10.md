@@ -275,6 +275,13 @@ name Abell 1758N, and RXC J0600.1-2007 the nickname Anglerfish Cluster (Furtak e
 remaining redshift differences with SIMBAD are those discussed above; six RELICS clusters
 are absent because RELICS published no lens models for them.
 
+**Later fixes (16 October 2026).** SN 2022riv was attached to MACS J2129.4-0741; it is
+behind RX J2129.7+0005 (Dhanasingham et al. 2026) and moved there. The Abell S1077 (AC 114)
+model listed in the LAM atlas as Limousin et al. (2025), whose paper was not yet out, is
+now Limousin et al. (2026, A&A 711, A143). Pierel et al. (2025) is now its journal version,
+Pierel et al. (2026, `2026ApJ...998..219P`). ALCS membership now covers all 33 clusters in
+Table 1 of Fujimoto et al. (2024), not only RXC J0600.1-2007.
+
 ## Open items
 
 - **Availability.** 118 models are `unknown`, because the wiki only says "the cluster was

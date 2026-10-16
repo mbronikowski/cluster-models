@@ -6,6 +6,15 @@ dec: "-21:55:31.7"
 z: 0.338
 
 models:
+  - title: Bazzanini et al. (2026)
+    refs: [arXiv:2606.25205]
+    data: [JWST, HST, MUSE]
+    software: other
+    availability: unknown
+    tags: [time-delay-cosmography]
+    note: |-
+      Model made with the Gravity.jl code from 23 spectroscopically confirmed images of
+      8 sources, used for a new H0 measurement with SN Requiem and SN Encore.
   - title: Suyu et al. (2026)
     refs: [2026A&A...708A.291S]
     data: [JWST]
@@ -15,8 +24,21 @@ models:
       [Suyu et al. (2026)](ref:2026A&A...708A.291S) presented strong lensing analysis of the
       cluster with seven modeling approaches using six different software. They present a
       time-delay cosmography measurement of H0 with supernova Encore along with
-      [Pierel et al. (2025)](ref:2025arXiv250912301P), as well as forecasts for the
+      [Pierel et al. (2026)](ref:2026ApJ...998..219P), as well as forecasts for the
       reappearances of SN Requiem and SN Encore.
+  - title: Ertl et al. (2025)
+    refs: [2025A&A...702A.157E]
+    data: [JWST, HST, MUSE]
+    software: GLEE
+    availability: unknown
+    tags: [time-delay-cosmography, multiple-models]
+    note: |-
+      Seven GLEE mass models built for time-delay cosmography with
+      [SN Encore](transient:sn-encore) and [SN Requiem](transient:sn-requiem), constrained by
+      23 multiple images of 8 systems and by stellar velocity dispersions of cluster members.
+      The final model combines four multi-plane models; the paper also gives the predicted
+      positions and magnifications of both supernovae. One of the models compared in
+      [Suyu et al. (2026)](ref:2026A&A...708A.291S).
   - title: Acebron et al. (2025)
     refs: [2025A&A...699A.101A]
     data: [JWST, MUSE]

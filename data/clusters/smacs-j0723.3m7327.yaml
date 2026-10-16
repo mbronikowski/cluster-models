@@ -10,7 +10,7 @@ designations:
 ra: "07:23:13.30"
 dec: "-73:27:25.2"
 z: 0.388
-programs: [relics, venus]
+programs: [relics, venus, alcs]
 
 image:
   url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/960px-Webb%27s_First_Deep_Field.jpg

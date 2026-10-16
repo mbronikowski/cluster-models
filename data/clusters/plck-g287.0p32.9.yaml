@@ -9,9 +9,19 @@ designations:
 ra: "11:50:51.02"
 dec: "-28:04:09.4"
 z: 0.39
-programs: [relics, venus]
+programs: [relics, venus, slice]
 
 models:
+  - title: 'SLICE: Betts et al. (2026)'
+    program: slice
+    refs: [arXiv:2609.31944]
+    data: [JWST, HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    note: |-
+      Lenstool model built on JWST/NIRCam imaging (GO 5594), HST and MUSE data, with 118
+      spectroscopically confirmed images of 20 sources and 31 photometric images of 8 more.
+      The Einstein radius is 42.4 arcsec for a source at z = 2.
   - title: 'RELICS: Zitrin et al. (2017)'
     program: relics
     refs: [2017ApJ...839L..11Z]

@@ -490,6 +490,10 @@
   label: Sharon et al. (2023)
   title: 'RELICS: A Strong-lens Model of SMACS J0723.3-7327'
   doi: 10.3847/1538-4365/aca7c3
+2023MNRAS.522.1091L:
+  label: Lagattuta et al. (2023)
+  title: 'RXJ0437+00: constraining dark matter with exotic gravitational lenses'
+  doi: 10.1093/mnras/stad803
 2023MNRAS.522.5142F:
   label: Furtak et al. (2023)
   title: A variable active galactic nucleus at z = 2.06 triply-imaged by the galaxy cluster MACS J0035.4-2015
@@ -572,6 +576,10 @@
   label: Acebron et al. (2025)
   title: Enhanced strong-lensing model of MACS J0138.0-2155 based on new JWST and VLT/MUSE observations
   doi: 10.1051/0004-6361/202554468
+2025A&A...702A.157E:
+  label: Ertl et al. (2025)
+  title: 'Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Photometry, cluster members, and lens mass model'
+  doi: 10.1051/0004-6361/202554477
 2025A&A...703A..10L:
   label: Limousin et al. (2025)
   title: Testing Light Unaffiliated Mass Clumps in MACS 0416 on galaxy and galaxy cluster scales using JWST
@@ -620,15 +628,16 @@
   label: Smith et al. (2025)
   title: A Strong Gravitational Lensing Model of PSZ2 G118.46+39.32
   doi: 10.3847/2515-5172/ae1c45
-2025arXiv250912301P:
-  label: Pierel et al. (2025)
-  title: 'Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Time delays & Hubble constant measurement'
 2025arXiv251012097R:
   label: Roberson et al. (2025)
   title: Using gravitational lensing to probe for bright quintessential galaxies in the Epoch of Reionization
 2025arXiv251114483N:
   label: Nakane et al. (2025)
   title: 'VENUS: A Strongly Lensed Clumpy Galaxy at z~11-12 behind the Galaxy Cluster MACS J0257.1-2325'
+2026A&A...707A.370S:
+  label: Schuldt et al. (2026)
+  title: 'A boost in the precision of cluster-mass models: Exploiting the extended surface brightness of the lensed supernova Refsdal host galaxy'
+  doi: 10.1051/0004-6361/202557680
 2026A&A...708A.291S:
   label: Suyu et al. (2026)
   title: 'Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Lens model comparison and H0 measurement'
@@ -641,6 +650,14 @@
   label: Golubchik et al. (2026)
   title: 'VENUS: When red meets blue A multiply imaged little red dot with an apparent blue companion behind the galaxy cluster Abell 383'
   doi: 10.1051/0004-6361/202558407
+2026A&A...711A.143L:
+  label: Limousin et al. (2026)
+  title: 'SLICE: Combining strong lensing and X-ray data of AC 114'
+  doi: 10.1051/0004-6361/202558499
+2026ApJ...998..219P:
+  label: Pierel et al. (2026)
+  title: 'Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Time Delays and Hubble Constant Measurement'
+  doi: 10.3847/1538-4357/ae3159
 2026ApJ..1001...60C:
   label: Cerny et al. (2026)
   title: 'Strong LensIng and Cluster Evolution (SLICE) with JWST: Early Results, Lens Models, and High-Redshift Detections'
@@ -657,6 +674,24 @@
 2026arXiv260104156C:
   label: Coulter et al. (2026)
   title: A spectroscopically confirmed, strongly lensed, metal-poor Type II supernova at z = 5.13
+arXiv:2604.11882:
+  label: Dhanasingham et al. (2026)
+  title: 'SN 2022riv in RX J2129: Discovery, Spectroscopic Classification, and Microlensing of a Strongly Lensed Type Ia Supernova from JWST and HST Observations'
+arXiv:2606.20804:
+  label: Abedi et al. (2026)
+  title: 'LEGGOS II: A Strong Lens Model and Source-Plane Projection of the Clumpy Star-Forming Galaxy SGASJ111020.0+645950.8 at z=2.48'
+arXiv:2606.25205:
+  label: Bazzanini et al. (2026)
+  title: A new H0 measurement with SNe Requiem and Encore using Gravity.jl
+arXiv:2609.17852:
+  label: Cerny et al. (2026)
+  title: 'Resolving 3 Exotic Hyperbolic-Umbilic Lensing Configurations in the "Cosmic Mantis": An Exploration of RXJ0437.1+0043 with JWST'
+arXiv:2609.31944:
+  label: Betts et al. (2026)
+  title: 'SLICE: Unveiling the Multi-Component Merging Core of SPT-CLJ1150-2805 Through Strong-Lensing Mass Modelling'
+doi:10.1093/mnras/stag1146:
+  label: Lagattuta et al. (2026)
+  title: 'A shot in the dark: searching for dark substructures in the RX J0437+00 galaxy cluster'
 doi:10.1093/mnras/stu1623:
   label: MacKenzie et al. (2014)
 doi:10.33232/001c.127612:

@@ -11,7 +11,7 @@ designations:
 ra: "12:06:11.97"
 dec: "-08:48:00.0"
 z: 0.44
-programs: [clash, venus, muse-lensing]
+programs: [clash, venus, muse-lensing, alcs]
 
 image:
   url: https://cdn.esahubble.org/archives/images/screen/heic1115a.jpg

@@ -13,17 +13,22 @@ designations:
 ra: "22:58:52.33"
 dec: "-34:46:54.60"
 z: 0.312
+programs: [slice]
 
 models:
-  - title: Limousin et al. (2025)
+  - title: 'SLICE: Limousin et al. (2026)'
+    program: slice
+    refs: [2026A&A...711A.143L]
+    data: [JWST, HST]
+    software: Lenstool
     availability: public
+    links:
+      - label: LAM Strong Lensing Cluster Atlas
+        url: https://data.lam.fr/sl-cluster-atlas/search/result/model?s=111&a=2;3;1;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26&c=2::eq::AC114
     note: |-
-      The
-      [LAM Strong Lensing Cluster Atlas Data Base](https://data.lam.fr/sl-cluster-atlas/home)
-      lists a model of the cluster
-      ([link](https://data.lam.fr/sl-cluster-atlas/search/result/model?s=111&a=2;3;1;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26&c=2::eq::AC114))
-      attributed to Limousin et al. (2025). As of 16 October 2025, the publication appears
-      to be unavailable.
+      Lenstool model fitted jointly to 16 multiple-image systems and Chandra X-ray data. The
+      [LAM Strong Lensing Cluster Atlas](https://data.lam.fr/sl-cluster-atlas/home) lists it
+      for download.
   - title: Campusano et al. (2001)
     refs: [2001A&A...378..394C]
     availability: unknown

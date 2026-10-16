@@ -11,7 +11,7 @@ designations:
 ra: "19:31:49.66"
 dec: "-26:34:34.0"
 z: 0.352
-programs: [clash, clash-vlt, venus]
+programs: [clash, clash-vlt, venus, alcs]
 
 models:
   - title: 'VENUS: Allingham et al. (2026)'

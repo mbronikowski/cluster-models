@@ -7,7 +7,7 @@ designations:
 ra: "04:29:35.95"
 dec: "-02:53:06.2"
 z: 0.399
-programs: [clash, clash-vlt, venus]
+programs: [clash, clash-vlt, venus, alcs]
 
 models:
   - title: Caminha et al. (2019)

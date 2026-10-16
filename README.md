@@ -57,8 +57,10 @@ python -m http.server -d _site 8000
 ## Licence and citation
 
 Data (`data/`): [CC BY 4.0](LICENSE-DATA). Code: [MIT](LICENSE). If the catalogue
-helps your work, cite the original papers of the models you use and this
-repository (see [CITATION.cff](CITATION.cff)).
+helps your work, please cite
+[Bronikowski et al. (2025), A&A 697, A146](https://doi.org/10.1051/0004-6361/202451457),
+for which it was developed, and the original papers of the models you use (see
+[CITATION.cff](CITATION.cff)).
 
 The previous GitHub wiki has been converted into this format; see
 [docs/migration-2026-10.md](docs/migration-2026-10.md).

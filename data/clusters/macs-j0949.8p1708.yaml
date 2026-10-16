@@ -13,7 +13,7 @@ designations:
 ra: "09:49:51.80"
 dec: "+17:07:10.6"
 z: 0.385
-programs: [relics, venus]
+programs: [relics, venus, alcs]
 
 models:
   - title: RELICS

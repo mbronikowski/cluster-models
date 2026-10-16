@@ -13,7 +13,7 @@ designations:
 ra: "16:15:48.95"
 dec: "-06:08:41.4"
 z: 0.203
-programs: [relics]
+programs: [relics, alcs]
 
 models:
   - title: Rescigno et al. (2020)

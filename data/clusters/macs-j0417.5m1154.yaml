@@ -12,7 +12,7 @@ designations:
 ra: "04:17:34.80"
 dec: "-11:54:35.0"
 z: 0.443
-programs: [relics, canucs, venus]
+programs: [relics, canucs, venus, alcs]
 
 models:
   - title: CANUCS
