@@ -1,8 +1,14 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: SDSS J2222+2745 quasar
-class: quasar
+class: agn
 status: confirmed
 cluster: sdss-j2222p2745
-refs: [2017ApJ...835....5S, 2022A&A...668A.142A, 2023ApJ...959..134N]
-notes: Sextuply-imaged quasar ([Sharon et al. 2017](ref:2017ApJ...835....5S)).
+z: 2.805
+refs: [2013ApJ...773..146D, 2015ApJ...813...67D, 2017ApJ...835....5S, 2021ApJ...911...64W, 2021ApJ...915L...9W, 2022A&A...668A.142A, 2023ApJ...959..134N]
+notes: |-
+  Quasar at z = 2.8 lensed into six images up to 15.1 arcsec apart, found in the Sloan
+  Giant Arcs Survey ([Dahle et al. 2013](ref:2013ApJ...773..146D)). Time delays:
+  [Dahle et al. (2015)](ref:2015ApJ...813...67D); lens model and delay predictions:
+  [Sharon et al. (2017)](ref:2017ApJ...835....5S). The multiple images were also used to
+  measure the quasar's black-hole mass by reverberation mapping.

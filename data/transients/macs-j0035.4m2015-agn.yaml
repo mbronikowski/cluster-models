@@ -1,8 +1,7 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: MACS J0035.4-2015 AGN
-class: quasar
-subclass: AGN
+class: agn
 status: confirmed
 cluster: macs-j0035.4m2015
 z: 2.06

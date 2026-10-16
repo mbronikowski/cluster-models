@@ -1,0 +1,14 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: MACS J0416.1-2403 SN02
+class: supernova
+status: confirmed
+images: single
+cluster: macs-j0416.1m2403
+ra: "04:16:10.61"
+dec: "-24:04:28.2"
+z: 0.7093
+refs: [2023ApJS..269...43Y]
+notes: |-
+  Supernova in a spiral galaxy at z = 0.7093 found in the PEARLS JWST imaging of MACS
+  J0416.1-2403, magnified about 1.9 times ([Yan et al. 2023](ref:2023ApJS..269...43Y)).

@@ -1,7 +1,7 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: SDSS J1326+4806 quasar
-class: quasar
+class: agn
 status: confirmed
 cluster: sdss-j1326p4806
 refs: [2019MNRAS.489.4741S]

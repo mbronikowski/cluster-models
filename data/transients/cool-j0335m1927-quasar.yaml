@@ -1,7 +1,7 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: COOL J0335-1927 quasar
-class: quasar
+class: agn
 status: confirmed
 cluster: cool-j0335m1927
 z: 3.27

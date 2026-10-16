@@ -1,7 +1,7 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: WH J040011.7-270711 quasar candidate
-class: quasar
+class: agn
 status: candidate
 cluster: wh-j040011.7m270711
 refs: [2025A&A...698A..29B]

@@ -1,0 +1,18 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN CLO12Car
+class: supernova
+subclass: Ia (photometric)
+status: confirmed
+images: single
+cluster: macs-j1720.2p3536
+ra: "17:20:21.03"
+dec: "+35:36:40.9"
+z: 1.281
+discovered: 2012
+refs: [2014ApJ...786....9P, 2014MNRAS.440.2742N]
+notes: |-
+  Type Ia supernova behind MACS J1720.2+3536 from the CLASH survey. It is about 1.0 mag
+  brighter than unlensed SNe Ia at its redshift, consistent with the 0.83 mag predicted by
+  the CLASH lens models ([Patel et al. 2014](ref:2014ApJ...786....9P); [Nordin et al.
+  2014](ref:2014MNRAS.440.2742N)).

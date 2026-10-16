@@ -10,6 +10,7 @@
   <dl class="fact-list transient-facts">
     <div><dt>Type</dt><dd>{{ t.class_label }}{% if t.subclass %}, {{ t.subclass }}{% endif %}</dd></div>
     <div><dt>Status</dt><dd>{{ 'Confirmed' if t.status == 'confirmed' else 'Candidate' }}</dd></div>
+    <div><dt>Lensing</dt><dd>{{ 'Single image, magnified' if t.images == 'single' else 'Multiply imaged' }}</dd></div>
     {% if t.cluster_obj %}<div><dt>Lensing cluster</dt><dd><a href="{{ root }}clusters/{{ t.cluster_obj.slug }}.html">{{ t.cluster_obj.name }}</a> <span class="muted">(z = {{ t.cluster_obj.z }})</span></dd></div>{% endif %}
     {% if t.z %}<div><dt>Redshift</dt><dd class="num">{{ t.z }}</dd></div>{% endif %}
     {% if t.ra and t.dec %}<div><dt>Position</dt><dd><span class="coord">{{ t.ra }}</span> <span class="coord">{{ t.dec }}</span></dd></div>{% endif %}

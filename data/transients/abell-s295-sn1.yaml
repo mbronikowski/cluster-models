@@ -1,0 +1,17 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: Abell S295 SN1
+class: supernova
+subclass: Ib/c (photometric)
+status: candidate
+images: single
+cluster: abell-s295
+ra: "02:45:34.26"
+dec: "-53:01:51.0"
+z: 0.64
+discovered: 2016
+refs: [2023MNRAS.522.4718G]
+notes: |-
+  Likely core-collapse (Ib/c) supernova at z ~ 0.64, just behind Abell S295 (z = 0.30),
+  found in RELICS imaging ([Golubchik et al. 2023](ref:2023MNRAS.522.4718G)). Redshift and
+  type are photometric.

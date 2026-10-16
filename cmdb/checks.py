@@ -316,6 +316,8 @@ def validate(db: Database) -> Report:
             report.error(f, f"class {t['class']!r} not in data/vocabulary.yaml")
         if t["status"] not in _vocab(db, "transient_status"):
             report.error(f, f"status {t['status']!r} not in data/vocabulary.yaml")
+        if t.get("images", "multiple") not in _vocab(db, "transient_images"):
+            report.error(f, f"images {t['images']!r} not in data/vocabulary.yaml")
         for r in t.get("refs", []):
             if r not in db.references:
                 report.warn(f, f"reference {r} has no entry in data/references.yaml")

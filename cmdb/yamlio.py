@@ -159,7 +159,7 @@ MODEL_KEYS = [
     "superseded_by", "tags", "links", "note",
 ]
 TRANSIENT_KEYS = [
-    "name", "aliases", "class", "subclass", "status", "cluster", "ra", "dec", "z",
+    "name", "aliases", "class", "subclass", "status", "images", "cluster", "ra", "dec", "z",
     "discovered", "refs", "links", "notes",
 ]
 LONG_TEXT = ("note", "notes", "credit")

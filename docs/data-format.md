@@ -144,9 +144,10 @@ observations:
 ```yaml
 name: SN Refsdal               # required; file name is its slug
 aliases: []
-class: supernova               # supernova | quasar | star | other
-subclass: II                   # free text, optional
+class: supernova               # supernova | agn | star | other
+subclass: II                   # free text, optional (e.g. Ia, IIP, CCSN)
 status: confirmed              # confirmed | candidate
+images: multiple               # multiple (default) | single: magnified but not multiply imaged
 cluster: macs-j1149.5p2223     # required: the lensing cluster's slug
 ra: "11:49:35.5"               # optional
 dec: "+22:23:44.0"             # optional
@@ -160,7 +161,8 @@ notes: |-
   Markdown.
 ```
 
-The lensing cluster's page lists its transients automatically.
+The lensing cluster's page lists its transients automatically. Sources with `images: single`
+are listed separately on the transients page and marked with a dashed tag on the cluster list.
 
 ## Programs (`data/programs.yaml`)
 

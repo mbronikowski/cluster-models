@@ -29,3 +29,9 @@ models:
     note: |-
       [Sharon et al. (2017)](ref:2017ApJ...835....5S) constructed a lens model of the
       cluster and time delay predictions for the multiply-imaged quasar.
+  - title: Dahle et al. (2013)
+    refs: [2013ApJ...773..146D]
+    data: [ground]
+    availability: unknown
+    tags: [parametric]
+    note: Parametric models from the discovery paper, constrained by the quasar images and a giant arc at z = 2.30.
