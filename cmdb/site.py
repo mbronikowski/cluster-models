@@ -286,6 +286,8 @@ class Site:
             rec["cluster_obj"] = self.by_slug.get(t["cluster"])
             rec["refs_obj"] = [self.ref(r) for r in t.get("refs", [])]
             rec["class_label"] = voc.get("transient_class", {}).get(t["class"], t["class"])
+            rec["class_label"] = {"agn": "AGN"}.get(t["class"], rec["class_label"])
+            rec["images"] = t.get("images", "multiple")
             transients.append(rec)
             trans_by_cluster[t["cluster"]].append(rec)
         self.transients = transients

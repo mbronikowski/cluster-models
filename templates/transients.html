@@ -5,17 +5,17 @@
 {% block main %}
 <div class="wrap narrow-top">
   <h1>Lensed transients and variable sources</h1>
-  <p class="lede">Supernovae and quasars multiply imaged by clusters in this catalogue. Each entry links to its lensing cluster and the papers that describe it.</p>
-  {% for cls, title in [('supernova', 'Supernovae'), ('quasar', 'Quasars and AGN'), ('star', 'Lensed stars'), ('other', 'Other')] %}
-  {% set rows = transients | selectattr('class', 'equalto', cls) | list %}
-  {% if rows %}
-  <h2>{{ title }} <span class="count-inline">{{ rows | length }}</span></h2>
+  <p class="lede">Supernovae and active galactic nuclei lensed by clusters in this catalogue, whether multiply imaged or magnified in a single image. Each entry links to its lensing cluster and the papers that describe it.</p>
+  {% for cls, img, title in [('supernova', 'multiple', 'Multiply imaged supernovae'), ('supernova', 'single', 'Magnified supernovae, single image'), ('agn', 'multiple', 'Multiply imaged AGN'), ('agn', 'single', 'Magnified AGN, single image'), ('star', 'multiple', 'Lensed stars'), ('other', 'multiple', 'Other'), ('other', 'single', 'Other, single image')] %}
+  {% set rows = transients | selectattr('class', 'equalto', cls) | selectattr('images', 'equalto', img) | list %}
+  {% if rows %}{% set typed = rows | selectattr('subclass') | list %}
+  <h2 id="{{ cls }}-{{ img }}">{{ title }} <span class="count-inline">{{ rows | length }}</span></h2>
   <table class="plain-table">
-    <thead><tr><th scope="col">Name</th><th scope="col">Type</th><th scope="col">Status</th><th scope="col">Lensing cluster</th><th scope="col" class="num">z</th><th scope="col">Discovery paper</th></tr></thead>
+    <thead><tr><th scope="col">Name</th>{% if typed %}<th scope="col">Type</th>{% endif %}<th scope="col">Status</th><th scope="col">Lensing cluster</th><th scope="col" class="num">z</th><th scope="col">Discovery paper</th></tr></thead>
     <tbody>
     {% for t in rows %}
       <tr><th scope="row"><a href="{{ root }}transients/{{ t.slug }}.html">{{ t.name }}</a></th>
-      <td>{{ t.subclass or '' }}</td><td>{{ t.status }}</td>
+      {% if typed %}<td>{{ t.subclass or '' }}</td>{% endif %}<td>{{ t.status }}</td>
       <td>{% if t.cluster_obj %}<a href="{{ root }}clusters/{{ t.cluster_obj.slug }}.html">{{ t.cluster_obj.name }}</a>{% endif %}</td>
       <td class="num">{{ t.z or '' }}</td><td>{{ ref_links(t.refs_obj[:1]) }}</td></tr>
     {% endfor %}

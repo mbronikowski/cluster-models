@@ -46,13 +46,17 @@ tags:
 
 transient_class:
   supernova: Supernova
-  quasar: Quasar or AGN
+  agn: Active galactic nucleus, including quasars
   star: Highly magnified individual star (caustic transit)
   other: Other transient or variable source
 
 transient_status:
-  confirmed: Confirmed multiply-imaged/lensed source
+  confirmed: Confirmed lensed source
   candidate: Candidate
+
+transient_images:
+  multiple: Multiply imaged by the cluster (default)
+  single: Single image, magnified by the cluster
 
 program_kind:
   survey: Observing program or survey

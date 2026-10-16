@@ -120,12 +120,13 @@
           <td class="col-z num">{{ c.z }}</td>
           <td class="col-models"><span class="num">{{ c.n_models }}</span>{% if c.has_jwst %} <span class="tag tag-jwst" title="At least one JWST-based model">JWST</span>{% endif %}</td>
           <td class="col-programs">{% for p in c.programs %}{{ program_badge(p, '') }}{% endfor %}</td>
-          <td class="col-trans">{% for t in c.transients %}<a class="tag tag-{{ t['class'] }}" href="transients/{{ t.slug }}.html" title="{{ t.name }}">{{ 'SN' if t['class'] == 'supernova' else ('QSO' if t['class'] == 'quasar' else t['class']) }}{% if t.status == 'candidate' %}?{% endif %}</a>{% endfor %}</td>
+          <td class="col-trans">{% for t in c.transients %}<a class="tag tag-{{ t['class'] }}{% if t.images == 'single' %} tag-single{% endif %}" href="transients/{{ t.slug }}.html" title="{{ t.name }}{% if t.images == 'single' %} (single image, magnified){% endif %}{% if t.status == 'candidate' %} (candidate){% endif %}">{{ 'SN' if t['class'] == 'supernova' else ('AGN' if t['class'] == 'agn' else t['class']) }}{% if t.status == 'candidate' %}?{% endif %}</a>{% endfor %}</td>
         </tr>
       {% endfor %}
       </tbody>
     </table>
   </div>
+  <p class="tag-legend">Lensed transients: <span class="tag tag-supernova">SN</span> multiply imaged, <span class="tag tag-supernova tag-single">SN</span> single image, magnified by the cluster; <span class="tag tag-agn">AGN</span> active galactic nucleus; <span class="tag tag-supernova">SN?</span> a candidate.</p>
   <p class="empty" id="empty" hidden>No clusters match. Widen the radius, clear a filter, or try another spelling (A2744, Abell 2744 and ACO 2744 all work).</p>
 </section>
 <script type="application/json" id="cluster-index">{{ index_data | safe }}</script>

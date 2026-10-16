@@ -1,10 +1,17 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: SDSS J1004+4112 quasar
-class: quasar
+class: agn
 status: confirmed
 cluster: sdss-j1004p4112
-refs: [2003Natur.426..810I, 2022ApJ...937...35F, 2023ApJ...959..134N, 2024A&A...682A.187M]
+z: 1.734
+refs: [2003Natur.426..810I, 2004AJ....128.2631W, 2004ApJ...605...78O, 2004ApJ...610..679R, 2005ApJ...629L..73S, 2005PASJ...57L...7I, 2006A&A...454..493L, 2006ApJ...647..215O, 2006PASJ...58..271K, 2007ApJ...662...62F, 2008ApJ...676..761F, 2008PASJ...60L..27I, 2009MNRAS.397..341L, 2010PASJ...62.1017O, 2011ApJ...739L..28J, 2015PASJ...67...21M, 2016ApJ...830..149F, 2020A&A...634A..27P, 2020A&A...643A..10H, 2022ApJ...937...34M, 2022ApJ...937...35F, 2023A&A...672A..45H, 2023ApJ...959..134N, 2024A&A...682A..57F, 2024A&A...682A.187M, 2024A&A...691A..97F, 2024MNRAS.527.2639P, 2026ApJ...997..274M]
 notes: |-
-  Quadruply-imaged quasar with a 14.6 arcsec image separation
-  ([Inada et al. 2003](ref:2003Natur.426..810I)); used for time-delay H0 measurements.
+  Quasar at z = 1.734 lensed into four images up to 14.6 arcsec apart, the first quasar
+  known to be lensed by a cluster ([Inada et al. 2003](ref:2003Natur.426..810I)); a faint
+  fifth image lies near the brightest cluster galaxy
+  ([Inada et al. 2005](ref:2005PASJ...57L...7I)). All the time delays are measured,
+  the longest from a 14.5-year campaign
+  ([Muñoz et al. 2022](ref:2022ApJ...937...34M)), and are used for H0 measurements and to
+  constrain the cluster's substructure. Microlensing of the images probes the quasar's
+  accretion disc and broad-line region.

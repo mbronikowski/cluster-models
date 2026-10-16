@@ -35,3 +35,16 @@ models:
     note: |-
       The cluster's lensing properties were studied by
       [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).
+  - title: Kratzer et al. (2011)
+    refs: [2011ApJ...728L..18K]
+    data: [ground]
+    availability: unknown
+    note: |-
+      Model fitted to resolved radio (VLA) positions and flux ratios of images B and C,
+      adding a substructure of about 10^9 solar masses near image B to explain the flux anomaly.
+  - title: Oguri et al. (2008)
+    refs: [2008ApJ...676L...1O]
+    data: [ground]
+    availability: unknown
+    tags: [parametric]
+    note: Mass models that include the newly found third quasar image (a naked-cusp configuration).

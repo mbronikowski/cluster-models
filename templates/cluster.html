@@ -28,7 +28,7 @@
         </dd></div>
         {% if c.programs %}<div><dt>Programs</dt><dd class="badges">{% for p in c.programs %}{{ program_badge(p, root) }}{% endfor %}</dd></div>{% endif %}
         {% if c.transients %}<div><dt>Lensed transients</dt><dd>
-          <ul class="plain">{% for t in c.transients %}<li><a href="{{ root }}transients/{{ t.slug }}.html">{{ t.name }}</a> <span class="muted">{{ t.class_label | lower }}{% if t.status == 'candidate' %}, candidate{% endif %}</span></li>{% endfor %}</ul>
+          <ul class="plain">{% for t in c.transients %}<li><a href="{{ root }}transients/{{ t.slug }}.html">{{ t.name }}</a> <span class="muted">{{ t.class_label if t['class'] == 'agn' else t.class_label | lower }}{% if t.images == 'single' %}, single image{% endif %}{% if t.status == 'candidate' %}, candidate{% endif %}</span></li>{% endfor %}</ul>
         </dd></div>{% endif %}
         <div><dt>Search this position</dt><dd class="inline-links">{% for label, url in c.coord_links %}<a href="{{ url }}">{{ label }}</a>{% endfor %}</dd></div>
       </dl>

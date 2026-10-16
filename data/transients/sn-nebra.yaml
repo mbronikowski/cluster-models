@@ -1,0 +1,16 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Nebra
+class: supernova
+subclass: Ia (photometric)
+status: candidate
+images: single
+cluster: abell-1763
+ra: "13:35:15.14"
+dec: "+41:00:15.7"
+discovered: 2016
+refs: [2016ATel.9224....1R, 2019ApJ...884...85C, 2023MNRAS.522.4718G]
+notes: |-
+  Likely Type Ia supernova at z ~ 2 behind Abell 1763, found in RELICS imaging; an initial
+  estimate gave a magnification of about 2. Its host has only a photometric redshift
+  ([Golubchik et al. 2023](ref:2023MNRAS.522.4718G)).

@@ -2,7 +2,7 @@
 
 name: SN Ares
 class: supernova
-subclass: core-collapse
+subclass: CCSN
 status: confirmed
 cluster: macs-j0308.9p2645
 ra: "03:08:53.42"

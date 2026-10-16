@@ -292,10 +292,10 @@ Table 1 of Fujimoto et al. (2024), not only RXC J0600.1-2007.
   scripts. The LAM Strong Lensing Cluster Atlas and the Lenstool wiki refuse automated
   requests, so the checker cannot confirm them. The two FTP links (Abell 1722,
   MACS J2135.2-0102) are not checked, and the wiki already called them defunct.
-- **Transients.** The lensed supernovae list their DD programs and the papers centred on
-  them (October 2026). The lensed quasars do not yet list their later papers (time delays,
-  microlensing, lens models), and singly-imaged, cluster-magnified supernovae (such as
-  HFF14Tom in Abell 2744) and caustic-crossing stars are not included.
+- **Transients.** The lensed supernovae and AGN list their DD programs and the papers
+  centred on them, and singly-imaged, cluster-magnified supernovae are included with
+  `images: single` (October 2026). Not yet included: caustic-crossing stars, the z = 2.22
+  SN Ia behind MOO J1014+0038 (cluster not in the catalogue), and galaxy-scale lenses.
 - **Observations.** Each cluster can list instruments, filters and programs
   (`observations:`), but the wiki had none.
 - **Missing clusters.** Some well-studied strong lenses are not listed yet, for example

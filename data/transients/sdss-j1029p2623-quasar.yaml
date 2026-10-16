@@ -1,10 +1,15 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: SDSS J1029+2623 quasar
-class: quasar
+class: agn
 status: confirmed
 cluster: sdss-j1029p2623
-refs: [2022ApJ...926...86A, 2023ApJ...959..134N]
+z: 2.197
+refs: [2006ApJ...653L..97I, 2008ApJ...676L...1O, 2011ApJ...728L..18K, 2012ApJ...758...26O, 2013AJ....145...48M, 2013ApJ...764..186F, 2013MNRAS.429..482O, 2014ApJ...794L..20M, 2016ApJ...825...25M, 2020ApJ...890....3R, 2022ApJ...926...86A, 2023ApJ...959..134N]
 notes: |-
-  Multiply-imaged quasar with a measured time delay (see e.g.
-  [Acebron et al. 2022](ref:2022ApJ...926...86A)).
+  Quasar at z = 2.197 lensed into two images 22.5 arcsec apart, the widest separation known
+  when found ([Inada et al. 2006](ref:2006ApJ...653L..97I)); a third image close to one of
+  them makes it a naked-cusp configuration ([Oguri et al. 2008](ref:2008ApJ...676L...1O)).
+  Its time delay is about two years ([Fohlmeister et al. 2013](ref:2013ApJ...764..186F)).
+  Later papers study flux-ratio anomalies, X-ray emission and outflows seen along the
+  different sight lines.

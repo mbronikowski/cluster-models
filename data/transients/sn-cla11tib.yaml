@@ -1,0 +1,16 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN CLA11Tib
+class: supernova
+subclass: unclassified
+status: confirmed
+images: single
+cluster: abell-383
+ra: "02:48:01.27"
+dec: "-03:33:16.9"
+z: 1.143
+discovered: 2011
+refs: [2014ApJ...786....9P]
+notes: |-
+  Supernova behind Abell 383 from the CLASH survey; its type is inconclusive. The lens
+  models predict 0.43 mag of magnification ([Patel et al. 2014](ref:2014ApJ...786....9P)).

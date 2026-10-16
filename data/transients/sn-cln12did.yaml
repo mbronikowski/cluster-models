@@ -1,0 +1,17 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN CLN12Did
+class: supernova
+subclass: Ia (photometric)
+status: confirmed
+images: single
+cluster: macs-j1532.8p3021
+ra: "15:32:59.25"
+dec: "+30:21:42.8"
+z: 0.851
+discovered: 2012
+refs: [2014ApJ...786....9P, 2014MNRAS.440.2742N]
+notes: |-
+  Type Ia supernova behind RX J1532.9+3021 from the CLASH survey, about 0.2 mag brighter
+  than unlensed SNe Ia; the lens models predict 0.28 mag ([Patel et al.
+  2014](ref:2014ApJ...786....9P)).

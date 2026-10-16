@@ -2,7 +2,7 @@
 
 name: SN Athena
 class: supernova
-subclass: core-collapse
+subclass: CCSN
 status: confirmed
 cluster: macs-j0417.5m1154
 z: 0.87

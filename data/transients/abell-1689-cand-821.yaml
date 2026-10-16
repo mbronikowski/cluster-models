@@ -1,0 +1,17 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: Abell 1689 CAND-821
+class: supernova
+subclass: IIn (photometric)
+status: confirmed
+images: single
+cluster: abell-1689
+ra: "13:11:26.43"
+dec: "-01:21:31.2"
+z: 1.703
+refs: [2011ApJ...742L...7A, 2016A&A...594A..54P]
+notes: |-
+  Core-collapse supernova behind Abell 1689, one of six in the near-infrared supernova
+  searches compiled by [Petrushevska et al. (2016)](ref:2016A&A...594A..54P); the cluster brightens
+  it by about 1.58 mag according to the lens models used there. Classified from its light
+  curve. Reported by Amanullah et al. (2011) as a highly magnified supernova at z = 1.703.

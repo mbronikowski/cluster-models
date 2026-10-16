@@ -62,9 +62,36 @@ models:
       [Oguri (2010)](ref:2010PASJ...62.1017O) presented a strong lens analysis of the
       cluster. The model can be downloaded from the GLAFIC v1 web page
       [here](https://www.slac.stanford.edu/~oguri/glafic/index_v1.html).
+  - title: Liesenborgs et al. (2009)
+    refs: [2009MNRAS.397..341L]
+    software: GRALE
+    availability: unknown
+    tags: [free-form]
+    note: Non-parametric (free-form) GRALE inversion of the cluster.
+  - title: Kawano & Oguri (2006)
+    refs: [2006PASJ...58..271K]
+    availability: unknown
+    tags: [parametric, multiple-models]
+    note: |-
+      A series of mass models with different inner density slopes, used to predict the
+      distribution of quasar time delays.
   - title: Sharon et al. (2005)
     refs: [2005ApJ...629L..73S]
     availability: unknown
     note: |-
       [Sharon et al. (2005)](ref:2005ApJ...629L..73S) constructed a gravitational lensing
       model of the galaxy cluster.
+  - title: Williams & Saha (2004)
+    refs: [2004AJ....128.2631W]
+    software: other
+    availability: unknown
+    tags: [free-form]
+    note: Free-form (pixellated) models of the quadruple quasar, made with PixeLens.
+  - title: Oguri et al. (2004)
+    refs: [2004ApJ...605...78O]
+    data: [ground]
+    availability: unknown
+    tags: [parametric, multiple-models]
+    note: |-
+      A range of models from the discovery follow-up; they place the potential centre off the
+      brightest cluster galaxy, elongated north-south, with large shear.

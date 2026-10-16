@@ -36,6 +36,8 @@
   --gold-soft: #f7ecd6;
   --dot-out: #b4bfca;
   --gal: #c9a25c;
+  --mag: #0b6e65;
+  --mag-soft: #dcefec;
   --focus: #2450c0;
   --radius: 3px;
   --font: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -59,6 +61,8 @@
     --gold-soft: #3a2c12;
     --dot-out: #3a4756;
     --gal: #8a7444;
+    --mag: #6fd3c5;
+    --mag-soft: #12302d;
     --focus: #93b0ff;
   }
 }
@@ -66,7 +70,7 @@
   color-scheme: dark;
   --page: #0d131a; --surface: #131b24; --sky: #17212c; --ink: #e4e9ee; --ink-2: #aebaca;
   --muted: #8494a5; --rule: #26313d; --grid: #2b3846; --arc: #93b0ff; --arc-soft: #1d2a45;
-  --gold: #e6ac3c; --gold-text: #f0c060; --gold-soft: #3a2c12; --dot-out: #3a4756; --gal: #8a7444;
+  --gold: #e6ac3c; --gold-text: #f0c060; --gold-soft: #3a2c12; --dot-out: #3a4756; --gal: #8a7444; --mag: #6fd3c5; --mag-soft: #12302d;
   --focus: #93b0ff;
 }
 
@@ -222,7 +226,9 @@ figcaption { font-size: 0.8125rem; color: var(--muted); margin-top: 8px; }
 .badge-program:hover { text-decoration: underline; }
 .tag { border: 1px solid var(--grid); color: var(--ink-2); }
 .tag-jwst { border-color: transparent; background: var(--gold-soft); color: var(--gold-text); }
-.tag-supernova, .tag-quasar, .tag-star, .tag-other { border-color: transparent; background: var(--arc-soft); color: var(--arc); }
+.tag-supernova, .tag-agn, .tag-star, .tag-other { border-color: transparent; background: var(--arc-soft); color: var(--arc); }
+.tag-single { border: 1px dashed var(--mag); background: var(--mag-soft); color: var(--mag); }
+.tag-legend { margin: 8px 0 0; font-size: 0.875rem; color: var(--muted); }
 .tag-superseded { color: var(--muted); border-style: dashed; }
 
 /* entry pages -------------------------------------------------------------------------- */
