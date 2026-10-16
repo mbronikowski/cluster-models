@@ -41,7 +41,7 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/missions/hlsp/clash/a383/models/
     note: |-
-      Previously, the cluster was studied by [Zitrin et al. (2011)](ref:2011ApJ...742..117Z)
+      Previously, the cluster was studied by [Zitrin et al. (2011a)](ref:2011ApJ...742..117Z)
       as part of the CLASH program.
   - title: Newman et al. (2011)
     refs: [2011ApJ...728L..39N]
@@ -49,7 +49,7 @@ models:
     note: |-
       The cluster was modeled gravitationally by
       [Newman et al. (2011)](ref:2011ApJ...728L..39N).
-  - title: 'LoCuSS: Richard et al. (2010)'
+  - title: 'LoCuSS: Richard et al. (2010b)'
     program: locuss
     refs: [2010MNRAS.404..325R]
     data: [HST]

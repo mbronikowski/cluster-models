@@ -22,7 +22,7 @@ models:
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS2214/
-  - title: Zitrin et al. (2011)
+  - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).
+    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).

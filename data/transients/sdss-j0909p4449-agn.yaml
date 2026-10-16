@@ -1,6 +1,6 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
-name: SDSS J0909+4449 quasar
+name: SDSS J0909+4449 AGN
 class: agn
 status: confirmed
 cluster: sdss-j0909p4449

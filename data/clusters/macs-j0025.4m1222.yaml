@@ -20,7 +20,7 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/macs0025m12/models/
-  - title: Zitrin et al. (2011)
+  - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).
+    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).

@@ -29,10 +29,10 @@ models:
     note: |-
       [MacKenzie et al. (2014)](ref:doi:10.1093/mnras/stu1623) presented a lens model of the
       galaxy cluster.
-  - title: Zitrin et al. (2011)
+  - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).
+    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).
   - title: Borys et al. (2004)
     refs: [2004MNRAS.352..759B]
     software: Lenstool

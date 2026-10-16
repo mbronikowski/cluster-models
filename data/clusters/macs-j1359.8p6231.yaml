@@ -14,10 +14,10 @@ dec: "+62:30:49.8"
 z: 0.328
 
 models:
-  - title: Zitrin et al. (2011)
+  - title: Zitrin et al. (2011c)
     refs: [2011MNRAS.413.1753Z]
     availability: unknown
-    note: The cluster was modeled by [Zitrin et al. (2011)](ref:2011MNRAS.413.1753Z).
+    note: The cluster was modeled by [Zitrin et al. (2011c)](ref:2011MNRAS.413.1753Z).
   - title: Franx et al. (1997)
     refs: [1997ApJ...486L..75F]
     availability: unknown

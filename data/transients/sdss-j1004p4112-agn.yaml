@@ -1,6 +1,6 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
-name: SDSS J1004+4112 quasar
+name: SDSS J1004+4112 AGN
 class: agn
 status: confirmed
 cluster: sdss-j1004p4112

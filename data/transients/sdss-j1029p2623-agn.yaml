@@ -1,6 +1,6 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
-name: SDSS J1029+2623 quasar
+name: SDSS J1029+2623 AGN
 class: agn
 status: confirmed
 cluster: sdss-j1029p2623

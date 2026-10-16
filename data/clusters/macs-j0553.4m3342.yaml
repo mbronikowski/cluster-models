@@ -15,7 +15,7 @@ z: 0.427
 programs: [relics, slice, venus, alcs]
 
 models:
-  - title: 'SLICE: Cerny et al. (2026)'
+  - title: 'SLICE: Cerny et al. (2026a)'
     program: slice
     refs: [2026ApJ..1001...60C]
     data: [JWST]

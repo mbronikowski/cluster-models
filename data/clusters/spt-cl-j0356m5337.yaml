@@ -9,11 +9,11 @@ dec: "-53:37:59.2"
 z: 1.035
 
 models:
-  - title: Smith et al. (2025)
+  - title: Smith et al. (2025a)
     refs: [2025ApJ...991..142S]
     availability: unknown
     note: |-
-      [Smith et al. (2025)](ref:2025ApJ...991..142S) present a series of updated lensing
+      [Smith et al. (2025a)](ref:2025ApJ...991..142S) present a series of updated lensing
       models for the galaxy cluster.
   - title: Mahler et al. (2020)
     refs: [2020ApJ...894..150M]

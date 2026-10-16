@@ -1,9 +1,9 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
-name: COOL J0335-1927 quasar
+name: COOL J0335-1927 AGN
 class: agn
 status: confirmed
 cluster: cool-j0335m1927
 z: 3.27
 refs: [2023ApJ...954L..38N]
-notes: Lensed quasar at z = 3.27 ([Napier et al. 2023](ref:2023ApJ...954L..38N)).
+notes: Lensed quasar at z = 3.27 ([Napier et al. 2023a](ref:2023ApJ...954L..38N)).

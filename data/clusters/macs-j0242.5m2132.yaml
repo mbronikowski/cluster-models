@@ -1,0 +1,28 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0242.5-2132
+designations:
+  - MCXC J0242.5-2132
+ra: "02:42:35.93"
+dec: "-21:32:26.2"
+z: 0.313
+
+models:
+  - title: Allingham et al. (2024)
+    refs: [2024MNRAS.528.1711A]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: on-request
+    tags: [method-test]
+    note: |-
+      Lens models re-optimised together with an analytic model of the intra-cluster medium,
+      compared with XMM-Newton and ACT data. The lens models are available on reasonable
+      request.
+  - title: Allingham et al. (2023)
+    refs: [2023MNRAS.522.1118A]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: on-request
+    note: |-
+      Lenstool model with six multiple-image systems with MUSE redshifts, combined with
+      XMM-Newton data. The lens models are available on reasonable request.

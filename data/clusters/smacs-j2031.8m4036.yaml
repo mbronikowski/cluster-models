@@ -7,7 +7,7 @@ z: 0.331
 programs: [slice, venus, muse-lensing]
 
 models:
-  - title: 'SLICE: Cerny et al. (2026)'
+  - title: 'SLICE: Cerny et al. (2026a)'
     program: slice
     refs: [2026ApJ..1001...60C]
     data: [JWST]

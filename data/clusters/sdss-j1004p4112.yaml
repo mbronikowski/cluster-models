@@ -28,12 +28,12 @@ models:
     note: |-
       The cluster was modeled by [Liu et al. (2023)](ref:2023PhRvD.108h3532L) for the
       purpose of measuring the Hubble constant.
-  - title: Napier et al. (2023)
+  - title: Napier et al. (2023b)
     refs: [2023ApJ...959..134N]
     availability: unknown
     tags: [time-delay-cosmography]
     note: |-
-      The cluster was modeled by [Napier et al. (2023)](ref:2023ApJ...959..134N), along with
+      The cluster was modeled by [Napier et al. (2023b)](ref:2023ApJ...959..134N), along with
       SDSS J1029+2623 and SDSS J2222+2745, to obtain a Hubble constant measurement from time
       delays.
   - title: Forés-Toribio et al. (2022)

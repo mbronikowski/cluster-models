@@ -6,10 +6,10 @@ dec: "-19:27:51.0"
 z: 0.418
 
 models:
-  - title: Napier et al. (2023)
+  - title: Napier et al. (2023a)
     refs: [2023ApJ...954L..38N]
     availability: unknown
     note: |-
-      [Napier et al. (2023)](ref:2023ApJ...954L..38N) reported the discovery of the
+      [Napier et al. (2023a)](ref:2023ApJ...954L..38N) reported the discovery of the
       gravitationally lensed quasar behind cluster and constructed a strong lensing model of
       the cluster.
