@@ -1,0 +1,16 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 3192
+designations:
+  - AM 0356-300
+ra: "03:58:47.56"
+dec: "-29:53:42.35"
+z: 0.168
+programs: [relics, venus]
+
+notes: |-
+  Abell 3192 (z = 0.168) lies in front of the more massive
+  [MACS J0358.8-2955](cluster:macs-j0358.8m2955) (z = 0.425), 2.5' away. RELICS and VENUS
+  list the field under the name Abell 3192, but the strong lensing, and the RELICS lens
+  model, belong to MACS J0358.8-2955 ([Coe et al. 2019](ref:2019ApJ...884...85C);
+  [Hsu et al. 2013](ref:2013MNRAS.429..833H)), so the models are listed on its page.

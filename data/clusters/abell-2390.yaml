@@ -1,0 +1,42 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2390
+designations:
+  - ZwCl 2151.3+1727
+  - MCXC J2153.5+1741
+  - PSZRX G073.95-27.82
+  - PLCKESZ G073.96-27.82
+ra: "21:53:36.80"
+dec: "+17:41:32.2"
+z: 0.227
+programs: [locuss, muse-lensing]
+
+models:
+  - title: Abriola et al. (2025)
+    refs: [2025A&A...704A.338A]
+    data: [Euclid]
+    availability: unknown
+    tags: [parametric]
+    note: |-
+      [Abriola et al. (2025)](ref:2025A&A...704A.338A) created a parametric lens model of
+      the cluster using Euclid Early Release Observations data.
+  - title: 'MUSE: Thai et al. (2023)'
+    program: muse-lensing
+    refs: [2023A&A...678A.139T]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2390/
+    note: |-
+      Also listed in the
+      [SL Cluster Atlas Database](https://data.lam.fr/sl-cluster-atlas/home).
+  - title: LoCuSS
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (Lenstool website)
+        url: https://projets.lam.fr/projects/lenstool/wiki

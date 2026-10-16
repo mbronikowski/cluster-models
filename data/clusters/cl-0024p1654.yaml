@@ -1,0 +1,29 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: CL 0024+1654
+designations:
+  - WHL J002635.7+170943
+ra: "00:26:35.70"
+dec: "+17:09:46.0"
+z: 0.394
+
+models:
+  - title: Wagner et al. (2018)
+    refs: [2018A&A...612A..17W]
+    availability: unknown
+    tags: [multiple-models]
+    note: |-
+      [Wagner et al. (2018)](ref:2018A&A...612A..17W) created a series of models using
+      differing methodologies.
+  - title: Zitrin et al. (2009)
+    refs: [2009MNRAS.396.1985Z]
+    availability: unknown
+    note: |-
+      [Zitrin et al. (2009)](ref:2009MNRAS.396.1985Z) constructed a gravitational lensing
+      model of the galaxy cluster.
+  - title: Liesenborgs et al. (2008)
+    refs: [2008MNRAS.389..415L]
+    availability: unknown
+    note: |-
+      [Liesenborgs et al. (2008)](ref:2008MNRAS.389..415L) created a gravitational lensing
+      model of the cluster.

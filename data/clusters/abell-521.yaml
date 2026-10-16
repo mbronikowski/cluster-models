@@ -1,0 +1,34 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 521
+designations:
+  - ACT-CL J0454.1-1013
+  - MCXC J0454.1-1014
+  - RBS 0604
+  - 1RXS J045409.6-101432
+ra: "04:54:09.13"
+dec: "-10:14:25.10"
+z: 0.253
+programs: [locuss, venus, muse-lensing]
+
+models:
+  - title: MUSE data release
+    program: muse-lensing
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/RXCJ0454/
+    note: |-
+      Not described in a paper as of August 2026. See also
+      [Richard et al. (2021)](ref:2021A&A...646A..83R) and
+      [Thai et al. (2023)](ref:2023A&A...678A.139T).
+  - title: LoCuSS
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (Lenstool website)
+        url: https://projets.lam.fr/projects/lenstool/wiki

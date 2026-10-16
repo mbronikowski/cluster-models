@@ -1,0 +1,29 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2219
+designations:
+  - I Zw 163
+  - CGPG 1638.9+4648
+  - ZwCl 1638.7+4643
+  - SDSS +250.1+46.7+0.25
+ra: "16:40:21.41"
+dec: "+46:42:20.88"
+z: 0.226
+programs: [locuss]
+
+models:
+  - title: LoCuSS
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (Lenstool website)
+        url: https://projets.lam.fr/projects/lenstool/wiki
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.

@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% from "_macros.html" import program_badge %}
+{% set nav = 'clusters' %}
+{% block title %}{{ cfg.title }}: {{ cfg.tagline | lower }}{% endblock %}
+{% block bodyclass %}page-index{% endblock %}
+{% block main %}
+<section class="intro wrap">
+  <h1>{{ cfg.tagline }}</h1>
+  <p class="lede">Published lens models for {{ stats.clusters }} clusters, the programs that observed them, and the transients lensed behind them.</p>
+</section>
+
+<section class="finder wrap" aria-label="Search and filters">
+  <form id="finder" class="finder-form" role="search" autocomplete="off">
+    <div class="search-row">
+      <div class="field field-q">
+        <label for="q">Name or position</label>
+        <input id="q" name="q" type="search" spellcheck="false" autocapitalize="off"
+               placeholder="A2744, MACS0416, El Gordo, 04:16:08.8 -24:04:14">
+      </div>
+      <div class="field field-r">
+        <label for="r">Radius (arcmin)</label>
+        <input id="r" name="r" type="number" inputmode="decimal" min="0.1" step="any" value="10">
+      </div>
+    </div>
+    <div class="hint-row">
+      <p class="search-hint" id="q-hint">Coordinates (J2000, sexagesimal or decimal degrees) start a cone search with this radius.</p>
+      <button type="reset" id="reset" class="button-quiet">Clear all</button>
+    </div>
+    <details class="filters" id="filters">
+      <summary>Filters</summary>
+      <div class="filter-row">
+        <div class="field field-z">
+          <span class="field-label" id="z-label">Redshift</span>
+          <span class="zrange" role="group" aria-labelledby="z-label">
+            <input id="zmin" name="zmin" type="number" inputmode="decimal" min="0" step="any" placeholder="min" aria-label="Minimum redshift">
+            <span aria-hidden="true">to</span>
+            <input id="zmax" name="zmax" type="number" inputmode="decimal" min="0" step="any" placeholder="max" aria-label="Maximum redshift">
+          </span>
+        </div>
+        <div class="field">
+          <label for="program">Program</label>
+          <select id="program" name="program">
+            <option value="">Any program</option>
+            {% for p in programs_sorted if p.kind == 'survey' and p.members %}
+            <option value="{{ p.id }}">{{ p.short }} ({{ p.members | length }})</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="field">
+          <label for="cat">Designation in</label>
+          <select id="cat" name="cat">
+            <option value="">Any catalogue</option>
+            {% for cat in catalogues | sort(attribute='label') if cat.type in ('sz', 'xray', 'optical', 'lens') %}
+            <option value="{{ cat.id }}">{{ cat.label }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <fieldset class="checks">
+          <legend class="visually-hidden">Model and source filters</legend>
+          <label><input type="checkbox" id="pub" name="pub"> Public model</label>
+          <label><input type="checkbox" id="jw" name="jw"> JWST-based model</label>
+          <label><input type="checkbox" id="tr" name="tr"> Lensed transient</label>
+        </fieldset>
+      </div>
+    </details>
+  </form>
+</section>
+
+<section class="skymap wrap" aria-label="Sky map">
+  <figure class="skymap-figure">
+    <div class="skymap-frame">
+      <svg id="skymap" viewBox="0 0 960 480" role="img" aria-labelledby="skymap-cap">
+        <path class="sky-bg" d="{{ map.outline }}"/>
+        {% for d in map.grid %}<path class="sky-grid" d="{{ d }}"/>{% endfor %}
+        {% for d in map.galactic %}<path class="sky-gal" d="{{ d }}"/>{% endfor %}
+        <text class="sky-gal-label" x="{{ map.galactic_label.x + 14 }}" y="{{ map.galactic_label.y }}">Galactic plane</text>
+        {% for l in map.ra_labels %}<text class="sky-label" x="{{ l.x }}" y="{{ l.y + 15 }}" text-anchor="middle">{{ l.text }}</text>{% endfor %}
+        {% for l in map.dec_labels %}<text class="sky-label" x="{{ l.x - 6 }}" y="{{ l.y + 4 }}" text-anchor="end">{{ l.text }}</text>{% endfor %}
+        <g id="sky-cone"></g>
+        <g id="sky-dots">
+        {% for c in clusters %}<a href="clusters/{{ c.slug }}.html" class="dot" data-slug="{{ c.slug }}" tabindex="-1" aria-label="{{ c.name }}"><circle class="dot-hit" cx="{{ c.map_xy[0] }}" cy="{{ c.map_xy[1] }}" r="11"/><circle class="dot-mark" cx="{{ c.map_xy[0] }}" cy="{{ c.map_xy[1] }}" r="4"/></a>{% endfor %}
+        </g>
+      </svg>
+      <div class="sky-tip" id="sky-tip" hidden></div>
+    </div>
+    <figcaption id="skymap-cap">Equatorial (J2000) Mollweide projection, right ascension increasing to the left. Highlighted clusters match the search and filters; select one to open its page.</figcaption>
+  </figure>
+</section>
+
+<section class="results wrap" aria-label="Clusters">
+  <div class="results-head">
+    <p id="count" class="count" aria-live="polite">{{ stats.clusters }} clusters</p>
+    <button type="button" id="csv" class="button-quiet">Download these rows (CSV)</button>
+  </div>
+  <div class="table-scroll">
+    <table id="cluster-table" class="cluster-table">
+      <thead>
+        <tr>
+          <th scope="col" class="col-name" aria-sort="ascending"><button type="button" data-sort="name">Cluster</button></th>
+          <th scope="col" class="col-sep" hidden><button type="button" data-sort="sep">Sep. (&prime;)</button></th>
+          <th scope="col" class="col-ra"><button type="button" data-sort="ra">RA</button></th>
+          <th scope="col" class="col-dec"><button type="button" data-sort="dec">Dec</button></th>
+          <th scope="col" class="col-z"><button type="button" data-sort="z">z</button></th>
+          <th scope="col" class="col-models"><button type="button" data-sort="models">Models</button></th>
+          <th scope="col" class="col-programs">Programs</th>
+          <th scope="col" class="col-trans">Lensed transients</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for c in clusters %}
+        <tr data-slug="{{ c.slug }}">
+          <th scope="row" class="col-name">
+            <a href="clusters/{{ c.slug }}.html">{{ c.name }}</a>
+            {% set alt = c.common_names + c.aka %}
+            {% if alt %}<span class="alt">{{ alt[:2] | join(', ') }}</span>{% endif %}
+          </th>
+          <td class="col-sep num" hidden></td>
+          <td class="col-ra coord">{{ c.ra }}</td>
+          <td class="col-dec coord">{{ c.dec }}</td>
+          <td class="col-z num">{{ c.z }}</td>
+          <td class="col-models"><span class="num">{{ c.n_models }}</span>{% if c.has_jwst %} <span class="tag tag-jwst" title="At least one JWST-based model">JWST</span>{% endif %}</td>
+          <td class="col-programs">{% for p in c.programs %}{{ program_badge(p, '') }}{% endfor %}</td>
+          <td class="col-trans">{% for t in c.transients %}<a class="tag tag-{{ t['class'] }}" href="transients/{{ t.slug }}.html" title="{{ t.name }}">{{ 'SN' if t['class'] == 'supernova' else ('QSO' if t['class'] == 'quasar' else t['class']) }}{% if t.status == 'candidate' %}?{% endif %}</a>{% endfor %}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="empty" id="empty" hidden>No clusters match. Widen the radius, clear a filter, or try another spelling (A2744, Abell 2744 and ACO 2744 all work).</p>
+</section>
+<script type="application/json" id="cluster-index">{{ index_data | safe }}</script>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/app.js" defer></script>{% endblock %}

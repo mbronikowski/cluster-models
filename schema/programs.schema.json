@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mbronikowski.github.io/cluster-models/schema/programs.schema.json",
+  "title": "Program and resource index (data/programs.yaml)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "name", "short", "kind"],
+    "properties": {
+      "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+      "name": {"type": "string"},
+      "short": {"type": "string", "description": "Abbreviation used on badges."},
+      "kind": {"type": "string"},
+      "facilities": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+      "proposal": {"type": "string"},
+      "url": {"type": "string", "pattern": "^(https?|ftp)://[^\\s]+$", "description": "Landing page."},
+      "archive": {"type": "string", "pattern": "^(https?|ftp)://[^\\s]+$", "description": "Archive / data page."},
+      "overview": {"type": "string", "pattern": "^(\\d{4}[A-Za-z0-9&.]{14}[A-Za-z.]|arXiv:\\d{4}\\.\\d{4,5}|doi:10\\.\\d{4,9}/\\S+)$", "description": "Overview publication."},
+      "links": {
+        "type": "array",
+        "items": {
+          "type": "object", "additionalProperties": false, "required": ["label", "url"],
+          "properties": {"label": {"type": "string"}, "url": {"type": "string", "pattern": "^(https?|ftp)://[^\\s]+$"}}
+        }
+      },
+      "note": {"type": "string"}
+    }
+  }
+}

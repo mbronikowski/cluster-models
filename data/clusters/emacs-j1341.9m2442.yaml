@@ -1,0 +1,14 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: eMACS J1341.9-2442
+ra: "13:41:54.0"
+dec: "-24:42:00"
+z: 0.835
+
+models:
+  - title: Ebeling et al. (2018)
+    refs: [2018ApJ...852L...7E]
+    availability: unknown
+    note: |-
+      [Ebeling et al. (2018)](ref:2018ApJ...852L...7E) created a gravitational lensing model
+      of the galaxy cluster.

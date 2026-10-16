@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% from "_macros.html" import ref_links %}
+{% set nav = 'transients' %}
+{% block title %}Lensed transients and variable sources | {{ cfg.title }}{% endblock %}
+{% block main %}
+<div class="wrap narrow-top">
+  <h1>Lensed transients and variable sources</h1>
+  <p class="lede">Supernovae and quasars multiply imaged by clusters in this catalogue. Each entry links to its lensing cluster and the papers that describe it.</p>
+  {% for cls, title in [('supernova', 'Supernovae'), ('quasar', 'Quasars and AGN'), ('star', 'Lensed stars'), ('other', 'Other')] %}
+  {% set rows = transients | selectattr('class', 'equalto', cls) | list %}
+  {% if rows %}
+  <h2>{{ title }} <span class="count-inline">{{ rows | length }}</span></h2>
+  <table class="plain-table">
+    <thead><tr><th scope="col">Name</th><th scope="col">Type</th><th scope="col">Status</th><th scope="col">Lensing cluster</th><th scope="col" class="num">z</th><th scope="col">Discovery paper</th></tr></thead>
+    <tbody>
+    {% for t in rows %}
+      <tr><th scope="row"><a href="{{ root }}transients/{{ t.slug }}.html">{{ t.name }}</a></th>
+      <td>{{ t.subclass or '' }}</td><td>{{ t.status }}</td>
+      <td>{% if t.cluster_obj %}<a href="{{ root }}clusters/{{ t.cluster_obj.slug }}.html">{{ t.cluster_obj.name }}</a>{% endif %}</td>
+      <td class="num">{{ t.z or '' }}</td><td>{{ ref_links(t.refs_obj[:1]) }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+  {% endfor %}
+  <p class="muted">Missing one? Add a file to <a href="{{ cfg.repo }}/tree/{{ cfg.branch }}/data/transients">data/transients</a> (see <a href="{{ cfg.repo }}/blob/{{ cfg.branch }}/docs/data-format.md">the data format</a>).</p>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MS 1008.1-1224
+designations:
+  - MCXC J1010.5-1239
+  - ClG 1008-12
+ra: "10:10:31.76"
+dec: "-12:40:05.4"
+z: 0.301
+programs: [relics]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/ms1008m12/models/

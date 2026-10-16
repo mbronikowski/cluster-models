@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% set nav = 'about' %}
+{% block title %}About | {{ cfg.title }}{% endblock %}
+{% block main %}
+<div class="wrap narrow-top prose-page">
+  <h1>About this catalogue</h1>
+  <div class="prose">
+    <p>cluster-models collects published strong-lensing models of galaxy clusters in one place: who modelled each cluster, with which data, whether the model can be downloaded and from where. It also records the programs that observed each cluster and the multiply-imaged transients found behind them.</p>
+    <p>It currently lists {{ stats.clusters }} clusters and {{ stats.models }} model entries. Entries are curated by hand from the literature, so coverage is not complete; corrections and additions are welcome.</p>
+
+    <h2 id="data">How the data are kept</h2>
+    <p>Every cluster is one YAML file in <a href="{{ cfg.repo }}/tree/{{ cfg.branch }}/data/clusters"><code>data/clusters/</code></a>; this website is generated from those files. Programs, lensed transients, catalogue designations and references have their own files under <code>data/</code>. A check runs on every change and rejects malformed coordinates, unknown catalogue designations, designations that point somewhere else on the sky, broken internal links and look-alike characters (Unicode dashes, curly quotes, invisible spaces) in names.</p>
+    <p>Names, designations and coordinates are plain ASCII, so anything you copy from this site can be pasted into a script or a query form. Coordinates are J2000 and point at the cluster core, usually the brightest cluster galaxy, though some older catalogue positions are an arcminute or two off. Redshifts are reference values; each model's paper gives the one it used.</p>
+    <p>Until October 2026 the catalogue was a GitHub wiki. The <a href="{{ cfg.repo }}/blob/{{ cfg.branch }}/docs/migration-2026-10.md">migration report</a> describes the conversion and every correction made along the way.</p>
+
+    <h2 id="contribute">Adding or correcting an entry</h2>
+    <p>Each cluster page has an <em>Edit this entry on GitHub</em> link that opens its file in GitHub's editor; saving proposes a change for review. A model entry looks like this:</p>
+<pre><code>models:
+  - title: Bergamini et al. (2023)
+    refs: [2023ApJ...952...84B]    # ADS bibcode, arXiv:NNNN.NNNNN or doi:...
+    program: glass-jwst            # optional, see the Programs page
+    data: [JWST, HST, MUSE]
+    availability: public
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/A2744_Bergamini23/
+    note: Short comment, Markdown allowed.</code></pre>
+    <p><code>availability</code> is one of <code>public</code>, <code>on-request</code>, <code>upcoming</code>, <code>defunct</code>, <code>unavailable</code> or <code>unknown</code>. The full field reference is in <a href="{{ cfg.repo }}/blob/{{ cfg.branch }}/docs/data-format.md">docs/data-format.md</a>. You can also <a href="{{ cfg.repo }}/issues/new">open an issue</a> describing the change.</p>
+
+    <h2 id="access">Machine-readable data</h2>
+    <p>The whole catalogue is published with the site:</p>
+    <ul>
+      <li><a href="{{ root }}data/clusters.csv"><code>data/clusters.csv</code></a> and <a href="{{ root }}data/clusters.ecsv"><code>data/clusters.ecsv</code></a>: one row per cluster</li>
+      <li><a href="{{ root }}data/models.csv"><code>data/models.csv</code></a>: one row per model entry, with references, availability and links</li>
+      <li><a href="{{ root }}data/catalogue.json"><code>data/catalogue.json</code></a>: everything, including programs, transients and references</li>
+      <li><code>data/clusters/&lt;name&gt;.json</code> and <code>.yaml</code>: single entries (linked from each cluster page)</li>
+    </ul>
+<pre><code>url = "{{ cfg.url }}data/"
+
+from astropy.table import Table
+clusters = Table.read(url + "clusters.ecsv", format="ascii.ecsv")
+
+import pandas as pd
+models = pd.read_csv(url + "models.csv")</code></pre>
+    <p>Model files themselves stay with their authors; follow the links. If you download many models programmatically, please keep the request rate low.</p>
+
+    <h2 id="cite">Citing</h2>
+    <p>If this catalogue helps your work, please cite the original papers for any model you use and link to this site. The repository includes a <a href="{{ cfg.repo }}/blob/{{ cfg.branch }}/CITATION.cff">citation file</a>.</p>
+
+    <h2 id="licence">Licence</h2>
+    <p>The catalogue data (everything under <code>data/</code>) is released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; the code under the MIT licence. Images on cluster pages keep their own credits and licences. Interactive sky views use <a href="https://aladin.cds.unistra.fr/AladinLite/">Aladin Lite</a> and HiPS surveys served by CDS, Strasbourg.</p>
+    <p>Typeface: Atkinson Hyperlegible Next (SIL Open Font License), chosen because it keeps look-alike characters such as 0/O and 1/l distinct.</p>
+  </div>
+</div>
+{% endblock %}

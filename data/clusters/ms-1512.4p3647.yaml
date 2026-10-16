@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MS 1512.4+3647
+aka: [MS 1512+36]
+designations:
+  - RX J1514.3+3636
+ra: "15:14:22.47"
+dec: "+36:36:20.90"
+z: 0.372
+
+models:
+  - title: Seitz et al. (1998)
+    refs: [1998MNRAS.298..945S]
+    availability: unknown
+    note: |-
+      [Seitz et al. (1998)](ref:1998MNRAS.298..945S) describe a lensing model of the galaxy
+      cluster.

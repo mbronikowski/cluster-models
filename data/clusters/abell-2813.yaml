@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2813
+designations:
+  - WHL J004324.6-203730
+  - ACT-CL J0043.3-2037
+  - MCXC J0043.4-2037
+  - PSZ1 G106.84-83.24
+ra: "00:43:24.56"
+dec: "-20:37:29.9"
+z: 0.292
+programs: [relics, venus]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/abell2813/models/

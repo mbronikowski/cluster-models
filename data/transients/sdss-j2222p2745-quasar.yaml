@@ -1,0 +1,8 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SDSS J2222+2745 quasar
+class: quasar
+status: confirmed
+cluster: sdss-j2222p2745
+refs: [2017ApJ...835....5S, 2022A&A...668A.142A, 2023ApJ...959..134N]
+notes: Sextuply-imaged quasar ([Sharon et al. 2017](ref:2017ApJ...835....5S)).

@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SPT-CL J0216-2609
+designations:
+  - ACT-CL J0216.6-2609
+ra: "02:16:36.90"
+dec: "-26:09:44.70"
+z: 0.79
+
+models:
+  - title: Roberson et al. (2025)
+    refs: [2025arXiv251012097R]
+    availability: unknown
+    tags: [preliminary]
+    note: |-
+      [Roberson et al. (2025)](ref:2025arXiv251012097R) created a tentative lensing model of
+      the cluster; they note that the model is underconstrained and severely limited.

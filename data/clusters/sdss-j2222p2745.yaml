@@ -1,0 +1,31 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J2222+2745
+designations:
+  - WHL J222208.6+274536
+ra: "22:22:08.58"
+dec: "+27:45:35.63"
+z: 0.489
+
+models:
+  - title: Napier et al. (2023)
+    refs: [2023ApJ...959..134N]
+    availability: unknown
+    tags: [time-delay-cosmography]
+    note: |-
+      The cluster was modeled by [Napier et al. (2023)](ref:2023ApJ...959..134N), along with
+      SDSS J1029+2623 and SDSS J1004+4112, to obtain a Hubble constant measurement from time
+      delays.
+  - title: Acebron et al. (2022)
+    refs: [2022A&A...668A.142A]
+    availability: unknown
+    note: |-
+      The cluster was modeled gravitationally by
+      [Acebron et al. (2022)](ref:2022A&A...668A.142A). The paper also describes the
+      gravitationally lensed background quasar behind this cluster.
+  - title: Sharon et al. (2017)
+    refs: [2017ApJ...835....5S]
+    availability: unknown
+    note: |-
+      [Sharon et al. (2017)](ref:2017ApJ...835....5S) constructed a lens model of the
+      cluster and time delay predictions for the multiply-imaged quasar.

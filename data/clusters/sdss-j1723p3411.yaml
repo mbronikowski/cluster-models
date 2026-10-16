@@ -1,0 +1,28 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1723+3411
+ra: "17:23:36.50"
+dec: "+34:11:55.90"
+z: 0.4423
+programs: [sgas, templates]
+
+models:
+  - title: 'TEMPLATES: Florian et al. (2021)'
+    program: templates
+    refs: [2021ApJ...916...50F, 2020ApJS..247...12S]
+    availability: public
+    links:
+      - label: Lens model (MAST TEMPLATES page)
+        url: https://archive.stsci.edu/hlsp/templates
+    note: |-
+      Studied by [Florian et al. (2021)](ref:2021ApJ...916...50F) and
+      [Sharon et al. (2020)](ref:2020ApJS..247...12S) in preparation for the TEMPLATES
+      program.
+  - title: 'SGAS: Sharon et al. (2020)'
+    program: sgas
+    refs: [2020ApJS..247...12S]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST SGAS page)
+        url: https://archive.stsci.edu/hlsp/sgas

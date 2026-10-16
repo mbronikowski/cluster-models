@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SPT-CL J0356-5337
+designations:
+  - ACT-CL J0356.3-5337
+  - PSZSPT J0356-5337
+ra: "03:56:20.52"
+dec: "-53:37:59.2"
+z: 1.035
+
+models:
+  - title: Smith et al. (2025)
+    refs: [2025arXiv250707404S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2025)](ref:2025arXiv250707404S) present a series of updated lensing
+      models for the galaxy cluster.
+  - title: Mahler et al. (2020)
+    refs: [2020ApJ...894..150M]
+    availability: unknown
+    note: The cluster was modeled by [Mahler et al. (2020)](ref:2020ApJ...894..150M).

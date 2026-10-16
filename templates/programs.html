@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% set nav = 'programs' %}
+{% block title %}Programs and resources | {{ cfg.title }}{% endblock %}
+{% block main %}
+<div class="wrap narrow-top">
+  <h1>Programs and resources</h1>
+  <p class="lede">Observing programs and surveys that produced lens models or data for clusters in this catalogue, and the archives that host models. Cluster pages link here instead of repeating each program's links.</p>
+  {% for kind, title in [('survey', 'Programs and surveys'), ('database', 'Model archives')] %}
+  <h2>{{ title }}</h2>
+  <table class="plain-table program-table">
+    <thead><tr><th scope="col">Program</th><th scope="col">Name</th><th scope="col" class="num">Clusters</th><th scope="col">Facilities</th></tr></thead>
+    <tbody>
+    {% for p in programs_sorted if p.kind == kind %}
+      <tr><th scope="row"><a href="{{ root }}programs/{{ p.id }}.html">{{ p.short }}</a></th><td>{{ p.name }}</td><td class="num">{{ p.members | length if p.members else '' }}</td><td>{{ (p.facilities or []) | join(', ') }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endfor %}
+</div>
+{% endblock %}

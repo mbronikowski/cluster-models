@@ -1,0 +1,32 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0429.6-0253
+designations:
+  - ACT-CL J0429.6-0253
+  - MCXC J0429.5-0253
+ra: "04:29:35.95"
+dec: "-02:53:06.2"
+z: 0.399
+programs: [clash, clash-vlt, venus]
+
+models:
+  - title: Caminha et al. (2019)
+    program: clash-vlt
+    refs: [2019A&A...632A..36C]
+    availability: public
+    note: |-
+      [Caminha et al. (2019)](ref:2019A&A...632A..36C) carried out a detailed strong lensing
+      analysis of a sub-sample of eight galaxy clusters of the
+      [CLASH](#clash-zitrin-et-al-2015) cluster sample. As of July 2025, the model download
+      link in the paper appears defunct; the data can be found in the
+      [A&A data products repository](https://cdsarc.cds.unistra.fr/ftp/J/A+A/632/A36/) or
+      from the
+      [CLASH-VLT lens model webpage](http://www.fe.infn.it/astro/lensing/Caminha2019_SL_models/).
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs0429/models/

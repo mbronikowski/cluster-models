@@ -1,0 +1,35 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2218
+designations:
+  - NSC J163553+661240
+  - ZwCl 1635.4+6618
+  - MCXC J1635.8+6612
+  - RBS 1596
+ra: "16:35:51.96"
+dec: "+66:12:19.80"
+z: 0.175
+programs: [locuss]
+
+models:
+  - title: Mohammed et al. (2014)
+    refs: [2014MNRAS.439.2651M]
+    availability: unknown
+    note: |-
+      [Mohammed et al. (2014)](ref:2014MNRAS.439.2651M) constructed lens models of
+      [Abell 1689](cluster:abell-1689), Abell 2218 and [Abell 3827](cluster:abell-3827).
+  - title: LoCuSS
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (Lenstool website)
+        url: https://projets.lam.fr/projects/lenstool/wiki
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.

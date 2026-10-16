@@ -1,0 +1,13 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Encore
+class: supernova
+subclass: Ia
+status: confirmed
+cluster: macs-j0138.0m2155
+refs: [2024ApJ...967L..37P, 2025arXiv250912301P, arXiv:2509.12319]
+notes: |-
+  Second multiply-imaged supernova in MRG-M0138 (z ~ 2), after
+  [SN Requiem](transient:sn-requiem). Time-delay H0 measurement:
+  [Pierel et al. (2025)](ref:2025arXiv250912301P) and
+  [Suyu et al. (2025)](ref:arXiv:2509.12319).

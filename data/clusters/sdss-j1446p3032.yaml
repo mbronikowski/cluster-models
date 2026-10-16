@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1446+3032
+designations:
+  - WHL J144633.7+303258
+  - GMBCG J221.64022+30.54954
+  - RM J144633.7+303258.3
+  - 1RXS J144636.1+303306
+ra: "14:46:34.02"
+dec: "+30:32:58.2"
+z: 0.464
+
+models:
+  - title: Oguri et al. (2012)
+    refs: [2012MNRAS.420.3213O]
+    availability: unknown
+    note: |-
+      The cluster's lensing properties were studied by
+      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).

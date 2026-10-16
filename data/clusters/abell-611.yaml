@@ -1,0 +1,27 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 611
+designations:
+  - ZwCl 0757.7+3610
+  - MCXC J0800.9+3602
+  - PSZ1 0623
+  - PSZ1 G184.70+28.92
+ra: "08:00:58.68"
+dec: "+36:02:48.80"
+z: 0.286
+programs: [clash, locuss]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/a611/models/
+  - title: LoCuSS
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    availability: unknown

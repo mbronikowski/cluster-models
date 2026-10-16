@@ -1,0 +1,18 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1002+2031
+ra: "10:02:27"
+dec: "+20:31:02.61"
+z: 0.319
+programs: [sgas]
+
+models:
+  - title: 'SGAS: Sharon et al. (2020)'
+    program: sgas
+    refs: [2020ApJS..247...12S]
+    data: [HST]
+    availability: unavailable
+    links:
+      - label: Lens models (MAST SGAS page)
+        url: https://archive.stsci.edu/hlsp/sgas
+    note: This cluster's model was not released because it is poorly constrained.

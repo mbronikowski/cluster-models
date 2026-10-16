@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 1722
+aka: [MACS J1319.9+7003]
+designations:
+  - ZwCl 1317.3+7018
+ra: "13:20:08.40"
+dec: "+70:04:37.0"
+z: 0.328
+
+models:
+  - title: Zitrin (2017)
+    refs: [2017ApJ...834...45Z]
+    availability: defunct
+    note: |-
+      The cluster was modeled by [Zitrin (2017)](ref:2017ApJ...834...45Z). As of 2025, the
+      [FTP download](ftp://wise-ftp.tau.ac.il/pub/adiz/MACS1319/) link appears defunct.

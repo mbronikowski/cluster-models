@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: 1RXS J060313.4+421231
+common_names: [Toothbrush Cluster]
+aka: [RXS J060313.4+4212]
+ra: "06:03:13.40"
+dec: "+42:12:31.0"
+z: 0.225
+programs: [relics]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models, north part (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/rxs0603p42-n/models/
+      - label: Lens models, south part (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/rxs0603p42-s/models/

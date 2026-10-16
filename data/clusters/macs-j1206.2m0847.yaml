@@ -1,0 +1,73 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J1206.2-0847
+designations:
+  - MCXC J1206.2-0848
+  - PSZ2 G284.41+52.45
+  - PLCKESZ G284.46+52.43
+  - PSZ1 0984
+ra: "12:06:11.97"
+dec: "-08:48:00.0"
+z: 0.44
+programs: [clash, venus, muse-lensing]
+
+image:
+  url: https://cdn.esahubble.org/archives/images/screen/heic1115a.jpg
+  credit: |-
+    Image source: [esahubble.org](https://esahubble.org/images/heic1115a/). NASA, ESA, M.
+    Postman (STScI) and the CLASH Team.
+
+models:
+  - title: Limousin et al. (2022)
+    refs: [2022A&A...664A..90L]
+    availability: unknown
+    tags: [parametric, multiple-models]
+    note: |-
+      [Limousin et al. (2022)](ref:2022A&A...664A..90L) developed and tested parametric
+      two-clump, three-clump and four-clump models, which revisit the model by
+      [Bergamini et al. (2019)](#bergamini-et-al-2019).
+  - title: Chen et al. (2021)
+    refs: [2021MNRAS.504.2629C]
+    availability: unknown
+    note: |-
+      [Chen et al. (2021)](ref:2021MNRAS.504.2629C) constructed a gravitational lensing
+      model of the galaxy cluster fine-tuned for accurately replicating the features of two
+      lensed galaxies.
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS1206/
+  - title: Bergamini et al. (2019)
+    refs: [2019A&A...631A.130B]
+    availability: public
+    note: |-
+      Lens model by [Bergamini et al. (2019)](ref:2019A&A...631A.130B). Model available
+      [here](https://www.fe.infn.it/astro/lensing/M1206_Bergamini19/). See also the model
+      list [here](https://www.fe.infn.it/astro/lensing/).
+  - title: Bonamigo et al. (2018)
+    refs: [2018ApJ...864...98B]
+    availability: public
+    note: |-
+      Lens model by [Bonamigo et al. (2018)](ref:2018ApJ...864...98B). Model available
+      [here](https://www.fe.infn.it/astro/lensing/M1206_Bonamigo18/). See also the model
+      list [here](https://www.fe.infn.it/astro/lensing/).
+  - title: Caminha et al. (2017)
+    refs: [2017A&A...607A..93C]
+    availability: public
+    note: |-
+      Lens model by [Caminha et al. (2017)](ref:2017A&A...607A..93C). Model available
+      [here](https://www.fe.infn.it/astro/lensing/M1206_Caminha17/). See also the model list
+      [here](https://www.fe.infn.it/astro/lensing/).
+  - title: CLASH
+    program: clash
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs1206/models/
+    note: |-
+      Note: these models are relatively old (2014-2015).

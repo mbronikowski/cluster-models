@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J1720.2+3536
+designations:
+  - WHL J172016.8+353626
+  - MCXC J1720.2+3536
+  - PSZ2 G059.47+33.06
+ra: "17:20:16.77"
+dec: "+35:36:26.50"
+z: 0.39
+programs: [clash]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs1720/models/

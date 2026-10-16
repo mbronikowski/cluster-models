@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J2135.2-0102
+designations:
+  - PLCKESZ G053.44-36.26
+  - PLCK G053.4-36.3
+ra: "21:35:12.2"
+dec: "-01:02:55.8"
+z: 0.33
+
+models:
+  - title: Zitrin & Broadhurst (2016)
+    refs: [2016ApJ...833...25Z]
+    software: LTM
+    availability: public
+    note: |-
+      [Zitrin & Broadhurst (2016)](ref:2016ApJ...833...25Z) created a light-traces-mass
+      (LTM) strong lensing model of the galaxy cluster. The model is publicly available for
+      download through the ftp server
+      [ftp://wise-ftp.tau.ac.il/pub/adiz/MACS2135/](ftp://wise-ftp.tau.ac.il/pub/adiz/MACS2135/);
+      link appears defunct as of March 2025.

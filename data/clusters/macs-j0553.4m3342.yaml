@@ -1,0 +1,33 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0553.4-3342
+designations:
+  - PSZ1 G239.30-26.01
+  - RXC J0553.4-3342
+ra: "05:53:26.70"
+dec: "-33:42:37.0"
+z: 0.427
+programs: [relics, slice, venus]
+
+models:
+  - title: 'SLICE: Cerny et al. (2025)'
+    program: slice
+    refs: [2025arXiv250317498C]
+    data: [JWST]
+    availability: upcoming
+    note: |-
+      The model will be released on the
+      [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/macs0553m33/models/
+  - title: Ebeling, Qi & Richard (2017)
+    refs: [2017MNRAS.471.3305E]
+    availability: unknown
+    note: |-
+      [Ebeling, Qi & Richard (2017)](ref:2017MNRAS.471.3305E) created a gravitational
+      lensing model of the galaxy cluster.

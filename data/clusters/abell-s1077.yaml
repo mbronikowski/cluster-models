@@ -1,0 +1,33 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell S1077
+aka: [AC 114]
+designations:
+  - PLCKESZ G008.30-64.75
+  - PLCK G008.3-64.8
+ra: "22:58:52.33"
+dec: "-34:46:54.60"
+z: 0.312
+
+models:
+  - title: Limousin et al. (2025)
+    availability: public
+    note: |-
+      The
+      [LAM Strong Lensing Cluster Atlas Data Base](https://data.lam.fr/sl-cluster-atlas/home)
+      lists a model of the cluster
+      ([link](https://data.lam.fr/sl-cluster-atlas/search/result/model?s=111&a=2;3;1;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26&c=2::eq::AC114))
+      attributed to Limousin et al. (2025). As of 16 October 2025, the publication appears
+      to be unavailable.
+  - title: Campusano et al. (2001)
+    refs: [2001A&A...378..394C]
+    availability: unknown
+    note: |-
+      [Campusano et al. (2001)](ref:2001A&A...378..394C) created a newer version of the
+      [Natarajan et al. (1998)](#natarajan-et-al-1998) lens model using VLT spectroscopy.
+  - title: Natarajan et al. (1998)
+    refs: [1998ApJ...499..600N]
+    availability: unknown
+    note: |-
+      [Natarajan et al. (1998)](ref:1998ApJ...499..600N) created a gravitational lensing
+      model of the cluster.

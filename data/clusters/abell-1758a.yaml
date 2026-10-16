@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 1758a
+designations:
+  - ZwCl 1330.4+5047
+  - RX J1332.7+5033
+  - MCXC J1332.7+5032
+ra: "13:32:44.80"
+dec: "+50:32:24.0"
+z: 0.278
+programs: [relics]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/abell1758/models/

@@ -1,0 +1,23 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2204
+designations:
+  - ZwCl 1630.5+0535
+  - ACT-CL J1632.7+0534
+  - MCXC J1632.7+0534
+  - RBS 1593
+ra: "16:32:46.90"
+dec: "+05:34:33.00"
+z: 0.152
+programs: [locuss]
+
+models:
+  - title: LoCuSS
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (Lenstool website)
+        url: https://projets.lam.fr/projects/lenstool/wiki

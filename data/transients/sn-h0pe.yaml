@@ -1,0 +1,11 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN H0pe
+class: supernova
+subclass: Ia
+status: confirmed
+cluster: plck-g165.7p67.0
+refs: [2024ApJ...961..171F]
+notes: |-
+  Triply-imaged Type Ia supernova discovered in JWST imaging
+  ([Frye et al. 2024](ref:2024ApJ...961..171F)).

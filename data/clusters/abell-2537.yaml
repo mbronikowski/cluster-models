@@ -1,0 +1,22 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 2537
+designations:
+  - ZwCl 2305.9-0229
+  - ACT-CL J2308.3-0211
+  - MCXC J2308.3-0211
+  - PSZ2 G073.82-54.92
+ra: "23:08:22.23"
+dec: "-02:11:31.8"
+z: 0.297
+programs: [relics, venus]
+
+models:
+  - title: 'RELICS: Cerny et al. (2018)'
+    program: relics
+    refs: [2018ApJ...859..159C]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/abell2537/models/

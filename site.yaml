@@ -1,0 +1,9 @@
+# Site settings used by build.py
+title: cluster-models
+tagline: Strong-lensing models of galaxy clusters
+description: >-
+  A curated index of published strong-lensing models of galaxy clusters, the programs that
+  observed each cluster, and the lensed transients found behind them.
+url: https://mbronikowski.github.io/cluster-models/
+repo: https://github.com/mbronikowski/cluster-models
+branch: master

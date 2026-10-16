@@ -1,0 +1,30 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J2211.7-0349
+aka: [RXC J2211.7-0350]
+designations:
+  - ACT-CL J2211.7-0349
+  - PSZ2 G057.25-45.34
+  - PLCKESZ G057.26-45.35
+ra: "22:11:45.90"
+dec: "-03:49:42.0"
+z: 0.397
+programs: [relics, slice, venus]
+
+models:
+  - title: 'SLICE: Cerny et al. (2025)'
+    program: slice
+    refs: [2025arXiv250317498C]
+    data: [JWST]
+    availability: upcoming
+    note: |-
+      The model will be released on the
+      [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: 'RELICS: Cerny et al. (2018)'
+    program: relics
+    refs: [2018ApJ...859..159C]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/rxc2211m03/models/

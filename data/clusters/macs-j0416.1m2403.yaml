@@ -1,0 +1,119 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0416.1-2403
+designations:
+  - PSZ2 G221.06-44.05
+  - PSZ2 0993
+  - 1RXS J041609.9-240358
+ra: "04:16:08.80"
+dec: "-24:04:14.0"
+z: 0.4
+programs: [clash, hff, buffalo, canucs, venus, muse-lensing]
+
+image:
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg/960px-Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg
+  credit: |-
+    Image sourced from
+    [Wikimedia](https://commons.wikimedia.org/wiki/File:Color_image_of_galaxy_cluster_MCS_J0416.1%E2%80%932403.jpg),
+    originally from [spacetelescope.org](http://www.spacetelescope.org/images/heic1416a/).
+    Credit: Mathilde Jauzac, ESA/Hubble, NASA, HST Frontier Fields
+
+models:
+  - title: Limousin et al. (2025)
+    refs: [2025arXiv250616034L]
+    data: [JWST]
+    availability: public
+    note: |-
+      [Limousin et al. (2025)](ref:2025arXiv250616034L) modeled the cluster using JWST data.
+      The model is available on the
+      [LAM Strong Lensing Cluster Atlas Database](https://data.lam.fr/sl-cluster-atlas/home)
+      under
+      [this link](https://data.lam.fr/sl-cluster-atlas/search/result/model?s=111&a=2;3;1;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26&c=2::eq::MACSJ0416.1-2403).
+  - title: Perera et al. (2025)
+    refs: [2025MNRAS.536.2690P]
+    availability: on-request
+    note: |-
+      The cluster was studied by [Perera et al. (2025)](ref:2025MNRAS.536.2690P). Data
+      generated from this article will be shared upon reasonable request to the
+      corresponding author.
+  - title: 'CANUCS: Rihtaršič et al. (2025)'
+    program: canucs
+    refs: [2025A&A...696A..15R]
+    data: [JWST]
+    availability: public
+    links:
+      - label: CANUCS DR1 lens models
+        url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
+  - title: Bergamini et al. (2023)
+    refs: [2023A&A...674A..79B]
+    data: [MUSE]
+    availability: public
+    note: |-
+      Lens model by [Bergamini et al. (2023)](ref:2023A&A...674A..79B), model available for
+      download [here](https://www.fe.infn.it/astro/lensing/M0416_Bergamini22/). Incorporates
+      MUSE/VLT data.
+  - title: Limousin et al. (2022)
+    refs: [2022A&A...664A..90L]
+    availability: unknown
+    tags: [parametric, multiple-models]
+    note: |-
+      [Limousin et al. (2022)](ref:2022A&A...664A..90L) developed parametric cored and
+      non-cored models, which revise the models by
+      [Bergamini et al. (2019)](#bergamini-et-al-2019) and
+      [Bergamini et al. (2021)](#bergamini-et-al-2021).
+  - title: Bergamini et al. (2021)
+    refs: [2021A&A...645A.140B]
+    availability: public
+    status: superseded
+    superseded_by: 2023A&A...674A..79B
+    note: |-
+      Lens model by [Bergamini et al. (2021)](ref:2021A&A...645A.140B), model available for
+      download [here](https://www.fe.infn.it/astro/lensing/M0416_Bergamini20/). Superseded
+      by [Bergamini et al. (2023)](#bergamini-et-al-2023).
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0416/
+    note: Pre-_JWST_ model.
+  - title: Bergamini et al. (2019)
+    refs: [2019A&A...631A.130B]
+    availability: public
+    status: superseded
+    note: |-
+      Lens model by [Bergamini et al. (2019)](ref:2019A&A...631A.130B), model available for
+      download [here](https://www.fe.infn.it/astro/lensing/M0416_Bergamini19/). Superseded
+      by the models listed above.
+  - title: Bonamigo et al. (2018)
+    refs: [2018ApJ...864...98B]
+    availability: public
+    note: |-
+      Lens model by [Bonamigo et al. (2018)](ref:2018ApJ...864...98B), model available for
+      download [here](https://www.fe.infn.it/astro/lensing/M0416_Bonamigo18/).
+  - title: Caminha et al. (2017)
+    refs: [2017A&A...600A..90C]
+    availability: public
+    note: |-
+      Lens model by [Caminha et al. (2017)](ref:2017A&A...600A..90C), model available for
+      download [here](https://www.fe.infn.it/astro/lensing/M0416_Caminha16/).
+  - title: Hubble Frontier Fields
+    program: hff
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models from all HFF teams (MAST)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0416/models/
+    note: |-
+      Models from several independent teams; see the [HFF program page](program:hff) for
+      credits and acknowledgement requirements.
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs0416/models/

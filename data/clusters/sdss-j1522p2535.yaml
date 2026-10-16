@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1522+2535
+ra: "15:22:53"
+dec: "+25:35:29.36"
+z: 0.602
+programs: [sgas]
+
+models:
+  - title: 'SGAS: Sharon et al. (2020)'
+    program: sgas
+    refs: [2020ApJS..247...12S]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST SGAS page)
+        url: https://archive.stsci.edu/hlsp/sgas

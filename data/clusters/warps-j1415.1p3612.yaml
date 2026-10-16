@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: WARPS J1415.1+3612
+designations:
+  - CDGS 57
+  - WARP J1415.1+3612
+  - CL J1415.1+3612
+  - CL J1415+3612
+  - MCXC J1415.1+3612
+ra: "14:15:11.10"
+dec: "+36:12:03.0"
+z: 1.03
+
+models:
+  - title: Huang et al. (2009)
+    refs: [2009ApJ...707L..12H]
+    availability: unknown
+    note: |-
+      [Huang et al. (2009)](ref:2009ApJ...707L..12H) described the discovery of a z=3.9
+      multiply-imaged galaxy behind the cluster and analyzed the lensing properties of the
+      cluster.

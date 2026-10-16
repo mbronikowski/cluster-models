@@ -1,0 +1,35 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: RXC J0600.1-2007
+aka: [MACS J0600.1-2008]
+designations:
+  - PSZ1 G225.91-19.98
+  - SPT-CL J0600-2007
+ra: "06:00:16.97"
+dec: "-20:06:16.1"
+z: 0.46
+programs: [relics, venus, alcs]
+
+models:
+  - title: Furtak et al. (2024)
+    refs: [2024MNRAS.533.2242F]
+    availability: on-request
+    note: |-
+      [Furtak et al. (2024)](ref:2024MNRAS.533.2242F) have created a mass model based on
+      newer data, with an additional bimodal, massive SL structure adjacent to the cluster.
+      Data for the publication will be shared by the authors on request.
+  - title: 'ALCS: Fujimoto et al. (2021)'
+    program: alcs
+    refs: [2021ApJ...911...99F]
+    data: [ALMA]
+    availability: unknown
+    tags: [multiple-models]
+    note: |-
+      Several lens models of the cluster, built as part of the ALMA Lensing Cluster Survey.
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/rxc0600m20/models/

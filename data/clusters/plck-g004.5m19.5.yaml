@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: PLCK G004.5-19.5
+designations:
+  - PSZRX G004.47-19.56
+  - PLCKESZ G004.47-19.55
+ra: "19:17:04.5"
+dec: "-33:31:28.5"
+z: 0.516
+programs: [relics, venus]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/plckg004m19/models/

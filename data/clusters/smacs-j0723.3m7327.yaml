@@ -1,0 +1,49 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SMACS J0723.3-7327
+designations:
+  - PLCKESZ G284.99-23.70
+  - PLCK G285.0-23.7
+ra: "07:23:13.30"
+dec: "-73:27:25.2"
+z: 0.388
+programs: [relics, venus]
+
+image:
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/960px-Webb%27s_First_Deep_Field.jpg
+  credit: |-
+    Image sourced from
+    [Wikimedia](https://commons.wikimedia.org/wiki/File:Webb%27s_First_Deep_Field.jpg),
+    originally from
+    [webbtelescope.org](https://webbtelescope.org/contents/media/images/2022/038/01G7JGTH21B5GN9VCYAHBXKSD1).
+    Credit: NASA, ESA, CSA, STScI
+
+models:
+  - title: Mahler et al. (2023)
+    refs: [2023ApJ...945...49M]
+    data: [JWST]
+    availability: public
+    note: |-
+      The cluster was modelled by [Mahler et al. (2023)](ref:2023ApJ...945...49M). The model
+      is available on the
+      [Strong Lensing Cluster Atlas Data Base](https://data.lam.fr/sl-cluster-atlas/home).
+  - title: Caminha et al. (2022)
+    refs: [2022A&A...666L...9C]
+    data: [JWST, HST, MUSE]
+    availability: public
+    note: |-
+      Model by [Caminha et al. (2022)](ref:2022A&A...666L...9C), which incorporates _HST_,
+      _JWST_ and MUSE/VLT data. Model available for download
+      [here](https://cdsarc.cds.unistra.fr/ftp/J/A+A/666/L9/) (CDS page
+      [here](http://cdsarc.u-strasbg.fr/viz-bin/cat/J/A+A/666/L9)).
+  - title: 'RELICS: Sharon et al. (2023)'
+    program: relics
+    refs: [2023ApJS..264...15S]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/smacs0723m73/models/
+    note: |-
+      A recent model description was published by
+      [Sharon et al. (2023)](ref:2023ApJS..264...15S).

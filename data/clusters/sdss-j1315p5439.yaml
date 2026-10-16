@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J1315+5439
+designations:
+  - WHL J131509.3+543752
+  - RM J131511.2+543740.5
+ra: "13:15:09.30"
+dec: "+54:37:51.8"
+z: 0.588
+
+models:
+  - title: Oguri et al. (2012)
+    refs: [2012MNRAS.420.3213O]
+    availability: unknown
+    note: |-
+      The cluster's lensing properties were studied by
+      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).

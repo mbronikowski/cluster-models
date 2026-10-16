@@ -1,0 +1,11 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: Abell 370 archival SN
+class: supernova
+subclass: red-supergiant progenitor (shock cooling)
+status: confirmed
+cluster: abell-370
+refs: [2022Natur.611..256C]
+notes: |-
+  Archival multiply-imaged supernova in _Hubble Space Telescope_ images, at z ~ 3
+  ([Chen et al. 2022](ref:2022Natur.611..256C)).

@@ -1,0 +1,10 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: COOL J0542-2125 quasar
+class: quasar
+status: confirmed
+cluster: cool-j0542m2125
+refs: [2023ApJ...946...63M]
+notes: |-
+  Quasar with a 25.9 arcsec image separation, lensed by a merging cluster
+  ([Martinez et al. 2023](ref:2023ApJ...946...63M)).

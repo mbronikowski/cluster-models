@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SPT-CL J0546-5345
+designations:
+  - ACT-CL J0546-5345
+ra: "05:46:36.98"
+dec: "-53:45:41.4"
+z: 1.066
+programs: [slice]
+
+models:
+  - title: 'SLICE: Allingham et al. (2025)'
+    program: slice
+    refs: [2025arXiv250708949A]
+    data: [JWST]
+    availability: public
+    note: |-
+      [Allingham et al. (2025)](ref:2025arXiv250708949A) present a gravitational lensing
+      model of the galaxy cluster. The model is publicly available for download from
+      [Zenodo](https://zenodo.org/records/16534337) or
+      [Dropbox](https://www.dropbox.com/scl/fo/8fic6htci3ena7dxd3c4f/ALEwQayC-JZJFfeaXjPokkg?rlkey=5ne3rx9k0j90wvb577py1o0u8&st=11gqzcqt&dl=0).

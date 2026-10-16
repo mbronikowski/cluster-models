@@ -1,0 +1,54 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J2129.4-0741
+designations:
+  - WHL J212926.1-074128
+  - ACT-CL J2129.4-0741
+  - MCXC J2129.4-0741
+  - RM J212925.2-074130.3
+ra: "21:29:26.21"
+dec: "-07:41:26.22"
+z: 0.589
+programs: [clash, clash-vlt, slice, venus]
+
+models:
+  - title: 'SLICE: Cerny et al. (2025)'
+    program: slice
+    refs: [2025arXiv250317498C]
+    data: [JWST]
+    availability: upcoming
+    note: |-
+      The model will be released on the
+      [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: Jauzac et al. (2021)
+    refs: [2021MNRAS.508.1206J]
+    data: [HST, MUSE]
+    availability: on-request
+    note: |-
+      [Jauzac et al. (2021)](ref:2021MNRAS.508.1206J) created a strong lensing model of this
+      cluster using HST photometry and VLT/MUSE spectroscopy. The data underlying this
+      article will be shared on reasonable request to the corresponding author.
+  - title: Caminha et al. (2019)
+    program: clash-vlt
+    refs: [2019A&A...632A..36C]
+    availability: public
+    note: |-
+      [Caminha et al. (2019)](ref:2019A&A...632A..36C) carried out a detailed strong lensing
+      analysis of a sub-sample of eight galaxy clusters of the
+      [CLASH](#clash-zitrin-et-al-2015) cluster sample. As of July 2025, the model download
+      link in the paper appears defunct; the data can be found in the
+      [A&A data products repository](https://cdsarc.cds.unistra.fr/ftp/J/A+A/632/A36/) or
+      from the
+      [CLASH-VLT lens model webpage](http://www.fe.infn.it/astro/lensing/Caminha2019_SL_models/).
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs2129/models/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

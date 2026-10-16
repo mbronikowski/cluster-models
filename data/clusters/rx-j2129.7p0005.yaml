@@ -1,0 +1,44 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: RX J2129.7+0005
+aka: [RX J2129.4+0009]
+designations:
+  - WISEA J212939.97+000521.8
+  - WISE J212939.98+000521.9
+  - 2MASX J21293995+0005207
+  - 2MASS J21293997+0005213
+  - SDSS J212939.95+000521.1
+ra: "21:29:39.97"
+dec: "+00:05:21.83"
+z: 0.234
+programs: [clash, clash-vlt, venus]
+
+models:
+  - title: Jauzac et al. (2021)
+    refs: [2021MNRAS.508.1206J]
+    data: [HST, MUSE]
+    availability: on-request
+    note: |-
+      [Jauzac et al. (2021)](ref:2021MNRAS.508.1206J) created a strong lensing model of this
+      cluster using HST photometry and VLT/MUSE spectroscopy. The data underlying this
+      article will be shared on reasonable request to the corresponding author.
+  - title: Caminha et al. (2019)
+    program: clash-vlt
+    refs: [2019A&A...632A..36C]
+    availability: public
+    note: |-
+      [Caminha et al. (2019)](ref:2019A&A...632A..36C) carried out a detailed strong lensing
+      analysis of a sub-sample of eight galaxy clusters of the
+      [CLASH](#clash-zitrin-et-al-2015) cluster sample. As of July 2025, the model download
+      link in the paper appears defunct; the data can be found in the
+      [A&A data products repository](https://cdsarc.cds.unistra.fr/ftp/J/A+A/632/A36/) or
+      from the
+      [CLASH-VLT lens model webpage](http://www.fe.infn.it/astro/lensing/Caminha2019_SL_models/).
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/rxj2129/models/

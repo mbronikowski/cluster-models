@@ -1,0 +1,15 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SDSS J0909+4449
+ra: "09:09:45.81"
+dec: "+44:50:00.67"
+z: 0.9
+
+models:
+  - title: Shu et al. (2018)
+    refs: [2018MNRAS.481L.136S]
+    availability: unknown
+    note: |-
+      [Shu et al. (2018)](ref:2018MNRAS.481L.136S) describe the discovery of the
+      cluster-lensed quasar SDSS J0909+4449, as well as describe a simple lens model which
+      shows the lens mass distribution.

@@ -1,0 +1,25 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0744.8+3927
+designations:
+  - MCXC J0744.8+3927
+  - PSZRX G180.12+26.65
+  - MACS J0744.9+3927
+ra: "07:44:52.47"
+dec: "+39:27:27.3"
+z: 0.698
+programs: [clash]
+
+models:
+  - title: 'CLASH: Zitrin et al. (2015)'
+    program: clash
+    refs: [2015ApJ...801...44Z]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/missions/hlsp/clash/macs0744/models/
+  - title: Zitrin et al. (2011)
+    refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+    note: The cluster was studied by [Zitrin et al. (2011)](ref:2011MNRAS.410.1939Z).

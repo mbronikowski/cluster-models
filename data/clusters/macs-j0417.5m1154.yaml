@@ -1,0 +1,31 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0417.5-1154
+designations:
+  - ACT-CL J0417.5-1154
+  - MCXC J0417.5-1154
+  - RBS 0531
+  - PSZ1 G205.94-39.46
+ra: "04:17:34.80"
+dec: "-11:54:35.0"
+z: 0.443
+programs: [relics, canucs, venus]
+
+models:
+  - title: CANUCS
+    program: canucs
+    data: [JWST]
+    availability: public
+    tags: [preliminary]
+    links:
+      - label: CANUCS DR1 lens models
+        url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
+    note: The DR1 model is preliminary.
+  - title: 'RELICS: Mahler et al. (2019)'
+    program: relics
+    refs: [2019ApJ...873...96M]
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/macs0417m11/models/

@@ -1,0 +1,22 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0940.9+0744
+designations:
+  - WHL J094053.7+074425
+  - GMBCG J145.22376+07.74037
+  - ACT-CL J0940.8+0744
+  - RM J094053.7+074425.4
+ra: "09:40:53.70"
+dec: "+07:44:25.4"
+z: 0.335
+programs: [venus, muse-lensing]
+
+models:
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0940/

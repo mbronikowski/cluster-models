@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SMACS J2131.1-4019
+designations:
+  - SPT-CL J2131-4019
+  - ACT-CL J2131.0-4019
+ra: "21:31:03.82"
+dec: "-40:19:17.8"
+z: 0.447
+programs: [venus, muse-lensing]
+
+models:
+  - title: Richard et al. (2021)
+    program: muse-lensing
+    refs: [2021A&A...646A..83R]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/SMACS2131/

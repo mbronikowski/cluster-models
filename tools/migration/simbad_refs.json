@@ -1,0 +1,1034 @@
+{
+ "queried": [
+  "1997ApJ...486L..75F",
+  "1998ApJ...499..600N",
+  "1998MNRAS.298..945S",
+  "2001A&A...378..394C",
+  "2003Natur.426..810I",
+  "2004MNRAS.352..759B",
+  "2005ApJ...629L..73S",
+  "2005MNRAS.359..417S",
+  "2007ApJ...662..781R",
+  "2007ApJ...668..643L",
+  "2007NJPh....9..447J",
+  "2008A&A...489...23L",
+  "2008AJ....135..664H",
+  "2008MNRAS.389..415L",
+  "2009A&A...498...37R",
+  "2009ApJ...707L..12H",
+  "2009MNRAS.396.1985Z",
+  "2010ApJ...715L.160C",
+  "2010MNRAS.402L..44R",
+  "2010MNRAS.404..325R",
+  "2010MNRAS.405..777L",
+  "2010MNRAS.408.1916Z",
+  "2010PASJ...62.1017O",
+  "2011ApJ...728L..39N",
+  "2011ApJ...742..117Z",
+  "2011MNRAS.410.1939Z",
+  "2011MNRAS.413.1753Z",
+  "2012ApJ...746..161S",
+  "2012ApJS..199...25P",
+  "2012MNRAS.420.3213O",
+  "2012MNRAS.425.2069M",
+  "2013ApJ...762...32C",
+  "2013MNRAS.429..482O",
+  "2013MNRAS.429..833H",
+  "2014MNRAS.439.2651M",
+  "2014Msngr.158...48R",
+  "2015ApJ...801...44Z",
+  "2015ApJ...813...37H",
+  "2015ApJ...814...21S",
+  "2015ApJ...814...26N",
+  "2015MNRAS.446..683D",
+  "2015MNRAS.449.3393M",
+  "2015PASJ...67...21M",
+  "2015Sci...347.1123K",
+  "2016A&A...587A..80C",
+  "2016ApJ...819..114K",
+  "2016ApJ...822...78G",
+  "2016ApJ...833...25Z",
+  "2017A&A...600A..90C",
+  "2017A&A...607A..93C",
+  "2017ApJ...834...45Z",
+  "2017ApJ...835....5S",
+  "2017ApJ...837...97L",
+  "2017ApJ...839L..11Z",
+  "2017ApJ...844..127W",
+  "2017MNRAS.469.3946L",
+  "2017MNRAS.471.3305E",
+  "2018A&A...612A..17W",
+  "2018ApJ...852L...7E",
+  "2018ApJ...858...42A",
+  "2018ApJ...859..159C",
+  "2018ApJ...862..126N",
+  "2018ApJ...863..145C",
+  "2018ApJ...863..154P",
+  "2018ApJ...864...98B",
+  "2018MNRAS.473..663M",
+  "2018MNRAS.477..669M",
+  "2018MNRAS.480.3140W",
+  "2018MNRAS.481L.136S",
+  "2019A&A...631A.130B",
+  "2019A&A...632A..36C",
+  "2019ApJ...871...51F",
+  "2019ApJ...873...96M",
+  "2019ApJ...874..132A",
+  "2019ApJ...884...85C",
+  "2019MNRAS.488.3251S",
+  "2019MNRAS.489.4741S",
+  "2020A&A...635A..98R",
+  "2020ApJ...894..150M",
+  "2020ApJ...897....4V",
+  "2020ApJ...898....6A",
+  "2020ApJ...903..137Z",
+  "2020ApJ...904..106D",
+  "2020ApJS..247...12S",
+  "2020ApJS..247...64S",
+  "2021A&A...645A.140B",
+  "2021A&A...646A..83R",
+  "2021A&A...655A..81P",
+  "2021ApJ...911...99F",
+  "2021ApJ...916...50F",
+  "2021ApJ...918...61C",
+  "2021ApJ...919...54Z",
+  "2021MNRAS.504.2629C",
+  "2021MNRAS.506.6144G",
+  "2021MNRAS.507..663T",
+  "2021MNRAS.508.1206J",
+  "2021MNRAS.508.3663E",
+  "2021NatAs...5.1118R",
+  "2022A&A...664A..90L",
+  "2022A&A...666L...9C",
+  "2022A&A...668A.142A",
+  "2022ApJ...926...86A",
+  "2022ApJ...935..110T",
+  "2022ApJ...937...35F",
+  "2022ApJ...941..203S",
+  "2022Natur.611..256C",
+  "2022PASP..134b5002W",
+  "2022TNSAN.169....1K",
+  "2022arXiv220705709S",
+  "2023A&A...670A..60B",
+  "2023A&A...672A...3D",
+  "2023A&A...674A..79B",
+  "2023A&A...678A...3C",
+  "2023A&A...678A.139T",
+  "2023AJ....165...13W",
+  "2023ApJ...945...49M",
+  "2023ApJ...946...63M",
+  "2023ApJ...952...84B",
+  "2023ApJ...954L..38N",
+  "2023ApJ...959..134N",
+  "2023ApJS..264...15S",
+  "2023MNRAS.522.5142F",
+  "2023MNRAS.523.4568F",
+  "2023MNRAS.524.2883N",
+  "2023MNRAS.525.2519G",
+  "2023PhRvD.108h3532L",
+  "2024A&A...682A.187M",
+  "2024A&A...689A..42S",
+  "2024ApJ...961..171F",
+  "2024ApJ...967L..37P",
+  "2024ApJ...973....3S",
+  "2024ApJ...973...77G",
+  "2024ApJ...974...92B",
+  "2024ApJS..275...36F",
+  "2024MNRAS.527.2639P",
+  "2024MNRAS.527.3246B",
+  "2024MNRAS.533.2242F",
+  "2024arXiv240803920P",
+  "2024arXiv240807026M",
+  "2025A&A...696A..15R",
+  "2025A&A...698A..29B",
+  "2025A&A...698A.161S",
+  "2025A&A...699A.101A",
+  "2025A&A...704A.338A",
+  "2025ApJ...980...48M",
+  "2025ApJ...994L..35F",
+  "2025MNRAS.536.2690P",
+  "2025OJAp....8E.123N",
+  "2025RNAAS...9..300S",
+  "2025arXiv250317498C",
+  "2025arXiv250611207D",
+  "2025arXiv250616034L",
+  "2025arXiv250707404S",
+  "2025arXiv250708949A",
+  "2025arXiv250912301P",
+  "2025arXiv250912319S",
+  "2025arXiv251012097R",
+  "2025arXiv251114483N",
+  "2025arXiv251203150C",
+  "2026A&A...710A.207R",
+  "2026A&A...710A.226G",
+  "2026ApJ..1005..215A",
+  "2026MNRAS.550ag829B",
+  "2026arXiv260104156C"
+ ],
+ "found": {
+  "1997ApJ...486L..75F": [
+   "1997ApJ...486L..75F",
+   "A pair of lensed galaxies at z=4.92 in the field of CL 1358+62.",
+   "10.1086/310844",
+   1997
+  ],
+  "1998ApJ...499..600N": [
+   "1998ApJ...499..600N",
+   "The Mass-to-Light ratio of early-type galaxies: constraints from gravitational lensing in the rich cluster AC 114.",
+   "10.1086/305660",
+   1998
+  ],
+  "1998MNRAS.298..945S": [
+   "1998MNRAS.298..945S",
+   "The z=2.72 galaxy cB58: a gravitational fold arc lensed by the cluster MS 1512+36.",
+   "10.1046/j.1365-8711.1998.01443.x",
+   1998
+  ],
+  "2001A&A...378..394C": [
+   "2001A&A...378..394C",
+   "VLT spectroscopy of galaxies lensed by the AC 114 cluster: Implications for the mass model and the study of low-luminosity galaxies at high-redshift.",
+   "10.1051/0004-6361:20011216",
+   2001
+  ],
+  "2003Natur.426..810I": [
+   "2003Natur.426..810I",
+   "A gravitationally lensed quasar with quadruple images separated by 14.62 arcseconds.",
+   "10.1038/nature02153",
+   2003
+  ],
+  "2004MNRAS.352..759B": [
+   "2004MNRAS.352..759B",
+   "The nature of a gravitationally lensed submillimetre arc in MS0451.6-0305: two interacting galaxies at z{~} 2.9?",
+   "10.1111/j.1365-2966.2004.07982.x",
+   2004
+  ],
+  "2005ApJ...629L..73S": [
+   "2005ApJ...629L..73S",
+   "Discovery of multiply imaged galaxies behind the cluster and lensed quasar SDSS J1004+4112.",
+   "10.1086/452633",
+   2005
+  ],
+  "2005MNRAS.359..417S": [
+   "2005MNRAS.359..417S",
+   "A Hubble Space Telescope lensing survey of X-ray luminous galaxy clusters - IV. Mass, structure and thermodynamics of cluster cores at z= 0.2.",
+   "10.1111/j.1365-2966.2005.08911.x",
+   2005
+  ],
+  "2007ApJ...662..781R": [
+   "2007ApJ...662..781R",
+   "A statistical study of multiply imaged systems in the lensing cluster Abell 68.",
+   "10.1086/517875",
+   2007
+  ],
+  "2007ApJ...668..643L": [
+   "2007ApJ...668..643L",
+   "Combining strong and weak gravitational lensing in Abell 1689.",
+   "10.1086/521293",
+   2007
+  ],
+  "2008A&A...489...23L": [
+   "2008A&A...489...23L",
+   "Strong lensing in Abell 1703: constraints on the slope of the inner dark  matter distribution.",
+   "10.1051/0004-6361:200809646",
+   2008
+  ],
+  "2008AJ....135..664H": [
+   "2008AJ....135..664H",
+   "A new survey for giant arcs.",
+   "10.1088/0004-6256/135/2/664",
+   2008
+  ],
+  "2008MNRAS.389..415L": [
+   "2008MNRAS.389..415L",
+   "Non-parametric strong lens inversion of Cl 0024+1654: illustrating the  monopole degeneracy.",
+   "10.1111/j.1365-2966.2008.13586.x",
+   2008
+  ],
+  "2009A&A...498...37R": [
+   "2009A&A...498...37R",
+   "Keck spectroscopic survey of strongly lensed galaxies in Abell 1703:  further evidence of a relaxed, unimodal cluster.",
+   "10.1051/0004-6361/200811366",
+   2009
+  ],
+  "2009ApJ...707L..12H": [
+   "2009ApJ...707L..12H",
+   "Hubble space telescope discovery of a z = 3.9 multiply imaged galaxy  behind the complex cluster lens WARPS J1415.1+36 at z = 1.026.",
+   "10.1088/0004-637X/707/1/L12",
+   2009
+  ],
+  "2009MNRAS.396.1985Z": [
+   "2009MNRAS.396.1985Z",
+   "New multiply-lensed galaxies identified in ACS/NIC3 observations of  Cl0024+1654 using an improved mass model.",
+   "10.1111/j.1365-2966.2009.14899.x",
+   2009
+  ],
+  "2010ApJ...715L.160C": [
+   "2010ApJ...715L.160C",
+   "Strong gravitational lensing by the super-massive cD galaxy in Abell 3827.",
+   "10.1088/2041-8205/715/2/L160",
+   2010
+  ],
+  "2010MNRAS.402L..44R": [
+   "2010MNRAS.402L..44R",
+   "Abell 370 revisited: refurbished Hubble imaging of the first strong  lensing cluster.",
+   "10.1111/j.1745-3933.2009.00796.x",
+   2010
+  ],
+  "2010MNRAS.404..325R": [
+   "2010MNRAS.404..325R",
+   "LoCuSS: first results from strong-lensing analysis of 20 massive galaxy  clusters at z = 0.2.",
+   "10.1111/j.1365-2966.2009.16274.x",
+   2010
+  ],
+  "2010MNRAS.405..777L": [
+   "2010MNRAS.405..777L",
+   "MACS J1423.8+2404: gravitational lensing by a massive, relaxed cluster of  galaxies at z = 0.54.",
+   "10.1111/j.1365-2966.2010.16518.x",
+   2010
+  ],
+  "2010MNRAS.408.1916Z": [
+   "2010MNRAS.408.1916Z",
+   "Full lensing analysis of Abell 1703: comparison of independent  lens-modelling techniques.",
+   "10.1111/j.1365-2966.2010.17258.x",
+   2010
+  ],
+  "2010PASJ...62.1017O": [
+   "2010PASJ...62.1017O",
+   "The mass distribution of SDSS J1004+4112 revisited.",
+   "10.1093/pasj/62.4.1017",
+   2010
+  ],
+  "2011ApJ...728L..39N": [
+   "2011ApJ...728L..39N",
+   "The dark matter distribution in A383: evidence for a shallow density cusp  from improved lensing, stellar kinematic, and X-ray data.",
+   "10.1088/2041-8205/728/2/L39",
+   2011
+  ],
+  "2011ApJ...742..117Z": [
+   "2011ApJ...742..117Z",
+   "The cluster lensing and supernova survey with Hubble (CLASH):  strong-lensing analysis of A383 from 16-band HST/WFC3/ACS imaging.",
+   "10.1088/0004-637X/742/2/117",
+   2011
+  ],
+  "2011MNRAS.410.1939Z": [
+   "2011MNRAS.410.1939Z",
+   "Strong-lensing analysis of a complete sample of 12 MACS clusters at {\\em  z} > 0.5: mass models and EINSTEIN radii.",
+   "10.1111/j.1365-2966.2010.17574.x",
+   2011
+  ],
+  "2011MNRAS.413.1753Z": [
+   "2011MNRAS.413.1753Z",
+   "Strong-lensing analysis of MS 1358.4+6245: new multiple images and  implications for the well-resolved z= 4.92 galaxy.",
+   "10.1111/j.1365-2966.2011.18252.x",
+   2011
+  ],
+  "2012ApJ...746..161S": [
+   "2012ApJ...746..161S",
+   "Source-plane reconstruction of the bright lensed galaxy RCSGA  032727-132609.",
+   "10.1088/0004-637X/746/2/161",
+   2012
+  ],
+  "2012ApJS..199...25P": [
+   "2012ApJS..199...25P",
+   "The Cluster Lensing And Supernova survey with Hubble: an overview.",
+   "10.1088/0067-0049/199/2/25",
+   2012
+  ],
+  "2012MNRAS.420.3213O": [
+   "2012MNRAS.420.3213O",
+   "Combined strong and weak lensing analysis of 28 clusters from the Sloan  giant arcs survey.",
+   "10.1111/j.1365-2966.2011.20248.x",
+   2012
+  ],
+  "2012MNRAS.425.2069M": [
+   "2012MNRAS.425.2069M",
+   "X-ray, lensing and Sunyaev--Zel'dovich triaxial analysis of Abell 1835  out to R_200_.",
+   "10.1111/j.1365-2966.2012.21196.x",
+   2012
+  ],
+  "2013ApJ...762...32C": [
+   "2013ApJ...762...32C",
+   "CLASH: three strongly lensed images of a candidate z {approx} 11 galaxy.",
+   "10.1088/0004-637X/762/1/32",
+   2013
+  ],
+  "2013MNRAS.429..482O": [
+   "2013MNRAS.429..482O",
+   "The hidden fortress: structure and substructure of the complex strong  lensing cluster SDSS J1029+2623.",
+   "10.1093/mnras/sts351",
+   2013
+  ],
+  "2013MNRAS.429..833H": [
+   "2013MNRAS.429..833H",
+   "The three-dimensional geometry and merger history of the massive galaxy  cluster MACS J0358.8-2955.",
+   "10.1093/mnras/sts379",
+   2013
+  ],
+  "2014MNRAS.439.2651M": [
+   "2014MNRAS.439.2651M",
+   "Mass-galaxy offsets in Abell 3827, 2218 and 1689: intrinsic properties or line-of-sight substructures ?",
+   "10.1093/mnras/stu124",
+   2014
+  ],
+  "2015ApJ...801...44Z": [
+   "2015ApJ...801...44Z",
+   "Hubble Space Telescope combined strong and weak lensing analysis of the CLASH sample: mass and magnification models and systematic uncertainties.",
+   "10.1088/0004-637X/801/1/44",
+   2015
+  ],
+  "2015ApJ...813...37H": [
+   "2015ApJ...813...37H",
+   "RCS2 J232727.6-020437: an efficient cosmic telescope at z=0.6986.",
+   "10.1088/0004-637X/813/1/37",
+   2015
+  ],
+  "2015ApJ...814...21S": [
+   "2015ApJ...814...21S",
+   "A multi-wavelength mass analysis of RCS2 J232727.6-020437, a ~3x10^15^ M_{sun}_ galaxy cluster at z = 0.7.",
+   "10.1088/0004-637X/814/1/21",
+   2015
+  ],
+  "2015ApJ...814...26N": [
+   "2015ApJ...814...26N",
+   "Luminous and dark matter profiles from galaxies to clusters: bridging the gap with group-scale lenses.",
+   "10.1088/0004-637X/814/1/26",
+   2015
+  ],
+  "2015MNRAS.446..683D": [
+   "2015MNRAS.446..683D",
+   "A free-form lensing grid solution for A1689 with new multiple images.",
+   "10.1093/mnras/stu2064",
+   2015
+  ],
+  "2015MNRAS.449.3393M": [
+   "2015MNRAS.449.3393M",
+   "The behaviour of dark matter associated with four bright cluster galaxies in the 10 kpc core of Abell 3827.",
+   "10.1093/mnras/stv467",
+   2015
+  ],
+  "2015PASJ...67...21M": [
+   "2015PASJ...67...21M",
+   "Lensing time delays as a substructure constraint: a case study with the cluster SDSS J1004+4112.",
+   "10.1093/pasj/psu155",
+   2015
+  ],
+  "2015Sci...347.1123K": [
+   "2015Sci...347.1123K",
+   "Multiple images of a highly magnified supernova formed by an early-type cluster galaxy lens.",
+   "10.1126/science.aaa3350",
+   2015
+  ],
+  "2016A&A...587A..80C": [
+   "2016A&A...587A..80C",
+   "CLASH-VLT: A highly precise strong lensing model of the galaxy cluster RXC J2248.7-4431 (Abell S1063) and prospects for cosmography.",
+   "10.1051/0004-6361/201527670",
+   2016
+  ],
+  "2016ApJ...819..114K": [
+   "2016ApJ...819..114K",
+   "Precise strong lensing mass modeling of four Hubble frontier field clusters and a sample of magnified high-redshift galaxies.",
+   "10.3847/0004-637X/819/2/114",
+   2016
+  ],
+  "2016ApJ...822...78G": [
+   "2016ApJ...822...78G",
+   "The story of supernova \"Refsdal\" told by MUSE.",
+   "10.3847/0004-637X/822/2/78",
+   2016
+  ],
+  "2016ApJ...833...25Z": [
+   "2016ApJ...833...25Z",
+   "Strong-lensing analysis of the powerful lensing cluster MACS J2135.2-0102 (z = 0.33).",
+   "10.3847/0004-637X/833/1/25",
+   2016
+  ],
+  "2017A&A...600A..90C": [
+   "2017A&A...600A..90C",
+   "A refined mass distribution of the cluster MACS J0416.1-2403 from a new large set of spectroscopic multiply lensed sources.",
+   "10.1051/0004-6361/201629297",
+   2017
+  ],
+  "2017A&A...607A..93C": [
+   "2017A&A...607A..93C",
+   "Mass distribution in the core of MACS J1206. Robust modeling from an exceptionally large sample of central multiple images.",
+   "10.1051/0004-6361/201731498",
+   2017
+  ],
+  "2017ApJ...834...45Z": [
+   "2017ApJ...834...45Z",
+   "Strong lensing analysis of the galaxy cluster MACS J1319.9+7003 and the discovery of a shell galaxy.",
+   "10.3847/1538-4357/834/1/45",
+   2017
+  ],
+  "2017ApJ...835....5S": [
+   "2017ApJ...835....5S",
+   "Lens model and time delay predictions for the sextuply lensed quasar SDSS J2222+2745.",
+   "10.3847/1538-4357/835/1/5",
+   2017
+  ],
+  "2017ApJ...837...97L": [
+   "2017ApJ...837...97L",
+   "The Frontier Fields: survey design and initial results.",
+   "10.3847/1538-4357/837/1/97",
+   2017
+  ],
+  "2017ApJ...839L..11Z": [
+   "2017ApJ...839L..11Z",
+   "A very large ({theta}E {\\geq} 40'') strong gravitational lens selected with the Sunyaev-Zel'dovich effect: PLCK G287.0+32.9 z = 0.38).",
+   "10.3847/2041-8213/aa69be",
+   2017
+  ],
+  "2017ApJ...844..127W": [
+   "2017ApJ...844..127W",
+   "Joint strong and weak lensing analysis of the massive cluster field J0850+3604.",
+   "10.3847/1538-4357/aa7c19",
+   2017
+  ],
+  "2017MNRAS.469.3946L": [
+   "2017MNRAS.469.3946L",
+   "Lens modelling Abell 370: crowning the final frontier field with MUSE.",
+   "10.1093/mnras/stx1079",
+   2017
+  ],
+  "2017MNRAS.471.3305E": [
+   "2017MNRAS.471.3305E",
+   "Fully stripped? The dynamics of dark and luminous matter in the massive cluster collision MACSJ0553.4-3342.",
+   "10.1093/mnras/stx1636",
+   2017
+  ],
+  "2018A&A...612A..17W": [
+   "2018A&A...612A..17W",
+   "Model-independent and model-based local lensing properties of CL0024+1654 from multiply imaged galaxies.",
+   "10.1051/0004-6361/201731932",
+   2018
+  ],
+  "2018ApJ...852L...7E": [
+   "2018ApJ...852L...7E",
+   "Thirty-fold: extreme gravitational lensing of a quiescent galaxy at z = 1.6.",
+   "10.3847/2041-8213/aa9fee",
+   2018
+  ],
+  "2018ApJ...858...42A": [
+   "2018ApJ...858...42A",
+   "RELICS: strong-lensing analysis of the massive clusters MACS J0308.9+2645 and PLCK G171.9-40.7.",
+   "10.3847/1538-4357/aabe29",
+   2018
+  ],
+  "2018ApJ...859..159C": [
+   "2018ApJ...859..159C",
+   "RELICS: strong lens models for five galaxy clusters from the Reionization Lensing Cluster Survey.",
+   "10.3847/1538-4357/aabe7b",
+   2018
+  ],
+  "2018ApJ...862..126N": [
+   "2018ApJ...862..126N",
+   "Resolving quiescent galaxies at z {\\geq} 2. II. Direct measures of rotational support.",
+   "10.3847/1538-4357/aacd4f",
+   2018
+  ],
+  "2018ApJ...863..145C": [
+   "2018ApJ...863..145C",
+   "RELICS: strong lensing analysis of the galaxy clusters Abell S295, Abell 697, MACS J0025.4-1222 and MACS J0159.8-0849.",
+   "10.3847/1538-4357/aad2d3",
+   2018
+  ],
+  "2018ApJ...863..154P": [
+   "2018ApJ...863..154P",
+   "RELICS: a strong lens model for SPT-CLJ0615-5746 a z = 0.972 cluster.",
+   "10.3847/1538-4357/aad239",
+   2018
+  ],
+  "2018ApJ...864...98B": [
+   "2018ApJ...864...98B",
+   "Dissection of the collisional and collisionless mass components in a mini sample of CLASH and HFF massive galaxy clusters at z {\\simeq} 0.4.",
+   "10.3847/1538-4357/aad4a7",
+   2018
+  ],
+  "2018MNRAS.473..663M": [
+   "2018MNRAS.473..663M",
+   "Strong-lensing analysis of A2744 with MUSE and Hubble Frontier Fields images.",
+   "10.1093/mnras/stx1971",
+   2018
+  ],
+  "2018MNRAS.477..669M": [
+   "2018MNRAS.477..669M",
+   "Dark matter dynamics in Abell 3827: new data consistent with standard cold dark matter.",
+   "10.1093/mnras/sty630",
+   2018
+  ],
+  "2018MNRAS.480.3140W": [
+   "2018MNRAS.480.3140W",
+   "Evidence for the line-of-sight structure in the Hubble Frontier Field cluster, MACSJ0717.5+3745.",
+   "10.1093/mnras/sty2088",
+   2018
+  ],
+  "2018MNRAS.481L.136S": [
+   "2018MNRAS.481L.136S",
+   "SDSS J0909+4449: A large-separation strongly lensed quasar at z ~ 2.8 with three images.",
+   "10.1093/mnrasl/sly174",
+   2018
+  ],
+  "2019A&A...631A.130B": [
+   "2019A&A...631A.130B",
+   "Enhanced cluster lensing models with measured galaxy kinematics.",
+   "10.1051/0004-6361/201935974",
+   2019
+  ],
+  "2019A&A...632A..36C": [
+   "2019A&A...632A..36C",
+   "Strong lensing models of eight CLASH clusters from extensive spectroscopy: Accurate total mass reconstructions in the cores.",
+   "10.1051/0004-6361/201935454",
+   2019
+  ],
+  "2019ApJ...871...51F": [
+   "2019ApJ...871...51F",
+   "PLCK G165.7+67.0: analysis of a massive lensing cluster in a Hubble Space Telescope census of submillimeter giant arcs selected using Planck/Herschel.",
+   "10.3847/1538-4357/aaeff7",
+   2019
+  ],
+  "2019ApJ...873...96M": [
+   "2019ApJ...873...96M",
+   "RELICS: strong lensing analysis of MACS J0417.5-1154 and predictions for observing the magnified high-redshift universe with JWST.",
+   "10.3847/1538-4357/ab042b",
+   2019
+  ],
+  "2019ApJ...874..132A": [
+   "2019ApJ...874..132A",
+   "RELICS: high-resolution constraints on the inner mass distribution of the z = 0.83 merging cluster RXJ0152.7-1357 from strong lensing.",
+   "10.3847/1538-4357/ab0adf",
+   2019
+  ],
+  "2019ApJ...884...85C": [
+   "2019ApJ...884...85C",
+   "RELICS: Reionization Lensing Cluster Survey.",
+   "10.3847/1538-4357/ab412b",
+   2019
+  ],
+  "2019MNRAS.488.3251S": [
+   "2019MNRAS.488.3251S",
+   "Free-form GRALE reconstruction of Abell 2744: robustness of uncertainties against changes in lensing data.",
+   "10.1093/mnras/stz1950",
+   2019
+  ],
+  "2019MNRAS.489.4741S": [
+   "2019MNRAS.489.4741S",
+   "Catalogues of active galactic nuclei from Gaia and unWISE data.",
+   "10.1093/mnras/stz2487",
+   2019
+  ],
+  "2020A&A...635A..98R": [
+   "2020A&A...635A..98R",
+   "An accurate strong lensing model of the Abell 2163 core.",
+   "10.1051/0004-6361/201936590",
+   2020
+  ],
+  "2020ApJ...894..150M": [
+   "2020ApJ...894..150M",
+   "Strong lensing model of SPT-CL J0356-5337 a major merger candidate at redshift 1.0359.",
+   "10.3847/1538-4357/ab886b",
+   2020
+  ],
+  "2020ApJ...897....4V": [
+   "2020ApJ...897....4V",
+   "Dissecting the strong-lensing galaxy cluster MS 0440.5+0204. I. The mass density profile.",
+   "10.3847/1538-4357/ab9635",
+   2020
+  ],
+  "2020ApJ...898....6A": [
+   "2020ApJ...898....6A",
+   "RELICS: a very large ({theta}_E_ ~ 40'') cluster Lens-RXC J0032.1+1808.",
+   "10.3847/1538-4357/ab929d",
+   2020
+  ],
+  "2020ApJ...903..137Z": [
+   "2020ApJ...903..137Z",
+   "A strong-lensing model for the WMDF JWST/GTO very rich cluster A1489.",
+   "10.3847/1538-4357/abb8dd",
+   2020
+  ],
+  "2020ApJ...904..106D": [
+   "2020ApJ...904..106D",
+   "Free-form lens model and mass estimation of the high-redshift galaxy cluster ACT-CL J0102-4915 \"El Gordo\".",
+   "10.3847/1538-4357/abbf56",
+   2020
+  ],
+  "2020ApJS..247...12S": [
+   "2020ApJS..247...12S",
+   "Strong lens models for 37 clusters of galaxies from the SDSS giant Arcs Survey.",
+   "10.3847/1538-4365/ab5f13",
+   2020
+  ],
+  "2020ApJS..247...64S": [
+   "2020ApJS..247...64S",
+   "The BUFFALO HST survey.",
+   "10.3847/1538-4365/ab75ed",
+   2020
+  ],
+  "2021A&A...645A.140B": [
+   "2021A&A...645A.140B",
+   "A new high-precision strong lensing model of the galaxy cluster MACS J0416.1-2403. Robust characterization of the cluster mass distribution from VLT/MUSE deep observations.",
+   "10.1051/0004-6361/202039564",
+   2021
+  ],
+  "2021A&A...646A..83R": [
+   "2021A&A...646A..83R",
+   "An atlas of MUSE observations towards twelve massive lensing clusters.",
+   "10.1051/0004-6361/202039462",
+   2021
+  ],
+  "2021A&A...655A..81P": [
+   "2021A&A...655A..81P",
+   "A strong lensing model of the galaxy cluster PSZ1 G311.65-18.48.",
+   "10.1051/0004-6361/202141586",
+   2021
+  ],
+  "2021ApJ...911...99F": [
+   "2021ApJ...911...99F",
+   "ALMA Lensing Cluster Survey: bright [C II] 158 {mu}m lines from a multiply imaged sub-L^*^ galaxy at z = 6.0719.",
+   "10.3847/1538-4357/abd7ec",
+   2021
+  ],
+  "2021ApJ...916...50F": [
+   "2021ApJ...916...50F",
+   "Spatial variation in strong line ratios and physical conditions in two strongly lensed galaxies at z ~ 1.4.",
+   "10.3847/1538-4357/ac0257",
+   2021
+  ],
+  "2021ApJ...918...61C": [
+   "2021ApJ...918...61C",
+   "Dissecting the strong-lensing galaxy cluster MS 0440.5+0204. II. New optical spectroscopic observations in a wider area and cluster dynamical state.",
+   "10.3847/1538-4357/ac0c1b",
+   2021
+  ],
+  "2021ApJ...919...54Z": [
+   "2021ApJ...919...54Z",
+   "Lessons from the first multiply imaged supernova: revised strong-lensing models for the galaxy cluster MACS J1149.5+2223.",
+   "10.3847/1538-4357/ac0e32",
+   2021
+  ],
+  "2021MNRAS.504.2629C": [
+   "2021MNRAS.504.2629C",
+   "Resolved galactic superwinds reconstructed around their host galaxies at z > 3.",
+   "10.1093/mnras/stab1041",
+   2021
+  ],
+  "2021MNRAS.506.6144G": [
+   "2021MNRAS.506.6144G",
+   "Further support for a trio of mass-to-light deviations in Abell 370: free-form GRALE lens inversion using BUFFALO strong lensing data.",
+   "10.1093/mnras/stab1196",
+   2021
+  ],
+  "2021MNRAS.507..663T": [
+   "2021MNRAS.507..663T",
+   "Telltale signs of metal recycling in the circumgalactic medium of a z ~ 0.77 galaxy.",
+   "10.1093/mnras/stab2147",
+   2021
+  ],
+  "2021MNRAS.508.1206J": [
+   "2021MNRAS.508.1206J",
+   "Galaxy cluster cores as seen with VLT/MUSE: New strong-lensing analyses of RX J2129.4 + 0009, MS 0451.6 - 0305, and MACS J2129.4 - 0741.",
+   "10.1093/mnras/stab2270",
+   2021
+  ],
+  "2021MNRAS.508.3663E": [
+   "2021MNRAS.508.3663E",
+   "An extreme case of galaxy and cluster co-evolution at z = 0.7.",
+   "10.1093/mnras/stab2725",
+   2021
+  ],
+  "2021NatAs...5.1118R": [
+   "2021NatAs...5.1118R",
+   "A gravitationally lensed supernova with an observable two-decade time delay.",
+   "10.1038/s41550-021-01450-9",
+   2021
+  ],
+  "2022A&A...664A..90L": [
+   "2022A&A...664A..90L",
+   "Dark matter in galaxy clusters: Parametric strong-lensing approach.",
+   "10.1051/0004-6361/202243278",
+   2022
+  ],
+  "2022A&A...666L...9C": [
+   "2022A&A...666L...9C",
+   "First JWST observations of a gravitational lens Mass model from new multiple images with near-infrared observations of SMACS J0723.3-7327.",
+   "10.1051/0004-6361/202244517",
+   2022
+  ],
+  "2022A&A...668A.142A": [
+   "2022A&A...668A.142A",
+   "New strong lensing modelling of SDSS J2222+2745 enhanced with VLT/MUSE spectroscopy.",
+   "10.1051/0004-6361/202244836",
+   2022
+  ],
+  "2022ApJ...926...86A": [
+   "2022ApJ...926...86A",
+   "VLT/MUSE Observations of SDSS J1029+2623: Toward a High-precision Strong Lensing Model.",
+   "10.3847/1538-4357/ac3d35",
+   2022
+  ],
+  "2022ApJ...935..110T": [
+   "2022ApJ...935..110T",
+   "The GLASS-JWST Early Release Science Program. I. Survey Design and Release Plans.",
+   "10.3847/1538-4357/ac8158",
+   2022
+  ],
+  "2022ApJ...937...35F": [
+   "2022ApJ...937...35F",
+   "A Mass Model for the Lensing Cluster SDSS J1004+4112: Constraints from the Third Time Delay.",
+   "10.3847/1538-4357/ac8c40",
+   2022
+  ],
+  "2022ApJ...941..203S": [
+   "2022ApJ...941..203S",
+   "The Cosmic Telescope That Lenses the Sunburst Arc, PSZ1 G311.65-18.48: Strong Gravitational Lensing Model and Source Plane Analysis.",
+   "10.3847/1538-4357/ac927a",
+   2022
+  ],
+  "2022Natur.611..256C": [
+   "2022Natur.611..256C",
+   "Shock cooling of a red-supergiant supernova at redshift 3 in lensed images.",
+   "10.1038/s41586-022-05252-5",
+   2022
+  ],
+  "2022PASP..134b5002W": [
+   "2022PASP..134b5002W",
+   "The near-infrared imager and slitless spectrograph for the James Webb Space Telescope. II. Wide field slitless spectroscopy.",
+   "10.1088/1538-3873/ac5158",
+   2022
+  ],
+  "2023A&A...670A..60B": [
+   "2023A&A...670A..60B",
+   "New high-precision strong lensing modeling of Abell 2744 Preparing for JWST observations.",
+   "10.1051/0004-6361/202244575",
+   2023
+  ],
+  "2023A&A...672A...3D": [
+   "2023A&A...672A...3D",
+   "JWST's PEARLS: A new lens model for ACT-CL J0102-4915, \u201cEl Gordo,\u201d and the first red supergiant star at cosmological distances discovered by JWST.",
+   "10.1051/0004-6361/202245238",
+   2023
+  ],
+  "2023A&A...674A..79B": [
+   "2023A&A...674A..79B",
+   "A state-of-the-art strong-lensing model of MACS J0416.1-2403 with the largest sample of spectroscopic multiple images.",
+   "10.1051/0004-6361/202244834",
+   2023
+  ],
+  "2023A&A...678A...3C": [
+   "2023A&A...678A...3C",
+   "A MUSE view of the massive merging galaxy cluster ACT-CL J0102-4915 (El Gordo) at {\\em z} = 0.87 Robust strong lensing model and data release.",
+   "10.1051/0004-6361/202244897",
+   2023
+  ],
+  "2023A&A...678A.139T": [
+   "2023A&A...678A.139T",
+   "Probing the faint-end luminosity function of Lyman-alpha emitters at 3 < {\\em z} < 7 behind 17 MUSE lensing clusters.",
+   "10.1051/0004-6361/202346716",
+   2023
+  ],
+  "2023AJ....165...13W": [
+   "2023AJ....165...13W",
+   "JWST PEARLS. Prime Extragalactic Areas for Reionization and Lensing Science: Project Overview and First Results.",
+   "10.3847/1538-3881/aca163",
+   2023
+  ],
+  "2023ApJ...945...49M": [
+   "2023ApJ...945...49M",
+   "Precision Modeling of JWST's First Cluster Lens SMACS J0723.3-7327.",
+   "10.3847/1538-4357/acaea9",
+   2023
+  ],
+  "2023ApJ...946...63M": [
+   "2023ApJ...946...63M",
+   "COOL-LAMPS. III. Discovery of a 25.\u20339 Separation Quasar Lensed by a Merging Galaxy Cluster.",
+   "10.3847/1538-4357/acbe39",
+   2023
+  ],
+  "2023ApJ...952...84B": [
+   "2023ApJ...952...84B",
+   "The GLASS-JWST Early Release Science Program. III. Strong-lensing Model of Abell 2744 and Its Infalling Regions.",
+   "10.3847/1538-4357/acd643",
+   2023
+  ],
+  "2023ApJ...954L..38N": [
+   "2023ApJ...954L..38N",
+   "COOL-LAMPS. Discovery of COOL J0335-1927, a Gravitationally Lensed Quasar at {\\em z} = 3.27 with an Image Separation of 23.\u20333.",
+   "10.3847/2041-8213/acf132",
+   2023
+  ],
+  "2023ApJ...959..134N": [
+   "2023ApJ...959..134N",
+   "Hubble Constant Measurement from Three Large-separation Quasars Strongly Lensed by Galaxy Clusters.",
+   "10.3847/1538-4357/ad045a",
+   2023
+  ],
+  "2023ApJS..264...15S": [
+   "2023ApJS..264...15S",
+   "RELICS: A Strong-lens Model of SMACS J0723.3-7327.",
+   "10.3847/1538-4365/aca7c3",
+   2023
+  ],
+  "2023MNRAS.522.5142F": [
+   "2023MNRAS.522.5142F",
+   "A variable active galactic nucleus at {\\em z} = 2.06 triply-imaged by the galaxy cluster MACS J0035.4-2015.",
+   "10.1093/mnras/stad1321",
+   2023
+  ],
+  "2023MNRAS.523.4568F": [
+   "2023MNRAS.523.4568F",
+   "UNCOVERing the extended strong lensing structures of Abell 2744 with the deepest {\\em JWST} imaging.",
+   "10.1093/mnras/stad1627",
+   2023
+  ],
+  "2023MNRAS.524.2883N": [
+   "2023MNRAS.524.2883N",
+   "Beyond the ultradeep frontier fields and legacy observations (BUFFALO): a high-resolution strong+weak-lensing view of Abell 370.",
+   "10.1093/mnras/stad1999",
+   2023
+  ],
+  "2023MNRAS.525.2519G": [
+   "2023MNRAS.525.2519G",
+   "An excursion into the core of the cluster lens Abell 1689.",
+   "10.1093/mnras/stad2418",
+   2023
+  ],
+  "2024A&A...682A.187M": [
+   "2024A&A...682A.187M",
+   "Parameter-free Hubble constant from the quadruply lensed quasar SDSS J1004+4112.",
+   "10.1051/0004-6361/202348066",
+   2024
+  ],
+  "2024A&A...689A..42S": [
+   "2024A&A...689A..42S",
+   "Improved model of the Supernova Refsdal cluster MACS J1149.5+2223 thanks to {\\em VLT}/MUSE.",
+   "10.1051/0004-6361/202449528",
+   2024
+  ],
+  "2024ApJ...961..171F": [
+   "2024ApJ...961..171F",
+   "The JWST Discovery of the Triply Imaged Type Ia \u201cSupernova H0pe\u201d and Observations of the Galaxy Cluster PLCK G165.7+67.0.",
+   "10.3847/1538-4357/ad1034",
+   2024
+  ],
+  "2024ApJ...967L..37P": [
+   "2024ApJ...967L..37P",
+   "Lensed Type Ia Supernova \u201cEncore\u201d at {\\em z} = 2: The First Instance of Two Multiply Imaged Supernovae in the Same Host Galaxy.",
+   "10.3847/2041-8213/ad4648",
+   2024
+  ],
+  "2024ApJ...973....3S": [
+   "2024ApJ...973....3S",
+   "The Carousel Lens: A Well-modeled Strong Lens with Multiple Sources Spectroscopically Confirmed by VLT/MUSE.",
+   "10.3847/1538-4357/ad65d3",
+   2024
+  ],
+  "2024ApJ...973...77G": [
+   "2024ApJ...973...77G",
+   "CANUCS: An Updated Mass and Magnification Model of A370 with JWST.",
+   "10.3847/1538-4357/ad684a",
+   2024
+  ],
+  "2024ApJ...974...92B": [
+   "2024ApJ...974...92B",
+   "The JWST UNCOVER Treasury Survey: Ultradeep NIRSpec and NIRCam Observations before the Epoch of Reionization.",
+   "10.3847/1538-4357/ad66cf",
+   2024
+  ],
+  "2024ApJS..275...36F": [
+   "2024ApJS..275...36F",
+   "ALMA Lensing Cluster Survey: Deep 1.2 mm Number Counts and Infrared Luminosity Functions at {\\em z} \u2243 1-8.",
+   "10.3847/1538-4365/ad5ae2",
+   2024
+  ],
+  "2024MNRAS.527.2639P": [
+   "2024MNRAS.527.2639P",
+   "Free-form and hybrid lens models for SDSS J1004+4112: substructure and central image time delay constraints.",
+   "10.1093/mnras/stad3366",
+   2024
+  ],
+  "2024MNRAS.527.3246B": [
+   "2024MNRAS.527.3246B",
+   "A new step forward in realistic cluster lens mass modelling: analysis of Hubble Frontier Field Cluster Abell S1063 from joint lensing, X-ray, and galaxy kinematics data.",
+   "10.1093/mnras/stad3308",
+   2024
+  ],
+  "2024MNRAS.533.2242F": [
+   "2024MNRAS.533.2242F",
+   "A complex node of the cosmic web associated with the massive galaxy cluster MACS J0600.1-2008.",
+   "10.1093/mnras/stae1943",
+   2024
+  ],
+  "2025A&A...696A..15R": [
+   "2025A&A...696A..15R",
+   "CANUCS: Constraining the MACS J0416.1-2403 strong lensing model with JWST NIRISS, NIRSpec, and NIRCam.",
+   "10.1051/0004-6361/202451117",
+   2025
+  ],
+  "2025A&A...698A..29B": [
+   "2025A&A...698A..29B",
+   "A new candidate quasar strongly lensed by the galaxy cluster WHJ0400-27 with an 18\u2033 image separation.",
+   "10.1051/0004-6361/202451362",
+   2025
+  ],
+  "2025A&A...698A.161S": [
+   "2025A&A...698A.161S",
+   "The strong lensing model of MACS J0035.4-2015.",
+   "10.1051/0004-6361/202450857",
+   2025
+  ],
+  "2025A&A...699A.101A": [
+   "2025A&A...699A.101A",
+   "Enhanced strong-lensing model of MACS J0138.0-2155 based on new JWST and VLT/MUSE observations.",
+   "10.1051/0004-6361/202554468",
+   2025
+  ],
+  "2025A&A...704A.338A": [
+   "2025A&A...704A.338A",
+   "Parametric strong lensing model of the galaxy cluster Abell 2390 from {\\em Euclid} and MUSE observations.",
+   "10.1051/0004-6361/202556396",
+   2025
+  ],
+  "2025ApJ...980...48M": [
+   "2025ApJ...980...48M",
+   "Strong-lensing Analysis of SPT-CL J2325-4111 and SPT-CL J0049-2440, Two Powerful Cosmic Telescopes ({\\em R}_E_ > 40\u2033) from the SPT Clusters Sample.",
+   "10.3847/1538-4357/ad9aa5",
+   2025
+  ],
+  "2025ApJ...994L..35F": [
+   "2025ApJ...994L..35F",
+   "JWST Discovery of Strong Lensing from a Galaxy Cluster at Cosmic Noon: Giant Arcs and a Highly Concentrated Core of XLSSC 122.",
+   "10.3847/2041-8213/ae1d80",
+   2025
+  ],
+  "2025MNRAS.536.2690P": [
+   "2025MNRAS.536.2690P",
+   "BUFFALO wild wings: a high-precision free-form lens model of MACSJ0416 with constraints on dark matter from substructure and highly magnified arcs.",
+   "10.1093/mnras/stae2753",
+   2025
+  ],
+  "2025RNAAS...9..300S": [
+   "2025RNAAS...9..300S",
+   "A Strong Gravitational Lensing Model of PSZ2 G118.46+39.32.",
+   "10.3847/2515-5172/ae1c45",
+   2025
+  ],
+  "2026A&A...710A.207R": [
+   "2026A&A...710A.207R",
+   "Mapping dark matter in the Bullet Cluster using JWST imaging and spectroscopy.",
+   "10.1051/0004-6361/202659214",
+   2026
+  ],
+  "2026A&A...710A.226G": [
+   "2026A&A...710A.226G",
+   "VENUS: When red meets blue A multiply imaged little red dot with an apparent blue companion behind the galaxy cluster Abell 383.",
+   "10.1051/0004-6361/202558407",
+   2026
+  ],
+  "2026ApJ..1005..215A": [
+   "2026ApJ..1005..215A",
+   "VENUS: Strong-lensing Model of MACS J1931.8-2635: Revealing the Farthest Multiply Imaged Supernova.",
+   "10.3847/1538-4357/ae7a59",
+   2026
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0949.8+1708
+aka: [RXC J0949.8+1707]
+designations:
+  - WHL J094951.8+170711
+  - ACT-CL J0949.8+1707
+  - ZwCl 0947.2+1723
+ra: "09:49:51.80"
+dec: "+17:07:10.6"
+z: 0.385
+programs: [relics, venus]
+
+models:
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/rxc0949p17/models/

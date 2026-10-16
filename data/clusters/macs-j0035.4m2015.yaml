@@ -1,0 +1,28 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0035.4-2015
+designations:
+  - WHL J003526.2-201544
+  - SPT-CL J0035-2015
+  - ACT-CL J0035.4-2015
+  - MCXC J0035.4-2015
+ra: "00:35:26.16"
+dec: "-20:15:44.3"
+z: 0.352
+programs: [relics, venus]
+
+models:
+  - title: Somma et al. (2025)
+    refs: [2025A&A...698A.161S]
+    data: [MUSE]
+    availability: unknown
+    note: |-
+      [Somma et al. (2025)](ref:2025A&A...698A.161S) presented a strong lensing model of the
+      cluster which incorporates MUSE spectroscopic data.
+  - title: RELICS
+    program: relics
+    data: [HST]
+    availability: public
+    links:
+      - label: Lens models (MAST)
+        url: https://archive.stsci.edu/hlsps/relics/macs0035m20/models/

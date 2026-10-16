@@ -1,0 +1,36 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 68
+designations:
+  - SPIDERS 1_17014
+  - NSCS J003706+090916
+  - ZwCl 0034.4+0851
+  - MCXC J0037.0+0909
+ra: "00:37:06.84"
+dec: "+09:09:24.30"
+z: 0.255
+programs: [slice, venus]
+
+models:
+  - title: 'SLICE: Cerny et al. (2025)'
+    program: slice
+    refs: [2025arXiv250317498C]
+    data: [JWST]
+    availability: upcoming
+    note: |-
+      The model will be released on the
+      [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: Richard et al. (2007)
+    refs: [2007ApJ...662..781R]
+    software: Lenstool
+    availability: public
+    note: |-
+      The cluster was studied by [Richard et al. (2007)](ref:2007ApJ...662..781R). The lens
+      model is available for download on the
+      [Lenstool website](https://projets.lam.fr/projects/lenstool/wiki).
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.

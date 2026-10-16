@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% set nav = 'transients' %}
+{% block title %}{{ t.name }} | {{ cfg.title }}{% endblock %}
+{% block description %}{{ t.name }}: {{ t.class_label | lower }} lensed by {{ t.cluster_obj.name if t.cluster_obj else 'a galaxy cluster' }}.{% endblock %}
+{% block main %}
+<div class="wrap narrow-top">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ root }}transients/index.html">Lensed transients</a> <span aria-hidden="true">/</span> <span aria-current="page">{{ t.name }}</span></nav>
+  <h1 class="entry-title">{{ t.name }}</h1>
+  {% if t.aliases %}<p class="entry-aka">also {{ t.aliases | join(', ') }}</p>{% endif %}
+  <dl class="fact-list transient-facts">
+    <div><dt>Type</dt><dd>{{ t.class_label }}{% if t.subclass %}, {{ t.subclass }}{% endif %}</dd></div>
+    <div><dt>Status</dt><dd>{{ 'Confirmed' if t.status == 'confirmed' else 'Candidate' }}</dd></div>
+    {% if t.cluster_obj %}<div><dt>Lensing cluster</dt><dd><a href="{{ root }}clusters/{{ t.cluster_obj.slug }}.html">{{ t.cluster_obj.name }}</a> <span class="muted">(z = {{ t.cluster_obj.z }})</span></dd></div>{% endif %}
+    {% if t.z %}<div><dt>Redshift</dt><dd class="num">{{ t.z }}</dd></div>{% endif %}
+    {% if t.ra and t.dec %}<div><dt>Position</dt><dd><span class="coord">{{ t.ra }}</span> <span class="coord">{{ t.dec }}</span></dd></div>{% endif %}
+    {% if t.discovered %}<div><dt>Discovered</dt><dd>{{ t.discovered }}</dd></div>{% endif %}
+  </dl>
+  {% if t.notes %}<div class="prose">{{ t.notes | md(root) | safe }}</div>{% endif %}
+  {% if t.refs_obj %}
+  <h2>Papers</h2>
+  <ul class="ref-list">
+    {% for r in t.refs_obj %}<li><a href="{{ r.url }}">{{ r.label }}</a>{% if r.title %}<br><span class="muted">{{ r.title }}</span>{% endif %}</li>{% endfor %}
+  </ul>
+  {% endif %}
+  {% if t.links %}
+  <h2>Programs and links</h2>
+  <ul class="plain">{% for l in t.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}</ul>
+  {% endif %}
+  <section class="entry-foot" aria-label="This entry">
+    <p><a href="{{ cfg.repo }}/edit/{{ cfg.branch }}/{{ t.file }}">Edit this entry on GitHub</a>
+    <a href="{{ cfg.repo }}/issues/new?title={{ ('Correction: ' ~ t.name) | urlencode }}">Report a problem</a></p>
+  </section>
+</div>
+{% endblock %}

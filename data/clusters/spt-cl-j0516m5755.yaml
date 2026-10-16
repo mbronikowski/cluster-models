@@ -1,0 +1,19 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: SPT-CL J0516-5755
+designations:
+  - ACT-CL J0516.9-5754
+ra: "05:16:57.6"
+dec: "-57:55:00.1"
+z: 0.966
+programs: [slice]
+
+models:
+  - title: 'SLICE: Cerny et al. (2025)'
+    program: slice
+    refs: [2025arXiv250317498C]
+    data: [JWST]
+    availability: upcoming
+    note: |-
+      The model will be released on the
+      [LAM Strong Lensing Cluster Atlas](program:lam-atlas).

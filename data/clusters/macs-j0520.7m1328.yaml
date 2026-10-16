@@ -1,0 +1,20 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0520.7-1328
+designations:
+  - ACT-CL J0520.7-1328
+  - PSZ2 G215.24-26.10
+ra: "05:20:42.00"
+dec: "-13:28:50.0"
+z: 0.336
+programs: [muse-lensing]
+
+models:
+  - title: Thai et al. (2023)
+    program: muse-lensing
+    refs: [2023A&A...678A.139T]
+    data: [HST, MUSE]
+    availability: public
+    links:
+      - label: Mass model
+        url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0520/

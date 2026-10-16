@@ -1,0 +1,22 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: MACS J0027.8+2616
+designations:
+  - SPIDERS 2_08798
+  - WHL J002745.8+261626
+  - RM J002743.6+261621.3
+  - CODEX WL 225598
+ra: "00:27:45.8"
+dec: "+26:16:26.3"
+z: 0.365
+programs: [slice]
+
+models:
+  - title: 'SLICE: Cerny et al. (2025)'
+    program: slice
+    refs: [2025arXiv250317498C]
+    data: [JWST]
+    availability: upcoming
+    note: |-
+      The model will be released on the
+      [LAM Strong Lensing Cluster Atlas](program:lam-atlas).

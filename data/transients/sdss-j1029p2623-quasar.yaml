@@ -1,0 +1,10 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SDSS J1029+2623 quasar
+class: quasar
+status: confirmed
+cluster: sdss-j1029p2623
+refs: [2022ApJ...926...86A, 2023ApJ...959..134N]
+notes: |-
+  Multiply-imaged quasar with a measured time delay (see e.g.
+  [Acebron et al. 2022](ref:2022ApJ...926...86A)).

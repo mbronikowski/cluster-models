@@ -1,0 +1,17 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 267
+designations:
+  - SCL 034 NED03
+  - RX J0152.7+0100
+ra: "01:52:42.0"
+dec: "+01:00:25.5"
+z: 0.23
+
+models:
+  - title: Smith et al. (2005)
+    refs: [2005MNRAS.359..417S]
+    availability: unknown
+    note: |-
+      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
+      cluster.
