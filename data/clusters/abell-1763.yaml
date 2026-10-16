@@ -18,10 +18,12 @@ models:
   - title: RELICS
     program: relics
     data: [HST]
+    software: glafic
     availability: public
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/abell1763/models/
+    note: MAST provides models made with glafic.
   - title: Smith et al. (2005)
     refs: [2005MNRAS.359..417S]
     availability: unknown

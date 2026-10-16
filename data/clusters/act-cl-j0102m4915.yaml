@@ -33,11 +33,20 @@ models:
     note: |-
       Model based on MUSE observations by [Caminha et al. (2023)](ref:2023A&A...678A...3C).
       Model available for download [here](https://cdsarc.cds.unistra.fr/ftp/J/A+A/678/A3/).
-  - title: 'RELICS: Diego et al. (2020)'
-    program: relics
+  - title: Diego et al. (2020)
     refs: [2020ApJ...904..106D]
     data: [HST]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form]
+    note: Free-form WSLAP+ model using the RELICS imaging and new multiple-image candidates.
+  - title: 'RELICS: Cerny et al. (2018)'
+    program: relics
+    refs: [2018ApJ...859..159C]
+    data: [HST]
     availability: public
+    tags: [multiple-models]
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/act0102m49/models/
+    note: MAST provides models made with glafic and Lenstool.

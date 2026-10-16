@@ -26,6 +26,8 @@ models:
     program: relics
     data: [HST]
     availability: public
+    tags: [multiple-models]
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/macs0035m20/models/
+    note: MAST provides models made with glafic and Lenstool.

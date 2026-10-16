@@ -23,7 +23,8 @@ models:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/RXCJ0454/
     note: |-
-      Not described in a paper as of August 2026. See also
+      Not described in a paper as of August 2026. The model directory is online (files dated
+      May 2025) but not linked from the release page as of October 2026. See also
       [Richard et al. (2021)](ref:2021A&A...646A..83R) and
       [Thai et al. (2023)](ref:2023A&A...678A.139T).
   - title: LoCuSS

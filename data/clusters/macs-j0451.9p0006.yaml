@@ -20,3 +20,7 @@ models:
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/MACS0451/
+    software: Lenstool
+    note: |-
+      One of the five models added to the MUSE release by Thai et al. (2023), who credit it
+      to Basto et al. (in preparation).

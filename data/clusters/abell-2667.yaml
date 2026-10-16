@@ -16,10 +16,11 @@ z: 0.232
 programs: [muse-lensing]
 
 models:
-  - title: 'MUSE: Thai et al. (2023)'
+  - title: Thai et al. (2023)
     program: muse-lensing
     refs: [2023A&A...678A.139T]
     data: [HST, MUSE]
+    software: Lenstool
     availability: public
     links:
       - label: Mass model

@@ -159,8 +159,12 @@
   url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/
   overview: 2021A&A...646A..83R
   note: |-
-    MUSE/VLT observations of lensing clusters, with mass models, published on Johan
-    Richard's data-release page.
+    MUSE/VLT observations of lensing clusters, with redshift catalogues and Lenstool mass
+    models, published on Johan Richard's data-release page. As of October 2026 the page lists
+    19 clusters: the 12 of the Richard et al. (2021) atlas, five added by Thai et al. (2023)
+    (Abell 2390, Abell 2667, Abell S1063, MACS J0451.9+0006, MACS J0520.7-1328), SMACS
+    J2332.4-5358 and MACS J0600.1-2008, whose model directory is still empty. A model of
+    Abell 521 is online but not linked from the page.
 
 - id: lam-atlas
   name: LAM Strong Lensing Cluster Atlas

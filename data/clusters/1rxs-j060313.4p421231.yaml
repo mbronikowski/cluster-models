@@ -12,9 +12,11 @@ models:
   - title: RELICS
     program: relics
     data: [HST]
+    software: glafic
     availability: public
     links:
       - label: Lens models, north part (MAST)
         url: https://archive.stsci.edu/hlsps/relics/rxs0603p42-n/models/
       - label: Lens models, south part (MAST)
         url: https://archive.stsci.edu/hlsps/relics/rxs0603p42-s/models/
+    note: MAST provides models made with glafic.

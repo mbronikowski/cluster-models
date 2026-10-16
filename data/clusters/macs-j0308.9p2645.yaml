@@ -17,6 +17,8 @@ models:
     refs: [2018ApJ...858...42A]
     data: [HST]
     availability: public
+    tags: [multiple-models]
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/macs0308p26/models/
+    note: MAST provides models made with glafic and LTM (Zitrin).
