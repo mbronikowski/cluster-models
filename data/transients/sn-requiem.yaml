@@ -1,12 +1,18 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: SN Requiem
+aliases: [AT 2016jka]
 class: supernova
 subclass: Ia (likely)
 status: confirmed
 cluster: macs-j0138.0m2155
-refs: [2021NatAs...5.1118R, 2026A&A...708A.291S]
+ra: "01:38:03.63"
+dec: "-21:55:50.4"
+z: 1.95
+refs: [2021NatAs...5.1118R, 2024ApJ...967L..37P, 2025A&A...697A..94G, 2025A&A...699A.101A, 2025A&A...702A.157E, 2026ApJ...998..219P, 2026A&A...708A.291S, arXiv:2606.25205]
 notes: |-
-  Multiply-imaged supernova in the galaxy MRG-M0138, which later also hosted
-  [SN Encore](transient:sn-encore). Forecasts of its reappearance:
-  [Suyu et al. (2026)](ref:2026A&A...708A.291S).
+  Supernova in the lensed quiescent galaxy MRG-M0138, found in 2016 HST images
+  ([Rodney et al. 2021](ref:2021NatAs...5.1118R)). Three images were seen; a fourth is
+  predicted to arrive in the 2030s. The same galaxy later hosted
+  [SN Encore](transient:sn-encore), and the "Cosmology with supernova Encore" papers model
+  both. Forecasts of the reappearance: [Suyu et al. (2026)](ref:2026A&A...708A.291S).

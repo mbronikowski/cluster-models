@@ -1,0 +1,19 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Ares
+class: supernova
+subclass: core-collapse
+status: confirmed
+cluster: macs-j0308.9p2645
+ra: "03:08:53.42"
+dec: "+26:45:58.6"
+z: 1.275
+discovered: 2025
+links:
+  - label: JWST DD 9478 (imaging and spectroscopy)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=9478
+notes: |-
+  Core-collapse supernova found in VENUS JWST imaging on 2025 August 25 and announced in
+  January 2026. It appeared in the first of three images of its host; the other two are
+  expected only after several decades (about 60 years), the longest time delays known
+  for a lensed supernova. No paper yet; details from the public DD proposal.

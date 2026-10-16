@@ -1,0 +1,20 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Atalanta
+class: supernova
+subclass: IIP (photometric)
+status: confirmed
+cluster: smacs-j0723.3m7327
+ra: "07:23:17.70"
+dec: "-73:27:10.7"
+links:
+  - label: HST DD 18297 (light curve)
+    url: https://www.stsci.edu/hst-program-info/program/?program=18297
+  - label: JWST DD 12774 (imaging and spectroscopy)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=12774
+notes: |-
+  Multiply-imaged supernova found in JWST/NIRCam imaging of SMACS J0723.3-7327. Two images
+  are visible, magnified about 25 times, with a predicted time delay of 20-30 days. The
+  photometry suggests a Type IIP near the end of its plateau; its very faint host has no
+  spectroscopic redshift yet. No paper yet; details from the public DD proposals.
+  Position: image 1.

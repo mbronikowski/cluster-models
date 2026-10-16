@@ -1,0 +1,20 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Helios
+class: supernova
+subclass: II
+status: confirmed
+cluster: rxc-j0018.5p1626
+ra: "00:18:31.50"
+dec: "+16:26:18.0"
+z: 3.34
+discovered: 2026
+refs: [arXiv:2609.30440]
+links:
+  - label: JWST DD 12782 (imaging and spectroscopy)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=12782
+notes: |-
+  Type II supernova at z = 3.34 found in VENUS JWST imaging on 2026 July 3, magnified 10-20
+  times ([Fujimoto et al. 2026](ref:arXiv:2609.30440)). Only one image has been seen; lens
+  models predict another within about 2-6 years, which would extend time-delay
+  cosmography beyond z = 3.

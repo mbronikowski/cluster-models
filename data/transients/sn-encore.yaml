@@ -5,9 +5,19 @@ class: supernova
 subclass: Ia
 status: confirmed
 cluster: macs-j0138.0m2155
-refs: [2024ApJ...967L..37P, 2026ApJ...998..219P, 2026A&A...708A.291S]
+ra: "01:38:03.90"
+dec: "-21:55:49.0"
+z: 1.95
+discovered: 2023
+refs: [2024ApJ...967L..37P, 2024MNRAS.535.2939D, 2025A&A...697A..94G, 2025A&A...699A.101A, 2025A&A...702A.157E, 2026ApJ...998..219P, 2026A&A...708A.291S, arXiv:2606.25205]
+links:
+  - label: JWST DD 6549 (follow-up of the discovery)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=6549
 notes: |-
-  Second multiply-imaged supernova in MRG-M0138 (z ~ 2), after
-  [SN Requiem](transient:sn-requiem). Time-delay H0 measurement:
-  [Pierel et al. (2026)](ref:2026ApJ...998..219P) and
-  [Suyu et al. (2026)](ref:2026A&A...708A.291S).
+  Second multiply-imaged supernova in MRG-M0138 (z = 1.95), after
+  [SN Requiem](transient:sn-requiem), found in JWST imaging in November 2023
+  ([Pierel et al. 2024](ref:2024ApJ...967L..37P)). The "Cosmology with supernova Encore"
+  series covers the MUSE spectroscopy ([Granata et al. 2025](ref:2025A&A...697A..94G)),
+  the GLEE lens models ([Ertl et al. 2025](ref:2025A&A...702A.157E)), the time delays
+  ([Pierel et al. 2026](ref:2026ApJ...998..219P)) and the blind comparison of lens models
+  with the resulting H0 ([Suyu et al. 2026](ref:2026A&A...708A.291S)).

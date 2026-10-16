@@ -1,15 +1,25 @@
 # Lensed transient / variable source. Field reference: docs/data-format.md
 
 name: SN 2022riv
+aliases: [AT 2022riv]
 class: supernova
 subclass: Ia
 status: confirmed
 cluster: rx-j2129.7p0005
+ra: "21:29:40.21"
+dec: "+00:05:24.2"
 z: 1.522
-refs: [arXiv:2604.11882, 2022TNSAN.169....1K]
+discovered: 2022
+refs: [2022TNSAN.169....1K, 2026ApJ..1008..230D]
+links:
+  - label: HST DD 17253 (light curve)
+    url: https://www.stsci.edu/hst-program-info/program/?program=17253
+  - label: JWST DD 2767 (spectroscopy)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=2767
 notes: |-
-  Type Ia supernova in a galaxy at z = 1.522 that RX J2129.7+0005 lenses into multiple
-  images; it was seen in the last-arriving image. JWST/NIRSpec spectroscopy confirmed the
-  type, and the magnification of that image (about 5) was measured from the light curve
-  and compared with six lens models (Dhanasingham et al. 2026). First reported in a TNS
-  AstroNote.
+  Type Ia supernova in a galaxy at z = 1.522 that RX J2129.7+0005 lenses into three
+  images; it was seen in the last-arriving image, with the other two predicted to have
+  passed roughly 320 and 1000 days earlier. JWST/NIRSpec spectroscopy confirmed the type,
+  and the magnification of the observed image (about 5) was measured from the light curve
+  and compared with six lens models
+  ([Dhanasingham et al. 2026](ref:2026ApJ..1008..230D)).

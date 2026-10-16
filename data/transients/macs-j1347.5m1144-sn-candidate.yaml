@@ -1,0 +1,17 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: MACS J1347.5-1144 SN candidate
+class: supernova
+status: candidate
+cluster: macs-j1347.5m1144
+z: 1.76
+discovered: 2022
+refs: [2022ATel15463....1K]
+links:
+  - label: HST DD 17228 (light curve and grism spectroscopy)
+    url: https://www.stsci.edu/hst-program-info/program/?program=17228
+notes: |-
+  Candidate young supernova found in May 2022 HST imaging, in a galaxy at z = 1.76 that the
+  cluster lenses into multiple images (magnification about 4 for the observed image). It
+  may reappear about 9.5 years later in a more strongly magnified arc of the same galaxy
+  ([Kelly et al. 2022](ref:2022ATel15463....1K)).

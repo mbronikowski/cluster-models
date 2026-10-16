@@ -1,0 +1,20 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Athena
+class: supernova
+subclass: core-collapse
+status: confirmed
+cluster: macs-j0417.5m1154
+z: 0.87
+discovered: 2025
+links:
+  - label: JWST DD 12781 (monitoring for the reappearance)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=12781
+  - label: HST DD 18470 (monitoring for the reappearance)
+    url: https://www.stsci.edu/hst-program-info/program/?program=18470
+notes: |-
+  Core-collapse supernova found in VENUS JWST imaging in October 2025, in the quintuply
+  imaged "question mark" galaxy (z = 0.87). It was caught as the second of three images;
+  three lens models predict the next image a few arcseconds away between August 2026 and
+  March 2027, and joint JWST and HST DD programs are monitoring for it. No paper yet;
+  details from the public DD proposals.
