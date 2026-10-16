@@ -20,11 +20,11 @@ image:
 
 models:
   - title: Limousin et al. (2025)
-    refs: [2025arXiv250616034L]
+    refs: [2025A&A...703A..10L]
     data: [JWST]
     availability: public
     note: |-
-      [Limousin et al. (2025)](ref:2025arXiv250616034L) modeled the cluster using JWST data.
+      [Limousin et al. (2025)](ref:2025A&A...703A..10L) modeled the cluster using JWST data.
       The model is available on the
       [LAM Strong Lensing Cluster Atlas Database](https://data.lam.fr/sl-cluster-atlas/home)
       under

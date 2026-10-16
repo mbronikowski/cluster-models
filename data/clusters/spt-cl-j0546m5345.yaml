@@ -11,11 +11,11 @@ programs: [slice]
 models:
   - title: 'SLICE: Allingham et al. (2025)'
     program: slice
-    refs: [2025arXiv250708949A]
+    refs: [2025ApJ...990L..25A]
     data: [JWST]
     availability: public
     note: |-
-      [Allingham et al. (2025)](ref:2025arXiv250708949A) present a gravitational lensing
+      [Allingham et al. (2025)](ref:2025ApJ...990L..25A) present a gravitational lensing
       model of the galaxy cluster. The model is publicly available for download from
       [Zenodo](https://zenodo.org/records/16534337) or
       [Dropbox](https://www.dropbox.com/scl/fo/8fic6htci3ena7dxd3c4f/ALEwQayC-JZJFfeaXjPokkg?rlkey=5ne3rx9k0j90wvb577py1o0u8&st=11gqzcqt&dl=0).

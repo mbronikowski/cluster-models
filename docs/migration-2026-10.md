@@ -198,9 +198,8 @@ for Abell 1869` to `Abell 1689` on the Abell 1689 page.
   the XXL catalogue.
 - MACS J0358.8-2955 (0.425): SLICE and the MCXC use 0.425; Hsu et al. (2013) measured 0.428.
 
-**Positions 1-2' from the BCG.** Abell 1835 (1.1' north of the BCG at 14:01:02.1
-+02:52:42) and Abell 773 (1.5' from the BCG at 09:17:53.4 +51:43:37) are probably NED
-catalogue positions too. Moving them to the BCG would match the corrections above.
+**Positions 1-2' from the BCG.** Abell 1835 and Abell 773 were left at first; they were
+moved after launch (see "Follow-up corrections" below).
 
 **Names that SIMBAD, NED and VizieR do not resolve (48).** 33 are SGAS names such as
 `SDSS J0004-0103`, which name lens systems rather than catalogue entries. The rest are
@@ -221,9 +220,9 @@ supplementary list (`Abell S1063`, `ACO S 1063`) is numbered separately.
 
 ## Preprints that have since been published
 
-`tools/check_preprints.py` lists arXiv references that now have a journal reference. These
-six are still cited by their arXiv identifier. The ADS links keep working, but you may want
-to switch to the journal bibcodes:
+`tools/check_preprints.py` lists arXiv references that now have a journal reference. At the
+migration these six were still cited by their arXiv identifier; they were switched to the
+journal versions after launch (see "Follow-up corrections" below):
 
 | Reference | Published |
 |---|---|
@@ -234,13 +233,52 @@ to switch to the journal bibcodes:
 | Suyu et al. (2025), `arXiv:2509.12319` | A&A 708, A291 (2026) |
 | Mistele & Durakovic (2024), `2024arXiv240807026M` | The Open Journal of Astrophysics, doi:10.33232/001c.127612 |
 
+## Follow-up corrections (16 October 2026)
+
+A second cross-check after launch compared every position with the cluster centres in the
+CLASH overview (Postman et al. 2012), the MUSE lensing atlas (Richard et al. 2021), the
+SLICE lens models (Cerny et al. 2026) and the RELICS overview (Coe et al. 2019), and with
+the BCG-based catalogues (redMaPPer, WHL) that SIMBAD cross-identifies.
+
+**Positions moved to the BCG or the strong-lensing core.**
+
+| Cluster | Was | Now | Shift | Source |
+|---|---|---|---|---|
+| Abell 1835 | 14:01:02.28 +02:53:48.4 | 14:01:02.07 +02:52:43.2 | 1.1' | BCG (SIMBAD; WHL J140102.1+025242) |
+| Abell 773 | 09:17:59.40 +51:42:23.00 | 09:17:53.4 +51:43:37.5 | 1.6' | BCG (redMaPPer, WHL); the old value was NED's position for ZwCl 0914.5+5156 |
+| SMACS J2031.8-4036 | 20:31:47.84 -40:36:54.76 | 20:31:53.26 -40:37:30.8 | 1.2' | BCG, the reference position of the MUSE-atlas and SLICE models |
+| MACS J0138.0-2155 | 01:38:00.0 -21:55:00 | 01:38:03.77 -21:55:31.7 | 1.0' | BCG (Ertl et al. 2025); the old value was the catalogue name written out |
+| Abell 611 | 08:00:58.68 +36:02:48.80 | 08:00:56.83 +36:03:24.1 | 0.7' | CLASH centre; redMaPPer and WHL agree |
+| MACS J1347.5-1144 | 13:47:32.00 -11:45:42.0 | 13:47:30.59 -11:45:10.1 | 0.6' | CLASH centre; the MUSE atlas agrees within 1'' |
+| MACS J1931.8-2635 | 19:31:48.00 -26:35:00.00 | 19:31:49.66 -26:34:34.0 | 0.6' | CLASH centre; SIMBAD agrees |
+| RXC J0600.1-2007 | 06:00:16.97 -20:06:16.1 | 06:00:08.17 -20:08:08.85 | 2.8' | the southern core studied by RELICS and ALCS, at the "South BCG" of Furtak et al. (2024); the old position was in the north-eastern structure they found (explained on the page) |
+
+Left alone: 1E 0657-56, RX J0152.7-1357 and the Frontier Fields clusters, whose positions
+lie between sub-clusters or at the centre used by the lens models, and eMACS J1341.9-2442,
+whose position comes from its catalogue name but for which no published centre was found.
+
+**References.** Nine preprints were replaced by their journal versions: the six above, and
+Price et al. (2025, `2025ApJ...982...51P`), Smith et al. (2025, `2025ApJ...991..142S`) and
+Cho et al. (2026, `2026ApJ..1005...28C`). Labels follow the publication year, so
+`Cerny et al. (2025)` is now `Cerny et al. (2026)`, as are Suyu, Cho and (2024 to 2025)
+Price, and the model titles and page anchors changed with them. Mistele & Durakovic (2024)
+has no ADS bibcode in SIMBAD yet and is cited by its DOI.
+
+**Other changes.** The Zitrin et al. (2020) model of Abell 1489 is now `defunct`: its
+download page has been offline since 2024 and the model files were not archived; the same
+release's images and catalogues are still online and linked. Abell 1758a gained the common
+name Abell 1758N, and RXC J0600.1-2007 the nickname Anglerfish Cluster (Furtak et al. 2024).
+
+**Checked, nothing to change.** Model titles agree with their reference labels; the
+remaining redshift differences with SIMBAD are those discussed above; six RELICS clusters
+are absent because RELICS published no lens models for them.
+
 ## Open items
 
 - **Availability.** 118 models are `unknown`, because the wiki only says "the cluster was
   modelled by ...". Filling these in is the most useful clean-up.
-- **Links.** The first full link check (October 2026) found one dead model link: the
-  Zitrin et al. (2020) model of Abell 1489 at `stsci.edu/~koekemoer/zitrin/RMJ1212`
-  returns 404, as does the rest of that directory. The GLASS-JWST website's TLS
+- **Links.** The first full link check (October 2026) found one dead model link (Abell 1489,
+  now marked `defunct`). The GLASS-JWST website's TLS
   certificate has expired, and the glafic page at SLAC fails certificate checks in
   scripts. The LAM Strong Lensing Cluster Atlas and the Lenstool wiki refuse automated
   requests, so the checker cannot confirm them. The two FTP links (Abell 1722,

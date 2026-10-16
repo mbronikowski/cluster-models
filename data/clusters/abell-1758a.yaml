@@ -1,6 +1,7 @@
 # One file per cluster. Field reference: docs/data-format.md
 
 name: Abell 1758a
+common_names: [Abell 1758N]
 designations:
   - ZwCl 1330.4+5047
   - RX J1332.7+5033

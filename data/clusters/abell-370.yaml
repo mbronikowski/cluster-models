@@ -22,11 +22,11 @@ image:
 
 models:
   - title: Diego et al. (2025)
-    refs: [2025arXiv250611207D]
+    refs: [2025A&A...703A.207D]
     data: [JWST]
     availability: unknown
     note: |-
-      [Diego et al. (2025)](ref:2025arXiv250611207D) present a strong lensing mass model of
+      [Diego et al. (2025)](ref:2025A&A...703A.207D) present a strong lensing mass model of
       the galaxy cluster.
   - title: 'CANUCS: Gledhill et al. (2024)'
     program: canucs

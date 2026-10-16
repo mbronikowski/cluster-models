@@ -5,8 +5,8 @@ class: supernova
 subclass: Ia (likely)
 status: confirmed
 cluster: macs-j0138.0m2155
-refs: [2021NatAs...5.1118R, arXiv:2509.12319]
+refs: [2021NatAs...5.1118R, 2026A&A...708A.291S]
 notes: |-
   Multiply-imaged supernova in the galaxy MRG-M0138, which later also hosted
   [SN Encore](transient:sn-encore). Forecasts of its reappearance:
-  [Suyu et al. (2025)](ref:arXiv:2509.12319).
+  [Suyu et al. (2026)](ref:2026A&A...708A.291S).

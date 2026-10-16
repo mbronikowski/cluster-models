@@ -1,18 +1,18 @@
 # One file per cluster. Field reference: docs/data-format.md
 
 name: MACS J0138.0-2155
-ra: "01:38:00.0"
-dec: "-21:55:00"
+ra: "01:38:03.77"
+dec: "-21:55:31.7"
 z: 0.338
 
 models:
-  - title: Suyu et al. (2025)
-    refs: [arXiv:2509.12319]
+  - title: Suyu et al. (2026)
+    refs: [2026A&A...708A.291S]
     data: [JWST]
     availability: unknown
     tags: [time-delay-cosmography, multiple-models]
     note: |-
-      [Suyu et al. (2025)](ref:arXiv:2509.12319) presented strong lensing analysis of the
+      [Suyu et al. (2026)](ref:2026A&A...708A.291S) presented strong lensing analysis of the
       cluster with seven modeling approaches using six different software. They present a
       time-delay cosmography measurement of H0 with supernova Encore along with
       [Pierel et al. (2025)](ref:2025arXiv250912301P), as well as forecasts for the

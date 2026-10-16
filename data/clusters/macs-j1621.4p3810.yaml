@@ -11,9 +11,9 @@ z: 0.463
 programs: [slice]
 
 models:
-  - title: 'SLICE: Cerny et al. (2025)'
+  - title: 'SLICE: Cerny et al. (2026)'
     program: slice
-    refs: [2025arXiv250317498C]
+    refs: [2026ApJ..1001...60C]
     data: [JWST]
     availability: upcoming
     note: |-

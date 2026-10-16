@@ -1,12 +1,13 @@
 # One file per cluster. Field reference: docs/data-format.md
 
 name: RXC J0600.1-2007
+common_names: [Anglerfish Cluster]
 aka: [MACS J0600.1-2008]
 designations:
   - PSZ1 G225.91-19.98
   - SPT-CL J0600-2007
-ra: "06:00:16.97"
-dec: "-20:06:16.1"
+ra: "06:00:08.17"
+dec: "-20:08:08.85"
 z: 0.46
 programs: [relics, venus, alcs]
 
@@ -33,3 +34,10 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/rxc0600m20/models/
+
+notes: |-
+  The position is the core studied by RELICS and the ALMA Lensing Cluster Survey, at the
+  galaxy [Furtak et al. (2024)](ref:2024MNRAS.533.2242F) call the South BCG. Their model
+  adds a second strong-lensing structure about 2.5-3' to the north-east, around the galaxies
+  they label BCG1 and BCG2 (the position used until October 2026), and they nickname the
+  system the Anglerfish cluster.

@@ -119,7 +119,7 @@
   short: SLICE
   kind: survey
   facilities: [JWST]
-  overview: 2025arXiv250317498C
+  overview: 2026ApJ..1001...60C
   note: |-
     JWST snapshot survey of strong-lensing clusters; models are being released on the
     [LAM Strong Lensing Cluster Atlas](program:lam-atlas).

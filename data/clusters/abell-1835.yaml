@@ -4,18 +4,18 @@ name: Abell 1835
 designations:
   - ACT-CL J1401.0+0252
   - MCXC J1401.0+0252
-ra: "14:01:02.28"
-dec: "+02:53:48.4"
+ra: "14:01:02.07"
+dec: "+02:52:43.2"
 z: 0.252
 programs: [locuss, venus]
 
 models:
   - title: Mistele & Durakovic (2024)
-    refs: [2024arXiv240807026M]
+    refs: [doi:10.33232/001c.127612]
     availability: unknown
     tags: [weak-lensing, method-test]
     note: |-
-      [Mistele & Durakovic (2024)](ref:2024arXiv240807026M) created a model of Abell 1835
+      [Mistele & Durakovic (2024)](ref:doi:10.33232/001c.127612) created a model of Abell 1835
       and Abell 2744 as part of their tests of their new non-parametric method to infer
       galaxy cluster masses from weak lensing, which is the main focus of the paper.
   - title: Morandi et al. (2012)
