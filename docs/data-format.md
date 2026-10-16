@@ -161,7 +161,8 @@ notes: |-
   Markdown.
 ```
 
-The lensing cluster's page lists its transients automatically. Sources with `images: single`
+Only transients lensed by a cluster (or group) in the catalogue belong here; sources lensed by
+single galaxies are out of scope. The lensing cluster's page lists its transients automatically. Sources with `images: single`
 are listed separately on the transients page and marked with a dashed tag on the cluster list.
 
 ## Programs (`data/programs.yaml`)
