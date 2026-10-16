@@ -24,10 +24,11 @@ models:
     note: |-
       [Abriola et al. (2025)](ref:2025A&A...704A.338A) created a parametric lens model of
       the cluster using Euclid Early Release Observations data.
-  - title: 'MUSE: Thai et al. (2023)'
+  - title: Thai et al. (2023)
     program: muse-lensing
     refs: [2023A&A...678A.139T]
     data: [HST, MUSE]
+    software: Lenstool
     availability: public
     links:
       - label: Mass model

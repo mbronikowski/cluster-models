@@ -21,9 +21,11 @@ models:
     program: relics
     data: [HST]
     availability: public
+    tags: [multiple-models]
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/abell3192/models/
+    note: MAST provides models made with glafic and Lenstool.
   - title: Hsu et al. (2013)
     refs: [2013MNRAS.429..833H]
     availability: unknown

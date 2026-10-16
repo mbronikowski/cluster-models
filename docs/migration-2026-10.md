@@ -272,8 +272,9 @@ release's images and catalogues are still online and linked. Abell 1758a gained 
 name Abell 1758N, and RXC J0600.1-2007 the nickname Anglerfish Cluster (Furtak et al. 2024).
 
 **Checked, nothing to change.** Model titles agree with their reference labels; the
-remaining redshift differences with SIMBAD are those discussed above; six RELICS clusters
-are absent because RELICS published no lens models for them.
+remaining redshift differences with SIMBAD are those discussed above; seven RELICS clusters
+(Abell 520, Abell 665, Abell 1300, PLCK G138.61-10.84, PLCK G308.3-20.2, RXC J1514.9-1523,
+SPT-CL J0254-5857) are absent because RELICS published no lens models for them.
 
 **Later fixes (16 October 2026).** SN 2022riv was attached to MACS J2129.4-0741; it is
 behind RX J2129.7+0005 (Dhanasingham et al. 2026) and moved there. The Abell S1077 (AC 114)
@@ -286,6 +287,16 @@ Table 1 of Fujimoto et al. (2024), not only RXC J0600.1-2007.
 suffixes (e.g. `Zitrin et al. (2011a)`), and model titles and anchors changed with them.
 The lensed-AGN entries were renamed from "... quasar" to "... AGN", so their pages moved
 (e.g. `transients/sdss-j1004p4112-agn.html`).
+
+**MUSE release and RELICS (16 October 2026).** Both were checked against their sources.
+The MUSE release page lists 19 clusters; the Abell S1063 model there had been credited to
+Richard et al. (2021), but that atlas does not include the cluster, and Thai et al. (2023)
+credit the model to Beauchesne et al. (2024). MACS J0600.1-2008 (RXC J0600.1-2007) was
+missing from the release membership; its model directory is empty. The RELICS entries were
+compared with the MAST lens-model README and directories: the El Gordo entry cited Diego et
+al. (2020), a separate WSLAP+ model, instead of Cerny et al. (2018), and the two are now
+separate entries. Every RELICS entry now says which codes MAST provides models for, and the
+WHL 0137 models cite Welch et al. (2022), where they are described.
 
 ## Open items
 

@@ -14,7 +14,9 @@ models:
   - title: RELICS
     program: relics
     data: [HST]
+    software: Lenstool
     availability: public
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/plckg209p10/models/
+    note: MAST provides models made with Lenstool.

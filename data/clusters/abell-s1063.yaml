@@ -39,15 +39,19 @@ models:
     note: |-
       [Limousin et al. (2022)](ref:2022A&A...664A..90L) developed a parametric model, which
       revisits the [Bergamini et al. (2019)](#bergamini-et-al-2019) model.
-  - title: Richard et al. (2021)
+  - title: MUSE data release
     program: muse-lensing
-    refs: [2021A&A...646A..83R]
+    refs: [2024MNRAS.527.3246B, 2023A&A...678A.139T]
     data: [HST, MUSE]
+    software: Lenstool
     availability: public
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/AS1063/
-    note: Pre-_JWST_ model.
+    note: |-
+      Pre-_JWST_ model. The cluster is not part of the [Richard et al. (2021)](ref:2021A&A...646A..83R)
+      atlas: [Thai et al. (2023)](ref:2023A&A...678A.139T) credit this model to
+      [Beauchesne et al. (2024)](ref:2024MNRAS.527.3246B).
   - title: Bergamini et al. (2019)
     refs: [2019A&A...631A.130B]
     data: [HST, MUSE]
