@@ -5,7 +5,16 @@ class: supernova
 subclass: Ia
 status: confirmed
 cluster: plck-g165.7p67.0
-refs: [2024ApJ...961..171F]
+ra: "11:27:15.31"
+dec: "+42:28:40.7"
+z: 1.783
+discovered: 2023
+refs: [2024ApJ...961..171F, 2023A&A...675L...4P, 2024ApJ...967...50P, 2024ApJ...970..102C, 2025ApJ...979...13P, 2026A&A...708A.359G, 2026ApJ..1002..187A, 2026MNRAS.548g.340G]
+links:
+  - label: JWST DD 4446 (follow-up of the discovery)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=4446
 notes: |-
-  Triply-imaged Type Ia supernova discovered in JWST imaging
-  ([Frye et al. 2024](ref:2024ApJ...961..171F)).
+  Triply-imaged Type Ia supernova discovered in JWST imaging in March 2023
+  ([Frye et al. 2024](ref:2024ApJ...961..171F)). Its time delays
+  ([Pierel et al. 2024](ref:2024ApJ...967...50P)) gave the first H0 from a multiply-imaged
+  SN Ia ([Pascale et al. 2025](ref:2025ApJ...979...13P)). Position: image 2a.

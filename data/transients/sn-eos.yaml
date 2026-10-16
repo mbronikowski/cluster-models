@@ -2,12 +2,23 @@
 
 name: SN Eos
 class: supernova
-subclass: II
+subclass: IIP
 status: confirmed
 cluster: macs-j1931.8m2635
-z: 5.13
-refs: [2026arXiv260104156C, 2026ApJ..1005..215A]
+ra: "19:31:49.22"
+dec: "-26:34:29.5"
+z: 5.133
+discovered: 2025
+refs: [2026arXiv260104156C, 2026ApJ..1005..215A, arXiv:2607.14355]
+links:
+  - label: JWST DD 9493 (spectroscopy)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=9493
+  - label: JWST GO 12299 (Cycle 5 follow-up)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=12299
 notes: |-
-  Spectroscopically confirmed, multiply-imaged supernova at z = 5.13
-  ([Coulter et al. 2026](ref:2026arXiv260104156C)); the VENUS lens model of
-  [Allingham et al. (2026)](ref:2026ApJ..1005..215A) accompanies the discovery.
+  Spectroscopically confirmed, metal-poor Type II supernova at z = 5.13, found in VENUS
+  JWST imaging in September 2025 ([Coulter et al. 2026](ref:2026arXiv260104156C)). The
+  VENUS lens model of [Allingham et al. (2026)](ref:2026ApJ..1005..215A) predicts five
+  images; the observed radial pair is magnified 25-30 times with a delay of under five
+  days. Its ultra-faint host is studied by
+  [Asada et al. (2026)](ref:arXiv:2607.14355). Position: image 1.

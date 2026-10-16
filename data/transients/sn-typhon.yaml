@@ -1,0 +1,18 @@
+# Lensed transient / variable source. Field reference: docs/data-format.md
+
+name: SN Typhon
+class: supernova
+status: confirmed
+cluster: abell-370
+ra: "02:39:52.08"
+dec: "-01:35:50.5"
+links:
+  - label: JWST DD 12503 (spectroscopy)
+    url: https://www.stsci.edu/jwst-program-info/program/?program=12503
+notes: |-
+  Triply-imaged supernova behind Abell 370. Archival HST and JWST imaging covers its
+  light curve from 1 to 500 observer-frame days after explosion (2024); the brightest
+  image is magnified about 20 times. A DD spectrum was requested for its redshift and type,
+  which the H0 measurement needs. Not the same object as the
+  [archival supernova](transient:abell-370-archival-sn) of Chen et al. (2022). No paper
+  yet; details from the public DD proposal. Position: the brightest image.

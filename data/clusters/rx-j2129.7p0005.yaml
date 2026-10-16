@@ -20,7 +20,7 @@ programs: [clash, clash-vlt, venus, alcs]
 
 models:
   - title: Dhanasingham et al. (2026)
-    refs: [arXiv:2604.11882]
+    refs: [2026ApJ..1008..230D]
     data: [JWST, HST]
     availability: public
     tags: [multiple-models]

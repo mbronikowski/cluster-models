@@ -2,9 +2,23 @@
 
 name: SN Refsdal
 class: supernova
+subclass: II (SN 1987A-like)
 status: confirmed
 cluster: macs-j1149.5p2223
-refs: [2015Sci...347.1123K, 2016ApJ...822...78G, 2021ApJ...919...54Z]
+ra: "11:49:36.01"
+dec: "+22:23:48.1"
+z: 1.49
+discovered: 2014
+refs: [2015Sci...347.1123K, 2014ATel.6729....1K, 2015ApJ...800L..26S, 2015MNRAS.449L..86O, 2015ApJ...804L..14Y, 2015ATel.8402....1K, 2016A&A...585A..27K, 2016ApJ...817...60T, 2016ApJ...819..114K, 2016ApJ...819L...8K, 2016ApJ...820...50R, 2016ApJ...822...78G, 2016ApJ...831..205K, 2016MNRAS.456..356D, 2016MNRAS.457.2029J, 2018ApJ...853L..31V, 2018ApJ...860...94G, 2018MNRAS.476..804D, 2019MNRAS.482.5666W, 2020ApJ...898...87G, 2020MNRAS.494.3253L, 2020RNAAS...4..215C, 2021ApJ...907...35B, 2021ApJ...919...54Z, 2023ApJ...948...93K, 2023Sci...380.1322K, 2024A&A...684L..23G, 2024A&A...689A..42S, 2024ApJ...966..121L, 2026A&A...707A.370S]
+links:
+  - label: HST DD 14041 (follow-up of the discovery)
+    url: https://www.stsci.edu/hst-program-info/program/?program=14041
 notes: |-
-  Multiply-imaged supernova behind MACS J1149.5+2223, the first one discovered
-  ([Kelly et al. 2015](ref:2015Sci...347.1123K)).
+  The first multiply-imaged supernova, found in 2014 as an Einstein cross of four images
+  around a cluster member galaxy ([Kelly et al. 2015](ref:2015Sci...347.1123K)). Lens
+  models predicted a further image about a year later
+  ([Treu et al. 2016](ref:2016ApJ...817...60T)), which appeared in December 2015
+  ([Kelly et al. 2016a](ref:2016ApJ...819L...8K)). Its time delays gave the first H0
+  measurement from a lensed supernova ([Kelly et al. 2023b](ref:2023Sci...380.1322K);
+  [Grillo et al. 2024](ref:2024A&A...684L..23G)). The references are papers centred on the
+  supernova, its host or the lens models it tested.
