@@ -6,8 +6,8 @@ designations:
   - LCDCS 0829
   - RBS 1316
   - PSZ1 G324.05+48.79
-ra: "13:47:32.00"
-dec: "-11:45:42.0"
+ra: "13:47:30.59"
+dec: "-11:45:10.1"
 z: 0.45
 programs: [clash, clash-vlt, venus, muse-lensing]
 

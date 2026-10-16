@@ -29,7 +29,7 @@ models:
         url: https://www.fe.infn.it/astro/lensing/A2744_Bergamini23/
   - title: 'UNCOVER: Furtak et al. (2023)'
     program: uncover
-    refs: [2023MNRAS.523.4568F, 2024arXiv240803920P]
+    refs: [2023MNRAS.523.4568F, 2025ApJ...982...51P]
     data: [JWST]
     availability: public
     links:
@@ -39,7 +39,7 @@ models:
         url: https://drive.google.com/drive/folders/1Lc7uveJr_ZNIcvAQYVfAeRF8Qr68D_5p
     note: |-
       Please cite [Furtak et al. (2023)](ref:2023MNRAS.523.4568F) and
-      [Price et al. (2024)](ref:2024arXiv240803920P) when using this model.
+      [Price et al. (2025)](ref:2025ApJ...982...51P) when using this model.
   - title: Bergamini et al. (2023)
     refs: [2023A&A...670A..60B]
     availability: public
@@ -86,10 +86,10 @@ models:
       Models from several independent teams; see the [HFF program page](program:hff) for
       credits and acknowledgement requirements.
   - title: Mistele & Durakovic (2024)
-    refs: [2024arXiv240807026M]
+    refs: [doi:10.33232/001c.127612]
     availability: unknown
     tags: [weak-lensing, method-test]
     note: |-
-      [Mistele & Durakovic (2024)](ref:2024arXiv240807026M) created a model of Abell 1835
+      [Mistele & Durakovic (2024)](ref:doi:10.33232/001c.127612) created a model of Abell 1835
       and Abell 2744 as part of their tests of their new non-parametric method to infer
       galaxy cluster masses from weak lensing, which is the main focus of the paper.

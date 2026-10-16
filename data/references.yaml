@@ -409,9 +409,6 @@
   label: Sharon et al. (2022)
   title: 'The Cosmic Telescope That Lenses the Sunburst Arc, PSZ1 G311.65-18.48: Strong Gravitational Lensing Model and Source Plane Analysis'
   doi: 10.3847/1538-4357/ac927a
-2022arXiv220705709S:
-  label: Sharon et al. (2022)
-  title: HST-Based Lens Model of SDSS J1226+2152, in Preparation for JWST-ERS TEMPLATES
 2022Natur.611..256C:
   label: Chen et al. (2022)
   title: Shock cooling of a red-supergiant supernova at redshift 3 in lensed images
@@ -422,6 +419,9 @@
   doi: 10.1088/1538-3873/ac5158
 2022TNSAN.169....1K:
   label: TNS AstroNote 2022-169
+2022arXiv220705709S:
+  label: Sharon et al. (2022)
+  title: HST-Based Lens Model of SDSS J1226+2152, in Preparation for JWST-ERS TEMPLATES
 2023A&A...670A..60B:
   label: Bergamini et al. (2023)
   title: New high-precision strong lensing modeling of Abell 2744 Preparing for JWST observations
@@ -520,13 +520,6 @@
   label: Fujimoto et al. (2024)
   title: 'ALMA Lensing Cluster Survey: Deep 1.2 mm Number Counts and Infrared Luminosity Functions at z ≃ 1-8'
   doi: 10.3847/1538-4365/ad5ae2
-2024arXiv240803920P:
-  label: Price et al. (2024)
-  title: 'The UNCOVER Survey: First Release of Ultradeep JWST/NIRSpec PRISM spectra for ~700 galaxies from z~0.3-13 in Abell 2744'
-2024arXiv240807026M:
-  label: Mistele & Durakovic (2024)
-  title: A new non-parametric method to infer galaxy cluster masses from weak lensing
-  doi: 10.33232/001c.127612
 2024MNRAS.527.2639P:
   label: Perera et al. (2024)
   title: 'Free-form and hybrid lens models for SDSS J1004+4112: substructure and central image time delay constraints'
@@ -555,6 +548,14 @@
   label: Acebron et al. (2025)
   title: Enhanced strong-lensing model of MACS J0138.0-2155 based on new JWST and VLT/MUSE observations
   doi: 10.1051/0004-6361/202554468
+2025A&A...703A..10L:
+  label: Limousin et al. (2025)
+  title: Testing Light Unaffiliated Mass Clumps in MACS 0416 on galaxy and galaxy cluster scales using JWST
+  doi: 10.1051/0004-6361/202556007
+2025A&A...703A.207D:
+  label: Diego et al. (2025)
+  title: 'JWST lens model for A370: A very low dark matter fraction for a brightest cluster galaxy and lensing properties for the Dragon arc'
+  doi: 10.1051/0004-6361/202556062
 2025A&A...704A.338A:
   label: Abriola et al. (2025)
   title: Parametric strong lensing model of the galaxy cluster Abell 2390 from Euclid and MUSE observations
@@ -563,45 +564,20 @@
   label: Mahler et al. (2025)
   title: Strong-lensing Analysis of SPT-CL J2325-4111 and SPT-CL J0049-2440, Two Powerful Cosmic Telescopes (R_E_ > 40") from the SPT Clusters Sample
   doi: 10.3847/1538-4357/ad9aa5
+2025ApJ...982...51P:
+  label: Price et al. (2025)
+  title: 'The UNCOVER Survey: First Release of Ultradeep JWST/NIRSpec PRISM spectra for ~700 galaxies from z~0.3-13 in Abell 2744'
+2025ApJ...990L..25A:
+  label: Allingham et al. (2025)
+  title: 'SLICE: SPT-CL J0546-5345 -- A prominent strong-lensing cluster at z=1.07'
+  doi: 10.3847/2041-8213/adfa85
+2025ApJ...991..142S:
+  label: Smith et al. (2025)
+  title: 'The z=1.03 Merging Cluster SPT-CL J0356-5337: New Strong Lensing Analysis with HST and MUSE'
 2025ApJ...994L..35F:
   label: Finner et al. (2025)
   title: 'JWST Discovery of Strong Lensing from a Galaxy Cluster at Cosmic Noon: Giant Arcs and a Highly Concentrated Core of XLSSC 122'
   doi: 10.3847/2041-8213/ae1d80
-2025arXiv250317498C:
-  label: Cerny et al. (2025)
-  title: 'Strong LensIng and Cluster Evolution (SLICE) with JWST: Early Results, Lens Models, and High-Redshift Detections'
-  doi: 10.3847/1538-4357/ae41b0
-  published: The Astrophysical Journal, 2026, Volume 1001, Number 1, Page 60
-2025arXiv250611207D:
-  label: Diego et al. (2025)
-  title: 'JWST lens model for A370: A very low dark matter fraction for a brightest cluster galaxy and lensing properties for the Dragon arc'
-  doi: 10.1051/0004-6361/202556062
-  published: A&A 703, A207 (2025)
-2025arXiv250616034L:
-  label: Limousin et al. (2025)
-  title: Testing Light Unaffiliated Mass Clumps in MACS 0416 on galaxy and galaxy cluster scales using JWST
-  doi: 10.1051/0004-6361/202556007
-  published: A&A 703, A10 (2025)
-2025arXiv250707404S:
-  label: Smith et al. (2025)
-  title: 'The z=1.03 Merging Cluster SPT-CL J0356-5337: New Strong Lensing Analysis with HST and MUSE'
-2025arXiv250708949A:
-  label: Allingham et al. (2025)
-  title: 'SLICE: SPT-CL J0546-5345 -- A prominent strong-lensing cluster at z=1.07'
-  doi: 10.3847/2041-8213/adfa85
-  published: ApJL 990, 1 (2025)
-2025arXiv250912301P:
-  label: Pierel et al. (2025)
-  title: 'Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Time delays & Hubble constant measurement'
-2025arXiv251012097R:
-  label: Roberson et al. (2025)
-  title: Using gravitational lensing to probe for bright quintessential galaxies in the Epoch of Reionization
-2025arXiv251114483N:
-  label: Nakane et al. (2025)
-  title: 'VENUS: A Strongly Lensed Clumpy Galaxy at z~11-12 behind the Galaxy Cluster MACS J0257.1-2325'
-2025arXiv251203150C:
-  label: Cho et al. (2025)
-  title: Joint JWST-DECam Lensing Reveals That the Bullet Cluster Is a Minor Merger
 2025MNRAS.536.2690P:
   label: Perera et al. (2025)
   title: 'BUFFALO wild wings: a high-precision free-form lens model of MACSJ0416 with constraints on dark matter from substructure and highly magnified arcs'
@@ -612,6 +588,19 @@
   label: Smith et al. (2025)
   title: A Strong Gravitational Lensing Model of PSZ2 G118.46+39.32
   doi: 10.3847/2515-5172/ae1c45
+2025arXiv250912301P:
+  label: Pierel et al. (2025)
+  title: 'Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Time delays & Hubble constant measurement'
+2025arXiv251012097R:
+  label: Roberson et al. (2025)
+  title: Using gravitational lensing to probe for bright quintessential galaxies in the Epoch of Reionization
+2025arXiv251114483N:
+  label: Nakane et al. (2025)
+  title: 'VENUS: A Strongly Lensed Clumpy Galaxy at z~11-12 behind the Galaxy Cluster MACS J0257.1-2325'
+2026A&A...708A.291S:
+  label: Suyu et al. (2026)
+  title: 'Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Lens model comparison and H0 measurement'
+  doi: 10.1051/0004-6361/202557235
 2026A&A...710A.207R:
   label: Rihtaršič et al. (2026)
   title: Mapping dark matter in the Bullet Cluster using JWST imaging and spectroscopy
@@ -620,19 +609,25 @@
   label: Golubchik et al. (2026)
   title: 'VENUS: When red meets blue A multiply imaged little red dot with an apparent blue companion behind the galaxy cluster Abell 383'
   doi: 10.1051/0004-6361/202558407
+2026ApJ..1001...60C:
+  label: Cerny et al. (2026)
+  title: 'Strong LensIng and Cluster Evolution (SLICE) with JWST: Early Results, Lens Models, and High-Redshift Detections'
+  doi: 10.3847/1538-4357/ae41b0
+2026ApJ..1005...28C:
+  label: Cho et al. (2026)
+  title: Joint JWST-DECam Lensing Reveals That the Bullet Cluster Is a Minor Merger
 2026ApJ..1005..215A:
   label: Allingham et al. (2026)
   title: 'VENUS: Strong-lensing Model of MACS J1931.8-2635: Revealing the Farthest Multiply Imaged Supernova'
   doi: 10.3847/1538-4357/ae7a59
+2026MNRAS.550ag829B:
+  label: Beauchesne et al. (2026)
 2026arXiv260104156C:
   label: Coulter et al. (2026)
   title: A spectroscopically confirmed, strongly lensed, metal-poor Type II supernova at z = 5.13
-2026MNRAS.550ag829B:
-  label: Beauchesne et al. (2026)
-arXiv:2509.12319:
-  label: Suyu et al. (2025)
-  title: 'Cosmology with supernova Encore in the strong lensing cluster MACS J0138-2155: Lens model comparison and H0 measurement'
-  doi: 10.1051/0004-6361/202557235
-  published: A&A 708, A291 (2026)
 doi:10.1093/mnras/stu1623:
   label: MacKenzie et al. (2014)
+doi:10.33232/001c.127612:
+  label: Mistele & Durakovic (2024)
+  title: A new non-parametric method to infer galaxy cluster masses from weak lensing
+  doi: 10.33232/001c.127612

@@ -6,8 +6,8 @@ designations:
   - MCXC J0800.9+3602
   - PSZ1 0623
   - PSZ1 G184.70+28.92
-ra: "08:00:58.68"
-dec: "+36:02:48.80"
+ra: "08:00:56.83"
+dec: "+36:03:24.1"
 z: 0.286
 programs: [clash, locuss]
 

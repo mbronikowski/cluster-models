@@ -5,8 +5,8 @@ designations:
   - CDGS 17
   - ACT-CL J1931.8-2634
   - MCXC J1931.8-2634
-ra: "19:31:48.00"
-dec: "-26:35:00.00"
+ra: "19:31:49.66"
+dec: "-26:34:34.0"
 z: 0.352
 programs: [clash, clash-vlt, venus]
 

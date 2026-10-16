@@ -6,8 +6,8 @@ designations:
   - SDSS +139.5+51.7+0.24
   - RBS 0763
   - PLCKESZ G166.13+43.39
-ra: "09:17:59.40"
-dec: "+51:42:23.00"
+ra: "09:17:53.4"
+dec: "+51:43:37.5"
 z: 0.217
 programs: [locuss]
 
