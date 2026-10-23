@@ -22,4 +22,5 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/missions/hlsp/clash/clj1226/models/
-    note: CLASH website [here](https://www.stsci.edu/~postman/CLASH/for_astronomers.html).
+      - label: CLASH website
+        url: https://www.stsci.edu/~postman/CLASH/for_astronomers.html

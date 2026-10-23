@@ -17,9 +17,7 @@ models:
     refs: [2025OJAp....8E.123N]
     availability: unknown
     tags: [method-test]
-    note: |-
-      The cluster was modeled by [Nishida et al. (2025)](ref:2025OJAp....8E.123N) along with
-      a proposed method of validating cluster lens models.
+    note: Test case for a proposed method of validating cluster lens models.
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2013ApJ...762...32C, 2015ApJ...801...44Z]
@@ -31,4 +29,3 @@ models:
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).

@@ -10,6 +10,5 @@ models:
     refs: [2023ApJ...954L..38N]
     availability: unknown
     note: |-
-      [Napier et al. (2023a)](ref:2023ApJ...954L..38N) reported the discovery of the
-      gravitationally lensed quasar behind cluster and constructed a strong lensing model of
-      the cluster.
+      Discovery paper of the [lensed quasar](transient:cool-j0335m1927-agn) behind the
+      cluster.

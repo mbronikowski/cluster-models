@@ -12,6 +12,3 @@ models:
   - title: Oguri et al. (2012)
     refs: [2012MNRAS.420.3213O]
     availability: unknown
-    note: |-
-      The cluster's lensing properties were studied by
-      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).

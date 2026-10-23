@@ -19,10 +19,8 @@ models:
     data: [HST]
     availability: unknown
     note: |-
-      [Williams, Sebesta & Liesenborgs (2018)](ref:2018MNRAS.480.3140W) modeled the
-      gravitational lensing properties of the cluster and compared their findings to the
-      [Kawamata et al. (2016)](ref:2016ApJ...819..114K) model available on the
-      [Hubble Frontier Fields](#hubble-frontier-fields) website.
+      Compared with the [Kawamata et al. (2016)](ref:2016ApJ...819..114K) model from the
+      [Hubble Frontier Fields](#hubble-frontier-fields).
   - title: Hubble Frontier Fields
     program: hff
     data: [HST]
@@ -44,4 +42,3 @@ models:
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).

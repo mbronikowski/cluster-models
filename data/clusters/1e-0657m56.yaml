@@ -23,19 +23,16 @@ models:
     refs: [2026A&A...710A.207R]
     data: [JWST]
     availability: public
-    note: |-
-      [Rihtaršič et al. (2026)](ref:2026A&A...710A.207R) present a strong lensing model of
-      the cluster using JWST photometry and spectroscopy. The lens model is available for
-      download from the [CANUCS website](https://niriss.github.io/lensing.html) or the
-      [Strong Lensing Cluster Atlas Data Base](https://data.lam.fr/sl-cluster-atlas/home).
+    links:
+      - label: Model download (CANUCS)
+        url: https://niriss.github.io/lensing.html
+      - label: LAM Strong Lensing Cluster Atlas
+        url: https://data.lam.fr/sl-cluster-atlas/home
   - title: Cho et al. (2026)
     refs: [2026ApJ..1005...28C]
     data: [JWST]
     availability: unknown
     tags: [weak-lensing]
-    note: |-
-      [Cho et al. (2025, preprint)](ref:2026ApJ..1005...28C) present a joint strong+weak
-      lensing analysis of the cluster.
   - title: Richard et al. (2021)
     program: muse-lensing
     refs: [2021A&A...646A..83R]

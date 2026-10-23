@@ -18,8 +18,7 @@ models:
     data: [HST, Gemini]
     availability: defunct
     note: |-
-      The cluster was modeled by [Zitrin et al. (2020)](ref:2020ApJ...903..137Z) based on
-      _HST_ and Gemini North data. The download page given in the article
-      (`stsci.edu/~koekemoer/zitrin/RMJ1212`) has been offline since 2024, and its model
-      directory was not archived. The _HST_ images and catalogues of the same release are
-      still at [stsci.edu/~dcoe/zitrin/RMJ1212](https://www.stsci.edu/~dcoe/zitrin/RMJ1212/).
+      The download page given in the article (`stsci.edu/~koekemoer/zitrin/RMJ1212`) has
+      been offline since 2024, and its model directory was not archived. The _HST_ images
+      and catalogues of the same release are still at
+      [stsci.edu/~dcoe/zitrin/RMJ1212](https://www.stsci.edu/~dcoe/zitrin/RMJ1212/).

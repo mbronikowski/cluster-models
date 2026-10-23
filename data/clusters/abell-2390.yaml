@@ -21,9 +21,7 @@ models:
     data: [Euclid]
     availability: unknown
     tags: [parametric]
-    note: |-
-      [Abriola et al. (2025)](ref:2025A&A...704A.338A) created a parametric lens model of
-      the cluster using Euclid Early Release Observations data.
+    note: Based on the Euclid Early Release Observations.
   - title: Thai et al. (2023)
     program: muse-lensing
     refs: [2023A&A...678A.139T]
@@ -33,9 +31,8 @@ models:
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2390/
-    note: |-
-      Also listed in the
-      [SL Cluster Atlas Database](https://data.lam.fr/sl-cluster-atlas/home).
+      - label: 'See also: LAM Strong Lensing Cluster Atlas'
+        url: https://data.lam.fr/sl-cluster-atlas/home
   - title: LoCuSS
     program: locuss
     refs: [2010MNRAS.404..325R]

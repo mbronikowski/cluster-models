@@ -12,6 +12,4 @@ models:
     refs: [2026ApJ..1009...24R]
     availability: unknown
     tags: [preliminary]
-    note: |-
-      [Roberson et al. (2026)](ref:2026ApJ..1009...24R) created a tentative lensing model of
-      the cluster; they note that the model is underconstrained and severely limited.
+    note: The authors call the model underconstrained and severely limited.

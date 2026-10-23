@@ -10,6 +10,5 @@ models:
     refs: [2018MNRAS.481L.136S]
     availability: unknown
     note: |-
-      [Shu et al. (2018)](ref:2018MNRAS.481L.136S) describe the discovery of the
-      cluster-lensed quasar SDSS J0909+4449, as well as describe a simple lens model which
-      shows the lens mass distribution.
+      Discovery paper of the [cluster-lensed quasar](transient:sdss-j0909p4449-agn), with a
+      simple lens model.

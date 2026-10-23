@@ -34,7 +34,7 @@ models:
     note: |-
       Strong-lensing model built around the cluster's radial arc(s), combined with the
       stellar velocity dispersion profile of the BCG to measure the inner slope of the
-      dark-matter profile. The models are shared by the authors on request.
+      dark-matter profile.
   - title: Allingham et al. (2024)
     refs: [2024MNRAS.528.1711A]
     data: [HST, MUSE]
@@ -43,8 +43,7 @@ models:
     tags: [method-test]
     note: |-
       Lens models re-optimised together with an analytic model of the intra-cluster medium,
-      compared with XMM-Newton and ACT data. The lens models are available on reasonable
-      request.
+      compared with XMM-Newton and ACT data.
   - title: Allingham et al. (2023)
     refs: [2023MNRAS.522.1118A]
     data: [HST, MUSE]
@@ -52,5 +51,4 @@ models:
     availability: on-request
     note: |-
       Lenstool model with two MUSE-confirmed and four HST-only multiple-image systems,
-      combined with XMM-Newton data; it shows a relaxing post-merger cluster. The lens models
-      are available on reasonable request.
+      combined with XMM-Newton data; it shows a relaxing post-merger cluster.

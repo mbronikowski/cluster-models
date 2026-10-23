@@ -19,9 +19,6 @@ models:
     refs: [2025A&A...698A.161S]
     data: [MUSE]
     availability: unknown
-    note: |-
-      [Somma et al. (2025)](ref:2025A&A...698A.161S) presented a strong lensing model of the
-      cluster which incorporates MUSE spectroscopic data.
   - title: RELICS
     program: relics
     data: [HST]

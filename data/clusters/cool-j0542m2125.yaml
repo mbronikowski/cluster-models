@@ -10,6 +10,5 @@ models:
     refs: [2023ApJ...946...63M]
     availability: unknown
     note: |-
-      The cluster was modeled by [Martinez et al. (2023)](ref:2023ApJ...946...63M). In the
-      paper, they describe the discovery of the multiply-imaged quasar lensed by this
-      cluster.
+      Discovery paper of the [multiply imaged quasar](transient:cool-j0542m2125-agn) lensed
+      by the cluster.

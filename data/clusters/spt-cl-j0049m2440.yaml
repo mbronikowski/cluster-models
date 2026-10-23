@@ -14,6 +14,4 @@ models:
   - title: Mahler et al. (2025)
     refs: [2025ApJ...980...48M]
     availability: unknown
-    note: |-
-      [Mahler et al. (2025)](ref:2025ApJ...980...48M) constructed strong lensing models of
-      [SPT-CL J2325-4111](cluster:spt-cl-j2325m4111) and SPT-CL J0049-2440.
+    note: Modelled in the same paper as [SPT-CL J2325-4111](cluster:spt-cl-j2325m4111).

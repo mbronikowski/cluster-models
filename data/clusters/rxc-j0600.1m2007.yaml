@@ -19,9 +19,8 @@ models:
     refs: [2024MNRAS.533.2242F]
     availability: on-request
     note: |-
-      [Furtak et al. (2024)](ref:2024MNRAS.533.2242F) have created a mass model based on
-      newer data, with an additional bimodal, massive SL structure adjacent to the cluster.
-      Data for the publication will be shared by the authors on request.
+      Based on newer data; adds a massive, bimodal strong-lensing structure next to the
+      cluster.
   - title: 'ALCS: Fujimoto et al. (2021)'
     program: alcs
     refs: [2021ApJ...911...99F]

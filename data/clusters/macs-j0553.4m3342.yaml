@@ -35,6 +35,3 @@ models:
   - title: Ebeling, Qi & Richard (2017)
     refs: [2017MNRAS.471.3305E]
     availability: unknown
-    note: |-
-      [Ebeling, Qi & Richard (2017)](ref:2017MNRAS.471.3305E) created a gravitational
-      lensing model of the galaxy cluster.

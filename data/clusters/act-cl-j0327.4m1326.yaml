@@ -21,6 +21,3 @@ models:
   - title: Sharon et al. (2012)
     refs: [2012ApJ...746..161S]
     availability: unknown
-    note: |-
-      [Sharon et al. (2012)](ref:2012ApJ...746..161S) constructed a strong lensing mass
-      model of the cluster.

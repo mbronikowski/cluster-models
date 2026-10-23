@@ -36,9 +36,7 @@ models:
   - title: Oguri et al. (2012)
     refs: [2012MNRAS.420.3213O]
     availability: unknown
-    note: |-
-      The cluster's southern field lensing properties were studied by
-      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).
+    note: Covers the southern field of the cluster.
 
 notes: |-
   This field includes two separate cluster cores about 2.5' apart, both of which act as

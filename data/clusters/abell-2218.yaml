@@ -20,8 +20,8 @@ models:
     refs: [2014MNRAS.439.2651M]
     availability: unknown
     note: |-
-      [Mohammed et al. (2014)](ref:2014MNRAS.439.2651M) constructed lens models of
-      [Abell 1689](cluster:abell-1689), Abell 2218 and [Abell 3827](cluster:abell-3827).
+      Modelled in the same paper as [Abell 1689](cluster:abell-1689) and
+      [Abell 3827](cluster:abell-3827).
   - title: LoCuSS
     program: locuss
     refs: [2010MNRAS.404..325R]
@@ -34,6 +34,3 @@ models:
   - title: Smith et al. (2005)
     refs: [2005MNRAS.359..417S]
     availability: unknown
-    note: |-
-      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
-      cluster.

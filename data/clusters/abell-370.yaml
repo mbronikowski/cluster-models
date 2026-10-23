@@ -28,9 +28,6 @@ models:
     refs: [2025A&A...703A.207D]
     data: [JWST]
     availability: unknown
-    note: |-
-      [Diego et al. (2025)](ref:2025A&A...703A.207D) present a strong lensing mass model of
-      the galaxy cluster.
   - title: 'CANUCS: Gledhill et al. (2024)'
     program: canucs
     refs: [2024ApJ...973...77G]
@@ -56,10 +53,6 @@ models:
     software: GRALE
     availability: on-request
     tags: [free-form]
-    note: |-
-      [Ghosh et al. (2021)](ref:2021MNRAS.506.6144G) constructed a free-form lens model
-      using GRALE. The data products associated with this article will be shared on
-      reasonable request to the corresponding authors.
   - title: Richard et al. (2021)
     program: muse-lensing
     refs: [2021A&A...646A..83R]
@@ -73,9 +66,6 @@ models:
     refs: [2017MNRAS.469.3946L]
     data: [HST, MUSE]
     availability: unknown
-    note: |-
-      The cluster was modeled using MUSE and HST data by
-      [Lagattuta et al. (2017)](ref:2017MNRAS.469.3946L).
   - title: Hubble Frontier Fields
     program: hff
     data: [HST]
@@ -90,7 +80,6 @@ models:
     refs: [2010MNRAS.402L..44R]
     software: Lenstool
     availability: public
-    note: |-
-      The cluster was studied by [Richard et al. (2010a)](ref:2010MNRAS.402L..44R). The lens
-      model is available for download on the
-      [Lenstool website](https://projets.lam.fr/projects/lenstool/wiki).
+    links:
+      - label: Model download (Lenstool wiki)
+        url: https://projets.lam.fr/projects/lenstool/wiki

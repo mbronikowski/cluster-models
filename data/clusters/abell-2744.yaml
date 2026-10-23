@@ -54,9 +54,9 @@ models:
     links:
       - label: Model download
         url: https://www.fe.infn.it/astro/lensing/A2744_Bergamini22/
-    note: |-
-      Pre-_JWST_ model, now considered obsolete (see
-      [P. Bergamini's page](https://www.fe.infn.it/astro/lensing/)).
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
+    note: Pre-_JWST_ model, now considered obsolete.
   - title: Richard et al. (2021)
     program: muse-lensing
     refs: [2021A&A...646A..83R]
@@ -71,17 +71,11 @@ models:
     software: GRALE
     availability: unknown
     tags: [free-form]
-    note: |-
-      [Sebesta et al. (2019)](ref:2019MNRAS.488.3251S) constructed a free-form lens model
-      using GRALE.
   - title: Mahler et al. (2018)
     refs: [2018MNRAS.473..663M]
     data: [HST, MUSE]
     availability: unknown
     tags: [parametric]
-    note: |-
-      [Mahler et al. (2018)](ref:2018MNRAS.473..663M) constructed a parametric lens model
-      using MUSE and [HFF](#hubble-frontier-fields) observations.
   - title: Hubble Frontier Fields
     program: hff
     data: [HST]
@@ -97,6 +91,6 @@ models:
     availability: unknown
     tags: [weak-lensing, method-test]
     note: |-
-      [Mistele & Durakovic (2024)](ref:doi:10.33232/001c.127612) created a model of Abell 1835
-      and Abell 2744 as part of their tests of their new non-parametric method to infer
-      galaxy cluster masses from weak lensing, which is the main focus of the paper.
+      Test case for a new non-parametric method of measuring cluster masses from weak
+      lensing, the main focus of the paper; [Abell 1835](cluster:abell-1835) is the other
+      test case.

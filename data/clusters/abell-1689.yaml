@@ -23,23 +23,17 @@ models:
     software: GRALE
     availability: on-request
     tags: [free-form]
-    note: |-
-      [Ghosh et al. (2023)](ref:2023MNRAS.525.2519G) constructed a free-form lens model
-      using GRALE. The data products associated with this article will be shared on
-      reasonable request to the corresponding authors.
   - title: Diego et al. (2015)
     refs: [2015MNRAS.446..683D]
+    software: WSLAP+
     availability: unknown
     tags: [free-form, weak-lensing]
-    note: |-
-      [Diego et al. (2015)](ref:2015MNRAS.446..683D) created a free-form lensing grid
-      solution for Abell 1689 combining strong and weak lensing signals.
   - title: Mohammed et al. (2014)
     refs: [2014MNRAS.439.2651M]
     availability: unknown
     note: |-
-      [Mohammed et al. (2014)](ref:2014MNRAS.439.2651M) constructed lens models of Abell
-      1689, [Abell 2218](cluster:abell-2218) and [Abell 3827](cluster:abell-3827).
+      Modelled in the same paper as [Abell 2218](cluster:abell-2218) and
+      [Abell 3827](cluster:abell-3827).
   - title: 'LoCuSS: Richard et al. (2010b)'
     program: locuss
     refs: [2010MNRAS.404..325R]
@@ -49,7 +43,6 @@ models:
     refs: [2007ApJ...668..643L]
     software: Lenstool
     availability: public
-    note: |-
-      The cluster was studied by [Limousin et al. (2007)](ref:2007ApJ...668..643L). Model
-      download available on the
-      [Lenstool website](https://projets.lam.fr/projects/lenstool/wiki).
+    links:
+      - label: Model download (Lenstool wiki)
+        url: https://projets.lam.fr/projects/lenstool/wiki

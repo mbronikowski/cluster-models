@@ -14,27 +14,19 @@ models:
     availability: unknown
     tags: [time-delay-cosmography]
     note: |-
-      The cluster was modeled by [Napier et al. (2023b)](ref:2023ApJ...959..134N), along with
-      SDSS J1004+4112 and SDSS J2222+2745, to obtain a Hubble constant measurement from time
-      delays.
+      Modelled with [SDSS J1004+4112](cluster:sdss-j1004p4112) and
+      [SDSS J2222+2745](cluster:sdss-j2222p2745) for a time-delay H0 measurement.
   - title: Acebron et al. (2022b)
     refs: [2022ApJ...926...86A]
     availability: unknown
     note: |-
-      The cluster was modeled by [Acebron et al. (2022b)](ref:2022ApJ...926...86A). The paper
-      also describes the multiply-imaged quasar lensed by the cluster.
+      The paper also studies the [multiply imaged quasar](transient:sdss-j1029p2623-agn).
   - title: Oguri et al. (2013)
     refs: [2013MNRAS.429..482O]
     availability: unknown
-    note: |-
-      The cluster was modeled gravitationally by
-      [Oguri et al. (2013)](ref:2013MNRAS.429..482O).
   - title: Oguri et al. (2012)
     refs: [2012MNRAS.420.3213O]
     availability: unknown
-    note: |-
-      The cluster's lensing properties were studied by
-      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).
   - title: Kratzer et al. (2011)
     refs: [2011ApJ...728L..18K]
     data: [ground]

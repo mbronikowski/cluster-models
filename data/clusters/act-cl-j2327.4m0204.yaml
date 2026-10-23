@@ -18,17 +18,11 @@ models:
     availability: unknown
     tags: [parametric]
     note: |-
-      Lenstool model constrained by 12 multiple images, 12 of them in systems with
+      Lenstool model constrained by 12 multiple images, all in systems with
       spectroscopic redshifts; Einstein radius 35 +/- 4'' for a source at z = 2.
   - title: Hoag et al. (2015)
     refs: [2015ApJ...813...37H]
     availability: unknown
-    note: |-
-      [Hoag et al. (2015)](ref:2015ApJ...813...37H) created a gravitational lensing model of
-      the galaxy cluster.
   - title: Sharon et al. (2015)
     refs: [2015ApJ...814...21S]
     availability: unknown
-    note: |-
-      [Sharon et al. (2015)](ref:2015ApJ...814...21S) created a gravitational lensing model
-      of the galaxy cluster.

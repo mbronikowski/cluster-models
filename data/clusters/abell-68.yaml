@@ -28,13 +28,9 @@ models:
     refs: [2007ApJ...662..781R]
     software: Lenstool
     availability: public
-    note: |-
-      The cluster was studied by [Richard et al. (2007)](ref:2007ApJ...662..781R). The lens
-      model is available for download on the
-      [Lenstool website](https://projets.lam.fr/projects/lenstool/wiki).
+    links:
+      - label: Model download (Lenstool wiki)
+        url: https://projets.lam.fr/projects/lenstool/wiki
   - title: Smith et al. (2005)
     refs: [2005MNRAS.359..417S]
     availability: unknown
-    note: |-
-      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
-      cluster.

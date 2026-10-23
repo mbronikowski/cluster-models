@@ -14,4 +14,3 @@ models:
     refs: [2025ApJ...994L..35F]
     data: [JWST]
     availability: unknown
-    note: The cluster was modeled by [Finner et al. (2025)](ref:2025ApJ...994L..35F).

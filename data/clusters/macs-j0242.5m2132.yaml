@@ -16,8 +16,7 @@ models:
     tags: [method-test]
     note: |-
       Lens models re-optimised together with an analytic model of the intra-cluster medium,
-      compared with XMM-Newton and ACT data. The lens models are available on reasonable
-      request.
+      compared with XMM-Newton and ACT data.
   - title: Allingham et al. (2023)
     refs: [2023MNRAS.522.1118A]
     data: [HST, MUSE]
@@ -25,4 +24,4 @@ models:
     availability: on-request
     note: |-
       Lenstool model with six multiple-image systems with MUSE redshifts, combined with
-      XMM-Newton data. The lens models are available on reasonable request.
+      XMM-Newton data.

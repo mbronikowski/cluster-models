@@ -14,13 +14,9 @@ models:
     refs: [2021ApJ...918...61C]
     availability: unknown
     note: |-
-      [Carrasco et al. (2021)](ref:2021ApJ...918...61C) constructed an updated lens model in
-      regard to [Verdugo et al. (2020)](#verdugo-et-al-2020) with a more comprehensive
-      dataset.
+      Updated version of the [Verdugo et al. (2020)](#verdugo-et-al-2020) model, with a more
+      comprehensive dataset.
   - title: Verdugo et al. (2020)
     refs: [2020ApJ...897....4V]
     availability: unknown
     tags: [parametric, multiple-models]
-    note: |-
-      [Verdugo et al. (2020)](ref:2020ApJ...897....4V) performed a parametric strong-lensing
-      mass reconstruction of the cluster using three different models.

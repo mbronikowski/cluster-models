@@ -18,13 +18,12 @@ models:
     availability: unknown
     tags: [weak-lensing, method-test]
     note: |-
-      [Mistele & Durakovic (2024)](ref:doi:10.33232/001c.127612) created a model of Abell 1835
-      and Abell 2744 as part of their tests of their new non-parametric method to infer
-      galaxy cluster masses from weak lensing, which is the main focus of the paper.
+      Test case for a new non-parametric method of measuring cluster masses from weak
+      lensing, the main focus of the paper; [Abell 2744](cluster:abell-2744) is the other
+      test case.
   - title: Morandi et al. (2012)
     refs: [2012MNRAS.425.2069M]
     availability: unknown
-    note: The cluster was modeled by [Morandi et al. (2012)](ref:2012MNRAS.425.2069M).
   - title: LoCuSS
     program: locuss
     refs: [2010MNRAS.404..325R]
@@ -37,6 +36,3 @@ models:
   - title: Smith et al. (2005)
     refs: [2005MNRAS.359..417S]
     availability: unknown
-    note: |-
-      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
-      cluster.
