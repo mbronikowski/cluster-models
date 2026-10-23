@@ -11,5 +11,5 @@ models:
     availability: unknown
     tags: [preliminary]
     note: |-
-      [Bazzanini et al. (2025)](ref:2025A&A...698A..29B) constructed a preliminary model of
-      the cluster, as part of their investigation of the candidate multiply-imaged AGN.
+      Made to study the candidate multiply imaged
+      [AGN](transient:wh-j040011.7m270711-agn-candidate) behind the cluster.

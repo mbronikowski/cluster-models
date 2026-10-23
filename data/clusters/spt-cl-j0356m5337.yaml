@@ -12,10 +12,8 @@ models:
   - title: Smith et al. (2025a)
     refs: [2025ApJ...991..142S]
     availability: unknown
-    note: |-
-      [Smith et al. (2025a)](ref:2025ApJ...991..142S) present a series of updated lensing
-      models for the galaxy cluster.
+    tags: [multiple-models]
+    note: Updates the [Mahler et al. (2020)](#mahler-et-al-2020) model.
   - title: Mahler et al. (2020)
     refs: [2020ApJ...894..150M]
     availability: unknown
-    note: The cluster was modeled by [Mahler et al. (2020)](ref:2020ApJ...894..150M).

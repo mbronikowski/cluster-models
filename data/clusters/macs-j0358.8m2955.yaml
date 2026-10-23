@@ -29,7 +29,6 @@ models:
   - title: Hsu et al. (2013)
     refs: [2013MNRAS.429..833H]
     availability: unknown
-    note: The cluster was modeled by [Hsu et al. (2013)](ref:2013MNRAS.429..833H).
 
 notes: |-
   RELICS and VENUS list this field under the name Abell 3192.

@@ -111,6 +111,14 @@ models:
 
 Order the list as you want it shown (the site keeps the file order).
 
+The page already shows the title, the paper, availability, data, software and tags, so
+the note should only say what is specific to the model (what it is fitted to, which model
+it revises, caveats such as "pre-JWST" or "superseded"). Don't open with "X created a
+lens model of the cluster", and put download pages in `links` rather than in the note,
+labelled "Model download" (or e.g. "Model download (Zenodo)"); a general page worth
+visiting goes in `links` too, labelled "See also: ...". Leave out "shared on request"
+when `availability: on-request` already says it.
+
 References are written as ADS bibcodes, `arXiv:` identifiers or `doi:`
 identifiers, never as URLs, so links can follow ADS/SciX changes in one place.
 `data/references.yaml` can give a nicer label (`Bergamini et al. (2023)`) and the

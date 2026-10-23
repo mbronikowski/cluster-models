@@ -26,22 +26,18 @@ models:
     refs: [2021MNRAS.508.1206J]
     data: [HST, MUSE]
     availability: on-request
-    note: |-
-      [Jauzac et al. (2021)](ref:2021MNRAS.508.1206J) created a strong lensing model of this
-      cluster using HST photometry and VLT/MUSE spectroscopy. The data underlying this
-      article will be shared on reasonable request to the corresponding author.
   - title: Caminha et al. (2019)
     program: clash-vlt
     refs: [2019A&A...632A..36C]
     availability: public
+    links:
+      - label: Model files (A&A data products, CDS)
+        url: https://cdsarc.cds.unistra.fr/ftp/J/A+A/632/A36/
+      - label: CLASH-VLT lens-model page
+        url: http://www.fe.infn.it/astro/lensing/Caminha2019_SL_models/
     note: |-
-      [Caminha et al. (2019)](ref:2019A&A...632A..36C) carried out a detailed strong lensing
-      analysis of a sub-sample of eight galaxy clusters of the
-      [CLASH](#clash-zitrin-et-al-2015) cluster sample. As of July 2025, the model download
-      link in the paper appears defunct; the data can be found in the
-      [A&A data products repository](https://cdsarc.cds.unistra.fr/ftp/J/A+A/632/A36/) or
-      from the
-      [CLASH-VLT lens model webpage](http://www.fe.infn.it/astro/lensing/Caminha2019_SL_models/).
+      Part of a strong-lensing analysis of eight [CLASH](program:clash) clusters. As of July
+      2025, the model download link in the paper appears defunct.
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
@@ -53,4 +49,3 @@ models:
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).

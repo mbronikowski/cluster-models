@@ -13,6 +13,3 @@ models:
   - title: Seitz et al. (1998)
     refs: [1998MNRAS.298..945S]
     availability: unknown
-    note: |-
-      [Seitz et al. (1998)](ref:1998MNRAS.298..945S) describe a lensing model of the galaxy
-      cluster.

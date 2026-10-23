@@ -18,10 +18,7 @@ models:
   - title: Zitrin & Broadhurst (2016)
     refs: [2016ApJ...833...25Z]
     software: LTM
-    availability: public
+    availability: defunct
     note: |-
-      [Zitrin & Broadhurst (2016)](ref:2016ApJ...833...25Z) created a light-traces-mass
-      (LTM) strong lensing model of the galaxy cluster. The model is publicly available for
-      download through the ftp server
-      [ftp://wise-ftp.tau.ac.il/pub/adiz/MACS2135/](ftp://wise-ftp.tau.ac.il/pub/adiz/MACS2135/);
-      link appears defunct as of March 2025.
+      As of March 2025, the [FTP download](ftp://wise-ftp.tau.ac.il/pub/adiz/MACS2135/) link
+      appears defunct.

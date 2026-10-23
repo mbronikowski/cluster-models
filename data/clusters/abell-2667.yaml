@@ -25,6 +25,5 @@ models:
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2667/
-    note: |-
-      Also listed in the
-      [SL Cluster Atlas Database](https://data.lam.fr/sl-cluster-atlas/home).
+      - label: 'See also: LAM Strong Lensing Cluster Atlas'
+        url: https://data.lam.fr/sl-cluster-atlas/home

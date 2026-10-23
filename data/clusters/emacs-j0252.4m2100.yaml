@@ -16,11 +16,8 @@ models:
     availability: unknown
     tags: [parametric]
     note: |-
-      Lenstool model constrained by 12 multiple images, 12 of them in systems with
+      Lenstool model constrained by 12 multiple images, all in systems with
       spectroscopic redshifts; Einstein radius 15 +/- 2'' for a source at z = 2.
   - title: Ebeling et al. (2021)
     refs: [2021MNRAS.508.3663E]
     availability: unknown
-    note: |-
-      [Ebeling et al. (2021)](ref:2021MNRAS.508.3663E) created a gravitational lensing model
-      of the cluster.

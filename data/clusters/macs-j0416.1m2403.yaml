@@ -27,19 +27,12 @@ models:
     refs: [2025A&A...703A..10L]
     data: [JWST]
     availability: public
-    note: |-
-      [Limousin et al. (2025)](ref:2025A&A...703A..10L) modeled the cluster using JWST data.
-      The model is available on the
-      [LAM Strong Lensing Cluster Atlas Database](https://data.lam.fr/sl-cluster-atlas/home)
-      under
-      [this link](https://data.lam.fr/sl-cluster-atlas/search/result/model?s=111&a=2;3;1;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26&c=2::eq::MACSJ0416.1-2403).
+    links:
+      - label: LAM Strong Lensing Cluster Atlas
+        url: https://data.lam.fr/sl-cluster-atlas/search/result/model?s=111&a=2;3;1;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26&c=2::eq::MACSJ0416.1-2403
   - title: Perera et al. (2025)
     refs: [2025MNRAS.536.2690P]
     availability: on-request
-    note: |-
-      The cluster was studied by [Perera et al. (2025)](ref:2025MNRAS.536.2690P). Data
-      generated from this article will be shared upon reasonable request to the
-      corresponding author.
   - title: 'CANUCS: Rihtaršič et al. (2025)'
     program: canucs
     refs: [2025A&A...696A..15R]
@@ -52,28 +45,30 @@ models:
     refs: [2023A&A...674A..79B]
     data: [MUSE]
     availability: public
-    note: |-
-      Lens model by [Bergamini et al. (2023b)](ref:2023A&A...674A..79B), model available for
-      download [here](https://www.fe.infn.it/astro/lensing/M0416_Bergamini22/). Incorporates
-      MUSE/VLT data.
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M0416_Bergamini22/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
   - title: Limousin et al. (2022)
     refs: [2022A&A...664A..90L]
     availability: unknown
     tags: [parametric, multiple-models]
     note: |-
-      [Limousin et al. (2022)](ref:2022A&A...664A..90L) developed parametric cored and
-      non-cored models, which revise the models by
+      Parametric cored and non-cored models that revise the
       [Bergamini et al. (2019)](#bergamini-et-al-2019) and
-      [Bergamini et al. (2021)](#bergamini-et-al-2021).
+      [Bergamini et al. (2021)](#bergamini-et-al-2021) models.
   - title: Bergamini et al. (2021)
     refs: [2021A&A...645A.140B]
     availability: public
     status: superseded
     superseded_by: 2023A&A...674A..79B
-    note: |-
-      Lens model by [Bergamini et al. (2021)](ref:2021A&A...645A.140B), model available for
-      download [here](https://www.fe.infn.it/astro/lensing/M0416_Bergamini20/). Superseded
-      by [Bergamini et al. (2023b)](#bergamini-et-al-2023b).
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M0416_Bergamini20/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
+    note: Superseded by [Bergamini et al. (2023b)](#bergamini-et-al-2023b).
   - title: Richard et al. (2021)
     program: muse-lensing
     refs: [2021A&A...646A..83R]
@@ -87,22 +82,30 @@ models:
     refs: [2019A&A...631A.130B]
     availability: public
     status: superseded
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M0416_Bergamini19/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
     note: |-
-      Lens model by [Bergamini et al. (2019)](ref:2019A&A...631A.130B), model available for
-      download [here](https://www.fe.infn.it/astro/lensing/M0416_Bergamini19/). Superseded
-      by the models listed above.
+      Superseded by [Bergamini et al. (2021)](#bergamini-et-al-2021) and
+      [Bergamini et al. (2023b)](#bergamini-et-al-2023b).
   - title: Bonamigo et al. (2018)
     refs: [2018ApJ...864...98B]
     availability: public
-    note: |-
-      Lens model by [Bonamigo et al. (2018)](ref:2018ApJ...864...98B), model available for
-      download [here](https://www.fe.infn.it/astro/lensing/M0416_Bonamigo18/).
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M0416_Bonamigo18/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
   - title: Caminha et al. (2017a)
     refs: [2017A&A...600A..90C]
     availability: public
-    note: |-
-      Lens model by [Caminha et al. (2017a)](ref:2017A&A...600A..90C), model available for
-      download [here](https://www.fe.infn.it/astro/lensing/M0416_Caminha16/).
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M0416_Caminha16/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
   - title: Hubble Frontier Fields
     program: hff
     data: [HST]

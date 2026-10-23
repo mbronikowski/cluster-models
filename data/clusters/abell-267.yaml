@@ -18,6 +18,3 @@ models:
   - title: Smith et al. (2005)
     refs: [2005MNRAS.359..417S]
     availability: unknown
-    note: |-
-      [Smith et al. (2005)](ref:2005MNRAS.359..417S) constructed a lens model of the
-      cluster.

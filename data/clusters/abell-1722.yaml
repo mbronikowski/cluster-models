@@ -17,5 +17,5 @@ models:
     refs: [2017ApJ...834...45Z]
     availability: defunct
     note: |-
-      The cluster was modeled by [Zitrin (2017)](ref:2017ApJ...834...45Z). As of 2025, the
-      [FTP download](ftp://wise-ftp.tau.ac.il/pub/adiz/MACS1319/) link appears defunct.
+      As of 2025, the [FTP download](ftp://wise-ftp.tau.ac.il/pub/adiz/MACS1319/) link
+      appears defunct.

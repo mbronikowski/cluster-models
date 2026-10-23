@@ -26,19 +26,18 @@ models:
     refs: [2023ApJ...945...49M]
     data: [JWST]
     availability: public
-    note: |-
-      The cluster was modelled by [Mahler et al. (2023)](ref:2023ApJ...945...49M). The model
-      is available on the
-      [Strong Lensing Cluster Atlas Data Base](https://data.lam.fr/sl-cluster-atlas/home).
+    links:
+      - label: LAM Strong Lensing Cluster Atlas
+        url: https://data.lam.fr/sl-cluster-atlas/home
   - title: Caminha et al. (2022)
     refs: [2022A&A...666L...9C]
     data: [JWST, HST, MUSE]
     availability: public
-    note: |-
-      Model by [Caminha et al. (2022)](ref:2022A&A...666L...9C), which incorporates _HST_,
-      _JWST_ and MUSE/VLT data. Model available for download
-      [here](https://cdsarc.cds.unistra.fr/ftp/J/A+A/666/L9/) (CDS page
-      [here](http://cdsarc.u-strasbg.fr/viz-bin/cat/J/A+A/666/L9)).
+    links:
+      - label: Model download (CDS)
+        url: https://cdsarc.cds.unistra.fr/ftp/J/A+A/666/L9/
+      - label: CDS catalogue page
+        url: http://cdsarc.u-strasbg.fr/viz-bin/cat/J/A+A/666/L9
   - title: 'RELICS: Sharon et al. (2023)'
     program: relics
     refs: [2023ApJS..264...15S]
@@ -48,7 +47,4 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/smacs0723m73/models/
-    note: |-
-      A recent model description was published by
-      [Sharon et al. (2023)](ref:2023ApJS..264...15S).
-      MAST provides models made with glafic, Lenstool and LTM (Zitrin).
+    note: MAST provides models made with glafic, Lenstool and LTM (Zitrin).

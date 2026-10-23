@@ -11,7 +11,6 @@ models:
     refs: [arXiv:2606.20804]
     data: [JWST, HST]
     availability: unknown
-    note: Model built on JWST/NIRCam and NIRSpec data together with HST imaging.
   - title: 'SGAS: Sharon et al. (2020)'
     program: sgas
     refs: [2020ApJS..247...12S]

@@ -16,6 +16,4 @@ models:
   - title: Smith et al. (2025b)
     refs: [2025RNAAS...9..300S]
     availability: unknown
-    note: |-
-      [Smith et al. (2025b)](ref:2025RNAAS...9..300S) presented the first strong lensing
-      model of the galaxy cluster.
+    note: First strong-lensing model of the cluster.

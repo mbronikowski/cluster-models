@@ -21,6 +21,3 @@ models:
     refs: [2017ApJ...844..127W]
     availability: unknown
     tags: [weak-lensing]
-    note: |-
-      [Wong et al. (2017)](ref:2017ApJ...844..127W) presented a combined strong and weak
-      lensing analysis of the cluster.

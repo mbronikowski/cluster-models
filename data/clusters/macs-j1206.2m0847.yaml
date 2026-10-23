@@ -25,16 +25,12 @@ models:
     availability: unknown
     tags: [parametric, multiple-models]
     note: |-
-      [Limousin et al. (2022)](ref:2022A&A...664A..90L) developed and tested parametric
-      two-clump, three-clump and four-clump models, which revisit the model by
-      [Bergamini et al. (2019)](#bergamini-et-al-2019).
+      Two-, three- and four-clump parametric models that revisit the
+      [Bergamini et al. (2019)](#bergamini-et-al-2019) model.
   - title: Chen et al. (2021)
     refs: [2021MNRAS.504.2629C]
     availability: unknown
-    note: |-
-      [Chen et al. (2021)](ref:2021MNRAS.504.2629C) constructed a gravitational lensing
-      model of the galaxy cluster fine-tuned for accurately replicating the features of two
-      lensed galaxies.
+    note: Fine-tuned to reproduce the features of two lensed galaxies.
   - title: Richard et al. (2021)
     program: muse-lensing
     refs: [2021A&A...646A..83R]
@@ -46,24 +42,27 @@ models:
   - title: Bergamini et al. (2019)
     refs: [2019A&A...631A.130B]
     availability: public
-    note: |-
-      Lens model by [Bergamini et al. (2019)](ref:2019A&A...631A.130B). Model available
-      [here](https://www.fe.infn.it/astro/lensing/M1206_Bergamini19/). See also the model
-      list [here](https://www.fe.infn.it/astro/lensing/).
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M1206_Bergamini19/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
   - title: Bonamigo et al. (2018)
     refs: [2018ApJ...864...98B]
     availability: public
-    note: |-
-      Lens model by [Bonamigo et al. (2018)](ref:2018ApJ...864...98B). Model available
-      [here](https://www.fe.infn.it/astro/lensing/M1206_Bonamigo18/). See also the model
-      list [here](https://www.fe.infn.it/astro/lensing/).
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M1206_Bonamigo18/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
   - title: Caminha et al. (2017b)
     refs: [2017A&A...607A..93C]
     availability: public
-    note: |-
-      Lens model by [Caminha et al. (2017b)](ref:2017A&A...607A..93C). Model available
-      [here](https://www.fe.infn.it/astro/lensing/M1206_Caminha17/). See also the model list
-      [here](https://www.fe.infn.it/astro/lensing/).
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M1206_Caminha17/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
   - title: CLASH
     program: clash
     data: [HST]
@@ -71,5 +70,4 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/missions/hlsp/clash/macs1206/models/
-    note: |-
-      Note: these models are relatively old (2014-2015).
+    note: These models are relatively old (2014-2015).

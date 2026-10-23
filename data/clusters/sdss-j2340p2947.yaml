@@ -12,6 +12,3 @@ models:
   - title: Florian et al. (2021)
     refs: [2021ApJ...916...50F]
     availability: unknown
-    note: |-
-      [Florian et al. (2021)](ref:2021ApJ...916...50F) constructed a lens model of the
-      galaxy cluster.

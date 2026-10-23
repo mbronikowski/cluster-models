@@ -11,10 +11,7 @@ models:
     refs: [2024ApJ...961..171F]
     data: [JWST]
     availability: unknown
-    note: |-
-      The cluster was modeled by [Frye et al. (2024)](ref:2024ApJ...961..171F). The paper
-      also describes the discovery of the multiply-imaged supernova "SN H0pe".
+    note: The paper also reports the discovery of [SN H0pe](transient:sn-h0pe).
   - title: Frye et al. (2019)
     refs: [2019ApJ...871...51F]
     availability: unknown
-    note: The cluster was modeled by [Frye et al. (2019)](ref:2019ApJ...871...51F).

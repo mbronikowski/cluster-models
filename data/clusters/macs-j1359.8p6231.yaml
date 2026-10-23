@@ -17,10 +17,6 @@ models:
   - title: Zitrin et al. (2011c)
     refs: [2011MNRAS.413.1753Z]
     availability: unknown
-    note: The cluster was modeled by [Zitrin et al. (2011c)](ref:2011MNRAS.413.1753Z).
   - title: Franx et al. (1997)
     refs: [1997ApJ...486L..75F]
     availability: unknown
-    note: |-
-      [Franx et al. (1997)](ref:1997ApJ...486L..75F) describe a lens model of the galaxy
-      cluster.

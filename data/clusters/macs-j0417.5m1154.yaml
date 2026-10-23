@@ -33,7 +33,7 @@ models:
     note: |-
       Strong-lensing model built around the cluster's radial arc(s), combined with the
       stellar velocity dispersion profile of the BCG to measure the inner slope of the
-      dark-matter profile. The models are shared by the authors on request.
+      dark-matter profile.
   - title: 'RELICS: Mahler et al. (2019)'
     program: relics
     refs: [2019ApJ...873...96M]

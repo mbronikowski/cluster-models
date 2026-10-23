@@ -25,19 +25,13 @@ models:
     links:
       - label: LAM Strong Lensing Cluster Atlas
         url: https://data.lam.fr/sl-cluster-atlas/search/result/model?s=111&a=2;3;1;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26&c=2::eq::AC114
-    note: |-
-      Lenstool model fitted jointly to 16 multiple-image systems and Chandra X-ray data. The
-      [LAM Strong Lensing Cluster Atlas](https://data.lam.fr/sl-cluster-atlas/home) lists it
-      for download.
+    note: Lenstool model fitted jointly to 16 multiple-image systems and Chandra X-ray data.
   - title: Campusano et al. (2001)
     refs: [2001A&A...378..394C]
     availability: unknown
     note: |-
-      [Campusano et al. (2001)](ref:2001A&A...378..394C) created a newer version of the
-      [Natarajan et al. (1998)](#natarajan-et-al-1998) lens model using VLT spectroscopy.
+      Updated version of the [Natarajan et al. (1998)](#natarajan-et-al-1998) model, using
+      VLT spectroscopy.
   - title: Natarajan et al. (1998)
     refs: [1998ApJ...499..600N]
     availability: unknown
-    note: |-
-      [Natarajan et al. (1998)](ref:1998ApJ...499..600N) created a gravitational lensing
-      model of the cluster.

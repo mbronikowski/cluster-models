@@ -47,26 +47,28 @@ models:
     refs: [2024A&A...689A..42S]
     data: [MUSE]
     availability: public
-    note: |-
-      Model by [Schuldt et al. (2024)](ref:2024A&A...689A..42S) using VLT/MUSE observations.
-      Model available [here](https://www.fe.infn.it/astro/lensing/M1149_Schuldt2024/). See
-      also model list on [this page](https://www.fe.infn.it/astro/lensing/).
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M1149_Schuldt2024/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
   - title: Zitrin (2021)
     refs: [2021ApJ...919...54Z]
     availability: public
     tags: [multiple-models]
-    note: |-
-      [Zitrin (2021)](ref:2021ApJ...919...54Z) constructed two grid-based lens models of the
-      cluster. The dPIEeNFW model is available for download
-      [here](https://www.dropbox.com/sh/xkzysm4nhyq28e3/AABJVCWVzbkGdnvyD67CODyha?dl=0).
+    links:
+      - label: dPIEeNFW model download (Dropbox)
+        url: https://www.dropbox.com/sh/xkzysm4nhyq28e3/AABJVCWVzbkGdnvyD67CODyha?dl=0
+    note: Two grid-based models; only the dPIEeNFW model is available.
   - title: Grillo et al. (2016)
     refs: [2016ApJ...822...78G]
     data: [MUSE]
     availability: public
-    note: |-
-      Model by [Grillo et al. (2016)](ref:2016ApJ...822...78G) using VLT/MUSE observations.
-      Model available [here](https://www.fe.infn.it/astro/lensing/M1149_Grillo2016/). See
-      also model list on [this page](https://www.fe.infn.it/astro/lensing/).
+    links:
+      - label: Model download
+        url: https://www.fe.infn.it/astro/lensing/M1149_Grillo2016/
+      - label: 'See also: Ferrara lens-model page'
+        url: https://www.fe.infn.it/astro/lensing/
   - title: Hubble Frontier Fields
     program: hff
     data: [HST]
@@ -88,4 +90,3 @@ models:
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).

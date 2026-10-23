@@ -19,25 +19,16 @@ models:
     refs: [2021MNRAS.508.1206J]
     data: [HST, MUSE]
     availability: on-request
-    note: |-
-      [Jauzac et al. (2021)](ref:2021MNRAS.508.1206J) created a strong lensing model of this
-      cluster using HST photometry and VLT/MUSE spectroscopy. The data underlying this
-      article will be shared on reasonable request to the corresponding author.
   - title: MacKenzie et al. (2014)
     refs: [doi:10.1093/mnras/stu1623]
     availability: unknown
-    note: |-
-      [MacKenzie et al. (2014)](ref:doi:10.1093/mnras/stu1623) presented a lens model of the
-      galaxy cluster.
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).
   - title: Borys et al. (2004)
     refs: [2004MNRAS.352..759B]
     software: Lenstool
     availability: public
-    note: |-
-      The cluster was studied by [Borys et al. (2004)](ref:2004MNRAS.352..759B). The model
-      is available for download on the
-      [Lenstool website](https://projets.lam.fr/projects/lenstool/wiki).
+    links:
+      - label: Model download (Lenstool wiki)
+        url: https://projets.lam.fr/projects/lenstool/wiki

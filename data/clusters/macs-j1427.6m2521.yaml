@@ -17,8 +17,8 @@ models:
     tags: [parametric]
     note: |-
       First strong-lensing model of the cluster. Strong-lensing model built around the
-      cluster's radial arc(s), combined with the stellar velocity dispersion profile of the
-      BCG to measure the inner slope of the dark-matter profile. The models are shared by
-      the authors on request.
+      cluster's radial arc(s), combined with the
+      stellar velocity dispersion profile of the BCG to measure the inner slope of the
+      dark-matter profile.
 
 notes: Position and redshift from [Cerny et al. (2025)](ref:2025MNRAS.541.2341C).

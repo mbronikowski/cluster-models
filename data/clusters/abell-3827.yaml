@@ -18,29 +18,20 @@ z: 0.099
 models:
   - title: Massey et al. (2018)
     refs: [2018MNRAS.477..669M]
-    data: [ALMA]
+    data: [ALMA, MUSE]
     availability: unknown
     tags: [multiple-models]
-    note: |-
-      [Massey et al. (2018)](ref:2018MNRAS.477..669M) constructed two lens models for Abell
-      3827, using Atacama Large Millimetre Array (ALMA) and Very Large Telescope/Multi-Unit
-      Spectroscopic Explorer data.
   - title: Massey et al. (2015)
     refs: [2015MNRAS.449.3393M]
     availability: unknown
     tags: [multiple-models]
-    note: |-
-      [Massey et al. (2015)](ref:2015MNRAS.449.3393M) constructed two lens models for Abell 3827.
   - title: Mohammed et al. (2014)
     refs: [2014MNRAS.439.2651M]
     availability: unknown
     note: |-
-      [Mohammed et al. (2014)](ref:2014MNRAS.439.2651M) constructed lens models of
-      [Abell 1689](cluster:abell-1689), [Abell 2218](cluster:abell-2218) and Abell 3827.
+      Modelled in the same paper as [Abell 1689](cluster:abell-1689) and
+      [Abell 2218](cluster:abell-2218).
   - title: Carrasco et al. (2010)
     refs: [2010ApJ...715L.160C]
     data: [Gemini]
     availability: unknown
-    note: |-
-      [Carrasco et al. (2010)](ref:2010ApJ...715L.160C) constructed a gravitational lensing
-      model of the cluster using Gemini South GMOS images.

@@ -14,6 +14,3 @@ models:
   - title: Sheu et al. (2024)
     refs: [2024ApJ...973....3S]
     availability: unknown
-    note: |-
-      [Sheu et al. (2024)](ref:2024ApJ...973....3S) constructed a lens model of the galaxy
-      cluster.

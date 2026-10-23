@@ -20,7 +20,6 @@ models:
     data: [JWST]
     availability: unknown
     tags: [multiple-models]
-    note: Two lens models are presented.
   - title: RELICS
     program: relics
     data: [HST]
@@ -33,4 +32,3 @@ models:
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
-    note: The cluster was studied by [Zitrin et al. (2011b)](ref:2011MNRAS.410.1939Z).

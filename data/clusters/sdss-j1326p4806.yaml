@@ -9,7 +9,4 @@ models:
   - title: Shu et al. (2019)
     refs: [2019MNRAS.489.4741S]
     availability: unknown
-    note: |-
-      [Shu et al. (2019)](ref:2019MNRAS.489.4741S) describe a very simple lens model for the
-      galaxy cluster, created to verify whether SDSS J1326+4806 is a case of a
-      multiply-imaged quasar.
+    note: A simple model made to test whether SDSS J1326+4806 is a multiply imaged quasar.

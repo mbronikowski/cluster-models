@@ -19,26 +19,18 @@ models:
   - title: Oguri et al. (2012)
     refs: [2012MNRAS.420.3213O]
     availability: unknown
-    note: |-
-      The cluster's lensing properties were studied by
-      [Oguri et al. (2012)](ref:2012MNRAS.420.3213O).
   - title: Zitrin et al. (2010)
     refs: [2010MNRAS.408.1916Z]
     availability: unknown
     tags: [multiple-models]
     note: |-
-      [Zitrin et al. (2010)](ref:2010MNRAS.408.1916Z) conducted a comparison of independent
-      lens-modeling techniques on this cluster, and created their own lens models.
+      Compares independent lens-modelling techniques on this cluster and presents the
+      authors' own models.
   - title: Richard et al. (2009)
     refs: [2009A&A...498...37R]
     data: [Keck]
     availability: unknown
-    note: |-
-      The cluster was studied gravitationally by
-      [Richard et al. (2009)](ref:2009A&A...498...37R) using Keck spectroscopy.
   - title: Limousin et al. (2008)
     refs: [2008A&A...489...23L]
     availability: defunct
-    note: |-
-      The cluster was studied by [Limousin et al. (2008)](ref:2008A&A...489...23L). As of
-      2025, the model download link in the paper is defunct.
+    note: As of 2025, the model download link in the paper is defunct.
