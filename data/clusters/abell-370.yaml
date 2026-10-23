@@ -14,15 +14,6 @@ dec: "-01:34:56.0"
 z: 0.375
 programs: [hff, buffalo, canucs, venus, muse-lensing, alcs]
 
-image:
-  url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg/960px-Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg
-  credit: |-
-    Image from
-    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gravitational_lensing_in_the_galaxy_cluster_Abell_370_(captured_by_the_Hubble_Space_Telescope).jpg),
-    which sourced from
-    [spacetelescope.org](http://www.spacetelescope.org/images/heic0910b/); Credit to NASA,
-    ESA, the Hubble SM4 ERO Team and ST-ECF.
-
 models:
   - title: Diego et al. (2025)
     refs: [2025A&A...703A.207D]

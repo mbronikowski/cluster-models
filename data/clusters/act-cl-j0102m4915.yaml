@@ -11,12 +11,6 @@ dec: "-49:14:58.0"
 z: 0.87
 programs: [relics, pearls, venus, alcs]
 
-image:
-  url: https://stsci-opo.org/STScI-01GZY227TJADC5CHE24EZ5M2DS.png
-  credit: |-
-    Image source:
-    [webbtelescope.org](https://webbtelescope.org/contents/media/images/2023/119/01GZY21YPY2WNDTAKQHQ80F78H)
-
 models:
   - title: 'PEARLS: Diego et al. (2023)'
     program: pearls

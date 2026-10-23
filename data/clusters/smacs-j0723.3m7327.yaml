@@ -12,15 +12,6 @@ dec: "-73:27:25.2"
 z: 0.388
 programs: [relics, venus, alcs]
 
-image:
-  url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/960px-Webb%27s_First_Deep_Field.jpg
-  credit: |-
-    Image sourced from
-    [Wikimedia](https://commons.wikimedia.org/wiki/File:Webb%27s_First_Deep_Field.jpg),
-    originally from
-    [webbtelescope.org](https://webbtelescope.org/contents/media/images/2022/038/01G7JGTH21B5GN9VCYAHBXKSD1).
-    Credit: NASA, ESA, CSA, STScI
-
 models:
   - title: Mahler et al. (2023)
     refs: [2023ApJ...945...49M]
