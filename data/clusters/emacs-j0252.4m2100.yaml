@@ -15,9 +15,6 @@ models:
     software: Lenstool
     availability: unknown
     tags: [parametric]
-    note: |-
-      Lenstool model constrained by 12 multiple images, all in systems with
-      spectroscopic redshifts; Einstein radius 15 +/- 2'' for a source at z = 2.
   - title: Ebeling et al. (2021)
     refs: [2021MNRAS.508.3663E]
     availability: unknown

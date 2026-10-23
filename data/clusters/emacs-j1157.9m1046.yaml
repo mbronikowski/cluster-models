@@ -15,11 +15,7 @@ models:
     software: Lenstool
     availability: unknown
     tags: [parametric]
-    note: |-
-      Lenstool model constrained by 9 multiple images, 3 of them in systems with
-      spectroscopic redshifts; Einstein radius > 15'' for a source at z = 2. The model
-      leaves out a second mass component that the lensing data do not yet constrain, so the
-      radius is a lower limit.
+    note: Leaves out a second mass component that the lensing data do not yet constrain.
 
 notes: |-
   Position: BCG, from [Zalesky & Ebeling (2020)](ref:2020MNRAS.498.1121Z).

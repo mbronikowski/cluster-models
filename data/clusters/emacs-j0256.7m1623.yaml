@@ -14,9 +14,6 @@ models:
     software: Lenstool
     availability: unknown
     tags: [parametric]
-    note: |-
-      Lenstool model constrained by 12 multiple images, all in systems with
-      spectroscopic redshifts; Einstein radius 11 +/- 1'' for a source at z = 2.
 
 notes: |-
   Position: SZ centre of ACT-CL J0256.7-1623; no published BCG position.

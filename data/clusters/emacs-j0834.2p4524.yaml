@@ -14,9 +14,6 @@ models:
     software: Lenstool
     availability: unknown
     tags: [parametric]
-    note: |-
-      Lenstool model constrained by 9 multiple images, all in systems with
-      spectroscopic redshifts; Einstein radius 32 +/- 4'' for a source at z = 2.
 
 notes: |-
   Position: BCG, from redMaPPer (RM J083416.3+452420.0).

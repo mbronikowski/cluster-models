@@ -12,9 +12,6 @@ models:
     software: Lenstool
     availability: unknown
     tags: [parametric]
-    note: |-
-      Lenstool model constrained by 3 multiple images, all in systems with
-      spectroscopic redshifts; Einstein radius 11 +/- 2'' for a source at z = 2.
 
 notes: |-
   Position: from the eMACS catalogue name only, accurate to about 1'.
