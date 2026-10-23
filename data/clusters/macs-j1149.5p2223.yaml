@@ -15,14 +15,6 @@ dec: "+22:24:10.9"
 z: 0.536
 programs: [clash, hff, buffalo, canucs, venus, alcs]
 
-image:
-  url: https://cdn.esahubble.org/archives/images/thumb700x/heic1505b.jpg
-  credit: |-
-    Image sourced from: [esahubble.org](https://esahubble.org/images/heic1505b/), credit:
-    [NASA](http://www.nasa.gov/), [ESA](http://www.spacetelescope.org/), S. Rodney and the
-    FrontierSN team; T. Treu, P. Kelly and the GLASS team; J. Lotz and the Frontier Fields
-    team; M. Postman and the CLASH team; and Z. Levay.
-
 models:
   - title: CANUCS
     program: canucs

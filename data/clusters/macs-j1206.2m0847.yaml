@@ -13,12 +13,6 @@ dec: "-08:48:00.0"
 z: 0.44
 programs: [clash, venus, muse-lensing, alcs]
 
-image:
-  url: https://cdn.esahubble.org/archives/images/screen/heic1115a.jpg
-  credit: |-
-    Image source: [esahubble.org](https://esahubble.org/images/heic1115a/). NASA, ESA, M.
-    Postman (STScI) and the CLASH Team.
-
 models:
   - title: Limousin et al. (2022)
     refs: [2022A&A...664A..90L]
