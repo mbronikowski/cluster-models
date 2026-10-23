@@ -14,9 +14,6 @@ models:
     software: Lenstool
     availability: unknown
     tags: [parametric]
-    note: |-
-      Lenstool model constrained by 13 multiple images, 4 of them in systems with
-      spectroscopic redshifts; Einstein radius 38 +/- 5'' for a source at z = 2.
 
 notes: |-
   Position: optical cluster centre from [Buddendiek et al. (2015)](ref:2015MNRAS.450.4248B);
