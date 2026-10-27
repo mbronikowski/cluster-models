@@ -105,8 +105,8 @@ def _check_links_in_text(where, text, db, report, anchors=None, field_name="note
             if not REF_RE.match(rest):
                 report.error(where, f"{field_name}: malformed reference link 'ref:{rest}'")
         elif scheme in ("http", "https", "ftp", "mailto"):
-            if "adsabs.harvard.edu/abs/" in target:
-                report.warn(where, f"{field_name}: ADS URL used as a link; write "
+            if "adsabs.harvard.edu/abs/" in target or "scixplorer.org/abs/" in target:
+                report.warn(where, f"{field_name}: ADS/SciX URL used as a link; write "
                                    f"[{label}](ref:<bibcode>) instead")
         else:
             report.error(where, f"{field_name}: unsupported link target {target!r} "

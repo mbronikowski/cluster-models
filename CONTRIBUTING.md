@@ -6,7 +6,7 @@ Thank you for helping keep the catalogue accurate.
   page, or edit `data/clusters/<slug>.yaml` directly, and open a pull request.
 - **New cluster:** `python tools/new_cluster.py "NAME" RA DEC Z` creates the file
   with the right name; then add designations and models.
-- **Not sure how to write it?** Open an issue with the reference (ADS link or
+- **Not sure how to write it?** Open an issue with the reference (SciX/ADS link or
   arXiv number), the cluster and the model download link.
 
 The field reference is in [docs/data-format.md](docs/data-format.md). Pull

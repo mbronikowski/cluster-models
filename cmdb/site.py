@@ -50,7 +50,7 @@ def ref_url(ref: str) -> str:
         return "https://arxiv.org/abs/" + ref[6:]
     if ref.startswith("doi:"):
         return "https://doi.org/" + ref[4:]
-    return "https://ui.adsabs.harvard.edu/abs/" + urllib.parse.quote(ref, safe="") + "/abstract"
+    return "https://scixplorer.org/abs/" + urllib.parse.quote(ref, safe="")
 
 
 def ref_fallback_label(ref: str) -> str:
