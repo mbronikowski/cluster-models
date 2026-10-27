@@ -95,7 +95,7 @@ wrong cluster. Add a new catalogue to `data/catalogues.yaml` when needed, with a
 models:
   - title: Bergamini et al. (2023)   # required; also the #anchor on the page
     program: glass-jwst               # optional program id (must also be in `programs`)
-    refs: [2023ApJ...952...84B]       # ADS bibcode, arXiv:NNNN.NNNNN or doi:10....
+    refs: [2023ApJ...952...84B]       # ADS/SciX bibcode, arXiv:NNNN.NNNNN or doi:10....
     data: [JWST, HST, MUSE]           # facilities, from vocabulary.yaml
     software: Lenstool                # optional, from vocabulary.yaml
     availability: public              # public | on-request | upcoming | defunct | unavailable | unknown
@@ -119,7 +119,7 @@ labelled "Model download" (or e.g. "Model download (Zenodo)"); a general page wo
 visiting goes in `links` too, labelled "See also: ...". Leave out "shared on request"
 when `availability: on-request` already says it.
 
-References are written as ADS bibcodes, `arXiv:` identifiers or `doi:`
+References are written as ADS/SciX bibcodes, `arXiv:` identifiers or `doi:`
 identifiers, never as URLs, so links can follow ADS/SciX changes in one place.
 `data/references.yaml` can give a nicer label (`Bergamini et al. (2023)`) and the
 title; references without an entry are shown by their identifier.
@@ -128,7 +128,7 @@ title; references without an entry are shown by their identifier.
 
 | write | links to |
 |---|---|
-| `[Bergamini et al. (2023)](ref:2023ApJ...952...84B)` | the paper (ADS, arXiv or DOI) |
+| `[Bergamini et al. (2023)](ref:2023ApJ...952...84B)` | the paper (SciX, arXiv or DOI) |
 | `[MACS J0416](cluster:macs-j0416.1m2403)` | another cluster page |
 | `[HFF](program:hff)` | a program page |
 | `[SN Refsdal](transient:sn-refsdal)` | a transient page |
