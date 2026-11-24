@@ -129,9 +129,21 @@
   short: VENUS
   kind: survey
   facilities: [JWST]
-  proposal: JWST GO 6882
-  url: https://www.stsci.edu/jwst-program-info/download/jwst/pdf/6882/
-  note: Membership from the program's fixed-target list (JWST GO 6882).
+  proposal: JWST GO 6882 (Cycle 4), GO 12581 (Cycle 5)
+  url: https://jwst-venus.github.io/
+  note: |-
+    Membership follows the team's 60-cluster sample
+    ([Oguri et al. 2026](ref:arXiv:2611.08630), Table 1): the 59 NIRCam pointings of
+    [GO 6882](https://www.stsci.edu/jwst-program-info/program/?program=6882), plus
+    [Abell 2744](cluster:abell-2744), which uses existing JWST imaging. The "A3192" pointing
+    covers both [MACS J0358.8-2955](cluster:macs-j0358.8m2955) and the foreground
+    [Abell 3192](cluster:abell-3192). Cycle 5
+    ([GO 12581](https://www.stsci.edu/jwst-program-info/program/?program=12581)) adds
+    NIRSpec/MSA spectroscopy and two-filter NIRCam imaging in 10 clusters already in the
+    sample. As of 24 November 2026, NIRCam imaging of
+    [MACS J0949.8+1708](cluster:macs-j0949.8p1708),
+    [MACS J1347.5-1144](cluster:macs-j1347.5m1144) and [Abell 1835](cluster:abell-1835)
+    is still scheduled.
 
 - id: templates
   name: Targeting Extremely Magnified Panchromatic Lensed Arcs and their Extended Star formation

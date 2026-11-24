@@ -13,6 +13,15 @@ z: 0.252
 programs: [locuss, venus]
 
 models:
+  - title: 'VENUS: Oguri et al. (2026)'
+    program: venus
+    refs: [arXiv:2611.08630]
+    data: [HST]
+    software: glafic
+    availability: upcoming
+    note: |-
+      Built on HST imaging, before the VENUS NIRCam images were taken; the authors plan
+      to update it once they are.
   - title: Mistele & Durakovic (2024)
     refs: [doi:10.33232/001c.127612]
     availability: unknown

@@ -17,9 +17,15 @@ designations:
 ra: "00:14:21.16"
 dec: "-30:23:52.4"
 z: 0.306
-programs: [hff, buffalo, glass-jwst, uncover, muse-lensing, alcs]
+programs: [hff, buffalo, glass-jwst, uncover, muse-lensing, alcs, venus]
 
 models:
+  - title: 'VENUS: Oguri et al. (2026)'
+    program: venus
+    refs: [arXiv:2611.08630]
+    data: [JWST, HST]
+    software: glafic
+    availability: upcoming
   - title: 'GLASS-JWST: Bergamini et al. (2023c)'
     program: glass-jwst
     refs: [2023ApJ...952...84B]

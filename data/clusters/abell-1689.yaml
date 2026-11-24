@@ -18,6 +18,12 @@ z: 0.187
 programs: [locuss, venus]
 
 models:
+  - title: 'VENUS: Oguri et al. (2026)'
+    program: venus
+    refs: [arXiv:2611.08630]
+    data: [JWST, HST]
+    software: glafic
+    availability: upcoming
   - title: Ghosh et al. (2023)
     refs: [2023MNRAS.525.2519G]
     software: GRALE
