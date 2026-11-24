@@ -14,6 +14,12 @@ z: 0.44
 programs: [clash, venus, muse-lensing, alcs]
 
 models:
+  - title: 'VENUS: Oguri et al. (2026)'
+    program: venus
+    refs: [arXiv:2611.08630]
+    data: [JWST, HST]
+    software: glafic
+    availability: upcoming
   - title: Limousin et al. (2022)
     refs: [2022A&A...664A..90L]
     availability: unknown

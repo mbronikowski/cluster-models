@@ -12,6 +12,12 @@ z: 0.972
 programs: [relics, venus]
 
 models:
+  - title: 'VENUS: Oguri et al. (2026)'
+    program: venus
+    refs: [arXiv:2611.08630]
+    data: [JWST, HST]
+    software: glafic
+    availability: upcoming
   - title: 'RELICS: Paterno-Mahler et al. (2018)'
     program: relics
     refs: [2018ApJ...863..154P]

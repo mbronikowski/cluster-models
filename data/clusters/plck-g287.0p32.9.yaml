@@ -12,6 +12,12 @@ z: 0.39
 programs: [relics, venus, slice]
 
 models:
+  - title: 'VENUS: Oguri et al. (2026)'
+    program: venus
+    refs: [arXiv:2611.08630]
+    data: [JWST, HST]
+    software: glafic
+    availability: upcoming
   - title: 'SLICE: Betts et al. (2026)'
     program: slice
     refs: [arXiv:2609.31944]
