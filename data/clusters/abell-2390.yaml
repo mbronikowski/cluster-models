@@ -33,6 +33,9 @@ models:
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2390/
       - label: 'See also: LAM Strong Lensing Cluster Atlas'
         url: https://data.lam.fr/sl-cluster-atlas/home
+    note: |-
+      An earlier MUSE-based update of the [LoCuSS model](#locuss) was used in
+      [Patricio et al. (2018)](ref:2018MNRAS.477...18P).
   - title: Newman et al. (2013)
     refs: [2013ApJ...765...24N]
     data: [HST, Keck, ground]
@@ -49,3 +52,7 @@ models:
     links:
       - label: Model download (Lenstool website)
         url: https://projets.lam.fr/projects/lenstool/wiki
+    note: |-
+      [Patricio et al. (2018)](ref:2018MNRAS.477...18P) used an update of this model with
+      MUSE redshifts. The current MUSE-based model is
+      [Thai et al. (2023)](#thai-et-al-2023).
