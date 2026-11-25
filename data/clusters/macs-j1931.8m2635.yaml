@@ -14,16 +14,25 @@ z: 0.352
 programs: [clash, clash-vlt, venus, alcs]
 
 models:
+  - title: 'VENUS: Allingham et al. (2026b)'
+    program: venus
+    refs: [arXiv:2611.33142]
+    data: [JWST, HST]
+    software: AstroLensPy
+    availability: upcoming
+    note: |-
+      Slight update of the [earlier VENUS model](#venus-allingham-et-al-2026a).
   - title: 'VENUS: Oguri et al. (2026)'
     program: venus
     refs: [arXiv:2611.08630]
     data: [JWST, HST]
     software: glafic
     availability: upcoming
-  - title: 'VENUS: Allingham et al. (2026)'
+  - title: 'VENUS: Allingham et al. (2026a)'
     program: venus
     refs: [2026ApJ..1005..215A]
     data: [JWST]
+    software: AstroLensPy
     availability: public
     tags: [parametric]
     links:

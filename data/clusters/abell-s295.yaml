@@ -16,6 +16,15 @@ z: 0.3
 programs: [relics, venus, alcs]
 
 models:
+  - title: 'VENUS: Allingham et al. (2026b)'
+    program: venus
+    refs: [arXiv:2611.33142]
+    data: [JWST, HST]
+    software: AstroLensPy
+    availability: upcoming
+    note: |-
+      The authors note that the centre and south-east of the cluster have too few
+      multiple images to constrain the model well.
   - title: 'VENUS: Oguri et al. (2026)'
     program: venus
     refs: [arXiv:2611.08630]
