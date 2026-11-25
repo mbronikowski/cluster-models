@@ -12,6 +12,12 @@ z: 0.358
 programs: [venus]
 
 models:
+  - title: 'VENUS: Allingham et al. (2026b)'
+    program: venus
+    refs: [arXiv:2611.33142]
+    data: [JWST, HST]
+    software: AstroLensPy
+    availability: upcoming
   - title: 'VENUS: Oguri et al. (2026)'
     program: venus
     refs: [arXiv:2611.08630]

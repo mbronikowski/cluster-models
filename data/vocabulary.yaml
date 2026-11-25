@@ -32,6 +32,7 @@ software:
   GLEE: Parametric lens modelling
   MARS: Free-form lens modelling
   lenstronomy: Lens modelling package
+  AstroLensPy: Parametric lens modelling (Python version of the Zitrin et al. analytic method)
   other: Other or custom code (say which in the note)
 
 tags:

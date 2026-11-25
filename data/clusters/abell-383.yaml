@@ -14,6 +14,14 @@ z: 0.191
 programs: [clash, locuss, venus, alcs]
 
 models:
+  - title: 'VENUS: Allingham et al. (2026b)'
+    program: venus
+    refs: [arXiv:2611.33142]
+    data: [JWST, HST]
+    software: AstroLensPy
+    availability: upcoming
+    note: |-
+      Updates the [earlier VENUS model](#venus-golubchik-et-al-2026).
   - title: 'VENUS: Oguri et al. (2026)'
     program: venus
     refs: [arXiv:2611.08630]
