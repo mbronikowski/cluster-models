@@ -110,6 +110,15 @@ models:
       - label: Model download (MAST, GLAFIC team)
         url: https://archive.stsci.edu/pub/hlsp/frontier/abell370/models/glafic/
     note: Version 4 GLAFIC model.
+  - title: Strait et al. (2018)
+    refs: [2018ApJ...868..129S]
+    data: [HST, MUSE]
+    software: SWUnited
+    availability: public
+    tags: [free-form, weak-lensing]
+    links:
+      - label: Model download (MAST, Bradac team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell370/models/bradac/
   - title: Lagattuta et al. (2017)
     refs: [2017MNRAS.469.3946L]
     data: [HST, MUSE]

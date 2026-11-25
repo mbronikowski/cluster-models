@@ -87,6 +87,12 @@ models:
     refs: [2010MNRAS.404..325R]
     data: [HST]
     availability: unknown
+  - title: Sand et al. (2008)
+    refs: [2008ApJ...674..711S]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    note: Combined with stellar kinematics of the BCG.
   - title: Smith et al. (2005)
     refs: [2005MNRAS.359..417S]
     availability: unknown

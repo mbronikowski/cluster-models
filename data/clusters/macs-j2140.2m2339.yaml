@@ -54,6 +54,17 @@ models:
     availability: unknown
     tags: [weak-lensing]
     note: Combined with weak lensing and stellar kinematics of the BCG.
+  - title: Donnarumma et al. (2009)
+    refs: [2009MNRAS.398..438D]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
+  - title: Sand et al. (2008)
+    refs: [2008ApJ...674..711S]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+    note: Combined with stellar kinematics of the BCG.
   - title: Gavazzi et al. (2003)
     refs: [2003A&A...403...11G]
     data: [HST, ground]

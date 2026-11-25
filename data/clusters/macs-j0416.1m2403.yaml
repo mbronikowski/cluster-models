@@ -12,7 +12,7 @@ designations:
 ra: "04:16:08.80"
 dec: "-24:04:14.0"
 z: 0.4
-programs: [clash, hff, buffalo, canucs, venus, muse-lensing, alcs]
+programs: [clash, hff, buffalo, canucs, pearls, venus, muse-lensing, alcs]
 
 models:
   - title: 'VENUS: Allingham et al. (2026b)'
@@ -55,7 +55,14 @@ models:
     links:
       - label: CANUCS DR1 lens models
         url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
-  - title: Diego et al. (2024)
+  - title: 'PEARLS: Diego et al. (2024b)'
+    program: pearls
+    refs: [2024A&A...690A.114D]
+    data: [JWST, HST]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form]
+  - title: Diego et al. (2024a)
     refs: [2024A&A...681A.124D]
     data: [HST, MUSE]
     software: WSLAP+
@@ -145,6 +152,12 @@ models:
     note: |-
       Models from several independent teams; see the [HFF program page](program:hff) for
       credits and acknowledgement requirements.
+  - title: Bonamigo et al. (2017)
+    refs: [2017ApJ...842..132B]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    note: Includes the hot gas, from the Chandra X-ray data, as a separate mass component.
   - title: Kawamata et al. (2016)
     refs: [2016ApJ...819..114K]
     data: [HST]

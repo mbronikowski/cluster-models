@@ -118,7 +118,7 @@ models:
     availability: unknown
     tags: [free-form]
     note: Made to predict the reappearance of [SN Refsdal](transient:sn-refsdal).
-  - title: Jauzac et al. (2016)
+  - title: Jauzac et al. (2016a)
     refs: [2016MNRAS.457.2029J]
     data: [HST, MUSE, Gemini]
     software: Lenstool
