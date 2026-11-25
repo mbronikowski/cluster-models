@@ -76,7 +76,9 @@ models:
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A370/
-    note: Pre-_JWST_ model.
+    note: |-
+      Pre-_JWST_ model. [Patricio et al. (2018)](ref:2018MNRAS.477...18P) used the earlier
+      MUSE-based [Lagattuta et al. (2017)](#lagattuta-et-al-2017) model.
   - title: Lagattuta et al. (2019)
     refs: [2019MNRAS.485.3738L]
     data: [HST, MUSE]
@@ -140,3 +142,6 @@ models:
     links:
       - label: Model download (Lenstool wiki)
         url: https://projets.lam.fr/projects/lenstool/wiki
+    note: |-
+      Updated with MUSE redshifts in [Lagattuta et al. (2017)](#lagattuta-et-al-2017), the
+      version used in [Patricio et al. (2018)](ref:2018MNRAS.477...18P).
