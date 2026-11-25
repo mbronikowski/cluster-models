@@ -1,0 +1,16 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: ZwCl 0949.6+5207
+common_names: [Z2701]
+ra: "09:52:49.09"
+dec: "+51:53:06.5"
+z: 0.214
+programs: [locuss]
+
+models:
+  - title: 'LoCuSS: Richard et al. (2010b)'
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: unknown

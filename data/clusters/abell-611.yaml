@@ -14,6 +14,11 @@ z: 0.286
 programs: [clash, locuss]
 
 models:
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
@@ -22,6 +27,13 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/missions/hlsp/clash/a611/models/
+  - title: Newman et al. (2013)
+    refs: [2013ApJ...765...24N]
+    data: [HST, Keck, ground]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+    note: Combined with weak lensing and stellar kinematics of the BCG.
   - title: LoCuSS
     program: locuss
     refs: [2010MNRAS.404..325R]

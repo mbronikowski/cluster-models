@@ -1,0 +1,15 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: RX J1720.1+2638
+ra: "17:20:10.05"
+dec: "+26:37:32.3"
+z: 0.164
+programs: [locuss]
+
+models:
+  - title: 'LoCuSS: Richard et al. (2010b)'
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: unknown

@@ -26,6 +26,11 @@ models:
     data: [JWST, HST]
     software: glafic
     availability: upcoming
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: 'RELICS: Cerny et al. (2018)'
     program: relics
     refs: [2018ApJ...859..159C]
@@ -36,3 +41,10 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/abell2537/models/
     note: MAST provides models made with glafic and Lenstool.
+  - title: Newman et al. (2013)
+    refs: [2013ApJ...765...24N]
+    data: [HST, Keck, ground]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+    note: Combined with weak lensing and stellar kinematics of the BCG.

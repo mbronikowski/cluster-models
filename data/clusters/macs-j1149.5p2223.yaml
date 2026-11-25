@@ -56,6 +56,15 @@ models:
         url: https://www.fe.infn.it/astro/lensing/M1149_Schuldt2024/
       - label: 'See also: Ferrara lens-model page'
         url: https://www.fe.infn.it/astro/lensing/
+  - title: Grillo et al. (2024)
+    refs: [2024A&A...684L..23G]
+    data: [HST, MUSE]
+    software: GLEE
+    availability: unknown
+    tags: [time-delay-cosmography]
+    note: |-
+      Adds the measured time delays of [SN Refsdal](transient:sn-refsdal) to the
+      [Grillo et al. (2020)](#grillo-et-al-2020) modelling.
   - title: Zitrin (2021)
     refs: [2021ApJ...919...54Z]
     availability: public
@@ -64,6 +73,25 @@ models:
       - label: dPIEeNFW model download (Dropbox)
         url: https://www.dropbox.com/sh/xkzysm4nhyq28e3/AABJVCWVzbkGdnvyD67CODyha?dl=0
     note: Two grid-based models; only the dPIEeNFW model is available.
+  - title: Grillo et al. (2020)
+    refs: [2020ApJ...898...87G]
+    data: [HST, MUSE]
+    software: GLEE
+    availability: unknown
+    tags: [time-delay-cosmography]
+    note: |-
+      Blind H0 forecast made before the time delays of [SN Refsdal](transient:sn-refsdal)
+      were
+      measured.
+  - title: Finney et al. (2018)
+    refs: [2018ApJ...859...58F]
+    data: [HST, MUSE]
+    software: SWUnited
+    availability: public
+    tags: [free-form, weak-lensing]
+    links:
+      - label: Model download (MAST, Bradac team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs1149/models/bradac/
   - title: Grillo et al. (2016)
     refs: [2016ApJ...822...78G]
     data: [MUSE]
@@ -83,6 +111,34 @@ models:
     note: |-
       Models from several independent teams; see the [HFF program page](program:hff) for
       credits and acknowledgement requirements.
+  - title: Diego et al. (2016a)
+    refs: [2016MNRAS.456..356D]
+    data: [HST]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form]
+    note: Made to predict the reappearance of [SN Refsdal](transient:sn-refsdal).
+  - title: Jauzac et al. (2016)
+    refs: [2016MNRAS.457.2029J]
+    data: [HST, MUSE, Gemini]
+    software: Lenstool
+    availability: unknown
+  - title: Treu et al. (2016)
+    refs: [2016ApJ...817...60T]
+    data: [HST, MUSE, Keck]
+    availability: unknown
+    tags: [multiple-models]
+    note: |-
+      Seven models, made with five independent methods to predict the reappearance of
+      [SN Refsdal](transient:sn-refsdal) before it was observed.
+  - title: Kawamata et al. (2016)
+    refs: [2016ApJ...819..114K]
+    data: [HST]
+    software: glafic
+    availability: public
+    links:
+      - label: Model download (MAST, GLAFIC team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs1149/models/glafic/
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
@@ -91,6 +147,60 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/missions/hlsp/clash/macs1149/models/
+  - title: Oguri (2015)
+    refs: [2015MNRAS.449L..86O]
+    data: [HST]
+    software: glafic
+    availability: unknown
+    note: Made to predict the reappearance of [SN Refsdal](transient:sn-refsdal).
+  - title: Sharon & Johnson (2015)
+    refs: [2015ApJ...800L..26S]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (MAST, Sharon team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs1149/models/sharon/
+    note: |-
+      Revision of the [Johnson et al. (2014)](#johnson-et-al-2014) model for
+      [SN Refsdal](transient:sn-refsdal).
+  - title: Rau et al. (2014)
+    refs: [2014MNRAS.443..957R]
+    data: [HST]
+    software: other
+    availability: unknown
+    note: |-
+      Models the full surface brightness of the lensed images in the core, and compares
+      it with a model fitted to image positions.
+  - title: Richard et al. (2014)
+    refs: [2014MNRAS.444..268R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    tags: [weak-lensing]
+    links:
+      - label: Model download (MAST, CATS team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs1149/models/cats/
+    note: Pre-HFF (version 1) CATS model.
+  - title: Johnson et al. (2014)
+    refs: [2014ApJ...797...48J]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (MAST, Sharon team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs1149/models/sharon/
+    note: Pre-HFF (version 1) model by the Sharon team.
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+  - title: Zitrin et al. (2009b)
+    refs: [2009ApJ...703L.132Z]
+    data: [HST]
+    software: LTM
+    availability: unknown
+  - title: Smith et al. (2009)
+    refs: [2009ApJ...707L.163S]
+    data: [HST, Keck]
+    software: Lenstool
     availability: unknown

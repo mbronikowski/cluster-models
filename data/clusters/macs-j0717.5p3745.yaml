@@ -43,6 +43,29 @@ models:
     note: |-
       Models from several independent teams; see the [HFF program page](program:hff) for
       credits and acknowledgement requirements.
+  - title: Jauzac et al. (2018)
+    refs: [2018MNRAS.481.2901J]
+    data: [HST, ground]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+    note: |-
+      Extends the [Limousin et al. (2016)](#limousin-et-al-2016) model with weak lensing out
+      to several Mpc.
+  - title: Limousin et al. (2016)
+    refs: [2016A&A...588A..99L]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
+    tags: [multiple-models]
+  - title: Kawamata et al. (2016)
+    refs: [2016ApJ...819..114K]
+    data: [HST]
+    software: glafic
+    availability: public
+    links:
+      - label: Model download (MAST, GLAFIC team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0717/models/glafic/
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
@@ -51,6 +74,47 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/missions/hlsp/clash/macs0717/models/
+  - title: Diego et al. (2015b)
+    refs: [2015MNRAS.451.3920D]
+    data: [HST]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form]
+  - title: Richard et al. (2014)
+    refs: [2014MNRAS.444..268R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    tags: [weak-lensing]
+    links:
+      - label: Model download (MAST, CATS team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0717/models/cats/
+    note: Pre-HFF (version 1) CATS model.
+  - title: Johnson et al. (2014)
+    refs: [2014ApJ...797...48J]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (MAST, Sharon team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0717/models/sharon/
+    note: Pre-HFF (version 1) model by the Sharon team.
+  - title: Medezinski et al. (2013)
+    refs: [2013ApJ...777...43M]
+    data: [HST, ground]
+    availability: unknown
+    tags: [weak-lensing]
+    note: Joint strong- and weak-lensing analysis with wide-field Subaru imaging.
+  - title: Limousin et al. (2012)
+    refs: [2012A&A...544A..71L]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
+    availability: unknown
+  - title: Zitrin et al. (2009c)
+    refs: [2009ApJ...707L.102Z]
+    data: [HST]
+    software: LTM
     availability: unknown

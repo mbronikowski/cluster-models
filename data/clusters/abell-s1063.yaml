@@ -24,7 +24,7 @@ models:
     availability: upcoming
     note: |-
       Not a new model: DR1 adopts the GLIMPSE model of
-      [Furtak et al. (2026)](ref:arXiv:2604.18696), as the VENUS imaging is much shallower than
+      [Furtak et al. (2026)](#furtak-et-al-2026), as the VENUS imaging is much shallower than
       GLIMPSE's.
   - title: 'VENUS: Oguri et al. (2026)'
     program: venus
@@ -36,6 +36,20 @@ models:
     refs: [2026MNRAS.550ag829B]
     availability: unknown
     tags: [multiple-models]
+  - title: Furtak et al. (2026)
+    refs: [arXiv:2604.18696]
+    data: [JWST, HST, MUSE]
+    software: AstroLensPy
+    availability: unknown
+  - title: Diego et al. (2026)
+    refs: [arXiv:2601.11704]
+    data: [JWST, HST]
+    software: WSLAP+
+    availability: public
+    tags: [free-form]
+    links:
+      - label: Model download (Zenodo)
+        url: https://zenodo.org/records/17726321
   - title: Beauchesne et al. (2024)
     refs: [2024MNRAS.527.3246B]
     data: [MUSE]
@@ -81,6 +95,15 @@ models:
         url: https://www.fe.infn.it/astro/lensing/RXJ2248_Bonamigo18/
       - label: 'See also: Ferrara lens-model page'
         url: https://www.fe.infn.it/astro/lensing/
+  - title: Kawamata et al. (2018)
+    refs: [2018ApJ...855....4K]
+    data: [HST]
+    software: glafic
+    availability: public
+    links:
+      - label: Model download (MAST, GLAFIC team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abells1063/models/glafic/
+    note: Version 4 GLAFIC model.
   - title: Caminha et al. (2016)
     refs: [2016A&A...587A..80C]
     availability: public
@@ -99,6 +122,12 @@ models:
     note: |-
       Models from several independent teams; see the [HFF program page](program:hff) for
       credits and acknowledgement requirements.
+  - title: Diego et al. (2016b)
+    refs: [2016MNRAS.459.3447D]
+    data: [HST]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form]
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
@@ -107,3 +136,27 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/missions/hlsp/clash/rxj2248/models/
+  - title: Monna et al. (2014)
+    refs: [2014MNRAS.438.1417M]
+    data: [HST]
+    software: GLEE
+    availability: unknown
+  - title: Richard et al. (2014)
+    refs: [2014MNRAS.444..268R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    tags: [weak-lensing]
+    links:
+      - label: Model download (MAST, CATS team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abells1063/models/cats/
+    note: Pre-HFF (version 1) CATS model.
+  - title: Johnson et al. (2014)
+    refs: [2014ApJ...797...48J]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (MAST, Sharon team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abells1063/models/sharon/
+    note: Pre-HFF (version 1) model by the Sharon team.

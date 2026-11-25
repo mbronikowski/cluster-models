@@ -33,6 +33,11 @@ models:
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/RXJ1347/
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: Caminha et al. (2019)
     program: clash-vlt
     refs: [2019A&A...632A..36C]

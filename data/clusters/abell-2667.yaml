@@ -13,7 +13,7 @@ designations:
 ra: "23:51:40.70"
 dec: "-26:05:01.0"
 z: 0.232
-programs: [muse-lensing]
+programs: [muse-lensing, locuss]
 
 models:
   - title: Thai et al. (2023)
@@ -27,3 +27,16 @@ models:
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2667/
       - label: 'See also: LAM Strong Lensing Cluster Atlas'
         url: https://data.lam.fr/sl-cluster-atlas/home
+  - title: Newman et al. (2013)
+    refs: [2013ApJ...765...24N]
+    data: [HST, Keck, ground]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+    note: Combined with weak lensing and stellar kinematics of the BCG.
+  - title: 'LoCuSS: Richard et al. (2010b)'
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: unknown

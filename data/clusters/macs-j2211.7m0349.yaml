@@ -34,6 +34,17 @@ models:
     note: |-
       The model will be released on the
       [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: 'VENUS: Zhang et al. (2025)'
+    program: venus
+    refs: [arXiv:2512.05180]
+    data: [JWST, HST, Keck]
+    software: glafic
+    availability: unknown
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: 'RELICS: Cerny et al. (2018)'
     program: relics
     refs: [2018ApJ...859..159C]

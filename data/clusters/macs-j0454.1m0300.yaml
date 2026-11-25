@@ -27,6 +27,11 @@ models:
     data: [JWST, HST]
     software: glafic
     availability: upcoming
+  - title: Meena et al. (2026)
+    refs: [arXiv:2601.10097]
+    data: [JWST, HST, MUSE]
+    software: Zitrin-analytic
+    availability: unknown
   - title: Jauzac et al. (2021)
     refs: [2021MNRAS.508.1206J]
     data: [HST, MUSE]

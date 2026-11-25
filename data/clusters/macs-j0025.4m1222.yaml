@@ -37,3 +37,9 @@ models:
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown
+  - title: Bradac et al. (2008)
+    refs: [2008ApJ...687..959B]
+    data: [HST, Keck]
+    software: SWUnited
+    availability: unknown
+    tags: [free-form, weak-lensing]

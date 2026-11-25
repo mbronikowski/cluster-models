@@ -40,3 +40,8 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/macs0035m20/models/
     note: MAST provides models made with glafic and Lenstool.
+  - title: Furtak et al. (2023a)
+    refs: [2023MNRAS.522.5142F]
+    data: [HST, MUSE]
+    software: Zitrin-analytic
+    availability: on-request

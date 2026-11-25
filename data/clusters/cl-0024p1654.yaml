@@ -12,7 +12,7 @@ models:
     refs: [2018A&A...612A..17W]
     availability: unknown
     tags: [multiple-models]
-  - title: Zitrin et al. (2009)
+  - title: Zitrin et al. (2009a)
     refs: [2009MNRAS.396.1985Z]
     availability: unknown
   - title: Liesenborgs et al. (2008)

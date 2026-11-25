@@ -19,6 +19,12 @@ models:
     data: [JWST, HST]
     software: glafic
     availability: upcoming
+  - title: Pascale et al. (2025)
+    refs: [2025ApJ...979...13P]
+    data: [JWST, HST]
+    availability: unknown
+    tags: [multiple-models, time-delay-cosmography]
+    note: Several independent models used to measure H0 from [SN H0pe](transient:sn-h0pe).
   - title: Frye et al. (2024)
     refs: [2024ApJ...961..171F]
     data: [JWST]

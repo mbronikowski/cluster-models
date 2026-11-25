@@ -46,6 +46,11 @@ models:
     availability: unknown
     tags: [free-form]
     note: Free-form WSLAP+ model using the RELICS imaging and new multiple-image candidates.
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: 'RELICS: Cerny et al. (2018)'
     program: relics
     refs: [2018ApJ...859..159C]
@@ -56,3 +61,11 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/act0102m49/models/
     note: MAST provides models made with glafic and Lenstool.
+  - title: Zitrin et al. (2013b)
+    refs: [2013ApJ...770L..15Z]
+    data: [HST]
+    software: LTM
+    availability: defunct
+    note: |-
+      As of 2025, the [FTP download](ftp://wise-ftp.tau.ac.il/pub/adiz/ElGordo/) link
+      appears defunct.

@@ -42,6 +42,11 @@ models:
       Parametric model accompanying the discovery of the lensed supernova
       [SN Eos](transient:sn-eos) at z = 5.13
       ([Coulter et al. 2026](ref:2026arXiv260104156C)).
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: Caminha et al. (2019)
     program: clash-vlt
     refs: [2019A&A...632A..36C]

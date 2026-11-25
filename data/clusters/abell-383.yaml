@@ -46,6 +46,11 @@ models:
       Strong-lensing model built around the cluster's radial arc(s), combined with the
       stellar velocity dispersion profile of the BCG to measure the inner slope of the
       dark-matter profile.
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
@@ -57,6 +62,13 @@ models:
     note: |-
       Previously, the cluster was studied by [Zitrin et al. (2011a)](ref:2011ApJ...742..117Z)
       as part of the CLASH program.
+  - title: Newman et al. (2013)
+    refs: [2013ApJ...765...24N]
+    data: [HST, Keck, ground]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+    note: Combined with weak lensing and stellar kinematics of the BCG.
   - title: Newman et al. (2011)
     refs: [2011ApJ...728L..39N]
     availability: unknown

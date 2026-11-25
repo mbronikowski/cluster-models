@@ -51,3 +51,20 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/smacs0723m73/models/
     note: MAST provides models made with glafic, Lenstool and LTM (Zitrin).
+  - title: Golubchik et al. (2022)
+    refs: [2022ApJ...938...14G]
+    data: [HST, MUSE]
+    software: LTM
+    availability: public
+    links:
+      - label: Model download (Dropbox)
+        url: https://www.dropbox.com/sh/svc84qmnlh05lmc/AABFQs0VXE6Fh8jWbAgh4sza?dl=0
+    note: Published just before the first JWST images of the cluster.
+  - title: Pascale et al. (2022)
+    refs: [2022ApJ...938L...6P]
+    data: [JWST, HST, MUSE]
+    software: Zitrin-analytic
+    availability: public
+    links:
+      - label: Model download (Dropbox)
+        url: https://www.dropbox.com/sh/gwup2lvks0jsqe5/AAC2RRSKce0aX-lIFCc9vhBXa?dl=0

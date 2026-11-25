@@ -35,7 +35,7 @@ models:
       cluster.
   - title: 'ALCS: Fujimoto et al. (2021)'
     program: alcs
-    refs: [2021ApJ...911...99F]
+    refs: [2021ApJ...911...99F, 2021MNRAS.505.4838L]
     data: [ALMA]
     availability: unknown
     tags: [multiple-models]
