@@ -135,6 +135,12 @@ models:
     links:
       - label: Model download (MAST, GLAFIC team)
         url: https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/glafic/
+  - title: Jauzac et al. (2016b)
+    refs: [2016MNRAS.463.3876J]
+    data: [HST, ground]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
   - title: Jauzac et al. (2015b)
     refs: [2015MNRAS.452.1437J]
     data: [HST]

@@ -18,6 +18,10 @@
   label: Seitz et al. (1998)
   title: 'The z=2.72 galaxy cB58: a gravitational fold arc lensed by the cluster MS 1512+36'
   doi: 10.1046/j.1365-8711.1998.01443.x
+2000AJ....120.2879M:
+  label: Metzger & Ma (2000)
+  title: Lensed arcs and inner structure of Abell 697
+  doi: 10.1086/316843
 2001A&A...378..394C:
   label: Campusano et al. (2001)
   title: 'VLT spectroscopy of galaxies lensed by the AC 114 cluster: Implications for the mass model and the study of low-luminosity galaxies at high-redshift'
@@ -118,6 +122,10 @@
   label: Limousin et al. (2008)
   title: 'Strong lensing in Abell 1703: constraints on the slope of the inner dark matter distribution'
   doi: 10.1051/0004-6361:200809646
+2008ApJ...674..711S:
+  label: Sand et al. (2008)
+  title: 'Separating baryons and dark matter in cluster cores: a full two-dimensional lensing and dynamic analysis of Abell 383 and MS 2137-23'
+  doi: 10.1086/524652
 2008ApJ...676..761F:
   label: Fohlmeister et al. (2008)
   title: 'The rewards of patience: an 822 day time delay in the gravitational lens SDSS J1004+4112'
@@ -178,6 +186,10 @@
   label: Liesenborgs et al. (2009)
   title: Non-parametric strong lens inversion of SDSS J1004+4112
   doi: 10.1111/j.1365-2966.2009.14912.x
+2009MNRAS.398..438D:
+  label: Donnarumma et al. (2009)
+  title: X-ray and strong lensing mass estimate of MS2137.3-2353
+  doi: 10.1111/j.1365-2966.2009.15165.x
 2010ApJ...715L.160C:
   label: Carrasco et al. (2010)
   title: Strong gravitational lensing by the super-massive cD galaxy in Abell 3827
@@ -210,6 +222,10 @@
   label: Jullo et al. (2010)
   title: Cosmological Constraints from Strong Gravitational Lensing in Clusters of Galaxies
   doi: 10.1126/science.1185759
+2011A&A...528A..73D:
+  label: Donnarumma et al. (2011)
+  title: Abell 611. II. X-ray and strong lensing analyses
+  doi: 10.1051/0004-6361/201014120
 2011ApJ...728L..18K:
   label: Kratzer et al. (2011)
   title: Analyzing the flux anomalies of the large-separation lensed quasar SDSS J1029+2623
@@ -528,13 +544,17 @@
   title: A free-form prediction for the reappearance of supernova Refsdal in the Hubble Frontier Fields cluster MACSJ1149.5+2223
   doi: 10.1093/mnras/stv2638
 2016MNRAS.457.2029J:
-  label: Jauzac et al. (2016)
+  label: Jauzac et al. (2016a)
   title: 'Hubble Frontier Fields: predictions for the return of SN Refsdal with the MUSE and GMOS spectrographs'
   doi: 10.1093/mnras/stw069
 2016MNRAS.459.3447D:
   label: Diego et al. (2016b)
   title: A free-form mass model of the Hubble Frontier Fields cluster AS1063 (RXC J2248.7-4431) with over one hundred constraints
   doi: 10.1093/mnras/stw865
+2016MNRAS.463.3876J:
+  label: Jauzac et al. (2016b)
+  title: The extraordinary amount of substructure in the Hubble Frontier Fields cluster Abell 2744
+  doi: 10.1093/mnras/stw2251
 2017A&A...600A..90C:
   label: Caminha et al. (2017a)
   title: A refined mass distribution of the cluster MACS J0416.1-2403 from a new large set of spectroscopic multiply lensed sources
@@ -563,6 +583,10 @@
   label: Zitrin et al. (2017)
   title: 'A very large (thetaE >= 40'''') strong gravitational lens selected with the Sunyaev-Zel''dovich effect: PLCK G287.0+32.9 z = 0.38)'
   doi: 10.3847/2041-8213/aa69be
+2017ApJ...842..132B:
+  label: Bonamigo et al. (2017)
+  title: 'Joining X-Ray to Lensing: An Accurate Combined Analysis of MACS J0416.1-2403'
+  doi: 10.3847/1538-4357/aa75cc
 2017ApJ...844..127W:
   label: Wong et al. (2017)
   title: Joint strong and weak lensing analysis of the massive cluster field J0850+3604
@@ -587,6 +611,10 @@
   label: Wagner et al. (2018)
   title: Model-independent and model-based local lensing properties of CL0024+1654 from multiply imaged galaxies
   doi: 10.1051/0004-6361/201731932
+2018A&A...620A..60C:
+  label: Canameras et al. (2018)
+  title: 'Planck''s dusty GEMS. V. Molecular wind and clump stability in a strongly lensed star-forming galaxy at z = 2.2'
+  doi: 10.1051/0004-6361/201833679
 2018ApJ...852L...7E:
   label: Ebeling et al. (2018)
   title: 'Thirty-fold: extreme gravitational lensing of a quiescent galaxy at z = 1.6'
@@ -631,6 +659,10 @@
   label: Bonamigo et al. (2018)
   title: Dissection of the collisional and collisionless mass components in a mini sample of CLASH and HFF massive galaxy clusters at z ~0.4
   doi: 10.3847/1538-4357/aad4a7
+2018ApJ...868..129S:
+  label: Strait et al. (2018)
+  title: 'Mass and Light of Abell 370: A Strong and Weak Lensing Analysis'
+  doi: 10.3847/1538-4357/aae834
 2018MNRAS.473..663M:
   label: Mahler et al. (2018)
   title: Strong-lensing analysis of A2744 with MUSE and Hubble Frontier Fields images
@@ -1018,7 +1050,7 @@
   title: Constraints on the Hubble constant from supernova Refsdal's reappearance
   doi: 10.1126/science.abh1322
 2024A&A...681A.124D:
-  label: Diego et al. (2024)
+  label: Diego et al. (2024a)
   title: 'BUFFALO/Flashlights: Constraints on the abundance of lensed supergiant stars in the Spock galaxy at redshift 1'
   doi: 10.1051/0004-6361/202346761
 2024A&A...682A..57F:
@@ -1041,6 +1073,10 @@
   label: Schuldt et al. (2024)
   title: Improved model of the Supernova Refsdal cluster MACS J1149.5+2223 thanks to VLT/MUSE
   doi: 10.1051/0004-6361/202449528
+2024A&A...690A.114D:
+  label: Diego et al. (2024b)
+  title: 'JWST''s PEARLS: 119 multiply imaged galaxies behind MACS0416, lensing properties of caustic crossing galaxies, and the relation between halo mass and number of globular clusters at z = 0.4'
+  doi: 10.1051/0004-6361/202349119
 2024A&A...691A..97F:
   label: Forés-Toribio et al. (2024)
   title: 'Microlensing analysis of 14.5-year light curves in SDSS J1004+4112: Quasar accretion disk size and intracluster stellar mass fraction'
