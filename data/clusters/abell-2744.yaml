@@ -35,6 +35,15 @@ models:
     data: [JWST, HST]
     software: glafic
     availability: upcoming
+  - title: Patel et al. (2026)
+    refs: [doi:10.1093/mnras/stag1849]
+    data: [JWST, HST]
+    software: Lenstool
+    availability: public
+    tags: [weak-lensing]
+    links:
+      - label: Model download (LAM atlas)
+        url: https://data.lam.fr/sl-cluster-atlas/home
   - title: 'GLASS-JWST: Bergamini et al. (2023c)'
     program: glass-jwst
     refs: [2023ApJ...952...84B]
@@ -103,3 +112,39 @@ models:
       Test case for a new non-parametric method of measuring cluster masses from weak
       lensing, the main focus of the paper; [Abell 1835](cluster:abell-1835) is the other
       test case.
+  - title: Kawamata et al. (2018)
+    refs: [2018ApJ...855....4K]
+    data: [HST]
+    software: glafic
+    availability: public
+    links:
+      - label: Model download (MAST, GLAFIC team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/glafic/
+    note: Version 4 GLAFIC model.
+  - title: Kawamata et al. (2016)
+    refs: [2016ApJ...819..114K]
+    data: [HST]
+    software: glafic
+    availability: public
+    links:
+      - label: Model download (MAST, GLAFIC team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/glafic/
+  - title: Richard et al. (2014)
+    refs: [2014MNRAS.444..268R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    tags: [weak-lensing]
+    links:
+      - label: Model download (MAST, CATS team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/cats/
+    note: Pre-HFF (version 1) CATS model.
+  - title: Johnson et al. (2014)
+    refs: [2014ApJ...797...48J]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (MAST, Sharon team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/sharon/
+    note: Pre-HFF (version 1) model by the Sharon team.

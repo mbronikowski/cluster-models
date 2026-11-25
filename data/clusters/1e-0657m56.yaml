@@ -45,6 +45,15 @@ models:
     data: [JWST]
     availability: unknown
     tags: [weak-lensing]
+  - title: Cha et al. (2025)
+    refs: [2025ApJ...987L..15C]
+    data: [JWST]
+    software: MARS
+    availability: unknown
+    tags: [free-form, weak-lensing]
+    links:
+      - label: 'See also: multiple-image catalogue (Zenodo)'
+        url: https://doi.org/10.5281/zenodo.15208501
   - title: Richard et al. (2021)
     program: muse-lensing
     refs: [2021A&A...646A..83R]
@@ -53,3 +62,21 @@ models:
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/BULLET/
+  - title: Paraficz et al. (2016)
+    refs: [2016A&A...594A.121P]
+    data: [HST, ground]
+    software: Lenstool
+    availability: unknown
+    note: Includes the X-ray gas as a separate mass component.
+  - title: Bradac et al. (2009)
+    refs: [2009ApJ...706.1201B]
+    data: [HST, ground]
+    software: SWUnited
+    availability: unknown
+    tags: [free-form, weak-lensing]
+  - title: Bradac et al. (2006)
+    refs: [2006ApJ...652..937B]
+    data: [HST, ground]
+    software: SWUnited
+    availability: unknown
+    tags: [free-form, weak-lensing]

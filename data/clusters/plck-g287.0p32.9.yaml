@@ -34,6 +34,11 @@ models:
       Lenstool model built on JWST/NIRCam imaging (GO 5594), HST and MUSE data, with 118
       spectroscopically confirmed images of 20 sources and 31 photometric images of 8 more.
       The Einstein radius is 42.4 arcsec for a source at z = 2.
+  - title: D'Addona et al. (2024)
+    refs: [2024A&A...686A...4D]
+    data: [HST, MUSE, ground]
+    software: Lenstool
+    availability: unknown
   - title: 'RELICS: Zitrin et al. (2017)'
     program: relics
     refs: [2017ApJ...839L..11Z]

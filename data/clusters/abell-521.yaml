@@ -39,6 +39,12 @@ models:
       May 2025) but not linked from the release page as of October 2026. See also
       [Richard et al. (2021)](ref:2021A&A...646A..83R) and
       [Thai et al. (2023)](ref:2023A&A...678A.139T).
+  - title: Messa et al. (2022)
+    refs: [2022MNRAS.516.2420M]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    note: Tuned to the clumpy z = 1.04 arc A521-sys1.
   - title: LoCuSS
     program: locuss
     refs: [2010MNRAS.404..325R]

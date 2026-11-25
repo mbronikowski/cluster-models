@@ -26,6 +26,11 @@ models:
     data: [JWST, HST]
     software: glafic
     availability: upcoming
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: Caminha et al. (2019)
     program: clash-vlt
     refs: [2019A&A...632A..36C]

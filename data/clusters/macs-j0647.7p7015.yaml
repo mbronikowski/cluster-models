@@ -18,6 +18,11 @@ models:
     availability: unknown
     tags: [method-test]
     note: Test case for a proposed method of validating cluster lens models.
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2013ApJ...762...32C, 2015ApJ...801...44Z]

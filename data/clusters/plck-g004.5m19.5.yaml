@@ -33,3 +33,16 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/plckg004m19/models/
     note: MAST provides models made with Lenstool.
+  - title: 'VENUS: Yanagisawa et al. (2026)'
+    program: venus
+    refs: [arXiv:2601.06015]
+    data: [JWST, HST]
+    software: Zitrin-analytic
+    availability: unknown
+  - title: Sifon et al. (2014)
+    refs: [2014A&A...562A..43S]
+    data: [Gemini]
+    software: Lenstool
+    availability: unknown
+    tags: [preliminary]
+    note: Constrained by a single giant arc.

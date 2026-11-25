@@ -27,7 +27,17 @@ models:
     data: [JWST, HST]
     software: glafic
     availability: upcoming
-  - title: Limousin et al. (2025)
+  - title: Cha et al. (2026)
+    refs: [2026ApJ...997...18C]
+    data: [JWST, HST, MUSE]
+    software: other
+    availability: public
+    tags: [hybrid, method-test]
+    links:
+      - label: Model download (GitHub)
+        url: https://github.com/sang6199/MACS-J0416.1-2403-result-maps
+    note: Made with MrMARTIAN, a hybrid extension of MARS introduced in the paper.
+  - title: Limousin et al. (2025b)
     refs: [2025A&A...703A..10L]
     data: [JWST]
     availability: public
@@ -45,6 +55,12 @@ models:
     links:
       - label: CANUCS DR1 lens models
         url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
+  - title: Diego et al. (2024)
+    refs: [2024A&A...681A.124D]
+    data: [HST, MUSE]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form, weak-lensing]
   - title: Bergamini et al. (2023b)
     refs: [2023A&A...674A..79B]
     data: [MUSE]
@@ -102,6 +118,15 @@ models:
         url: https://www.fe.infn.it/astro/lensing/M0416_Bonamigo18/
       - label: 'See also: Ferrara lens-model page'
         url: https://www.fe.infn.it/astro/lensing/
+  - title: Kawamata et al. (2018)
+    refs: [2018ApJ...855....4K]
+    data: [HST]
+    software: glafic
+    availability: public
+    links:
+      - label: Model download (MAST, GLAFIC team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0416/models/glafic/
+    note: Version 4 GLAFIC model.
   - title: Caminha et al. (2017a)
     refs: [2017A&A...600A..90C]
     availability: public
@@ -120,6 +145,14 @@ models:
     note: |-
       Models from several independent teams; see the [HFF program page](program:hff) for
       credits and acknowledgement requirements.
+  - title: Kawamata et al. (2016)
+    refs: [2016ApJ...819..114K]
+    data: [HST]
+    software: glafic
+    availability: public
+    links:
+      - label: Model download (MAST, GLAFIC team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0416/models/glafic/
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
@@ -128,3 +161,41 @@ models:
     links:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/missions/hlsp/clash/macs0416/models/
+  - title: Grillo et al. (2015)
+    refs: [2015ApJ...800...38G]
+    data: [HST, ground]
+    software: GLEE
+    availability: unknown
+  - title: Jauzac et al. (2015)
+    refs: [2015MNRAS.446.4132J]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+  - title: Richard et al. (2014)
+    refs: [2014MNRAS.444..268R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    tags: [weak-lensing]
+    links:
+      - label: Model download (MAST, CATS team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0416/models/cats/
+    note: Pre-HFF (version 1) CATS model.
+  - title: Johnson et al. (2014)
+    refs: [2014ApJ...797...48J]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (MAST, Sharon team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/macs0416/models/sharon/
+    note: Pre-HFF (version 1) model by the Sharon team.
+  - title: Zitrin et al. (2013a)
+    refs: [2013ApJ...762L..30Z]
+    data: [HST]
+    software: LTM
+    availability: defunct
+    note: |-
+      As of 2025, the [FTP download](ftp://wise-ftp.tau.ac.il/pub/adiz/M0416/) link
+      appears defunct.

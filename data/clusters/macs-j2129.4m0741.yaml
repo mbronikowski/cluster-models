@@ -38,6 +38,11 @@ models:
     refs: [2021MNRAS.508.1206J]
     data: [HST, MUSE]
     availability: on-request
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: Caminha et al. (2019)
     program: clash-vlt
     refs: [2019A&A...632A..36C]
@@ -50,6 +55,11 @@ models:
     note: |-
       Part of a strong-lensing analysis of eight [CLASH](program:clash) clusters. As of July
       2025, the model download link in the paper appears defunct.
+  - title: Monna et al. (2017)
+    refs: [2017MNRAS.466.4094M]
+    data: [HST, ground]
+    software: GLEE
+    availability: unknown
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]

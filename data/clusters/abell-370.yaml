@@ -31,6 +31,12 @@ models:
     refs: [2025A&A...703A.207D]
     data: [JWST]
     availability: unknown
+  - title: Limousin et al. (2025a)
+    refs: [2025A&A...693A..33L]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    tags: [multiple-models]
   - title: 'CANUCS: Gledhill et al. (2024)'
     program: canucs
     refs: [2024ApJ...973...77G]
@@ -39,6 +45,12 @@ models:
     links:
       - label: CANUCS DR1 lens models
         url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
+  - title: Li et al. (2024)
+    refs: [arXiv:2404.08571]
+    data: [HST, MUSE]
+    software: glafic
+    availability: unknown
+    note: Tuned to the Dragon arc, to study transients among its lensed star clusters.
   - title: Niemiec et al. (2023)
     program: buffalo
     refs: [2023MNRAS.524.2883N]
@@ -65,6 +77,29 @@ models:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A370/
     note: Pre-_JWST_ model.
+  - title: Lagattuta et al. (2019)
+    refs: [2019MNRAS.485.3738L]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    note: |-
+      Extends the [Lagattuta et al. (2017)](#lagattuta-et-al-2017) model using a wide MUSE
+      mosaic.
+  - title: Diego et al. (2018)
+    refs: [2018MNRAS.473.4279D]
+    data: [HST]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form]
+  - title: Kawamata et al. (2018)
+    refs: [2018ApJ...855....4K]
+    data: [HST]
+    software: glafic
+    availability: public
+    links:
+      - label: Model download (MAST, GLAFIC team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell370/models/glafic/
+    note: Version 4 GLAFIC model.
   - title: Lagattuta et al. (2017)
     refs: [2017MNRAS.469.3946L]
     data: [HST, MUSE]
@@ -79,6 +114,25 @@ models:
     note: |-
       Models from several independent teams; see the [HFF program page](program:hff) for
       credits and acknowledgement requirements.
+  - title: Richard et al. (2014)
+    refs: [2014MNRAS.444..268R]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    tags: [weak-lensing]
+    links:
+      - label: Model download (MAST, CATS team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell370/models/cats/
+    note: Pre-HFF (version 1) CATS model.
+  - title: Johnson et al. (2014)
+    refs: [2014ApJ...797...48J]
+    data: [HST]
+    software: Lenstool
+    availability: public
+    links:
+      - label: Model download (MAST, Sharon team)
+        url: https://archive.stsci.edu/pub/hlsp/frontier/abell370/models/sharon/
+    note: Pre-HFF (version 1) model by the Sharon team.
   - title: Richard et al. (2010a)
     refs: [2010MNRAS.402L..44R]
     software: Lenstool

@@ -35,7 +35,7 @@ models:
     software: GRALE
     availability: on-request
     tags: [free-form]
-  - title: Diego et al. (2015)
+  - title: Diego et al. (2015a)
     refs: [2015MNRAS.446..683D]
     software: WSLAP+
     availability: unknown

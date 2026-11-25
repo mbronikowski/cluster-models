@@ -33,6 +33,8 @@ software:
   MARS: Free-form lens modelling
   lenstronomy: Lens modelling package
   AstroLensPy: Parametric lens modelling (Python version of the Zitrin et al. analytic method)
+  Zitrin-analytic: Parametric lens modelling (Zitrin et al. 2015 analytic method, MATLAB)
+  SWUnited: Combined strong- and weak-lensing grid reconstruction (Bradac et al.)
   other: Other or custom code (say which in the note)
 
 tags:

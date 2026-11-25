@@ -21,7 +21,7 @@ models:
     software: AstroLensPy
     availability: upcoming
     note: |-
-      Reproduces the [earlier VENUS model](#venus-nakane-et-al-2025) with additional
+      Reproduces the [earlier VENUS model](#venus-nakane-et-al-2026) with additional
       multiple images from SLICE and VENUS imaging.
   - title: 'VENUS: Oguri et al. (2026)'
     program: venus
@@ -29,9 +29,9 @@ models:
     data: [JWST, HST]
     software: glafic
     availability: upcoming
-  - title: 'VENUS: Nakane et al. (2025)'
+  - title: 'VENUS: Nakane et al. (2026)'
     program: venus
-    refs: [2025arXiv251114483N]
+    refs: [2026ApJ..1010..237N]
     data: [JWST]
     availability: unknown
     tags: [multiple-models]
@@ -44,6 +44,11 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/macs0257m23/models/
     note: MAST provides models made with glafic and Lenstool.
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown

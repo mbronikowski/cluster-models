@@ -35,6 +35,11 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/rxc0018p16/models/
     note: MAST provides models made with Lenstool.
+  - title: Furtak et al. (2022)
+    refs: [2022MNRAS.516.1373F]
+    data: [HST, MUSE]
+    software: LTM
+    availability: unknown
   - title: Zitrin et al. (2011b)
     refs: [2011MNRAS.410.1939Z]
     availability: unknown

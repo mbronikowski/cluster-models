@@ -35,3 +35,14 @@ models:
     links:
       - label: Mass model
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/SMACS2031/
+  - title: Claeyssens et al. (2019)
+    refs: [2019MNRAS.489.5022C]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    note: Refines the [Richard et al. (2015)](#richard-et-al-2015) model.
+  - title: Richard et al. (2015)
+    refs: [2015MNRAS.446L..16R]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown

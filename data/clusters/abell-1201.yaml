@@ -1,0 +1,15 @@
+# One file per cluster. Field reference: docs/data-format.md
+
+name: Abell 1201
+ra: "11:12:54.50"
+dec: "+13:26:09.4"
+z: 0.169
+programs: [locuss]
+
+models:
+  - title: 'LoCuSS: Richard et al. (2010b)'
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: unknown

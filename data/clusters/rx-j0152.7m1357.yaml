@@ -32,6 +32,11 @@ models:
     note: |-
       The model will be released on the
       [LAM Strong Lensing Cluster Atlas](program:lam-atlas).
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: 'RELICS: Acebron et al. (2019)'
     program: relics
     refs: [2019ApJ...874..132A]

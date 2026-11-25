@@ -33,6 +33,13 @@ models:
         url: https://cral-perso.univ-lyon1.fr/labo/perso/johan.richard/MUSE_data_release/models/A2390/
       - label: 'See also: LAM Strong Lensing Cluster Atlas'
         url: https://data.lam.fr/sl-cluster-atlas/home
+  - title: Newman et al. (2013)
+    refs: [2013ApJ...765...24N]
+    data: [HST, Keck, ground]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+    note: Combined with weak lensing and stellar kinematics of the BCG.
   - title: LoCuSS
     program: locuss
     refs: [2010MNRAS.404..325R]

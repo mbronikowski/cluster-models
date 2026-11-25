@@ -13,8 +13,22 @@ designations:
 ra: "10:17:03.6"
 dec: "+39:02:49.4"
 z: 0.205
+programs: [locuss]
 
 models:
+  - title: Newman et al. (2013)
+    refs: [2013ApJ...765...24N]
+    data: [HST, Keck, ground]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+    note: Combined with weak lensing and stellar kinematics of the BCG.
+  - title: 'LoCuSS: Richard et al. (2010b)'
+    program: locuss
+    refs: [2010MNRAS.404..325R]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
   - title: Smith et al. (2005)
     refs: [2005MNRAS.359..417S]
     availability: unknown

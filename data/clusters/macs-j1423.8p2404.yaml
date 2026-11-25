@@ -32,6 +32,17 @@ models:
       - label: CANUCS DR1 lens models
         url: https://www.canfar.net/storage/vault/list/canucs/CANUCS_DR1/lensing
     note: The DR1 model is preliminary.
+  - title: Patel et al. (2024)
+    refs: [2024MNRAS.533.4500P]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    tags: [weak-lensing]
+  - title: Okabe et al. (2020)
+    refs: [2020MNRAS.496.2591O]
+    data: [HST]
+    software: glafic
+    availability: unknown
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
