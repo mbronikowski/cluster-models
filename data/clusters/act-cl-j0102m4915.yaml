@@ -39,6 +39,12 @@ models:
     links:
       - label: Model download (CDS)
         url: https://cdsarc.cds.unistra.fr/ftp/J/A+A/678/A3/
+  - title: 'PEARLS: Frye et al. (2023)'
+    program: pearls
+    refs: [2023ApJ...952...81F]
+    data: [JWST, HST]
+    software: LTM
+    availability: unknown
   - title: Diego et al. (2020)
     refs: [2020ApJ...904..106D]
     data: [HST]

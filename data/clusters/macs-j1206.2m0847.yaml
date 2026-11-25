@@ -87,3 +87,8 @@ models:
     data: [HST, ground]
     software: LTM
     availability: unknown
+  - title: Ebeling et al. (2009)
+    refs: [2009MNRAS.395.1213E]
+    data: [HST, ground]
+    software: Lenstool
+    availability: unknown

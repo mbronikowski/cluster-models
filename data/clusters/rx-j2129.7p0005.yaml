@@ -43,6 +43,12 @@ models:
       Six independent models made for the lensed Type Ia supernova
       [SN 2022riv](transient:sn-2022riv): glafic, HoliGRALE, WSLAP+, Zitrin-Analytic,
       Lenstool and the model of Chen et al. (2020). All six are on Zenodo (4.3 GB, CC BY 4.0).
+  - title: Williams et al. (2023)
+    refs: [2023Sci...380..416W]
+    data: [JWST, HST]
+    software: glafic
+    availability: unknown
+    note: Built for a lensed galaxy at z = 9.51.
   - title: Jauzac et al. (2021)
     refs: [2021MNRAS.508.1206J]
     data: [HST, MUSE]

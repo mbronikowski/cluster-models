@@ -35,6 +35,13 @@ models:
     software: GRALE
     availability: on-request
     tags: [free-form]
+  - title: Bina et al. (2016)
+    refs: [2016A&A...590A..14B]
+    data: [HST, MUSE]
+    software: Lenstool
+    availability: unknown
+    note: |-
+      Refines the [Limousin et al. (2007)](#limousin-et-al-2007) model with MUSE redshifts.
   - title: Diego et al. (2015a)
     refs: [2015MNRAS.446..683D]
     software: WSLAP+
@@ -51,6 +58,20 @@ models:
     refs: [2010MNRAS.404..325R]
     data: [HST]
     availability: unknown
+  - title: Coe et al. (2010)
+    refs: [2010ApJ...723.1678C]
+    data: [HST]
+    software: other
+    availability: unknown
+    tags: [free-form]
+    note: Made with LensPerfect.
+  - title: Jullo et al. (2010)
+    refs: [2010Sci...329..924J]
+    data: [HST, ground]
+    software: Lenstool
+    availability: unknown
+    note: |-
+      Used to constrain cosmological parameters from the redshifts of the multiple images.
   - title: Limousin et al. (2007)
     refs: [2007ApJ...668..643L]
     software: Lenstool
@@ -58,3 +79,7 @@ models:
     links:
       - label: Model download (Lenstool wiki)
         url: https://projets.lam.fr/projects/lenstool/wiki
+  - title: Broadhurst et al. (2005)
+    refs: [2005ApJ...621...53B]
+    data: [HST]
+    availability: unknown

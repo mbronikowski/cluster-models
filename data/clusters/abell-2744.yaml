@@ -44,6 +44,12 @@ models:
     links:
       - label: Model download (LAM atlas)
         url: https://data.lam.fr/sl-cluster-atlas/home
+  - title: Cha et al. (2024)
+    refs: [2024ApJ...961..186C]
+    data: [JWST]
+    software: MARS
+    availability: unknown
+    tags: [free-form, weak-lensing]
   - title: 'GLASS-JWST: Bergamini et al. (2023c)'
     program: glass-jwst
     refs: [2023ApJ...952...84B]
@@ -129,6 +135,17 @@ models:
     links:
       - label: Model download (MAST, GLAFIC team)
         url: https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/glafic/
+  - title: Jauzac et al. (2015b)
+    refs: [2015MNRAS.452.1437J]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
+  - title: Wang et al. (2015)
+    refs: [2015ApJ...811...29W]
+    data: [HST]
+    software: SWUnited
+    availability: unknown
+    tags: [free-form, weak-lensing]
   - title: Richard et al. (2014)
     refs: [2014MNRAS.444..268R]
     data: [HST]
@@ -148,3 +165,21 @@ models:
       - label: Model download (MAST, Sharon team)
         url: https://archive.stsci.edu/pub/hlsp/frontier/abell2744/models/sharon/
     note: Pre-HFF (version 1) model by the Sharon team.
+  - title: Lam et al. (2014)
+    refs: [2014ApJ...797...98L]
+    data: [HST]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form]
+  - title: Zitrin et al. (2014)
+    refs: [2014ApJ...793L..12Z]
+    data: [HST]
+    software: LTM
+    availability: unknown
+    note: Built to test the geometric redshift of a z ~ 10 candidate.
+  - title: Merten et al. (2011)
+    refs: [2011MNRAS.417..333M]
+    data: [HST, ground]
+    availability: unknown
+    tags: [weak-lensing]
+    note: Joint strong- and weak-lensing reconstruction.

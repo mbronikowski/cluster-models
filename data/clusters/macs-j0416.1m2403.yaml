@@ -153,6 +153,12 @@ models:
     links:
       - label: Model download (MAST, GLAFIC team)
         url: https://archive.stsci.edu/pub/hlsp/frontier/macs0416/models/glafic/
+  - title: Hoag et al. (2016)
+    refs: [2016ApJ...831..182H]
+    data: [HST]
+    software: SWUnited
+    availability: unknown
+    tags: [free-form, weak-lensing]
   - title: 'CLASH: Zitrin et al. (2015)'
     program: clash
     refs: [2015ApJ...801...44Z]
@@ -166,12 +172,18 @@ models:
     data: [HST, ground]
     software: GLEE
     availability: unknown
-  - title: Jauzac et al. (2015)
+  - title: Jauzac et al. (2015a)
     refs: [2015MNRAS.446.4132J]
     data: [HST]
     software: Lenstool
     availability: unknown
     tags: [weak-lensing]
+  - title: Diego et al. (2015b)
+    refs: [2015MNRAS.447.3130D]
+    data: [HST]
+    software: WSLAP+
+    availability: unknown
+    tags: [free-form]
   - title: Richard et al. (2014)
     refs: [2014MNRAS.444..268R]
     data: [HST]
@@ -191,6 +203,11 @@ models:
       - label: Model download (MAST, Sharon team)
         url: https://archive.stsci.edu/pub/hlsp/frontier/macs0416/models/sharon/
     note: Pre-HFF (version 1) model by the Sharon team.
+  - title: Jauzac et al. (2014)
+    refs: [2014MNRAS.443.1549J]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
   - title: Zitrin et al. (2013a)
     refs: [2013ApJ...762L..30Z]
     data: [HST]
