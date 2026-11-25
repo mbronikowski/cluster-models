@@ -26,6 +26,9 @@ models:
     data: [JWST, HST]
     software: AstroLensPy
     availability: upcoming
+    note: |-
+      Not a new model: the [UNCOVER model](#uncover-furtak-et-al-2023b) re-optimised with
+      AstroLensPy, using the existing JWST imaging.
   - title: 'VENUS: Oguri et al. (2026)'
     program: venus
     refs: [arXiv:2611.08630]

@@ -22,6 +22,10 @@ models:
     data: [JWST, HST]
     software: AstroLensPy
     availability: upcoming
+    note: |-
+      Not a new model: DR1 adopts the GLIMPSE model of
+      [Furtak et al. (2026)](ref:arXiv:2604.18696), as the VENUS imaging is much shallower than
+      GLIMPSE's.
   - title: 'VENUS: Oguri et al. (2026)'
     program: venus
     refs: [arXiv:2611.08630]
