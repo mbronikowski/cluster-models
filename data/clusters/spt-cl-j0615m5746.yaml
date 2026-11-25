@@ -24,6 +24,22 @@ models:
     data: [JWST, HST]
     software: glafic
     availability: upcoming
+  - title: Messa et al. (2026)
+    refs: [2026A&A...705A.173M]
+    data: [JWST, HST, MUSE]
+    availability: unknown
+    tags: [multiple-models]
+    note: |-
+      Updated glafic and Lenstool models of the [Bradley et al. (2025)](#bradley-et-al-2025)
+      set.
+  - title: Bradley et al. (2025)
+    refs: [2025ApJ...991...32B]
+    data: [JWST, HST]
+    availability: unknown
+    tags: [multiple-models]
+    note: |-
+      Four models (two Lenstool, glafic, WSLAP+) of the Cosmic Gems arc field, also used in
+      [Adamo et al. (2024)](ref:2024Natur.632..513A).
   - title: Okabe et al. (2020)
     refs: [2020MNRAS.496.2591O]
     data: [HST]

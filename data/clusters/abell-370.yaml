@@ -63,6 +63,14 @@ models:
     note: |-
       Strong+weak-lensing model based on [BUFFALO](program:buffalo) observations. Scripts
       for individual model types are also available on the BUFFALO MAST page.
+  - title: Chen et al. (2022)
+    refs: [2022Natur.611..256C]
+    data: [HST, Keck]
+    software: glafic
+    availability: unknown
+    note: |-
+      Includes the galaxy that lenses the [supernova](transient:abell-370-archival-sn)
+      images.
   - title: Ghosh et al. (2021)
     refs: [2021MNRAS.506.6144G]
     software: GRALE

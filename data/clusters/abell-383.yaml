@@ -72,6 +72,16 @@ models:
   - title: Newman et al. (2011)
     refs: [2011ApJ...728L..39N]
     availability: unknown
+  - title: Richard et al. (2011)
+    refs: [2011MNRAS.414L..31R]
+    data: [HST, Keck]
+    software: Lenstool
+    availability: unknown
+  - title: Zitrin et al. (2011a)
+    refs: [2011ApJ...742..117Z]
+    data: [HST]
+    software: LTM
+    availability: unknown
   - title: 'LoCuSS: Richard et al. (2010b)'
     program: locuss
     refs: [2010MNRAS.404..325R]
@@ -79,4 +89,9 @@ models:
     availability: unknown
   - title: Smith et al. (2005)
     refs: [2005MNRAS.359..417S]
+    availability: unknown
+  - title: Smith et al. (2001)
+    refs: [2001ApJ...552..493S]
+    data: [HST, Keck]
+    software: Lenstool
     availability: unknown

@@ -33,3 +33,9 @@ models:
       - label: Lens models (MAST)
         url: https://archive.stsci.edu/hlsps/relics/rxc0032p18/models/
     note: MAST provides models made with glafic, Lenstool, LTM (Zitrin) and Zitrin NFW.
+  - title: Dessauges-Zavadsky et al. (2017)
+    refs: [2017A&A...605A..81D]
+    data: [HST]
+    software: Lenstool
+    availability: unknown
+    note: Built for the lensed z = 3.63 arc.
